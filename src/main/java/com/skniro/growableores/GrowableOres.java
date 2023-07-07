@@ -1,6 +1,6 @@
-package com.skniro.agree;
+package com.skniro.growableores;
 
-import com.skniro.agree.block.GrowableOresBlocks;
+import com.skniro.growableores.block.GrowableOresBlocks;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;

@@ -1,6 +1,6 @@
-package com.skniro.agree.item;
+package com.skniro.growableores.item;
 
-import com.skniro.agree.GrowableOres;
+import com.skniro.growableores.GrowableOres;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;

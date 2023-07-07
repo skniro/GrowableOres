@@ -3,26 +3,26 @@
   "id": "growable_ores",
   "version": "${version}",
   "name": "Skniro's GrowableOres",
-  "description": "Add some special apple which is can give you some effect.",
+  "description": "Add some growable ores.",
   "authors": [
     "skniro"
   ],
   "contact": {
-    "website": "https://www.curseforge.com/minecraft/mc-mods/super-apple",
-    "sources": "https://github.com/skniro/Agree-Super_Apple",
-    "issues": "https://github.com/skniro/Agree-Super_Apple/issues"},
+    "website": "https://www.curseforge.com/skniro",
+    "sources": "https://github.com/skniro/GrowableOres",
+    "issues": "https://github.com/skniro/GrowableOres/issues"},
   "license": "MIT",
-  "icon": "assets/agree/icon.png",
+  "icon": "assets/growable_ores/icon.png",
   "environment": "*",
   "entrypoints": {
     "fabric-datagen": [
-      "com.skniro.agree.datagen.GrowableOresDataGeneration"
+      "com.skniro.growableores.datagen.GrowableOresDataGeneration"
     ],
     "client": [
-      "com.skniro.agree.client.GrowableOresClient"
+      "com.skniro.growableores.client.GrowableOresClient"
     ],
     "main": [
-      "com.skniro.agree.GrowableOres"
+      "com.skniro.growableores.GrowableOres"
     ]
   },
   "mixins": [

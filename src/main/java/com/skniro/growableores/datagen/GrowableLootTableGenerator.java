@@ -1,7 +1,7 @@
-package com.skniro.agree.datagen;
+package com.skniro.growableores.datagen;
 
 
-import com.skniro.agree.block.GrowableOresBlocks;
+import com.skniro.growableores.block.GrowableOresBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 

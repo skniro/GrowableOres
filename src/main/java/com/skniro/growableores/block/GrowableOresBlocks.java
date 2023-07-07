@@ -1,6 +1,6 @@
-package com.skniro.agree.block;
+package com.skniro.growableores.block;
 
-import com.skniro.agree.GrowableOres;
+import com.skniro.growableores.GrowableOres;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.block.*;
 import net.minecraft.block.piston.PistonBehavior;

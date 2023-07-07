@@ -1,8 +1,8 @@
-package com.skniro.agree;
+package com.skniro.growableores;
 
 
-import com.skniro.agree.block.GrowableOresBlocks;
-import com.skniro.agree.item.GrowableOresItems;
+import com.skniro.growableores.block.GrowableOresBlocks;
+import com.skniro.growableores.item.GrowableOresItems;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 
 

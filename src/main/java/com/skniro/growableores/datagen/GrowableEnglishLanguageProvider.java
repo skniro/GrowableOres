@@ -2,11 +2,11 @@ package com.skniro.growableores.datagen;
 
 import com.skniro.growableores.GrowableOres;
 import com.skniro.growableores.block.GrowableOresBlocks;
-import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
+import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
 
 public class GrowableEnglishLanguageProvider extends FabricLanguageProvider {
-    public GrowableEnglishLanguageProvider(FabricDataOutput dataGenerator){
+    public GrowableEnglishLanguageProvider(FabricDataGenerator dataGenerator){
         super(dataGenerator,"en_us");
     }
 

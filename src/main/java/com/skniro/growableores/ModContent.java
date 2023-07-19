@@ -2,54 +2,45 @@ package com.skniro.growableores;
 
 
 import com.skniro.growableores.block.GrowableOresBlocks;
-import com.skniro.growableores.item.GrowableOresItems;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import com.skniro.growableores.item.ModCreativeModeTabs;
+import net.minecraftforge.event.CreativeModeTabEvent;
 
 
 public class ModContent {
 
-
-    public static void registerItem(){
-        GrowableOresItems.shield_item();
-    }
-    public static void registerBlock(){
-        GrowableOresBlocks.registerModBlocks();
-
-    }
-
-    public static void CreativeTab() {
-        ItemGroupEvents.modifyEntriesEvent(GrowableOres.Growable_Ores_Group).register(content -> {
-            content.add(GrowableOresBlocks.Coal_Cane);
-            content.add(GrowableOresBlocks.Iron_Cane);
-            content.add(GrowableOresBlocks.Diamond_Cane);
-            content.add(GrowableOresBlocks.Copper_Cane);
-            content.add(GrowableOresBlocks.Emerald_Cane);
-            content.add(GrowableOresBlocks.Gold_Cane);
-            content.add(GrowableOresBlocks.Lapis_Cane);
-            content.add(GrowableOresBlocks.Nether_Quartz_Cane);
-            content.add(GrowableOresBlocks.Redstone_Cane);
-            content.add(GrowableOresBlocks.Blaze_Rod_Cane);
-            content.add(GrowableOresBlocks.Ender_Pearl_Cane);
+    public static void CreativeTab(CreativeModeTabEvent.BuildContents event) {
+        if(event.getTab() == ModCreativeModeTabs.Growable_Ores_Group) {
+            event.accept(GrowableOresBlocks.Coal_Cane);
+            event.accept(GrowableOresBlocks.Iron_Cane);
+            event.accept(GrowableOresBlocks.Diamond_Cane);
+            event.accept(GrowableOresBlocks.Copper_Cane);
+            event.accept(GrowableOresBlocks.Emerald_Cane);
+            event.accept(GrowableOresBlocks.Gold_Cane);
+            event.accept(GrowableOresBlocks.Lapis_Cane);
+            event.accept(GrowableOresBlocks.Nether_Quartz_Cane);
+            event.accept(GrowableOresBlocks.Redstone_Cane);
+            event.accept(GrowableOresBlocks.Blaze_Rod_Cane);
+            event.accept(GrowableOresBlocks.Ender_Pearl_Cane);
 
             //ae2
-            content.add(GrowableOresBlocks.certus_quartz_crystal_Cane);
+            event.accept(GrowableOresBlocks.certus_quartz_crystal_Cane);
 
             //Tech Reborn
-            content.add(GrowableOresBlocks.cinnabar_Cane);
-            content.add(GrowableOresBlocks.galena_Cane);
-            content.add(GrowableOresBlocks.iridium_Cane);
-            content.add(GrowableOresBlocks.lead_Cane);
-            content.add(GrowableOresBlocks.peridot_Cane);
-            content.add(GrowableOresBlocks.pyrite_Cane);
-            content.add(GrowableOresBlocks.ruby_Cane);
-            content.add(GrowableOresBlocks.sapphire_Cane);
-            content.add(GrowableOresBlocks.sheldonite_Cane);
-            content.add(GrowableOresBlocks.silver_Cane);
-            content.add(GrowableOresBlocks.sphalerite_Cane);
-            content.add(GrowableOresBlocks.tin_Cane);
-            content.add(GrowableOresBlocks.tungsten_Cane);
-            content.add(GrowableOresBlocks.sodalite_Cane);
-            content.add(GrowableOresBlocks.bauxite_Cane);
-        });
+            /*event.accept(GrowableOresBlocks.cinnabar_Cane);
+            event.accept(GrowableOresBlocks.galena_Cane);
+            event.accept(GrowableOresBlocks.iridium_Cane);
+            event.accept(GrowableOresBlocks.lead_Cane);
+            event.accept(GrowableOresBlocks.peridot_Cane);
+            event.accept(GrowableOresBlocks.pyrite_Cane);
+            event.accept(GrowableOresBlocks.ruby_Cane);
+            event.accept(GrowableOresBlocks.sapphire_Cane);
+            event.accept(GrowableOresBlocks.sheldonite_Cane);
+            event.accept(GrowableOresBlocks.silver_Cane);
+            event.accept(GrowableOresBlocks.sphalerite_Cane);
+            event.accept(GrowableOresBlocks.tin_Cane);
+            event.accept(GrowableOresBlocks.tungsten_Cane);
+            event.accept(GrowableOresBlocks.sodalite_Cane);
+            event.accept(GrowableOresBlocks.bauxite_Cane);*/
+        }
     }
 }

@@ -1,32 +1,63 @@
 package com.skniro.growableores;
 
+import com.mojang.logging.LogUtils;
+
 import com.skniro.growableores.block.GrowableOresBlocks;
-import net.fabricmc.api.ModInitializer;
-import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemStack;
-import net.minecraft.util.Identifier;
+import com.skniro.growableores.item.MapleItems;
+import net.minecraft.network.chat.Component;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.ItemStack;
+import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.event.CreativeModeTabEvent;
+import net.minecraftforge.event.server.ServerStartingEvent;
+import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+
+// The value here should match an entry in the META-INF/mods.toml file
+@Mod(GrowableOres.MODID)
+public class GrowableOres {
+    // Define mod id in a common place for everything to reference
+    public static final String MODID = "growable_ores";
+    // Directly reference a slf4j logger
+    private static final Logger LOGGER = LogUtils.getLogger();
 
 
+    public GrowableOres() {
+        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-public class GrowableOres implements ModInitializer {
-    public static final String MOD_ID = "growable_ores";
-    public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+        // Register the commonSetup method for modloading
+        modEventBus.addListener(this::commonSetup);
 
-
-
-
-     public static final ItemGroup Growable_Ores_Group = FabricItemGroup.builder(
-             new Identifier(MOD_ID, "test_group"))
-                     .icon(() -> new ItemStack(GrowableOresBlocks.Iron_Cane))
-                     .build();
-
-    @Override
-    public void onInitialize() {
-        ModContent.registerItem();
-        ModContent.registerBlock();
-        ModContent.CreativeTab();
+        // Register the Deferred Register to the mod event bus so blocks get registered
+        GrowableOresBlocks.registerMapleBlocks(modEventBus);
+        MapleItems.registerModItems(modEventBus);
+        modEventBus.addListener(ModContent::CreativeTab);
+        // Register ourselves for server and other game events we are interested in
+        MinecraftForge.EVENT_BUS.register(this);
     }
+
+    private void commonSetup(final FMLCommonSetupEvent event) {
+    }
+
+    // You can use SubscribeEvent and let the Event Bus discover methods to call
+    @SubscribeEvent
+    public void onServerStarting(ServerStartingEvent event) {
+
+    }
+
+    // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
+    @Mod.EventBusSubscriber(modid = MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
+    public static class ClientModEvents {
+
+        @SubscribeEvent
+        public static void onClientSetup(FMLClientSetupEvent event) {
+        }
+    }
+
 }

@@ -2,16 +2,20 @@ package com.skniro.growableores.datagen;
 
 
 import com.skniro.growableores.block.GrowableOresBlocks;
-import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
+import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 
 
 public class GrowableLootTableGenerator extends FabricBlockLootTableProvider {
-    public GrowableLootTableGenerator(FabricDataOutput dataGenerator) {
+    public GrowableLootTableGenerator(FabricDataGenerator dataGenerator) {
         super(dataGenerator);
     }
 
     @Override
+    protected void generateBlockLootTables() {
+
+    }
+
     public void generate() {
         addDrop(GrowableOresBlocks.Coal_Cane);
         addDrop(GrowableOresBlocks.Iron_Cane);

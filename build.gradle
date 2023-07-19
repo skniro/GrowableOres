@@ -44,12 +44,12 @@ dependencies {
     // Fabric API. This is technically optional, but you probably want it anyway.
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-    include modApi('teamreborn:energy:3.0.0') {
+    include modApi('teamreborn:energy:2.3.0') {
         exclude(group: "net.fabricmc.fabric-api")
     }
 
-    modImplementation  ("curse.maven:reborncore-237903:4582416")
-    modImplementation  ("curse.maven:techreborn-233564:4582415")
+    modRuntimeOnly  ("curse.maven:reborncore-237903:3902448")
+    modRuntimeOnly  ("curse.maven:techreborn-233564:3902447")
 
 }
 

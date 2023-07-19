@@ -1,13 +1,13 @@
 package com.skniro.growableores.datagen;
 
 import com.skniro.growableores.block.GrowableOresBlocks;
-import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
+import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 
 public class GrowableModelProvider extends FabricModelProvider {
-    public GrowableModelProvider(FabricDataOutput dataGenerator){
+    public GrowableModelProvider(FabricDataGenerator dataGenerator){
         super(dataGenerator);
     }
 

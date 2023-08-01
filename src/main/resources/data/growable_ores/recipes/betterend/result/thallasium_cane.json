@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "growable_ores:thallasium_cane"
+    }
+  },
+  "result": {
+    "item": "betterend:thallasium_ingot",
+    "count": 1
+  }
+}

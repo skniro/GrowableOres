@@ -15,9 +15,6 @@
   "icon": "assets/growable_ores/icon.png",
   "environment": "*",
   "entrypoints": {
-    "fabric-datagen": [
-      "com.skniro.growableores.datagen.GrowableOresDataGeneration"
-    ],
     "client": [
       "com.skniro.growableores.client.GrowableOresClient"
     ],

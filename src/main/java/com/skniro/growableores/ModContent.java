@@ -4,6 +4,12 @@ package com.skniro.growableores;
 import com.skniro.growableores.block.GrowableOresBlocks;
 import com.skniro.growableores.item.GrowableOresItems;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.Block;
+import net.minecraft.block.MapColor;
+import net.minecraft.block.SugarCaneBlock;
+import net.minecraft.block.piston.PistonBehavior;
+import net.minecraft.sound.BlockSoundGroup;
 
 
 public class ModContent {
@@ -50,6 +56,15 @@ public class ModContent {
             content.add(GrowableOresBlocks.tungsten_Cane);
             content.add(GrowableOresBlocks.sodalite_Cane);
             content.add(GrowableOresBlocks.bauxite_Cane);
+
+            //BetterEnd
+            content.add(GrowableOresBlocks.amber_Cane);
+            content.add(GrowableOresBlocks.ender_Cane);
+            content.add(GrowableOresBlocks.thallasium_Cane);
+
+            //Maple
+            content.add(GrowableOresBlocks.Salt_Cane);
+
         });
     }
 }

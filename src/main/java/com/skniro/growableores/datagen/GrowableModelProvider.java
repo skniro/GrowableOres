@@ -45,6 +45,15 @@ public class GrowableModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerTintableCrossBlockState(GrowableOresBlocks.tungsten_Cane, BlockStateModelGenerator.TintType.TINTED);
         blockStateModelGenerator.registerTintableCrossBlockState(GrowableOresBlocks.sodalite_Cane, BlockStateModelGenerator.TintType.TINTED);
         blockStateModelGenerator.registerTintableCrossBlockState(GrowableOresBlocks.bauxite_Cane, BlockStateModelGenerator.TintType.TINTED);
+
+        //BetterEnd
+        blockStateModelGenerator.registerTintableCrossBlockState(GrowableOresBlocks.amber_Cane, BlockStateModelGenerator.TintType.TINTED);
+        blockStateModelGenerator.registerTintableCrossBlockState(GrowableOresBlocks.ender_Cane, BlockStateModelGenerator.TintType.TINTED);
+        blockStateModelGenerator.registerTintableCrossBlockState(GrowableOresBlocks.thallasium_Cane, BlockStateModelGenerator.TintType.TINTED);
+
+        //Maple
+        blockStateModelGenerator.registerTintableCrossBlockState(GrowableOresBlocks.Salt_Cane, BlockStateModelGenerator.TintType.TINTED);
+
     }
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {

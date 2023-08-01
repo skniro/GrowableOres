@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "growable_ores:amber_cane"
+    }
+  },
+  "result": {
+    "item": "betterend:amber_gem",
+    "count": 1
+  }
+}

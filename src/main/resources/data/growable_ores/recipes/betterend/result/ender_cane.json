@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "growable_ores:ender_cane"
+    }
+  },
+  "result": {
+    "item": "betterend:ender_dust",
+    "count": 1
+  }
+}

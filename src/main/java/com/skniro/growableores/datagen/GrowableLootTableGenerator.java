@@ -44,5 +44,14 @@ public class GrowableLootTableGenerator extends FabricBlockLootTableProvider {
         addDrop(GrowableOresBlocks.sphalerite_Cane);
         addDrop(GrowableOresBlocks.tin_Cane);
         addDrop(GrowableOresBlocks.tungsten_Cane);
+
+        //BetterEnd
+        addDrop(GrowableOresBlocks.amber_Cane);
+        addDrop(GrowableOresBlocks.ender_Cane);
+        addDrop(GrowableOresBlocks.thallasium_Cane);
+
+        //Maple
+        addDrop(GrowableOresBlocks.Salt_Cane);
+
     }
 }

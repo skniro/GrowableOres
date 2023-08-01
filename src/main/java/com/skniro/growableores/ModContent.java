@@ -50,6 +50,14 @@ public class ModContent {
             content.add(GrowableOresBlocks.tungsten_Cane);
             content.add(GrowableOresBlocks.sodalite_Cane);
             content.add(GrowableOresBlocks.bauxite_Cane);
+
+            //BetterEnd
+            content.add(GrowableOresBlocks.amber_Cane);
+            content.add(GrowableOresBlocks.ender_Cane);
+            content.add(GrowableOresBlocks.thallasium_Cane);
+
+            //Maple
+            content.add(GrowableOresBlocks.Salt_Cane);
         });
     }
 }

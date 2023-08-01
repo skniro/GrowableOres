@@ -45,5 +45,13 @@ public class GrowableEnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(GrowableOresBlocks.bauxite_Cane,"Bauxite Reed");
 
         translationBuilder.add(GrowableOres.Growable_Ores_Group,"Growable Ores");
+
+        //BetterEnd
+        translationBuilder.add(GrowableOresBlocks.amber_Cane,"Amber Reed");
+        translationBuilder.add(GrowableOresBlocks.ender_Cane,"Ender Reed");
+        translationBuilder.add(GrowableOresBlocks.thallasium_Cane,"Thallasium Reed");
+
+        //Maple
+        translationBuilder.add(GrowableOresBlocks.Salt_Cane,"Salt Reed");
     }
 }

@@ -1,0 +1,61 @@
+package com.skniro.growableores.item;
+
+import com.skniro.growableores.GrowableOres;
+import com.skniro.growableores.block.GrowableOresBlocks;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.network.chat.Component;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.ItemStack;
+import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.RegistryObject;
+
+public class ModCreativeModeTabs {
+    public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
+            DeferredRegister.create(Registries.CREATIVE_MODE_TAB, GrowableOres.MODID);
+
+    public static final RegistryObject<CreativeModeTab> Growable_Ores_Group = CREATIVE_MODE_TABS.register("test_group",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(GrowableOresBlocks.Iron_Cane.get()))
+                    .title(Component.translatable("itemGroup.growable_ores.test_group"))
+                    .displayItems((pParameters, pOutput) -> {
+                        pOutput.accept(GrowableOresBlocks.Coal_Cane.get());
+                        pOutput.accept(GrowableOresBlocks.Iron_Cane.get());
+                        pOutput.accept(GrowableOresBlocks.Diamond_Cane.get());
+                        pOutput.accept(GrowableOresBlocks.Copper_Cane.get());
+                        pOutput.accept(GrowableOresBlocks.Emerald_Cane.get());
+                        pOutput.accept(GrowableOresBlocks.Gold_Cane.get());
+                        pOutput.accept(GrowableOresBlocks.Lapis_Cane.get());
+                        pOutput.accept(GrowableOresBlocks.Nether_Quartz_Cane.get());
+                        pOutput.accept(GrowableOresBlocks.Redstone_Cane.get());
+                        pOutput.accept(GrowableOresBlocks.Blaze_Rod_Cane.get());
+                        pOutput.accept(GrowableOresBlocks.Ender_Pearl_Cane.get());
+
+                        //ae2
+                        pOutput.accept(GrowableOresBlocks.certus_quartz_crystal_Cane.get());
+
+                        //Tech Reborn
+            /*pOutput.accept(GrowableOresBlocks.cinnabar_Cane.get());
+            pOutput.accept(GrowableOresBlocks.galena_Cane.get());
+            pOutput.accept(GrowableOresBlocks.iridium_Cane.get());
+            pOutput.accept(GrowableOresBlocks.lead_Cane.get());
+            pOutput.accept(GrowableOresBlocks.peridot_Cane.get());
+            pOutput.accept(GrowableOresBlocks.pyrite_Cane.get());
+            pOutput.accept(GrowableOresBlocks.ruby_Cane.get());
+            pOutput.accept(GrowableOresBlocks.sapphire_Cane.get());
+            pOutput.accept(GrowableOresBlocks.sheldonite_Cane.get());
+            pOutput.accept(GrowableOresBlocks.silver_Cane.get());
+            pOutput.accept(GrowableOresBlocks.sphalerite_Cane.get());
+            pOutput.accept(GrowableOresBlocks.tin_Cane.get());
+            pOutput.accept(GrowableOresBlocks.tungsten_Cane.get());
+            pOutput.accept(GrowableOresBlocks.sodalite_Cane.get());
+            pOutput.accept(GrowableOresBlocks.bauxite_Cane.get());*/
+
+
+                    })
+                    .build());
+
+
+    public static void register(IEventBus eventBus) {
+        CREATIVE_MODE_TABS.register(eventBus);
+    }
+}

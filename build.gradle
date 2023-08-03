@@ -3,7 +3,7 @@ plugins {
     id 'maven-publish'
 }
 
-version = project.mod_version
+version = project.mod_version-project.minecraft_version
 group = project.maven_group
 
 repositories {
@@ -48,7 +48,7 @@ dependencies {
     // Fabric API. This is technically optional, but you probably want it anyway.
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-    include modApi('teamreborn:energy:3.0.0') {
+    /*include modApi('teamreborn:energy:3.0.0') {
         exclude(group: "net.fabricmc.fabric-api")
     }
 
@@ -57,7 +57,7 @@ dependencies {
 
     modImplementation  ("curse.maven:betterend-413596:4658906")
 
-    modImplementation "com.github.quiqueck:BCLib:${project.bclib_version}"
+    modImplementation "com.github.quiqueck:BCLib:${project.bclib_version}"*/
 
 }
 

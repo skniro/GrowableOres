@@ -5,6 +5,7 @@ import com.skniro.growableores.block.GrowableOresBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
 
+
 public class GrowableSimplifiedChineseLanguageProvider extends FabricLanguageProvider {
     public GrowableSimplifiedChineseLanguageProvider(FabricDataOutput dataGenerator){
         super(dataGenerator,"zh_cn");

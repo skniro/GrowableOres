@@ -1,3 +1,6 @@
 {
-  "parent": "growable_ores:block/redstone_cane"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "growable_ores:block/redstone_cane"
+  }
 }

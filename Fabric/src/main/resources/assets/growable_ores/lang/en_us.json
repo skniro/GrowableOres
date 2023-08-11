@@ -1,5 +1,4 @@
 {
-  "block.growable_ores.amber_cane": "Amber Reed",
   "block.growable_ores.bauxite_cane": "Bauxite Reed",
   "block.growable_ores.blaze_rod_cane": "Blaze Rod Reed",
   "block.growable_ores.certus_quartz_crystal_cane": "Certus Quartz Crystal Reed",
@@ -8,7 +7,6 @@
   "block.growable_ores.copper_cane": "Copper Reed",
   "block.growable_ores.diamond_cane": "Diamond Reed",
   "block.growable_ores.emerald_cane": "Emerald Reed",
-  "block.growable_ores.ender_cane": "Ender Reed",
   "block.growable_ores.ender_pearl_cane": "Ender Pearl Reed",
   "block.growable_ores.galena_cane": "Galena Reed",
   "block.growable_ores.gold_cane": "Gold Reed",
@@ -21,13 +19,11 @@
   "block.growable_ores.pyrite_cane": "Sulfur Reed",
   "block.growable_ores.redstone_cane": "Redstone Reed",
   "block.growable_ores.ruby_cane": "Ruby Reed",
-  "block.growable_ores.salt_cane": "Salt Reed",
   "block.growable_ores.sapphire_cane": "Sapphire Reed",
   "block.growable_ores.sheldonite_cane": "Platinum Reed",
   "block.growable_ores.silver_cane": "Silver Reed",
   "block.growable_ores.sodalite_cane": "Sodalite Reed",
   "block.growable_ores.sphalerite_cane": "Sphalerite Reed",
-  "block.growable_ores.thallasium_cane": "Thallasium Reed",
   "block.growable_ores.tin_cane": "Tin Reed",
   "block.growable_ores.tungsten_cane": "Tungsten Reed",
   "itemGroup.growable_ores.test_group": "Growable Ores"

@@ -1,4 +1,4 @@
-// 1.19.4	2023-08-01T14:04:09.5486896	Skniro's GrowableOres/Block Loot Tables
+// 1.19.4	2023-08-11T17:22:50.114365	Skniro's GrowableOres/Block Loot Tables
 b578ffdeb7d262bce12b49fc8e32f6fff7e16745 data\growable_ores\loot_tables\blocks\sheldonite_cane.json
 7cb7e9a44b23af19b484f3467003eda77bab4d40 data\growable_ores\loot_tables\blocks\sodalite_cane.json
 d181831bca9ab995d53edece575c6d582ac791ff data\growable_ores\loot_tables\blocks\peridot_cane.json
@@ -7,8 +7,8 @@ d354397db59ecbe1550ef01e9f701e1bd9c9a186 data\growable_ores\loot_tables\blocks\s
 0b4be9873efaec7fd696979e9e37c4c9fec831bc data\growable_ores\loot_tables\blocks\emerald_cane.json
 a76ed8ce34370633d8544a31072c7368825ad8e8 data\growable_ores\loot_tables\blocks\sapphire_cane.json
 192fa4668a1666d4775c79a7500e8b11d4c9d7a0 data\growable_ores\loot_tables\blocks\lead_cane.json
-e51f17cbf02eb15b9437d85006aef21ed2d32be4 data\growable_ores\loot_tables\blocks\ender_cane.json
 1e39ccaba2b14af4077770f8225150512b738536 data\growable_ores\loot_tables\blocks\iridium_cane.json
+e51f17cbf02eb15b9437d85006aef21ed2d32be4 data\growable_ores\loot_tables\blocks\ender_cane.json
 f204231314d15dd91c735a412dc615ef2859eb9a data\growable_ores\loot_tables\blocks\coal_cane.json
 39c0ba75c631ad0c1a9c25fb78a92ff7cb7959d6 data\growable_ores\loot_tables\blocks\sphalerite_cane.json
 4dc6ea759050849eca496dac6979b551cc2fc701 data\growable_ores\loot_tables\blocks\diamond_cane.json

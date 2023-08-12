@@ -50,6 +50,24 @@ public class ModCreativeModeTabs {
             pOutput.accept(GrowableOresBlocks.sodalite_Cane.get());
             pOutput.accept(GrowableOresBlocks.bauxite_Cane.get());*/
 
+                        //BetterEnd
+                        pOutput.accept(GrowableOresBlocks.amber_Cane.get());
+                        pOutput.accept(GrowableOresBlocks.ender_Cane.get());
+                        pOutput.accept(GrowableOresBlocks.thallasium_Cane.get());
+
+                        //Maple
+
+                        //Powah Rearchitected and Powah
+                        pOutput.accept(GrowableOresBlocks.Steel_Energized_Cane.get());
+                        pOutput.accept(GrowableOresBlocks.Uraninite_Ore_Dense_Cane.get());
+                        pOutput.accept(GrowableOresBlocks.Ender_Core_Cane.get());
+                        pOutput.accept(GrowableOresBlocks.Crystal_Spirited_Cane.get());
+                        pOutput.accept(GrowableOresBlocks.Crystal_Nitro_Cane.get());
+                        pOutput.accept(GrowableOresBlocks.Crystal_Niotic_Cane.get());
+                        pOutput.accept(GrowableOresBlocks.Crystal_Blazing_Cane.get());
+
+
+
 
                     })
                     .build());

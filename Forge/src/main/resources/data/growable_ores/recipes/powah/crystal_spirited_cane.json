@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#G#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:sugar_cane"
+    },
+    "G": {
+      "item": "powah:crystal_spirited"
+    }
+  },
+  "result": {
+    "item": "growable_ores:crystal_spirited_cane",
+    "count": 1
+  }
+}

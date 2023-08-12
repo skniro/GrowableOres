@@ -1,13 +1,20 @@
 package com.skniro.growableores.datagen;
 
+import com.skniro.growableores.GrowableOres;
 import com.skniro.growableores.block.GrowableOresBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.Block;
+import net.minecraft.block.MapColor;
+import net.minecraft.block.SugarCaneBlock;
+import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.TextureMap;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
+import net.minecraft.sound.BlockSoundGroup;
 
 public class GrowableModelProvider extends FabricModelProvider {
     public GrowableModelProvider(FabricDataOutput dataGenerator){
@@ -56,6 +63,15 @@ public class GrowableModelProvider extends FabricModelProvider {
 
         //Maple
         blockStateModelGenerator.registerTintableCross(GrowableOresBlocks.Salt_Cane, BlockStateModelGenerator.TintType.TINTED);
+
+        //Powah Rearchitected and Powah
+        blockStateModelGenerator.registerTintableCross(GrowableOresBlocks.Steel_Energized_Cane , BlockStateModelGenerator.TintType.TINTED);
+        blockStateModelGenerator.registerTintableCross(GrowableOresBlocks.Uraninite_Ore_Dense_Cane , BlockStateModelGenerator.TintType.TINTED);
+        blockStateModelGenerator.registerTintableCross(GrowableOresBlocks.Ender_Core_Cane , BlockStateModelGenerator.TintType.TINTED);
+        blockStateModelGenerator.registerTintableCross(GrowableOresBlocks.Crystal_Spirited_Cane , BlockStateModelGenerator.TintType.TINTED);
+        blockStateModelGenerator.registerTintableCross(GrowableOresBlocks.Crystal_Nitro_Cane , BlockStateModelGenerator.TintType.TINTED);
+        blockStateModelGenerator.registerTintableCross(GrowableOresBlocks.Crystal_Niotic_Cane , BlockStateModelGenerator.TintType.TINTED);
+        blockStateModelGenerator.registerTintableCross(GrowableOresBlocks.Crystal_Blazing_Cane , BlockStateModelGenerator.TintType.TINTED);
 
     }
     @Override

@@ -55,6 +55,8 @@ dependencies {
     modImplementation  ("curse.maven:reborncore-237903:4582416")
     modImplementation  ("curse.maven:techreborn-233564:4582415")
 
+    //modImplementation  ("curse.maven:powah-633483:4638300")
+
     //modImplementation  ("curse.maven:betterend-413596:4658906")
 
     //modImplementation "com.github.quiqueck:BCLib:${project.bclib_version}"

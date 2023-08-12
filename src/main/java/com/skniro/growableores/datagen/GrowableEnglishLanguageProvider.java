@@ -53,5 +53,14 @@ public class GrowableEnglishLanguageProvider extends FabricLanguageProvider {
 
         //Maple
         translationBuilder.add(GrowableOresBlocks.Salt_Cane,"Salt Reed");
+
+        //Powah Rearchitected and Powah
+        translationBuilder.add(GrowableOresBlocks.Steel_Energized_Cane,"Steel Energized Reed");
+        translationBuilder.add(GrowableOresBlocks.Uraninite_Ore_Dense_Cane,"Uraninite Ore Dense Reed");
+        translationBuilder.add(GrowableOresBlocks.Ender_Core_Cane,"Ender Core Reed");
+        translationBuilder.add(GrowableOresBlocks.Crystal_Spirited_Cane,"Crystal Spirited Reed");
+        translationBuilder.add(GrowableOresBlocks.Crystal_Nitro_Cane,"Crystal Nitro Reed");
+        translationBuilder.add(GrowableOresBlocks.Crystal_Niotic_Cane,"Crystal Niotic Reed");
+        translationBuilder.add(GrowableOresBlocks.Crystal_Blazing_Cane,"Crystal Blazing Reed");
     }
 }

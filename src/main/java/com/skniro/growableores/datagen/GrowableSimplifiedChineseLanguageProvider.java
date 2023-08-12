@@ -54,5 +54,14 @@ public class GrowableSimplifiedChineseLanguageProvider extends FabricLanguagePro
         //Maple
         translationBuilder.add(GrowableOresBlocks.Salt_Cane,"盐矿石杆");
 
+        //Powah Rearchitected and Powah
+        translationBuilder.add(GrowableOresBlocks.Steel_Energized_Cane,"充能钢杆");
+        translationBuilder.add(GrowableOresBlocks.Uraninite_Ore_Dense_Cane,"晶质铀杆");
+        translationBuilder.add(GrowableOresBlocks.Ender_Core_Cane,"末影核心杆");
+        translationBuilder.add(GrowableOresBlocks.Crystal_Spirited_Cane,"富生水晶杆");
+        translationBuilder.add(GrowableOresBlocks.Crystal_Nitro_Cane,"下届水晶杆");
+        translationBuilder.add(GrowableOresBlocks.Crystal_Niotic_Cane,"钻石水晶杆");
+        translationBuilder.add(GrowableOresBlocks.Crystal_Blazing_Cane,"烈焰水晶杆");
+
     }
 }

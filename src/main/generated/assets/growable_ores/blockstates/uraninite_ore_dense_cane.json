@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "growable_ores:block/uraninite_ore_dense_cane"
+    }
+  }
+}

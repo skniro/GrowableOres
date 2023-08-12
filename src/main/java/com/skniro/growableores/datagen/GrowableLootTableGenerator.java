@@ -4,6 +4,7 @@ package com.skniro.growableores.datagen;
 import com.skniro.growableores.block.GrowableOresBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
+import net.minecraft.data.client.BlockStateModelGenerator;
 
 
 public class GrowableLootTableGenerator extends FabricBlockLootTableProvider {
@@ -52,6 +53,15 @@ public class GrowableLootTableGenerator extends FabricBlockLootTableProvider {
 
         //Maple
         addDrop(GrowableOresBlocks.Salt_Cane);
+
+        //Powah Rearchitected and Powah
+        addDrop(GrowableOresBlocks.Steel_Energized_Cane);
+        addDrop(GrowableOresBlocks.Uraninite_Ore_Dense_Cane);
+        addDrop(GrowableOresBlocks.Ender_Core_Cane);
+        addDrop(GrowableOresBlocks.Crystal_Spirited_Cane);
+        addDrop(GrowableOresBlocks.Crystal_Nitro_Cane);
+        addDrop(GrowableOresBlocks.Crystal_Niotic_Cane);
+        addDrop(GrowableOresBlocks.Crystal_Blazing_Cane);
 
     }
 }

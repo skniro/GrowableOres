@@ -65,6 +65,15 @@ public class ModContent {
             //Maple
             content.add(GrowableOresBlocks.Salt_Cane);
 
+            //Powah Rearchitected and Powah
+            content.add(GrowableOresBlocks.Steel_Energized_Cane);
+            content.add(GrowableOresBlocks.Uraninite_Ore_Dense_Cane);
+            content.add(GrowableOresBlocks.Ender_Core_Cane);
+            content.add(GrowableOresBlocks.Crystal_Spirited_Cane);
+            content.add(GrowableOresBlocks.Crystal_Nitro_Cane);
+            content.add(GrowableOresBlocks.Crystal_Niotic_Cane);
+            content.add(GrowableOresBlocks.Crystal_Blazing_Cane);
+
         });
     }
 }

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "growable_ores:crystal_blazing_cane"
+    }
+  },
+  "result": {
+    "item": "powah:crystal_blazing",
+    "count": 1
+  }
+}

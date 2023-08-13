@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "growable_ores:nether_quartz_cane"
+    }
+  },
+  "result": {
+    "item": "minecraft:quartz",
+    "count": 4
+  }
+}

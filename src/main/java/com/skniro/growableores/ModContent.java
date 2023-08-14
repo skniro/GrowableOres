@@ -36,6 +36,7 @@ public class ModContent {
             content.add(GrowableOresBlocks.Redstone_Cane);
             content.add(GrowableOresBlocks.Blaze_Rod_Cane);
             content.add(GrowableOresBlocks.Ender_Pearl_Cane);
+            content.add(GrowableOresBlocks.Netherite_Ingot_Cane);
 
             //ae2
             content.add(GrowableOresBlocks.certus_quartz_crystal_Cane);

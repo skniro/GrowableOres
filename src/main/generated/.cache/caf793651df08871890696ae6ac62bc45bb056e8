@@ -1,4 +1,4 @@
-// 1.20.1	2023-08-12T16:47:55.7147159	Skniro's GrowableOres/Block Loot Tables
+// 1.20.1	2023-08-14T10:32:50.3285268	Skniro's GrowableOres/Block Loot Tables
 808ef02a06bb60759a5a017034c4b5e2a516cce2 data\growable_ores\loot_tables\blocks\steel_energized_cane.json
 11e86120497cc22c45ce2116c6757c5eef159b08 data\growable_ores\loot_tables\blocks\blaze_rod_cane.json
 7cb7e9a44b23af19b484f3467003eda77bab4d40 data\growable_ores\loot_tables\blocks\sodalite_cane.json
@@ -6,6 +6,7 @@
 0294985db612ea7a150245e24a7b97b202ae88ad data\growable_ores\loot_tables\blocks\amber_cane.json
 6bccd8a82e77e6d80c00d707f2e4479bbe3a9687 data\growable_ores\loot_tables\blocks\galena_cane.json
 3c994d135ca0a7b9fc80e17254214c255fc8627f data\growable_ores\loot_tables\blocks\lapis_cane.json
+84f3d1776f3e9760af58b1592398ee2e43bfd305 data\growable_ores\loot_tables\blocks\netherite_ingot_cane.json
 0b4be9873efaec7fd696979e9e37c4c9fec831bc data\growable_ores\loot_tables\blocks\emerald_cane.json
 26d1ac85f7a630a0e82b5aaaa4208819666daad4 data\growable_ores\loot_tables\blocks\iron_cane.json
 316a5ac20082c4c93d7f5c015544c9fa93614551 data\growable_ores\loot_tables\blocks\copper_cane.json

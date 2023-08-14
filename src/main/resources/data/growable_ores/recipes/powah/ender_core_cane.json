@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#G#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:sugar_cane"
+    },
+    "G": {
+      "item": "powah:ender_core"
+    }
+  },
+  "result": {
+    "item": "growable_ores:ender_core_cane",
+    "count": 1
+  }
+}

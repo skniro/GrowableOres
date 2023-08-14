@@ -21,26 +21,18 @@ public class ModContent {
             event.accept(GrowableOresBlocks.Redstone_Cane);
             event.accept(GrowableOresBlocks.Blaze_Rod_Cane);
             event.accept(GrowableOresBlocks.Ender_Pearl_Cane);
+            event.accept(GrowableOresBlocks.Netherite_Ingot_Cane.get());
 
             //ae2
             event.accept(GrowableOresBlocks.certus_quartz_crystal_Cane);
 
-            //Tech Reborn
-            /*event.accept(GrowableOresBlocks.cinnabar_Cane);
-            event.accept(GrowableOresBlocks.galena_Cane);
-            event.accept(GrowableOresBlocks.iridium_Cane);
-            event.accept(GrowableOresBlocks.lead_Cane);
-            event.accept(GrowableOresBlocks.peridot_Cane);
-            event.accept(GrowableOresBlocks.pyrite_Cane);
-            event.accept(GrowableOresBlocks.ruby_Cane);
-            event.accept(GrowableOresBlocks.sapphire_Cane);
-            event.accept(GrowableOresBlocks.sheldonite_Cane);
-            event.accept(GrowableOresBlocks.silver_Cane);
-            event.accept(GrowableOresBlocks.sphalerite_Cane);
-            event.accept(GrowableOresBlocks.tin_Cane);
-            event.accept(GrowableOresBlocks.tungsten_Cane);
-            event.accept(GrowableOresBlocks.sodalite_Cane);
-            event.accept(GrowableOresBlocks.bauxite_Cane);*/
+            //BetterEnd
+            event.accept(GrowableOresBlocks.amber_Cane.get());
+            event.accept(GrowableOresBlocks.ender_Cane.get());
+            event.accept(GrowableOresBlocks.thallasium_Cane.get());
+
+
+
         }
     }
 }

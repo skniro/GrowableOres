@@ -29,6 +29,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(GrowableOresBlocks.Redstone_Cane.get());
                         pOutput.accept(GrowableOresBlocks.Blaze_Rod_Cane.get());
                         pOutput.accept(GrowableOresBlocks.Ender_Pearl_Cane.get());
+                        pOutput.accept(GrowableOresBlocks.Netherite_Ingot_Cane.get());
 
                         //ae2
                         pOutput.accept(GrowableOresBlocks.certus_quartz_crystal_Cane.get());

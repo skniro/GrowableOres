@@ -23,6 +23,7 @@ public class GrowableSimplifiedChineseLanguageProvider extends FabricLanguagePro
         translationBuilder.add(GrowableOresBlocks.Redstone_Cane,"红石矿石杆");
         translationBuilder.add(GrowableOresBlocks.Blaze_Rod_Cane,"烈焰棒杆");
         translationBuilder.add(GrowableOresBlocks.Ender_Pearl_Cane,"末影珍珠杆");
+        translationBuilder.add(GrowableOresBlocks.Netherite_Ingot_Cane,"下界合金杆");
 
         //ae2
         translationBuilder.add(GrowableOresBlocks.certus_quartz_crystal_Cane,"赛特斯石英矿石杆");

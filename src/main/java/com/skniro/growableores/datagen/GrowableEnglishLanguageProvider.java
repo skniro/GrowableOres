@@ -23,6 +23,8 @@ public class GrowableEnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(GrowableOresBlocks.Redstone_Cane,"Redstone Reed");
         translationBuilder.add(GrowableOresBlocks.Blaze_Rod_Cane,"Blaze Rod Reed");
         translationBuilder.add(GrowableOresBlocks.Ender_Pearl_Cane,"Ender Pearl Reed");
+        translationBuilder.add(GrowableOresBlocks.Netherite_Ingot_Cane,"Netherite Ingot Reed");
+
 
         //ae2
         translationBuilder.add(GrowableOresBlocks.certus_quartz_crystal_Cane,"Certus Quartz Crystal Reed");

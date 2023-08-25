@@ -2,19 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "###",
-    "#G#",
+    "###",
     "###"
   ],
   "key": {
     "#": {
-      "item": "minecraft:sugar_cane"
-    },
-    "G": {
-      "item": "minecraft:blaze_rod"
+      "item": "growable_ores:gold_cane"
     }
   },
   "result": {
-    "item": "growable_ores:blaze_rod_cane",
+    "item": "minecraft:gold_ingot",
     "count": 1
   }
 }

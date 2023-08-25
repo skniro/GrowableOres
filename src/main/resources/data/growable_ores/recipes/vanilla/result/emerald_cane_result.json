@@ -2,19 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "###",
-    "#G#",
+    "###",
     "###"
   ],
   "key": {
     "#": {
-      "item": "minecraft:sugar_cane"
-    },
-    "G": {
-      "item": "techreborn:silver_ingot"
+      "item": "growable_ores:emerald_cane"
     }
   },
   "result": {
-    "item": "growable_ores:silver_cane",
+    "item": "minecraft:emerald",
     "count": 1
   }
 }

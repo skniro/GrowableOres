@@ -2,19 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "###",
-    "#G#",
+    "###",
     "###"
   ],
   "key": {
     "#": {
-      "item": "minecraft:sugar_cane"
-    },
-    "G": {
-      "item": "techreborn:ruby_gem"
+      "item": "growable_ores:lapis_cane"
     }
   },
   "result": {
-    "item": "growable_ores:ruby_cane",
+    "item": "minecraft:lapis_lazuli",
     "count": 1
   }
 }

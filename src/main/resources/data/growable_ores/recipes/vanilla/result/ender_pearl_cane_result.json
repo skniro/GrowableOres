@@ -2,19 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "###",
-    "#G#",
+    "###",
     "###"
   ],
   "key": {
     "#": {
-      "item": "minecraft:sugar_cane"
-    },
-    "G": {
-      "item": "techreborn:sapphire_gem"
+      "item": "growable_ores:ender_pearl_cane"
     }
   },
   "result": {
-    "item": "growable_ores:sapphire_cane",
+    "item": "minecraft:ender_pearl",
     "count": 1
   }
 }

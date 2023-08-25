@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "growable_ores:mi_lignite_coal_cane"
+    }
+  },
+  "result": {
+    "item": "modern_industrialization:lignite_coal",
+    "count": 1
+  }
+}

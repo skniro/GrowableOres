@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "growable_ores:ir_silver_cane"
+    }
+  },
+  "result": {
+    "item": "indrev:silver_ingot",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "growable_ores:mi_tin_cane"
+    }
+  },
+  "result": {
+    "item": "modern_industrialization:tin_ingot",
+    "count": 1
+  }
+}

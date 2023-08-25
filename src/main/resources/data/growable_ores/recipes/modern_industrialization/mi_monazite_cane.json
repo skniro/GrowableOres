@@ -10,11 +10,11 @@
       "item": "minecraft:sugar_cane"
     },
     "G": {
-      "item": "minecraft:lapis"
+      "item": "modern_industrialization:monazite_dust"
     }
   },
   "result": {
-    "item": "growable_ores:lapis_cane",
+    "item": "growable_ores:mi_monazite_cane",
     "count": 1
   }
 }

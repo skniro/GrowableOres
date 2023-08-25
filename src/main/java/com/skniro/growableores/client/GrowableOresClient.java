@@ -1,12 +1,19 @@
 package com.skniro.growableores.client;
 
+import com.skniro.growableores.GrowableOres;
 import com.skniro.growableores.block.GrowableOresBlocks;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.Block;
+import net.minecraft.block.MapColor;
+import net.minecraft.block.SugarCaneBlock;
+import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.data.client.BlockStateModelGenerator;
+import net.minecraft.sound.BlockSoundGroup;
 
 @Environment(EnvType.CLIENT)
 public class GrowableOresClient implements ClientModInitializer {
@@ -62,6 +69,29 @@ public class GrowableOresClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.Crystal_Nitro_Cane, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.Crystal_Niotic_Cane, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.Crystal_Blazing_Cane, RenderLayer.getCutout());
+
+        //Industrial Revolution
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.IR_Lead_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.IR_nikolite_Cane , RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.IR_silver_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.IR_tin_ore_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.IR_tungsten_Cane, RenderLayer.getCutout());
+
+        //Modern Industrialization
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.MI_antimony_Cane , RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.MI_bauxite_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.MI_iridium_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.MI_lead_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.MI_lignite_coal_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.MI_monazite_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.MI_nickel_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.MI_platinum_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.MI_quartz_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.MI_salt_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.MI_tin_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.MI_titanium_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.MI_tungsten_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.MI_uranium_Cane, RenderLayer.getCutout());
 
     }
 }

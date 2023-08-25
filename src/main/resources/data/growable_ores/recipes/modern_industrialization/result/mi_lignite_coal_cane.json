@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "growable_ores:nether_quartz_cane"
+      "item": "growable_ores:mi_lignite_coal_cane"
     }
   },
   "result": {
-    "item": "minecraft:nether_quartz",
-    "count": 4
+    "item": "modern_industrialization:lignite_coal",
+    "count": 1
   }
 }

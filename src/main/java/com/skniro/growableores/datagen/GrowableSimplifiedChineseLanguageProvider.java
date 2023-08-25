@@ -64,5 +64,27 @@ public class GrowableSimplifiedChineseLanguageProvider extends FabricLanguagePro
         translationBuilder.add(GrowableOresBlocks.Crystal_Niotic_Cane,"钻石水晶杆");
         translationBuilder.add(GrowableOresBlocks.Crystal_Blazing_Cane,"烈焰水晶杆");
 
+        //Industrial Revolution
+        translationBuilder.add(GrowableOresBlocks.IR_Lead_Cane,"铅矿石杆(IR)");
+        translationBuilder.add(GrowableOresBlocks.IR_nikolite_Cane ,"蓝石矿杆(IR)");
+        translationBuilder.add(GrowableOresBlocks.IR_silver_Cane,"银矿石杆(IR)");
+        translationBuilder.add(GrowableOresBlocks.IR_tin_ore_Cane,"锡矿石杆(IR)");
+        translationBuilder.add(GrowableOresBlocks.IR_tungsten_Cane,"钨矿石杆(IR)");
+
+        //Modern Industrialization
+        translationBuilder.add(GrowableOresBlocks.MI_antimony_Cane , "锑矿石杆(MI)");
+        translationBuilder.add(GrowableOresBlocks.MI_bauxite_Cane, "铝土矿杆(MI)");
+        translationBuilder.add(GrowableOresBlocks.MI_iridium_Cane, "铱矿石杆(MI)");
+        translationBuilder.add(GrowableOresBlocks.MI_lead_Cane, "铅矿石杆(MI)");
+        translationBuilder.add(GrowableOresBlocks.MI_lignite_coal_Cane, "深层褐煤矿杆(MI)");
+        translationBuilder.add(GrowableOresBlocks.MI_monazite_Cane, "深层莫桑石矿杆(MI)");
+        translationBuilder.add(GrowableOresBlocks.MI_nickel_Cane, "镍矿石杆(MI)");
+        translationBuilder.add(GrowableOresBlocks.MI_platinum_Cane, "铂矿石杆(MI)");
+        translationBuilder.add(GrowableOresBlocks.MI_quartz_Cane, "石英矿石杆(MI)");
+        translationBuilder.add(GrowableOresBlocks.MI_salt_Cane, "盐矿石杆(MI)");
+        translationBuilder.add(GrowableOresBlocks.MI_tin_Cane, "锡矿石杆(MI)");
+        translationBuilder.add(GrowableOresBlocks.MI_titanium_Cane, "钛矿石杆(MI)");
+        translationBuilder.add(GrowableOresBlocks.MI_tungsten_Cane,"钨矿石杆(MI)");
+        translationBuilder.add(GrowableOresBlocks.MI_uranium_Cane, "铀矿石杆(MI)");
     }
 }

@@ -2,8 +2,10 @@ package com.skniro.growableores.datagen;
 
 import com.skniro.growableores.GrowableOres;
 import com.skniro.growableores.block.GrowableOresBlocks;
+import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
+import net.minecraft.client.render.RenderLayer;
 
 public class GrowableEnglishLanguageProvider extends FabricLanguageProvider {
     public GrowableEnglishLanguageProvider(FabricDataOutput dataGenerator){
@@ -63,5 +65,29 @@ public class GrowableEnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(GrowableOresBlocks.Crystal_Nitro_Cane,"Crystal Nitro Reed");
         translationBuilder.add(GrowableOresBlocks.Crystal_Niotic_Cane,"Crystal Niotic Reed");
         translationBuilder.add(GrowableOresBlocks.Crystal_Blazing_Cane,"Crystal Blazing Reed");
+
+        //Industrial Revolution
+        translationBuilder.add(GrowableOresBlocks.IR_Lead_Cane,"Lead Reed(IR)");
+        translationBuilder.add(GrowableOresBlocks.IR_nikolite_Cane ,"Nikolite Reed(IR)");
+        translationBuilder.add(GrowableOresBlocks.IR_silver_Cane,"Silver Reed(IR)");
+        translationBuilder.add(GrowableOresBlocks.IR_tin_ore_Cane,"Tin Reed(IR)");
+        translationBuilder.add(GrowableOresBlocks.IR_tungsten_Cane,"Tungsten Reed(IR)");
+
+        //Modern Industrialization
+        translationBuilder.add(GrowableOresBlocks.MI_antimony_Cane , "Antimony Reed(MI)");
+        translationBuilder.add(GrowableOresBlocks.MI_bauxite_Cane, "Bauxite Reed(MI)");
+        translationBuilder.add(GrowableOresBlocks.MI_iridium_Cane, "Iridium Reed(MI)");
+        translationBuilder.add(GrowableOresBlocks.MI_lead_Cane, "Lead Reed(MI)");
+        translationBuilder.add(GrowableOresBlocks.MI_lignite_coal_Cane, "Lignite Coal Reed(MI)");
+        translationBuilder.add(GrowableOresBlocks.MI_monazite_Cane, "Monazite Reed(MI)");
+        translationBuilder.add(GrowableOresBlocks.MI_nickel_Cane, "Nickel Reed(MI)");
+        translationBuilder.add(GrowableOresBlocks.MI_platinum_Cane, "Platinum Reed(MI)");
+        translationBuilder.add(GrowableOresBlocks.MI_quartz_Cane, "Quartz Reed(MI)");
+        translationBuilder.add(GrowableOresBlocks.MI_salt_Cane, "Salt Reed(MI)");
+        translationBuilder.add(GrowableOresBlocks.MI_tin_Cane, "Tin Reed(MI)");
+        translationBuilder.add(GrowableOresBlocks.MI_titanium_Cane, "Titanium Reed(MI)");
+        translationBuilder.add(GrowableOresBlocks.MI_tungsten_Cane,"Tungsten Reed(MI)");
+        translationBuilder.add(GrowableOresBlocks.MI_uranium_Cane, "Uranium Reed(MI)");
+
     }
 }

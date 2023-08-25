@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "growable_ores:lapis_cane"
+      "item": "growable_ores:mi_tin_cane"
     }
   },
   "result": {
-    "item": "minecraft:lapis",
+    "item": "modern_industrialization:tin_ingot",
     "count": 1
   }
 }

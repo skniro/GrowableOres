@@ -10,11 +10,11 @@
       "item": "minecraft:sugar_cane"
     },
     "G": {
-      "item": "minecraft:nether_quartz"
+      "item": "indrev:tungsten_ingot"
     }
   },
   "result": {
-    "item": "growable_ores:nether_quartz_cane",
+    "item": "growable_ores:ir_tungsten_cane",
     "count": 1
   }
 }

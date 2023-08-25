@@ -2,8 +2,10 @@ package com.skniro.growableores.datagen;
 
 
 import com.skniro.growableores.block.GrowableOresBlocks;
+import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
+import net.minecraft.client.render.RenderLayer;
 import net.minecraft.data.client.BlockStateModelGenerator;
 
 
@@ -63,6 +65,29 @@ public class GrowableLootTableGenerator extends FabricBlockLootTableProvider {
         addDrop(GrowableOresBlocks.Crystal_Nitro_Cane);
         addDrop(GrowableOresBlocks.Crystal_Niotic_Cane);
         addDrop(GrowableOresBlocks.Crystal_Blazing_Cane);
+
+        //Industrial Revolution
+        addDrop(GrowableOresBlocks.IR_Lead_Cane);
+        addDrop(GrowableOresBlocks.IR_nikolite_Cane );
+        addDrop(GrowableOresBlocks.IR_silver_Cane);
+        addDrop(GrowableOresBlocks.IR_tin_ore_Cane);
+        addDrop(GrowableOresBlocks.IR_tungsten_Cane);
+
+        //Modern Industrialization
+        addDrop(GrowableOresBlocks.MI_antimony_Cane );
+        addDrop(GrowableOresBlocks.MI_bauxite_Cane);
+        addDrop(GrowableOresBlocks.MI_iridium_Cane);
+        addDrop(GrowableOresBlocks.MI_lead_Cane);
+        addDrop(GrowableOresBlocks.MI_lignite_coal_Cane);
+        addDrop(GrowableOresBlocks.MI_monazite_Cane);
+        addDrop(GrowableOresBlocks.MI_nickel_Cane);
+        addDrop(GrowableOresBlocks.MI_platinum_Cane);
+        addDrop(GrowableOresBlocks.MI_quartz_Cane);
+        addDrop(GrowableOresBlocks.MI_salt_Cane);
+        addDrop(GrowableOresBlocks.MI_tin_Cane);
+        addDrop(GrowableOresBlocks.MI_titanium_Cane);
+        addDrop(GrowableOresBlocks.MI_tungsten_Cane);
+        addDrop(GrowableOresBlocks.MI_uranium_Cane);
 
     }
 }

@@ -75,6 +75,29 @@ public class ModContent {
             content.add(GrowableOresBlocks.Crystal_Niotic_Cane);
             content.add(GrowableOresBlocks.Crystal_Blazing_Cane);
 
+            //Industrial Revolution
+            content.add(GrowableOresBlocks.IR_Lead_Cane);
+            content.add(GrowableOresBlocks.IR_nikolite_Cane );
+            content.add(GrowableOresBlocks.IR_silver_Cane);
+            content.add(GrowableOresBlocks.IR_tin_ore_Cane);
+            content.add(GrowableOresBlocks.IR_tungsten_Cane);
+
+            //Modern Industrialization
+            content.add(GrowableOresBlocks.MI_antimony_Cane);
+            content.add(GrowableOresBlocks.MI_bauxite_Cane);
+            content.add(GrowableOresBlocks.MI_iridium_Cane);
+            content.add(GrowableOresBlocks.MI_lead_Cane);
+            content.add(GrowableOresBlocks.MI_lignite_coal_Cane);
+            content.add(GrowableOresBlocks.MI_monazite_Cane);
+            content.add(GrowableOresBlocks.MI_nickel_Cane);
+            content.add(GrowableOresBlocks.MI_platinum_Cane);
+            content.add(GrowableOresBlocks.MI_quartz_Cane);
+            content.add(GrowableOresBlocks.MI_salt_Cane);
+            content.add(GrowableOresBlocks.MI_tin_Cane);
+            content.add(GrowableOresBlocks.MI_titanium_Cane);
+            content.add(GrowableOresBlocks.MI_tungsten_Cane);
+            content.add(GrowableOresBlocks.MI_uranium_Cane);
+
         });
     }
 }

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "growable_ores:mi_bauxite_cane"
+    }
+  },
+  "result": {
+    "item": "modern_industrialization:bauxite_dust",
+    "count": 1
+  }
+}

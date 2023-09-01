@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "growable_ores:tf_lead_ore_cane"
+    }
+  },
+  "result": {
+    "item": "thermal:lead_ingot",
+    "count": 1
+  }
+}

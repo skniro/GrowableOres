@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#G#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:sugar_cane"
+    },
+    "G": {
+      "item": "ad_astra:ostrum_ingot"
+    }
+  },
+  "result": {
+    "item": "growable_ores:ad_mars_ore_ostrum_cane",
+    "count": 1
+  }
+}

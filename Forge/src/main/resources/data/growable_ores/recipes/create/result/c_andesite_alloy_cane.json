@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "growable_ores:c_andesite_alloy_cane"
+    }
+  },
+  "result": {
+    "item": "create:andesite_alloy",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "growable_ores:ad_moon_ore_cheese_cane"
+    }
+  },
+  "result": {
+    "item": "ad_astra:cheese",
+    "count": 1
+  }
+}

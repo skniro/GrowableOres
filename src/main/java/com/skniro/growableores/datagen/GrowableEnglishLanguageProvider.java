@@ -26,6 +26,7 @@ public class GrowableEnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(GrowableOresBlocks.Blaze_Rod_Cane,"Blaze Rod Reed");
         translationBuilder.add(GrowableOresBlocks.Ender_Pearl_Cane,"Ender Pearl Reed");
         translationBuilder.add(GrowableOresBlocks.Netherite_Ingot_Cane,"Netherite Ingot Reed");
+        translationBuilder.add(GrowableOresBlocks.Clay_Cane,"Clay Reed");
 
         //ae2
         translationBuilder.add(GrowableOresBlocks.certus_quartz_crystal_Cane,"Certus Quartz Crystal Reed");
@@ -88,6 +89,38 @@ public class GrowableEnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(GrowableOresBlocks.MI_titanium_Cane, "Titanium Reed(MI)");
         translationBuilder.add(GrowableOresBlocks.MI_tungsten_Cane,"Tungsten Reed(MI)");
         translationBuilder.add(GrowableOresBlocks.MI_uranium_Cane, "Uranium Reed(MI)");
+
+        //ic2 and ic2c
+        translationBuilder.add(GrowableOresBlocks.IC2_Aluminium_Cane, "Aluminium Reed(IC2 or IC2C)");
+        translationBuilder.add(GrowableOresBlocks.IC2_silver_Cane,"Silver Reed(IC2 or IC2C)");
+        translationBuilder.add(GrowableOresBlocks.IC2_Tin_Cane, "Tin Reed(IC2 or IC2C)");
+        translationBuilder.add(GrowableOresBlocks.IC2_Uranium_Cane, "Uranium Reed(IC2 or IC2C)");
+
+        //Ad Astra!
+        translationBuilder.add(GrowableOresBlocks.AD_Ostrum_Cane, "Ostrum Reed(Ad Astra!)");
+        translationBuilder.add(GrowableOresBlocks.AD_Ice_Shard_Cane, "Ice Shard Reed(Ad Astra!)");
+        translationBuilder.add(GrowableOresBlocks.AD_Cheese_Cane, "Cheese Reed(Ad Astra!)");
+        translationBuilder.add(GrowableOresBlocks.AD_Desh_Cane, "Desh Reed(Ad Astra!)");
+        translationBuilder.add(GrowableOresBlocks.AD_Calorite_Cane, "Calorite Reed(Ad Astra!)");
+
+        //Create
+        translationBuilder.add(GrowableOresBlocks.C_Andesite_Alloy_Cane, "Andesite Alloy Reed(Create)");
+        translationBuilder.add(GrowableOresBlocks.C_Brass_Ingot_Cane, "Brass Ingot Reed(Create)");
+        translationBuilder.add(GrowableOresBlocks.C_Polished_Rose_Quartz_Cane, "Polished Rose Quartz Reed(Create)");
+        translationBuilder.add(GrowableOresBlocks.C_Zinc_Cane, "Zinc Reed(Create)");
+
+        //Thermal Series
+        translationBuilder.add(GrowableOresBlocks.TF_Apatite_Cane, "Apatite Reed(Thermal)");
+        translationBuilder.add(GrowableOresBlocks.TF_Cinnabar_Cane, "Cinnabar Reed(Thermal)");
+        translationBuilder.add(GrowableOresBlocks.TF_Copper_Cane, "Copper Reed(Thermal)");
+        translationBuilder.add(GrowableOresBlocks.TF_Lead_Cane, "Lead Reed(Thermal)");
+        translationBuilder.add(GrowableOresBlocks.TF_Nickel_Cane, "Nickel Reed(Thermal)");
+        translationBuilder.add(GrowableOresBlocks.TF_Niter_Cane, "Niter Reed(Thermal)");
+        translationBuilder.add(GrowableOresBlocks.TF_Ruby_Cane, "Ruby Reed(Thermal)");
+        translationBuilder.add(GrowableOresBlocks.TF_Sapphire_Cane, "Sapphire Reed(Thermal)");
+        translationBuilder.add(GrowableOresBlocks.TF_Silver_Cane, "Silver Reed(Thermal)");
+        translationBuilder.add(GrowableOresBlocks.TF_Sulfur_Cane, "Sulfur Reed(Thermal)");
+        translationBuilder.add(GrowableOresBlocks.TF_Tin_Cane, "Tin Reed(Thermal)");
 
     }
 }

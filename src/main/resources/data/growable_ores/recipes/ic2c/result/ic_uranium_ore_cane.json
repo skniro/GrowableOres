@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "growable_ores:ic_uranium_ore_cane"
+    }
+  },
+  "result": {
+    "item": "ic2:ingot_uranium",
+    "count": 1
+  }
+}

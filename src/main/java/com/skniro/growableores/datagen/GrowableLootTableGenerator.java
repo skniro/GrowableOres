@@ -28,6 +28,7 @@ public class GrowableLootTableGenerator extends FabricBlockLootTableProvider {
         addDrop(GrowableOresBlocks.Blaze_Rod_Cane);
         addDrop(GrowableOresBlocks.Ender_Pearl_Cane);
         addDrop(GrowableOresBlocks.Netherite_Ingot_Cane);
+        addDrop(GrowableOresBlocks.Clay_Cane);
 
         //AE2
         addDrop(GrowableOresBlocks.certus_quartz_crystal_Cane);
@@ -88,6 +89,39 @@ public class GrowableLootTableGenerator extends FabricBlockLootTableProvider {
         addDrop(GrowableOresBlocks.MI_titanium_Cane);
         addDrop(GrowableOresBlocks.MI_tungsten_Cane);
         addDrop(GrowableOresBlocks.MI_uranium_Cane);
+
+        //ic2 and ic2c
+        addDrop(GrowableOresBlocks.IC2_Aluminium_Cane);
+        addDrop(GrowableOresBlocks.IC2_silver_Cane);
+        addDrop(GrowableOresBlocks.IC2_Tin_Cane);
+        addDrop(GrowableOresBlocks.IC2_Uranium_Cane);
+
+        //Ad Astra!
+        addDrop(GrowableOresBlocks.AD_Ostrum_Cane);
+        addDrop(GrowableOresBlocks.AD_Ice_Shard_Cane);
+        addDrop(GrowableOresBlocks.AD_Cheese_Cane);
+        addDrop(GrowableOresBlocks.AD_Desh_Cane);
+        addDrop(GrowableOresBlocks.AD_Calorite_Cane);
+
+        //Create
+        addDrop(GrowableOresBlocks.C_Andesite_Alloy_Cane);
+        addDrop(GrowableOresBlocks.C_Brass_Ingot_Cane);
+        addDrop(GrowableOresBlocks.C_Polished_Rose_Quartz_Cane);
+        addDrop(GrowableOresBlocks.C_Zinc_Cane);
+
+        //Thermal Series
+        addDrop(GrowableOresBlocks.TF_Apatite_Cane);
+        addDrop(GrowableOresBlocks.TF_Cinnabar_Cane);
+        addDrop(GrowableOresBlocks.TF_Copper_Cane);
+        addDrop(GrowableOresBlocks.TF_Lead_Cane);
+        addDrop(GrowableOresBlocks.TF_Nickel_Cane);
+        addDrop(GrowableOresBlocks.TF_Niter_Cane);
+        addDrop(GrowableOresBlocks.TF_Ruby_Cane);
+        addDrop(GrowableOresBlocks.TF_Sapphire_Cane);
+        addDrop(GrowableOresBlocks.TF_Silver_Cane);
+        addDrop(GrowableOresBlocks.TF_Sulfur_Cane);
+        addDrop(GrowableOresBlocks.TF_Tin_Cane);
+
 
     }
 }

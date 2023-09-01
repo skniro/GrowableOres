@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#G#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:sugar_cane"
+    },
+    "G": {
+      "item": "thermal:copper_dust"
+    }
+  },
+  "result": {
+    "item": "growable_ores:tf_copper_ore_cane",
+    "count": 1
+  }
+}

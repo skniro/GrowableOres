@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "growable_ores:c_polished_rose_quartz_cane"
+    }
+  },
+  "result": {
+    "item": "create:polished_rose_quartz",
+    "count": 1
+  }
+}

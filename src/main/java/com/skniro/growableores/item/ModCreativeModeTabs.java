@@ -73,6 +73,13 @@ public class ModCreativeModeTabs {
                         pOutput.accept(GrowableOresBlocks.C_Brass_Ingot_Cane.get());
                         pOutput.accept(GrowableOresBlocks.C_Zinc_Cane.get());
                         pOutput.accept(GrowableOresBlocks.C_Polished_Rose_Quartz_Cane.get());
+
+                        //Ad Astra!
+                        pOutput.accept(GrowableOresBlocks.AD_Ostrum_Cane.get());
+                        pOutput.accept(GrowableOresBlocks.AD_Ice_Shard_Cane.get());
+                        pOutput.accept(GrowableOresBlocks.AD_Cheese_Cane.get());
+                        pOutput.accept(GrowableOresBlocks.AD_Desh_Cane.get());
+                        pOutput.accept(GrowableOresBlocks.AD_Calorite_Cane.get());
                     })
                     .build());
 

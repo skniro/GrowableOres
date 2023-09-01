@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#G#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:sugar_cane"
+    },
+    "G": {
+      "item": "thermal:sulfur"
+    }
+  },
+  "result": {
+    "item": "growable_ores:tf_sulfur_ore_cane",
+    "count": 1
+  }
+}

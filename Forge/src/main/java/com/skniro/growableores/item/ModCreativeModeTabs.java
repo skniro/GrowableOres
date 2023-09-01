@@ -5,7 +5,7 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 
 public class ModCreativeModeTabs {
-    public static final CreativeModeTab Growable_Ores_Group = new CreativeModeTab("test_group") {
+    public static final CreativeModeTab Growable_Ores_Group = new CreativeModeTab("growable_ores.test_group") {
         @Override
         public ItemStack makeIcon() {
             return new ItemStack(GrowableOresBlocks.Iron_Cane.get());

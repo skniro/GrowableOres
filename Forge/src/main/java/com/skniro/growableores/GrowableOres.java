@@ -3,6 +3,7 @@ package com.skniro.growableores;
 import com.mojang.logging.LogUtils;
 import com.skniro.growableores.block.GrowableOresBlocks;
 import com.skniro.growableores.item.MapleItems;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -47,7 +48,6 @@ public class GrowableOres {
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
     @Mod.EventBusSubscriber(modid = MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
     public static class ClientModEvents {
-
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
         }

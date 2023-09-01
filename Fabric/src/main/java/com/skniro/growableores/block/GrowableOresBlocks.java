@@ -27,6 +27,7 @@ public class GrowableOresBlocks {
     public static final Block Blaze_Rod_Cane =registerBlock("blaze_rod_cane", new GrowableOresSugarCaneBlock(AbstractBlock.Settings.of(Material.PLANT,MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS)),GrowableOres.Growable_Ores_Group);
     public static final Block Ender_Pearl_Cane =registerBlock("ender_pearl_cane", new GrowableOresSugarCaneBlock(AbstractBlock.Settings.of(Material.PLANT,MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS)),GrowableOres.Growable_Ores_Group);
     public static final Block Netherite_Ingot_Cane = registerBlock("netherite_ingot_cane", new GrowableOresSugarCaneBlock(AbstractBlock.Settings.of(Material.PLANT,MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS)),GrowableOres.Growable_Ores_Group);
+    public static final Block Clay_Cane = registerBlock("clay_cane", new GrowableOresSugarCaneBlock(AbstractBlock.Settings.of(Material.PLANT,MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS)),GrowableOres.Growable_Ores_Group);
 
     //Ae2
     public static final Block certus_quartz_crystal_Cane =registerBlock("certus_quartz_crystal_cane", new GrowableOresSugarCaneBlock(AbstractBlock.Settings.of(Material.PLANT,MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS)),GrowableOres.Growable_Ores_Group);
@@ -88,6 +89,12 @@ public class GrowableOresBlocks {
     public static final Block MI_titanium_Cane =registerBlock("mi_titanium_cane", new GrowableOresSugarCaneBlock(AbstractBlock.Settings.of(Material.PLANT,MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS)),GrowableOres.Growable_Ores_Group);
     public static final Block MI_tungsten_Cane =registerBlock("mi_tungsten_cane", new GrowableOresSugarCaneBlock(AbstractBlock.Settings.of(Material.PLANT,MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS)),GrowableOres.Growable_Ores_Group);
     public static final Block MI_uranium_Cane =registerBlock("mi_uranium_cane", new GrowableOresSugarCaneBlock(AbstractBlock.Settings.of(Material.PLANT,MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS)),GrowableOres.Growable_Ores_Group);
+
+    //Create
+    public static final Block C_Andesite_Alloy_Cane =registerBlock("c_andesite_alloy_cane", new GrowableOresSugarCaneBlock(AbstractBlock.Settings.of(Material.PLANT,MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS)),GrowableOres.Growable_Ores_Group);
+    public static final Block C_Brass_Ingot_Cane =registerBlock("c_brass_ingot_cane", new GrowableOresSugarCaneBlock(AbstractBlock.Settings.of(Material.PLANT,MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS)),GrowableOres.Growable_Ores_Group);
+    public static final Block C_Polished_Rose_Quartz_Cane =registerBlock("c_polished_rose_quartz_cane", new GrowableOresSugarCaneBlock(AbstractBlock.Settings.of(Material.PLANT,MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS)),GrowableOres.Growable_Ores_Group);
+    public static final Block C_Zinc_Cane =registerBlock("c_zinc_ore_cane", new GrowableOresSugarCaneBlock(AbstractBlock.Settings.of(Material.PLANT,MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS)),GrowableOres.Growable_Ores_Group);
 
 
 

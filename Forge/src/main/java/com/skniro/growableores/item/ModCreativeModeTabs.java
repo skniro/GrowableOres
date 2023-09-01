@@ -6,7 +6,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.IItemProvider;
 
 public class ModCreativeModeTabs {
-    public static final ItemGroup Growable_Ores_Group = new ItemGroup("test_group") {
+    public static final ItemGroup Growable_Ores_Group = new ItemGroup("growable_ores.test_group") {
         @Override
         public ItemStack makeIcon() {
             return new ItemStack (GrowableOresBlocks.Iron_Cane.get());

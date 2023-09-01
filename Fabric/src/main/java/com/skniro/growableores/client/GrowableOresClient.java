@@ -23,6 +23,7 @@ public class GrowableOresClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.Blaze_Rod_Cane, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.Ender_Pearl_Cane, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.Netherite_Ingot_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.Clay_Cane, RenderLayer.getCutout());
 
 
         //ae2

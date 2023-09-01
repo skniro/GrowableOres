@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "growable_ores:c_zinc_ore_cane"
+    }
+  },
+  "result": {
+    "item": "create:zinc_ingot",
+    "count": 1
+  }
+}

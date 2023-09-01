@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "growable_ores:tf_tin_ore_cane"
+    }
+  },
+  "result": {
+    "item": "thermal:tin_ingot",
+    "count": 1
+  }
+}

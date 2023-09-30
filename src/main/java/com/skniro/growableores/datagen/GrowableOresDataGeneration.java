@@ -10,5 +10,6 @@ public class GrowableOresDataGeneration implements DataGeneratorEntrypoint {
         fabricDataGenerator.createPack().addProvider(GrowableLootTableGenerator::new);
         fabricDataGenerator.createPack().addProvider(GrowableEnglishLanguageProvider::new);
         fabricDataGenerator.createPack().addProvider(GrowableSimplifiedChineseLanguageProvider::new);
+        fabricDataGenerator.createPack().addProvider(GrowableTagGenerator::new);
     }
 }

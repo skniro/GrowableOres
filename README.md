@@ -13,3 +13,9 @@ Discord server https://discord.gg/pDaMyHDfBy
 ## License
 
 This project is licensed under MIT.
+
+## Credits
+Rafan  
+gilnet  
+All translators  
+

@@ -42,7 +42,8 @@ public class ModContent {
 
             //ae2
             content.add(GrowableOresBlocks.certus_quartz_crystal_Cane);
-
+            content.add(GrowableOresBlocks.fluix_crystal_Cane);
+            
             //Tech Reborn
             content.add(GrowableOresBlocks.cinnabar_Cane);
             content.add(GrowableOresBlocks.galena_Cane);

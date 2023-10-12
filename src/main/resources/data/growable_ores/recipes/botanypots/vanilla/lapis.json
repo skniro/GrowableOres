@@ -1,7 +1,7 @@
 {
     "type": "botanypots:crop",
     "seed": {
-        "item": "growable_ores:uraninite_ore_cane"
+        "item": "growable_ores:lapis_cane"
     },
     "categories": [
         "sand",
@@ -10,17 +10,17 @@
     "growthTicks": 1200,
     "display": [
         {
-            "block": "growable_ores:uraninite_ore_cane"
+            "block": "growable_ores:lapis_cane"
         },
         {
-            "block": "growable_ores:uraninite_ore_cane"
+            "block": "growable_ores:lapis_cane"
         }
     ],
     "drops": [
         {
             "chance": 1.00,
             "output": {
-                "item": "growable_ores:uraninite_ore_cane"
+                "item": "growable_ores:lapis_cane"
             }
         }
     ]

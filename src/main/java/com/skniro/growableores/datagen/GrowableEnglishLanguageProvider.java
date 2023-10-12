@@ -30,6 +30,7 @@ public class GrowableEnglishLanguageProvider extends FabricLanguageProvider {
 
         //ae2
         translationBuilder.add(GrowableOresBlocks.certus_quartz_crystal_Cane,"Certus Quartz Crystal Reed");
+        translationBuilder.add(GrowableOresBlocks.fluix_crystal_Cane,"Fluix Crystal Reed");
 
         //Tech Reborn
         translationBuilder.add(GrowableOresBlocks.cinnabar_Cane,"Cinnabar Reed");

@@ -40,6 +40,7 @@ public class GrowableModelProvider extends FabricModelProvider {
 
         //AE2
         blockStateModelGenerator.registerTintableCross(GrowableOresBlocks.certus_quartz_crystal_Cane, BlockStateModelGenerator.TintType.TINTED);
+        blockStateModelGenerator.registerTintableCross(GrowableOresBlocks.fluix_crystal_Cane, BlockStateModelGenerator.TintType.TINTED);
 
         //Tech Reborn
         blockStateModelGenerator.registerTintableCross(GrowableOresBlocks.cinnabar_Cane, BlockStateModelGenerator.TintType.TINTED);

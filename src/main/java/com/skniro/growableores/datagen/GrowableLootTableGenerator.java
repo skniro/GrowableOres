@@ -32,6 +32,7 @@ public class GrowableLootTableGenerator extends FabricBlockLootTableProvider {
 
         //AE2
         addDrop(GrowableOresBlocks.certus_quartz_crystal_Cane);
+        addDrop(GrowableOresBlocks.fluix_crystal_Cane);
 
         //Tech Reborn
         addDrop(GrowableOresBlocks.cinnabar_Cane);

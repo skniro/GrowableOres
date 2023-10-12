@@ -40,6 +40,7 @@ public class GrowableTagGenerator extends FabricTagProvider.BlockTagProvider {
 
       //ae2
       .add(GrowableOresBlocks.certus_quartz_crystal_Cane)
+      .add(GrowableOresBlocks.fluix_crystal_Cane)
 
       //Tech Reborn
       .add(GrowableOresBlocks.cinnabar_Cane)

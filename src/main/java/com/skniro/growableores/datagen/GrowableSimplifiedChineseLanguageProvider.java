@@ -28,6 +28,7 @@ public class GrowableSimplifiedChineseLanguageProvider extends FabricLanguagePro
 
         //ae2
         translationBuilder.add(GrowableOresBlocks.certus_quartz_crystal_Cane,"赛特斯石英矿石杆");
+        translationBuilder.add(GrowableOresBlocks.fluix_crystal_Cane,"赛特斯石英矿石杆");
 
         //Tech Reborn
         translationBuilder.add(GrowableOresBlocks.cinnabar_Cane,"朱砂矿石杆");

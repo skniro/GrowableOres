@@ -29,6 +29,10 @@ public class GrowableLootTableGenerator extends FabricBlockLootTableProvider {
         addDrop(GrowableOresBlocks.Ender_Pearl_Cane);
         addDrop(GrowableOresBlocks.Netherite_Ingot_Cane);
         addDrop(GrowableOresBlocks.Clay_Cane);
+        addDrop(GrowableOresBlocks.Slime_Cane);
+        addDrop(GrowableOresBlocks.Nether_Star_Cane);
+        addDrop(GrowableOresBlocks.Glowstone_Cane);
+        addDrop(GrowableOresBlocks.Bone_Cane);
 
         //AE2
         addDrop(GrowableOresBlocks.certus_quartz_crystal_Cane);

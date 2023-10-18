@@ -31,7 +31,10 @@ public class GrowableOresBlocks {
 
     public static final Block Netherite_Ingot_Cane = registerBlock("netherite_ingot_cane", new SugarCaneBlock(AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS).pistonBehavior(PistonBehavior.DESTROY)),GrowableOres.Growable_Ores_Group);
     public static final Block Clay_Cane = registerBlock("clay_cane", new SugarCaneBlock(AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS).pistonBehavior(PistonBehavior.DESTROY)),GrowableOres.Growable_Ores_Group);
-
+    public static final Block Slime_Cane = registerBlock("slime_cane", new SugarCaneBlock(AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS).pistonBehavior(PistonBehavior.DESTROY)),GrowableOres.Growable_Ores_Group);
+    public static final Block Nether_Star_Cane = registerBlock("nether_star_cane", new SugarCaneBlock(AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS).pistonBehavior(PistonBehavior.DESTROY)),GrowableOres.Growable_Ores_Group);
+    public static final Block Glowstone_Cane = registerBlock("glowstone_cane", new SugarCaneBlock(AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS).pistonBehavior(PistonBehavior.DESTROY)),GrowableOres.Growable_Ores_Group);
+    public static final Block Bone_Cane = registerBlock("bone_cane", new SugarCaneBlock(AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS).pistonBehavior(PistonBehavior.DESTROY)),GrowableOres.Growable_Ores_Group);
 
     //Ae2
     public static final Block certus_quartz_crystal_Cane =registerBlock("certus_quartz_crystal_cane", new SugarCaneBlock(AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS).pistonBehavior(PistonBehavior.DESTROY)),GrowableOres.Growable_Ores_Group);
@@ -126,6 +129,7 @@ public class GrowableOresBlocks {
     public static final Block TF_Silver_Cane =registerBlock("tf_silver_ore_cane", new SugarCaneBlock(AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS).pistonBehavior(PistonBehavior.DESTROY)),GrowableOres.Growable_Ores_Group);
     public static final Block TF_Sulfur_Cane =registerBlock("tf_sulfur_ore_cane", new SugarCaneBlock(AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS).pistonBehavior(PistonBehavior.DESTROY)),GrowableOres.Growable_Ores_Group);
     public static final Block TF_Tin_Cane =registerBlock("tf_tin_ore_cane", new SugarCaneBlock(AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS).pistonBehavior(PistonBehavior.DESTROY)),GrowableOres.Growable_Ores_Group);
+
 
 
     private static Block registerBlock(String name, Block block, RegistryKey<ItemGroup> tab) {

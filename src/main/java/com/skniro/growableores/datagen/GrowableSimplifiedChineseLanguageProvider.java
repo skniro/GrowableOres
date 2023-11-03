@@ -25,9 +25,17 @@ public class GrowableSimplifiedChineseLanguageProvider extends FabricLanguagePro
         translationBuilder.add(GrowableOresBlocks.Ender_Pearl_Cane,"末影珍珠杆");
         translationBuilder.add(GrowableOresBlocks.Netherite_Ingot_Cane,"下界合金杆");
         translationBuilder.add(GrowableOresBlocks.Clay_Cane,"粘土杆");
+        translationBuilder.add(GrowableOresBlocks.Slime_Cane,"粘土杆");
+        translationBuilder.add(GrowableOresBlocks.Bone_Cane,"骨头杆");
+        translationBuilder.add(GrowableOresBlocks.Nether_Star_Cane,"下届星星杆");
+        translationBuilder.add(GrowableOresBlocks.Glowstone_Cane,"閃光石矿石杆");
+
+        // Copilot did translation. I am so sorry if its wrong.
+
 
         //ae2
         translationBuilder.add(GrowableOresBlocks.certus_quartz_crystal_Cane,"赛特斯石英矿石杆");
+        translationBuilder.add(GrowableOresBlocks.fluix_crystal_Cane,"赛特斯石英矿石杆");
 
         //Tech Reborn
         translationBuilder.add(GrowableOresBlocks.cinnabar_Cane,"朱砂矿石杆");

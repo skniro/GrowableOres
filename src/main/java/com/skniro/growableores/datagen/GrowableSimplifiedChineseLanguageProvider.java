@@ -25,12 +25,13 @@ public class GrowableSimplifiedChineseLanguageProvider extends FabricLanguagePro
         translationBuilder.add(GrowableOresBlocks.Ender_Pearl_Cane,"末影珍珠杆");
         translationBuilder.add(GrowableOresBlocks.Netherite_Ingot_Cane,"下界合金杆");
         translationBuilder.add(GrowableOresBlocks.Clay_Cane,"粘土杆");
-        translationBuilder.add(GrowableOresBlocks.Slime_Cane,"粘土杆");
+        translationBuilder.add(GrowableOresBlocks.Slime_Cane,"史莱姆球杆");
         translationBuilder.add(GrowableOresBlocks.Bone_Cane,"骨头杆");
-        translationBuilder.add(GrowableOresBlocks.Nether_Star_Cane,"下届星星杆");
-        translationBuilder.add(GrowableOresBlocks.Glowstone_Cane,"閃光石矿石杆");
+        translationBuilder.add(GrowableOresBlocks.Nether_Star_Cane,"下届之星杆");
+        translationBuilder.add(GrowableOresBlocks.Glowstone_Cane,"萤石杆");
 
         // Copilot did translation. I am so sorry if its wrong.
+        // Don't worry about translation. I will fix it. Thanks you make this mod better.
 
 
         //ae2

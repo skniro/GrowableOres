@@ -1,7 +1,7 @@
 {
-    "variants": {
-        "": {
-            "model": "growable_ores:block/glowstone_cane"
-        }
+  "variants": {
+    "": {
+      "model": "growable_ores:block/glowstone_cane"
     }
+  }
 }

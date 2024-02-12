@@ -1,12 +1,10 @@
 package com.skniro.growableores.datagen;
 
 
-import com.skniro.growableores.block.GrowableOresBlocks;
-import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
+import com.skniro.growableores.block.GrowableAEOresBlocks;
+import com.skniro.growableores.block.GrowableVanillaOresBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
-import net.minecraft.client.render.RenderLayer;
-import net.minecraft.data.client.BlockStateModelGenerator;
 
 
 public class GrowableLootTableGenerator extends FabricBlockLootTableProvider {
@@ -16,116 +14,116 @@ public class GrowableLootTableGenerator extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
-        addDrop(GrowableOresBlocks.Coal_Cane);
-        addDrop(GrowableOresBlocks.Iron_Cane);
-        addDrop(GrowableOresBlocks.Diamond_Cane);
-        addDrop(GrowableOresBlocks.Gold_Cane);
-        addDrop(GrowableOresBlocks.Lapis_Cane);
-        addDrop(GrowableOresBlocks.Nether_Quartz_Cane);
-        addDrop(GrowableOresBlocks.Emerald_Cane);
-        addDrop(GrowableOresBlocks.Copper_Cane);
-        addDrop(GrowableOresBlocks.Redstone_Cane);
-        addDrop(GrowableOresBlocks.Blaze_Rod_Cane);
-        addDrop(GrowableOresBlocks.Ender_Pearl_Cane);
-        addDrop(GrowableOresBlocks.Netherite_Ingot_Cane);
-        addDrop(GrowableOresBlocks.Clay_Cane);
-        addDrop(GrowableOresBlocks.Slime_Cane);
-        addDrop(GrowableOresBlocks.Nether_Star_Cane);
-        addDrop(GrowableOresBlocks.Glowstone_Cane);
-        addDrop(GrowableOresBlocks.Bone_Cane);
+        addDrop(GrowableVanillaOresBlocks.Coal_Cane);
+        addDrop(GrowableVanillaOresBlocks.Iron_Cane);
+        addDrop(GrowableVanillaOresBlocks.Diamond_Cane);
+        addDrop(GrowableVanillaOresBlocks.Gold_Cane);
+        addDrop(GrowableVanillaOresBlocks.Lapis_Cane);
+        addDrop(GrowableVanillaOresBlocks.Nether_Quartz_Cane);
+        addDrop(GrowableVanillaOresBlocks.Emerald_Cane);
+        addDrop(GrowableVanillaOresBlocks.Copper_Cane);
+        addDrop(GrowableVanillaOresBlocks.Redstone_Cane);
+        addDrop(GrowableVanillaOresBlocks.Blaze_Rod_Cane);
+        addDrop(GrowableVanillaOresBlocks.Ender_Pearl_Cane);
+        addDrop(GrowableVanillaOresBlocks.Netherite_Ingot_Cane);
+        addDrop(GrowableVanillaOresBlocks.Clay_Cane);
+        addDrop(GrowableVanillaOresBlocks.Slime_Cane);
+        addDrop(GrowableVanillaOresBlocks.Nether_Star_Cane);
+        addDrop(GrowableVanillaOresBlocks.Glowstone_Cane);
+        addDrop(GrowableVanillaOresBlocks.Bone_Cane);
 
         //AE2
-        addDrop(GrowableOresBlocks.certus_quartz_crystal_Cane);
-        addDrop(GrowableOresBlocks.fluix_crystal_Cane);
+        addDrop(GrowableAEOresBlocks.certus_quartz_crystal_Cane);
+        addDrop(GrowableAEOresBlocks.fluix_crystal_Cane);
 
         //Tech Reborn
-        addDrop(GrowableOresBlocks.cinnabar_Cane);
-        addDrop(GrowableOresBlocks.galena_Cane);
-        addDrop(GrowableOresBlocks.iridium_Cane);
-        addDrop(GrowableOresBlocks.lead_Cane);
-        addDrop(GrowableOresBlocks.peridot_Cane);
-        addDrop(GrowableOresBlocks.pyrite_Cane);
-        addDrop(GrowableOresBlocks.ruby_Cane);
-        addDrop(GrowableOresBlocks.sapphire_Cane);
-        addDrop(GrowableOresBlocks.sodalite_Cane);
-        addDrop(GrowableOresBlocks.bauxite_Cane);
-        addDrop(GrowableOresBlocks.sheldonite_Cane);
-        addDrop(GrowableOresBlocks.silver_Cane);
-        addDrop(GrowableOresBlocks.sphalerite_Cane);
-        addDrop(GrowableOresBlocks.tin_Cane);
-        addDrop(GrowableOresBlocks.tungsten_Cane);
+        addDrop(GrowableVanillaOresBlocks.cinnabar_Cane);
+        addDrop(GrowableVanillaOresBlocks.galena_Cane);
+        addDrop(GrowableVanillaOresBlocks.iridium_Cane);
+        addDrop(GrowableVanillaOresBlocks.lead_Cane);
+        addDrop(GrowableVanillaOresBlocks.peridot_Cane);
+        addDrop(GrowableVanillaOresBlocks.pyrite_Cane);
+        addDrop(GrowableVanillaOresBlocks.ruby_Cane);
+        addDrop(GrowableVanillaOresBlocks.sapphire_Cane);
+        addDrop(GrowableVanillaOresBlocks.sodalite_Cane);
+        addDrop(GrowableVanillaOresBlocks.bauxite_Cane);
+        addDrop(GrowableVanillaOresBlocks.sheldonite_Cane);
+        addDrop(GrowableVanillaOresBlocks.silver_Cane);
+        addDrop(GrowableVanillaOresBlocks.sphalerite_Cane);
+        addDrop(GrowableVanillaOresBlocks.tin_Cane);
+        addDrop(GrowableVanillaOresBlocks.tungsten_Cane);
 
         //BetterEnd
-        addDrop(GrowableOresBlocks.amber_Cane);
-        addDrop(GrowableOresBlocks.ender_Cane);
-        addDrop(GrowableOresBlocks.thallasium_Cane);
+        addDrop(GrowableVanillaOresBlocks.amber_Cane);
+        addDrop(GrowableVanillaOresBlocks.ender_Cane);
+        addDrop(GrowableVanillaOresBlocks.thallasium_Cane);
 
         //Maple
-        addDrop(GrowableOresBlocks.Salt_Cane);
+        addDrop(GrowableVanillaOresBlocks.Salt_Cane);
 
         //Powah Rearchitected and Powah
-        addDrop(GrowableOresBlocks.Steel_Energized_Cane);
-        addDrop(GrowableOresBlocks.Uraninite_Ore_Dense_Cane);
-        addDrop(GrowableOresBlocks.Ender_Core_Cane);
-        addDrop(GrowableOresBlocks.Crystal_Spirited_Cane);
-        addDrop(GrowableOresBlocks.Crystal_Nitro_Cane);
-        addDrop(GrowableOresBlocks.Crystal_Niotic_Cane);
-        addDrop(GrowableOresBlocks.Crystal_Blazing_Cane);
+        addDrop(GrowableVanillaOresBlocks.Steel_Energized_Cane);
+        addDrop(GrowableVanillaOresBlocks.Uraninite_Ore_Dense_Cane);
+        addDrop(GrowableVanillaOresBlocks.Ender_Core_Cane);
+        addDrop(GrowableVanillaOresBlocks.Crystal_Spirited_Cane);
+        addDrop(GrowableVanillaOresBlocks.Crystal_Nitro_Cane);
+        addDrop(GrowableVanillaOresBlocks.Crystal_Niotic_Cane);
+        addDrop(GrowableVanillaOresBlocks.Crystal_Blazing_Cane);
 
         //Industrial Revolution
-        addDrop(GrowableOresBlocks.IR_Lead_Cane);
-        addDrop(GrowableOresBlocks.IR_nikolite_Cane );
-        addDrop(GrowableOresBlocks.IR_silver_Cane);
-        addDrop(GrowableOresBlocks.IR_tin_ore_Cane);
-        addDrop(GrowableOresBlocks.IR_tungsten_Cane);
+        addDrop(GrowableVanillaOresBlocks.IR_Lead_Cane);
+        addDrop(GrowableVanillaOresBlocks.IR_nikolite_Cane );
+        addDrop(GrowableVanillaOresBlocks.IR_silver_Cane);
+        addDrop(GrowableVanillaOresBlocks.IR_tin_ore_Cane);
+        addDrop(GrowableVanillaOresBlocks.IR_tungsten_Cane);
 
         //Modern Industrialization
-        addDrop(GrowableOresBlocks.MI_antimony_Cane );
-        addDrop(GrowableOresBlocks.MI_bauxite_Cane);
-        addDrop(GrowableOresBlocks.MI_iridium_Cane);
-        addDrop(GrowableOresBlocks.MI_lead_Cane);
-        addDrop(GrowableOresBlocks.MI_lignite_coal_Cane);
-        addDrop(GrowableOresBlocks.MI_monazite_Cane);
-        addDrop(GrowableOresBlocks.MI_nickel_Cane);
-        addDrop(GrowableOresBlocks.MI_platinum_Cane);
-        addDrop(GrowableOresBlocks.MI_quartz_Cane);
-        addDrop(GrowableOresBlocks.MI_salt_Cane);
-        addDrop(GrowableOresBlocks.MI_tin_Cane);
-        addDrop(GrowableOresBlocks.MI_titanium_Cane);
-        addDrop(GrowableOresBlocks.MI_tungsten_Cane);
-        addDrop(GrowableOresBlocks.MI_uranium_Cane);
+        addDrop(GrowableVanillaOresBlocks.MI_antimony_Cane );
+        addDrop(GrowableVanillaOresBlocks.MI_bauxite_Cane);
+        addDrop(GrowableVanillaOresBlocks.MI_iridium_Cane);
+        addDrop(GrowableVanillaOresBlocks.MI_lead_Cane);
+        addDrop(GrowableVanillaOresBlocks.MI_lignite_coal_Cane);
+        addDrop(GrowableVanillaOresBlocks.MI_monazite_Cane);
+        addDrop(GrowableVanillaOresBlocks.MI_nickel_Cane);
+        addDrop(GrowableVanillaOresBlocks.MI_platinum_Cane);
+        addDrop(GrowableVanillaOresBlocks.MI_quartz_Cane);
+        addDrop(GrowableVanillaOresBlocks.MI_salt_Cane);
+        addDrop(GrowableVanillaOresBlocks.MI_tin_Cane);
+        addDrop(GrowableVanillaOresBlocks.MI_titanium_Cane);
+        addDrop(GrowableVanillaOresBlocks.MI_tungsten_Cane);
+        addDrop(GrowableVanillaOresBlocks.MI_uranium_Cane);
 
         //ic2 and ic2c
-        addDrop(GrowableOresBlocks.IC2_Aluminium_Cane);
-        addDrop(GrowableOresBlocks.IC2_silver_Cane);
-        addDrop(GrowableOresBlocks.IC2_Tin_Cane);
-        addDrop(GrowableOresBlocks.IC2_Uranium_Cane);
+        addDrop(GrowableVanillaOresBlocks.IC2_Aluminium_Cane);
+        addDrop(GrowableVanillaOresBlocks.IC2_silver_Cane);
+        addDrop(GrowableVanillaOresBlocks.IC2_Tin_Cane);
+        addDrop(GrowableVanillaOresBlocks.IC2_Uranium_Cane);
 
         //Ad Astra!
-        addDrop(GrowableOresBlocks.AD_Ostrum_Cane);
-        addDrop(GrowableOresBlocks.AD_Ice_Shard_Cane);
-        addDrop(GrowableOresBlocks.AD_Cheese_Cane);
-        addDrop(GrowableOresBlocks.AD_Desh_Cane);
-        addDrop(GrowableOresBlocks.AD_Calorite_Cane);
+        addDrop(GrowableVanillaOresBlocks.AD_Ostrum_Cane);
+        addDrop(GrowableVanillaOresBlocks.AD_Ice_Shard_Cane);
+        addDrop(GrowableVanillaOresBlocks.AD_Cheese_Cane);
+        addDrop(GrowableVanillaOresBlocks.AD_Desh_Cane);
+        addDrop(GrowableVanillaOresBlocks.AD_Calorite_Cane);
 
         //Create
-        addDrop(GrowableOresBlocks.C_Andesite_Alloy_Cane);
-        addDrop(GrowableOresBlocks.C_Brass_Ingot_Cane);
-        addDrop(GrowableOresBlocks.C_Polished_Rose_Quartz_Cane);
-        addDrop(GrowableOresBlocks.C_Zinc_Cane);
+        addDrop(GrowableVanillaOresBlocks.C_Andesite_Alloy_Cane);
+        addDrop(GrowableVanillaOresBlocks.C_Brass_Ingot_Cane);
+        addDrop(GrowableVanillaOresBlocks.C_Polished_Rose_Quartz_Cane);
+        addDrop(GrowableVanillaOresBlocks.C_Zinc_Cane);
 
         //Thermal Series
-        addDrop(GrowableOresBlocks.TF_Apatite_Cane);
-        addDrop(GrowableOresBlocks.TF_Cinnabar_Cane);
-        addDrop(GrowableOresBlocks.TF_Copper_Cane);
-        addDrop(GrowableOresBlocks.TF_Lead_Cane);
-        addDrop(GrowableOresBlocks.TF_Nickel_Cane);
-        addDrop(GrowableOresBlocks.TF_Niter_Cane);
-        addDrop(GrowableOresBlocks.TF_Ruby_Cane);
-        addDrop(GrowableOresBlocks.TF_Sapphire_Cane);
-        addDrop(GrowableOresBlocks.TF_Silver_Cane);
-        addDrop(GrowableOresBlocks.TF_Sulfur_Cane);
-        addDrop(GrowableOresBlocks.TF_Tin_Cane);
+        addDrop(GrowableVanillaOresBlocks.TF_Apatite_Cane);
+        addDrop(GrowableVanillaOresBlocks.TF_Cinnabar_Cane);
+        addDrop(GrowableVanillaOresBlocks.TF_Copper_Cane);
+        addDrop(GrowableVanillaOresBlocks.TF_Lead_Cane);
+        addDrop(GrowableVanillaOresBlocks.TF_Nickel_Cane);
+        addDrop(GrowableVanillaOresBlocks.TF_Niter_Cane);
+        addDrop(GrowableVanillaOresBlocks.TF_Ruby_Cane);
+        addDrop(GrowableVanillaOresBlocks.TF_Sapphire_Cane);
+        addDrop(GrowableVanillaOresBlocks.TF_Silver_Cane);
+        addDrop(GrowableVanillaOresBlocks.TF_Sulfur_Cane);
+        addDrop(GrowableVanillaOresBlocks.TF_Tin_Cane);
 
 
     }

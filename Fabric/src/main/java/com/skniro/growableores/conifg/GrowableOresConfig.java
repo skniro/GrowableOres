@@ -1,6 +1,6 @@
 package com.skniro.growableores.conifg;
 
 public class GrowableOresConfig {
-    @Config(config = "agree", category = "function", key = "Enable Enchantment Module",comment = "Disable Enchantment Module.")
-    public static boolean Enchantment_Module = true;
+    @Config(config = "growableores", category = "function", key = "All Item Mode",comment = "Disable All Item Mode.")
+    public static boolean All_Item_Mode = true;
 }

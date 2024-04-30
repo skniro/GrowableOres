@@ -57,21 +57,19 @@ public class GrowableOresClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableBetterEndOresBlocks.ender_Cane, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableBetterEndOresBlocks.thallasium_Cane, RenderLayer.getCutout());
 
-        if (FabricLoader.getInstance().isModLoaded("maple")) {
-            //Maple
-            BlockRenderLayerMap.INSTANCE.putBlock(GrowableMapleOresBlocks.Salt_Cane, RenderLayer.getCutout());
-        }
 
-        if (FabricLoader.getInstance().isModLoaded("powah")) {
-            //Powah Rearchitected and Powah
-            BlockRenderLayerMap.INSTANCE.putBlock(GrowablePowahOresBlocks.Steel_Energized_Cane, RenderLayer.getCutout());
-            BlockRenderLayerMap.INSTANCE.putBlock(GrowablePowahOresBlocks.Uraninite_Ore_Dense_Cane, RenderLayer.getCutout());
-            BlockRenderLayerMap.INSTANCE.putBlock(GrowablePowahOresBlocks.Ender_Core_Cane, RenderLayer.getCutout());
-            BlockRenderLayerMap.INSTANCE.putBlock(GrowablePowahOresBlocks.Crystal_Spirited_Cane, RenderLayer.getCutout());
-            BlockRenderLayerMap.INSTANCE.putBlock(GrowablePowahOresBlocks.Crystal_Nitro_Cane, RenderLayer.getCutout());
-            BlockRenderLayerMap.INSTANCE.putBlock(GrowablePowahOresBlocks.Crystal_Niotic_Cane, RenderLayer.getCutout());
-            BlockRenderLayerMap.INSTANCE.putBlock(GrowablePowahOresBlocks.Crystal_Blazing_Cane, RenderLayer.getCutout());
-        }
+        //Maple
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableMapleOresBlocks.Salt_Cane, RenderLayer.getCutout());
+
+        //Powah Rearchitected and Powah
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowablePowahOresBlocks.Steel_Energized_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowablePowahOresBlocks.Uraninite_Ore_Dense_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowablePowahOresBlocks.Ender_Core_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowablePowahOresBlocks.Crystal_Spirited_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowablePowahOresBlocks.Crystal_Nitro_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowablePowahOresBlocks.Crystal_Niotic_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowablePowahOresBlocks.Crystal_Blazing_Cane, RenderLayer.getCutout());
+
         //Industrial Revolution
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableIndustrialRevolutionOresBlocks.IR_Lead_Cane, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableIndustrialRevolutionOresBlocks.IR_nikolite_Cane , RenderLayer.getCutout());

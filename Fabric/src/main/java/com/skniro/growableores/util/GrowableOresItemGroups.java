@@ -15,18 +15,6 @@ import net.minecraft.util.Identifier;
 
 public class GrowableOresItemGroups {
     public static final RegistryKey<ItemGroup> Growable_Ores_Group = RegistryKey.of(RegistryKeys.ITEM_GROUP, new Identifier(GrowableOres.MOD_ID, "test_group"));
-    public static final RegistryKey<ItemGroup> Growable_AE_Ores_Group = RegistryKey.of(RegistryKeys.ITEM_GROUP, new Identifier(GrowableOres.MOD_ID, "test_group1"));
-    public static final RegistryKey<ItemGroup> Growable_BetterEnd_Ores_Group = RegistryKey.of(RegistryKeys.ITEM_GROUP, new Identifier(GrowableOres.MOD_ID, "test_group2"));
-    public static final RegistryKey<ItemGroup> Growable_TechReborn_Ores_Group = RegistryKey.of(RegistryKeys.ITEM_GROUP, new Identifier(GrowableOres.MOD_ID, "test_group3"));
-    public static final RegistryKey<ItemGroup> Growable_Maple_Ores_Group = RegistryKey.of(RegistryKeys.ITEM_GROUP, new Identifier(GrowableOres.MOD_ID, "test_group4"));
-    public static final RegistryKey<ItemGroup> Growable_Powah_Ores_Group = RegistryKey.of(RegistryKeys.ITEM_GROUP, new Identifier(GrowableOres.MOD_ID, "test_group5"));
-    public static final RegistryKey<ItemGroup> Growable_IR_Ores_Group = RegistryKey.of(RegistryKeys.ITEM_GROUP, new Identifier(GrowableOres.MOD_ID, "test_group6"));
-    public static final RegistryKey<ItemGroup> Growable_MI_Ores_Group = RegistryKey.of(RegistryKeys.ITEM_GROUP, new Identifier(GrowableOres.MOD_ID, "test_group7"));
-    public static final RegistryKey<ItemGroup> Growable_IC_Ores_Group = RegistryKey.of(RegistryKeys.ITEM_GROUP, new Identifier(GrowableOres.MOD_ID, "test_group8"));
-    public static final RegistryKey<ItemGroup> Growable_AD_Ores_Group = RegistryKey.of(RegistryKeys.ITEM_GROUP, new Identifier(GrowableOres.MOD_ID, "test_group9"));
-    public static final RegistryKey<ItemGroup> Growable_C_Ores_Group = RegistryKey.of(RegistryKeys.ITEM_GROUP, new Identifier(GrowableOres.MOD_ID, "test_group10"));
-    public static final RegistryKey<ItemGroup> Growable_TF_Ores_Group = RegistryKey.of(RegistryKeys.ITEM_GROUP, new Identifier(GrowableOres.MOD_ID, "test_group11"));
-
 
     public static void vanilla_item() {
         Registry.register(Registries.ITEM_GROUP, Growable_Ores_Group, FabricItemGroup.builder()
@@ -55,12 +43,7 @@ public class GrowableOresItemGroups {
         });
     }
     public static void ae_item() {
-        Registry.register(Registries.ITEM_GROUP, Growable_AE_Ores_Group, FabricItemGroup.builder()
-                .icon(() -> new ItemStack(GrowableAEOresBlocks.certus_quartz_crystal_Cane))
-                .displayName(Text.translatable("itemGroup.growable_ores.test_group1"))
-                .build()); // build() no longer registers by itself
-
-        ItemGroupEvents.modifyEntriesEvent(Growable_AE_Ores_Group).register(content -> {
+        ItemGroupEvents.modifyEntriesEvent(Growable_Ores_Group).register(content -> {
             //ae2
             content.add(GrowableAEOresBlocks.certus_quartz_crystal_Cane);
             content.add(GrowableAEOresBlocks.fluix_crystal_Cane);
@@ -68,13 +51,7 @@ public class GrowableOresItemGroups {
     }
 
     public static void techreborn_item() {
-        Registry.register(Registries.ITEM_GROUP, Growable_TechReborn_Ores_Group, FabricItemGroup.builder()
-                .icon(() -> new ItemStack(GrowableTechRebornOresBlocks.cinnabar_Cane))
-                .displayName(Text.translatable("itemGroup.growable_ores.test_group3"))
-                .build()); // build() no longer registers by itself
-
-
-        ItemGroupEvents.modifyEntriesEvent(Growable_TechReborn_Ores_Group).register(content -> {
+        ItemGroupEvents.modifyEntriesEvent(Growable_Ores_Group).register(content -> {
             //Tech Reborn
             content.add(GrowableTechRebornOresBlocks.cinnabar_Cane);
             content.add(GrowableTechRebornOresBlocks.galena_Cane);
@@ -95,12 +72,7 @@ public class GrowableOresItemGroups {
     }
 
     public static void betterend_item() {
-        Registry.register(Registries.ITEM_GROUP, Growable_BetterEnd_Ores_Group, FabricItemGroup.builder()
-                .icon(() -> new ItemStack(GrowableBetterEndOresBlocks.amber_Cane))
-                .displayName(Text.translatable("itemGroup.growable_ores.test_group2"))
-                .build()); // build() no longer registers by itself
-
-        ItemGroupEvents.modifyEntriesEvent(Growable_BetterEnd_Ores_Group).register(content -> {
+        ItemGroupEvents.modifyEntriesEvent(Growable_Ores_Group).register(content -> {
             //BetterEnd
             content.add(GrowableBetterEndOresBlocks.amber_Cane);
             content.add(GrowableBetterEndOresBlocks.ender_Cane);
@@ -109,23 +81,13 @@ public class GrowableOresItemGroups {
     }
 
     public static void maple_item() {
-        Registry.register(Registries.ITEM_GROUP, Growable_Maple_Ores_Group, FabricItemGroup.builder()
-                .icon(() -> new ItemStack(GrowableMapleOresBlocks.Salt_Cane))
-                .displayName(Text.translatable("itemGroup.growable_ores.test_group4"))
-                .build()); // build() no longer registers by itself
-
-        ItemGroupEvents.modifyEntriesEvent(Growable_Maple_Ores_Group).register(content -> {
+        ItemGroupEvents.modifyEntriesEvent(Growable_Ores_Group).register(content -> {
             //Maple
             content.add(GrowableMapleOresBlocks.Salt_Cane);
         });
     }
     public static void powah_item() {
-        Registry.register(Registries.ITEM_GROUP, Growable_Powah_Ores_Group, FabricItemGroup.builder()
-                .icon(() -> new ItemStack(GrowablePowahOresBlocks.Steel_Energized_Cane))
-                .displayName(Text.translatable("itemGroup.growable_ores.test_group5"))
-                .build()); // build() no longer registers by itself
-
-        ItemGroupEvents.modifyEntriesEvent(Growable_Powah_Ores_Group).register(content -> {
+        ItemGroupEvents.modifyEntriesEvent(Growable_Ores_Group).register(content -> {
             //Powah Rearchitected and Powah
             content.add(GrowablePowahOresBlocks.Steel_Energized_Cane);
             content.add(GrowablePowahOresBlocks.Uraninite_Ore_Dense_Cane);
@@ -138,12 +100,7 @@ public class GrowableOresItemGroups {
     }
 
     public static void ir_item() {
-        Registry.register(Registries.ITEM_GROUP, Growable_IR_Ores_Group, FabricItemGroup.builder()
-                .icon(() -> new ItemStack(GrowableIndustrialRevolutionOresBlocks.IR_Lead_Cane))
-                .displayName(Text.translatable("itemGroup.growable_ores.test_group6"))
-                .build()); // build() no longer registers by itself
-
-        ItemGroupEvents.modifyEntriesEvent(Growable_IR_Ores_Group).register(content -> {
+        ItemGroupEvents.modifyEntriesEvent(Growable_Ores_Group).register(content -> {
             //Industrial Revolution
             content.add(GrowableIndustrialRevolutionOresBlocks.IR_Lead_Cane);
             content.add(GrowableIndustrialRevolutionOresBlocks.IR_nikolite_Cane );
@@ -153,12 +110,7 @@ public class GrowableOresItemGroups {
         });
     }
     public static void mi_item() {
-        Registry.register(Registries.ITEM_GROUP, Growable_MI_Ores_Group, FabricItemGroup.builder()
-                .icon(() -> new ItemStack(GrowableModernIndustrializationOresBlocks.MI_antimony_Cane))
-                .displayName(Text.translatable("itemGroup.growable_ores.test_group7"))
-                .build()); // build() no longer registers by itself
-
-        ItemGroupEvents.modifyEntriesEvent(Growable_MI_Ores_Group).register(content -> {
+        ItemGroupEvents.modifyEntriesEvent(Growable_Ores_Group).register(content -> {
     //Modern Industrialization
             content.add(GrowableModernIndustrializationOresBlocks.MI_antimony_Cane);
             content.add(GrowableModernIndustrializationOresBlocks.MI_bauxite_Cane);
@@ -177,13 +129,7 @@ public class GrowableOresItemGroups {
         });
     }
     public static void ic_item() {
-        Registry.register(Registries.ITEM_GROUP, Growable_IC_Ores_Group, FabricItemGroup.builder()
-                .icon(() -> new ItemStack(GrowableICOresBlocks.IC2_Aluminium_Cane))
-                .displayName(Text.translatable("itemGroup.growable_ores.test_group8"))
-                .build()); // build() no longer registers by itself
-
-
-        ItemGroupEvents.modifyEntriesEvent(Growable_IC_Ores_Group).register(content -> {
+        ItemGroupEvents.modifyEntriesEvent(Growable_Ores_Group).register(content -> {
             //ic2 and ic2c
             content.add(GrowableICOresBlocks.IC2_Aluminium_Cane);
             content.add(GrowableICOresBlocks.IC2_silver_Cane);
@@ -192,12 +138,7 @@ public class GrowableOresItemGroups {
         });
     }
     public static void ad_item() {
-        Registry.register(Registries.ITEM_GROUP, Growable_AD_Ores_Group, FabricItemGroup.builder()
-                .icon(() -> new ItemStack(GrowableAdAstraOresBlocks.AD_Ostrum_Cane))
-                .displayName(Text.translatable("itemGroup.growable_ores.test_group9"))
-                .build()); // build() no longer registers by itself
-
-        ItemGroupEvents.modifyEntriesEvent(Growable_AD_Ores_Group).register(content -> {
+        ItemGroupEvents.modifyEntriesEvent(Growable_Ores_Group).register(content -> {
             //Ad Astra!
             content.add(GrowableAdAstraOresBlocks.AD_Ostrum_Cane);
             content.add(GrowableAdAstraOresBlocks.AD_Ice_Shard_Cane);
@@ -207,12 +148,7 @@ public class GrowableOresItemGroups {
         });
     }
     public static void c_item() {
-        Registry.register(Registries.ITEM_GROUP, Growable_C_Ores_Group, FabricItemGroup.builder()
-                .icon(() -> new ItemStack(GrowableCreateOresBlocks.C_Andesite_Alloy_Cane))
-                .displayName(Text.translatable("itemGroup.growable_ores.test_group10"))
-                .build()); // build() no longer registers by itself
-
-        ItemGroupEvents.modifyEntriesEvent(Growable_C_Ores_Group).register(content -> {
+        ItemGroupEvents.modifyEntriesEvent(Growable_Ores_Group).register(content -> {
             //Create
             content.add(GrowableCreateOresBlocks.C_Andesite_Alloy_Cane);
             content.add(GrowableCreateOresBlocks.C_Brass_Ingot_Cane);
@@ -221,12 +157,7 @@ public class GrowableOresItemGroups {
         });
     }
     public static void tf_item() {
-        Registry.register(Registries.ITEM_GROUP, Growable_TF_Ores_Group, FabricItemGroup.builder()
-                .icon(() -> new ItemStack(GrowableThermalSeriesOresBlocks.TF_Apatite_Cane))
-                .displayName(Text.translatable("itemGroup.growable_ores.test_group11"))
-                .build()); // build() no longer registers by itself
-
-        ItemGroupEvents.modifyEntriesEvent(Growable_TF_Ores_Group).register(content -> {
+        ItemGroupEvents.modifyEntriesEvent(Growable_Ores_Group).register(content -> {
             //Thermal Series
             content.add(GrowableThermalSeriesOresBlocks.TF_Apatite_Cane);
             content.add(GrowableThermalSeriesOresBlocks.TF_Cinnabar_Cane);

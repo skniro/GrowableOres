@@ -6,15 +6,16 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
-import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.RegistryObject;
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.registries.DeferredRegister;
+
 
 public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, GrowableOres.MODID);
 
-    public static final RegistryObject<CreativeModeTab> Growable_Ores_Group = CREATIVE_MODE_TABS.register("test_group",
+    public static final DeferredHolder<CreativeModeTab,CreativeModeTab> Growable_Ores_Group = CREATIVE_MODE_TABS.register("test_group",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(GrowableOresBlocks.Iron_Cane.get()))
                     .title(Component.translatable("itemGroup.growable_ores.test_group"))
                     .displayItems((pParameters, pOutput) -> {
@@ -31,6 +32,10 @@ public class ModCreativeModeTabs {
                         pOutput.accept(GrowableOresBlocks.Ender_Pearl_Cane.get());
                         pOutput.accept(GrowableOresBlocks.Netherite_Ingot_Cane.get());
                         pOutput.accept(GrowableOresBlocks.Clay_Cane.get());
+                        pOutput.accept(GrowableOresBlocks.Slime_Cane.get());
+                        pOutput.accept(GrowableOresBlocks.Nether_Star_Cane.get());
+                        pOutput.accept(GrowableOresBlocks.Glowstone_Cane.get());
+                        pOutput.accept(GrowableOresBlocks.Bone_Cane.get());
 
                         //ae2
                         pOutput.accept(GrowableOresBlocks.certus_quartz_crystal_Cane.get());

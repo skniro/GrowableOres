@@ -2,12 +2,20 @@ package com.skniro.growableores.client;
 
 import com.skniro.growableores.GrowableOres;
 import com.skniro.growableores.block.GrowableOresBlocks;
+import com.skniro.growableores.item.ModCreativeModeTabs;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.SugarCaneBlock;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.material.MaterialColor;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import net.minecraftforge.registries.RegistryObject;
 
 @Mod.EventBusSubscriber(modid = GrowableOres.MODID,bus = Mod.EventBusSubscriber.Bus.MOD ,value = Dist.CLIENT)
 public class GrowableOresClient {
@@ -25,6 +33,10 @@ public class GrowableOresClient {
         ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.Blaze_Rod_Cane.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.Ender_Pearl_Cane.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.Clay_Cane.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.Slime_Cane.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.Nether_Star_Cane.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.Glowstone_Cane.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.Bone_Cane.get(), RenderType.cutout());
 
         //ae2
         ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.certus_quartz_crystal_Cane.get(), RenderType.cutout());

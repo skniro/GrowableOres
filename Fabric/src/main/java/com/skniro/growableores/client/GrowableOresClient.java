@@ -24,7 +24,10 @@ public class GrowableOresClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.Ender_Pearl_Cane, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.Netherite_Ingot_Cane, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.Clay_Cane, RenderLayer.getCutout());
-
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.Slime_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.Nether_Star_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.Glowstone_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.Bone_Cane, RenderLayer.getCutout());
 
         //ae2
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.certus_quartz_crystal_Cane, RenderLayer.getCutout());

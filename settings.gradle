@@ -12,5 +12,5 @@ pluginManagement {
     }
 }
 
-rootProject.name = 'Growable-1.15'
+rootProject.name = 'Growable-1.14'
 include("Fabric", "Forge")

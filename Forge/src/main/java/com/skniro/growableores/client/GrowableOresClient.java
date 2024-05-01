@@ -25,6 +25,10 @@ public class GrowableOresClient {
         RenderTypeLookup.setRenderLayer(GrowableOresBlocks.Blaze_Rod_Cane.get(), RenderType.cutout());
         RenderTypeLookup.setRenderLayer(GrowableOresBlocks.Ender_Pearl_Cane.get(), RenderType.cutout());
         RenderTypeLookup.setRenderLayer(GrowableOresBlocks.Clay_Cane.get(), RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(GrowableOresBlocks.Slime_Cane.get(), RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(GrowableOresBlocks.Nether_Star_Cane.get(), RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(GrowableOresBlocks.Glowstone_Cane.get(), RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(GrowableOresBlocks.Bone_Cane.get(), RenderType.cutout());
 
         //ae2
         RenderTypeLookup.setRenderLayer(GrowableOresBlocks.certus_quartz_crystal_Cane.get(), RenderType.cutout());

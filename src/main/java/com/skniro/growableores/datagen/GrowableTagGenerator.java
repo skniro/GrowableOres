@@ -2,12 +2,9 @@ package com.skniro.growableores.datagen;
 
 import com.skniro.growableores.GrowableOres;
 import com.skniro.growableores.block.GrowableOresBlocks;
-import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.block.Block;
-import net.minecraft.client.render.RenderLayer;
-import net.minecraft.item.Item;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.TagKey;
@@ -37,6 +34,10 @@ public class GrowableTagGenerator extends FabricTagProvider.BlockTagProvider {
       .add(GrowableOresBlocks.Ender_Pearl_Cane)
       .add(GrowableOresBlocks.Netherite_Ingot_Cane)
       .add(GrowableOresBlocks.Clay_Cane)
+      .add(GrowableOresBlocks.Glowstone_Cane)
+      .add(GrowableOresBlocks.Slime_Cane)
+      .add(GrowableOresBlocks.Bone_Cane)
+      .add(GrowableOresBlocks.Nether_Star_Cane)
 
       //ae2
       .add(GrowableOresBlocks.certus_quartz_crystal_Cane)

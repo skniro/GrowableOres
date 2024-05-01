@@ -1,20 +1,10 @@
 package com.skniro.growableores.datagen;
 
-import com.skniro.growableores.GrowableOres;
 import com.skniro.growableores.block.GrowableOresBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.MapColor;
-import net.minecraft.block.SugarCaneBlock;
-import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
-import net.minecraft.data.client.TextureMap;
-import net.minecraft.item.Item;
-import net.minecraft.item.Items;
-import net.minecraft.sound.BlockSoundGroup;
 
 public class GrowableModelProvider extends FabricModelProvider {
     public GrowableModelProvider(FabricDataOutput dataGenerator){
@@ -37,6 +27,10 @@ public class GrowableModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerTintableCross(GrowableOresBlocks.Ender_Pearl_Cane, BlockStateModelGenerator.TintType.TINTED);
         blockStateModelGenerator.registerTintableCross(GrowableOresBlocks.Netherite_Ingot_Cane, BlockStateModelGenerator.TintType.TINTED);
         blockStateModelGenerator.registerTintableCross(GrowableOresBlocks.Clay_Cane, BlockStateModelGenerator.TintType.TINTED);
+        blockStateModelGenerator.registerTintableCross(GrowableOresBlocks.Slime_Cane, BlockStateModelGenerator.TintType.TINTED);
+        blockStateModelGenerator.registerTintableCross(GrowableOresBlocks.Nether_Star_Cane, BlockStateModelGenerator.TintType.TINTED);
+        blockStateModelGenerator.registerTintableCross(GrowableOresBlocks.Glowstone_Cane, BlockStateModelGenerator.TintType.TINTED);
+        blockStateModelGenerator.registerTintableCross(GrowableOresBlocks.Bone_Cane, BlockStateModelGenerator.TintType.TINTED);
 
         //AE2
         blockStateModelGenerator.registerTintableCross(GrowableOresBlocks.certus_quartz_crystal_Cane, BlockStateModelGenerator.TintType.TINTED);

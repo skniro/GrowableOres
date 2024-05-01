@@ -25,6 +25,14 @@ public class GrowableSimplifiedChineseLanguageProvider extends FabricLanguagePro
         translationBuilder.add(GrowableOresBlocks.Ender_Pearl_Cane,"末影珍珠杆");
         translationBuilder.add(GrowableOresBlocks.Netherite_Ingot_Cane,"下界合金杆");
         translationBuilder.add(GrowableOresBlocks.Clay_Cane,"粘土杆");
+        translationBuilder.add(GrowableOresBlocks.Slime_Cane,"史莱姆球杆");
+        translationBuilder.add(GrowableOresBlocks.Bone_Cane,"骨头杆");
+        translationBuilder.add(GrowableOresBlocks.Nether_Star_Cane,"下届之星杆");
+        translationBuilder.add(GrowableOresBlocks.Glowstone_Cane,"萤石杆");
+
+        // Copilot did translation. I am so sorry if its wrong.
+        // Don't worry about translation. I will fix it. Thanks you make this mod better.
+
 
         //ae2
         translationBuilder.add(GrowableOresBlocks.certus_quartz_crystal_Cane,"赛特斯石英矿石杆");
@@ -43,7 +51,7 @@ public class GrowableSimplifiedChineseLanguageProvider extends FabricLanguagePro
         translationBuilder.add(GrowableOresBlocks.sphalerite_Cane,"锌矿石杆");
         translationBuilder.add(GrowableOresBlocks.tin_Cane,"锡矿石杆");
         translationBuilder.add(GrowableOresBlocks.tungsten_Cane,"钨矿石杆");
-        translationBuilder.add(GrowableOresBlocks.sodalite_Cane,"方钠石矿石杆");;
+        translationBuilder.add(GrowableOresBlocks.sodalite_Cane,"方钠石矿石杆");
         translationBuilder.add(GrowableOresBlocks.bauxite_Cane,"铝土矿石杆");
 
         translationBuilder.add(GrowableOres.Growable_Ores_Group,"可生长矿石");

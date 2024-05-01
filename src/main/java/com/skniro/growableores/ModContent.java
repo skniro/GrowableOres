@@ -105,12 +105,6 @@ public class ModContent {
             content.add(GrowableOresBlocks.MI_tungsten_Cane);
             content.add(GrowableOresBlocks.MI_uranium_Cane);
 
-/*            //ic2 and ic2c
-            content.add(GrowableOresBlocks.IC2_Aluminium_Cane);
-            content.add(GrowableOresBlocks.IC2_silver_Cane);
-            content.add(GrowableOresBlocks.IC2_Tin_Cane);
-            content.add(GrowableOresBlocks.IC2_Uranium_Cane);*/
-
             //Ad Astra!
             content.add(GrowableOresBlocks.AD_Ostrum_Cane);
             content.add(GrowableOresBlocks.AD_Ice_Shard_Cane);
@@ -123,19 +117,6 @@ public class ModContent {
             content.add(GrowableOresBlocks.C_Brass_Ingot_Cane);
             content.add(GrowableOresBlocks.C_Polished_Rose_Quartz_Cane);
             content.add(GrowableOresBlocks.C_Zinc_Cane);
-
-          /*  //Thermal Series
-            content.add(GrowableOresBlocks.TF_Apatite_Cane);
-            content.add(GrowableOresBlocks.TF_Cinnabar_Cane);
-            content.add(GrowableOresBlocks.TF_Copper_Cane);
-            content.add(GrowableOresBlocks.TF_Lead_Cane);
-            content.add(GrowableOresBlocks.TF_Nickel_Cane);
-            content.add(GrowableOresBlocks.TF_Niter_Cane);
-            content.add(GrowableOresBlocks.TF_Ruby_Cane);
-            content.add(GrowableOresBlocks.TF_Sapphire_Cane);
-            content.add(GrowableOresBlocks.TF_Silver_Cane);
-            content.add(GrowableOresBlocks.TF_Sulfur_Cane);
-            content.add(GrowableOresBlocks.TF_Tin_Cane);*/
 
         });
     }

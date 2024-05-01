@@ -95,12 +95,6 @@ public class GrowableLootTableGenerator extends FabricBlockLootTableProvider {
         addDrop(GrowableOresBlocks.MI_tungsten_Cane);
         addDrop(GrowableOresBlocks.MI_uranium_Cane);
 
-        //ic2 and ic2c
-        addDrop(GrowableOresBlocks.IC2_Aluminium_Cane);
-        addDrop(GrowableOresBlocks.IC2_silver_Cane);
-        addDrop(GrowableOresBlocks.IC2_Tin_Cane);
-        addDrop(GrowableOresBlocks.IC2_Uranium_Cane);
-
         //Ad Astra!
         addDrop(GrowableOresBlocks.AD_Ostrum_Cane);
         addDrop(GrowableOresBlocks.AD_Ice_Shard_Cane);
@@ -113,19 +107,6 @@ public class GrowableLootTableGenerator extends FabricBlockLootTableProvider {
         addDrop(GrowableOresBlocks.C_Brass_Ingot_Cane);
         addDrop(GrowableOresBlocks.C_Polished_Rose_Quartz_Cane);
         addDrop(GrowableOresBlocks.C_Zinc_Cane);
-
-        //Thermal Series
-        addDrop(GrowableOresBlocks.TF_Apatite_Cane);
-        addDrop(GrowableOresBlocks.TF_Cinnabar_Cane);
-        addDrop(GrowableOresBlocks.TF_Copper_Cane);
-        addDrop(GrowableOresBlocks.TF_Lead_Cane);
-        addDrop(GrowableOresBlocks.TF_Nickel_Cane);
-        addDrop(GrowableOresBlocks.TF_Niter_Cane);
-        addDrop(GrowableOresBlocks.TF_Ruby_Cane);
-        addDrop(GrowableOresBlocks.TF_Sapphire_Cane);
-        addDrop(GrowableOresBlocks.TF_Silver_Cane);
-        addDrop(GrowableOresBlocks.TF_Sulfur_Cane);
-        addDrop(GrowableOresBlocks.TF_Tin_Cane);
 
 
     }

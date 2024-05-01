@@ -104,11 +104,6 @@ public class GrowableTagGenerator extends FabricTagProvider.BlockTagProvider {
       .add(GrowableOresBlocks.MI_tungsten_Cane)
       .add(GrowableOresBlocks.MI_uranium_Cane)
 
-      //ic2 and ic2c
-      .add(GrowableOresBlocks.IC2_Aluminium_Cane)
-      .add(GrowableOresBlocks.IC2_silver_Cane)
-      .add(GrowableOresBlocks.IC2_Tin_Cane)
-      .add(GrowableOresBlocks.IC2_Uranium_Cane)
 
       //Ad Astra!
       .add(GrowableOresBlocks.AD_Ostrum_Cane)
@@ -121,20 +116,7 @@ public class GrowableTagGenerator extends FabricTagProvider.BlockTagProvider {
       .add(GrowableOresBlocks.C_Andesite_Alloy_Cane)
       .add(GrowableOresBlocks.C_Brass_Ingot_Cane)
       .add(GrowableOresBlocks.C_Polished_Rose_Quartz_Cane)
-      .add(GrowableOresBlocks.C_Zinc_Cane)
-
-      //Thermal Series
-      .add(GrowableOresBlocks.TF_Apatite_Cane)
-      .add(GrowableOresBlocks.TF_Cinnabar_Cane)
-      .add(GrowableOresBlocks.TF_Copper_Cane)
-      .add(GrowableOresBlocks.TF_Lead_Cane)
-      .add(GrowableOresBlocks.TF_Nickel_Cane)
-      .add(GrowableOresBlocks.TF_Niter_Cane)
-      .add(GrowableOresBlocks.TF_Ruby_Cane)
-      .add(GrowableOresBlocks.TF_Sapphire_Cane)
-      .add(GrowableOresBlocks.TF_Silver_Cane)
-      .add(GrowableOresBlocks.TF_Sulfur_Cane)
-      .add(GrowableOresBlocks.TF_Tin_Cane);
+      .add(GrowableOresBlocks.C_Zinc_Cane);
 
    }
 }

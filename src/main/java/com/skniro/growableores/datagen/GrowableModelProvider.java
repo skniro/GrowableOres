@@ -103,12 +103,6 @@ public class GrowableModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerTintableCross(GrowableOresBlocks.MI_tungsten_Cane, BlockStateModelGenerator.TintType.TINTED);
         blockStateModelGenerator.registerTintableCross(GrowableOresBlocks.MI_uranium_Cane, BlockStateModelGenerator.TintType.TINTED);
 
-        //ic2 and ic2c
-        blockStateModelGenerator.registerTintableCross(GrowableOresBlocks.IC2_Aluminium_Cane, BlockStateModelGenerator.TintType.TINTED);
-        blockStateModelGenerator.registerTintableCross(GrowableOresBlocks.IC2_silver_Cane, BlockStateModelGenerator.TintType.TINTED);
-        blockStateModelGenerator.registerTintableCross(GrowableOresBlocks.IC2_Tin_Cane, BlockStateModelGenerator.TintType.TINTED);
-        blockStateModelGenerator.registerTintableCross(GrowableOresBlocks.IC2_Uranium_Cane, BlockStateModelGenerator.TintType.TINTED);
-
         //Ad Astra!
         blockStateModelGenerator.registerTintableCross(GrowableOresBlocks.AD_Ostrum_Cane, BlockStateModelGenerator.TintType.TINTED);
         blockStateModelGenerator.registerTintableCross(GrowableOresBlocks.AD_Ice_Shard_Cane, BlockStateModelGenerator.TintType.TINTED);
@@ -121,19 +115,6 @@ public class GrowableModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerTintableCross(GrowableOresBlocks.C_Brass_Ingot_Cane, BlockStateModelGenerator.TintType.TINTED);
         blockStateModelGenerator.registerTintableCross(GrowableOresBlocks.C_Polished_Rose_Quartz_Cane, BlockStateModelGenerator.TintType.TINTED);
         blockStateModelGenerator.registerTintableCross(GrowableOresBlocks.C_Zinc_Cane, BlockStateModelGenerator.TintType.TINTED);
-
-        //Thermal Series
-        blockStateModelGenerator.registerTintableCross(GrowableOresBlocks.TF_Apatite_Cane, BlockStateModelGenerator.TintType.TINTED);
-        blockStateModelGenerator.registerTintableCross(GrowableOresBlocks.TF_Cinnabar_Cane, BlockStateModelGenerator.TintType.TINTED);
-        blockStateModelGenerator.registerTintableCross(GrowableOresBlocks.TF_Copper_Cane, BlockStateModelGenerator.TintType.TINTED);
-        blockStateModelGenerator.registerTintableCross(GrowableOresBlocks.TF_Lead_Cane, BlockStateModelGenerator.TintType.TINTED);
-        blockStateModelGenerator.registerTintableCross(GrowableOresBlocks.TF_Nickel_Cane, BlockStateModelGenerator.TintType.TINTED);
-        blockStateModelGenerator.registerTintableCross(GrowableOresBlocks.TF_Niter_Cane, BlockStateModelGenerator.TintType.TINTED);
-        blockStateModelGenerator.registerTintableCross(GrowableOresBlocks.TF_Ruby_Cane, BlockStateModelGenerator.TintType.TINTED);
-        blockStateModelGenerator.registerTintableCross(GrowableOresBlocks.TF_Sapphire_Cane, BlockStateModelGenerator.TintType.TINTED);
-        blockStateModelGenerator.registerTintableCross(GrowableOresBlocks.TF_Silver_Cane, BlockStateModelGenerator.TintType.TINTED);
-        blockStateModelGenerator.registerTintableCross(GrowableOresBlocks.TF_Sulfur_Cane, BlockStateModelGenerator.TintType.TINTED);
-        blockStateModelGenerator.registerTintableCross(GrowableOresBlocks.TF_Tin_Cane, BlockStateModelGenerator.TintType.TINTED);
 
     }
     @Override

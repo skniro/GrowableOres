@@ -4,10 +4,12 @@ import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.fluid.IFluidState;
+import net.minecraft.state.IProperty;
 import net.minecraft.state.IntegerProperty;
 import net.minecraft.state.StateContainer;
 import net.minecraft.state.properties.BlockStateProperties;
 import net.minecraft.tags.FluidTags;
+import net.minecraft.util.BlockRenderLayer;
 import net.minecraft.util.Direction;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.shapes.ISelectionContext;
@@ -15,13 +17,17 @@ import net.minecraft.util.math.shapes.VoxelShape;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.world.IWorld;
 import net.minecraft.world.IWorldReader;
+import net.minecraft.world.World;
 import net.minecraft.world.server.ServerWorld;
+import net.minecraftforge.common.ForgeHooks;
+import net.minecraftforge.common.PlantType;
 
+import java.util.Iterator;
 import java.util.Random;
 
 public class GrowableSugarCaneBlock extends Block implements net.minecraftforge.common.IPlantable {
-    public static final IntegerProperty AGE = BlockStateProperties.AGE_15;
-    protected static final VoxelShape SHAPE = Block.box(2.0D, 0.0D, 2.0D, 14.0D, 16.0D, 14.0D);
+    public static final IntegerProperty AGE;
+    protected static final VoxelShape SHAPE;
 
     public GrowableSugarCaneBlock(Block.Properties p_i48312_1_) {
         super(p_i48312_1_);
@@ -32,25 +38,25 @@ public class GrowableSugarCaneBlock extends Block implements net.minecraftforge.
         return SHAPE;
     }
 
-    public void tick(BlockState p_225534_1_, ServerWorld p_225534_2_, BlockPos p_225534_3_, Random p_225534_4_) {
-        if (!p_225534_1_.canSurvive(p_225534_2_, p_225534_3_)) {
-            p_225534_2_.destroyBlock(p_225534_3_, true);
-        } else if (p_225534_2_.isEmptyBlock(p_225534_3_.above())) {
+    public void tick(BlockState p_196267_1_, World p_196267_2_, BlockPos p_196267_3_, Random p_196267_4_) {
+        if (!p_196267_1_.canSurvive(p_196267_2_, p_196267_3_)) {
+            p_196267_2_.destroyBlock(p_196267_3_, true);
+        } else if (p_196267_2_.isEmptyBlock(p_196267_3_.above())) {
             int i;
-            for(i = 1; p_225534_2_.getBlockState(p_225534_3_.below(i)).getBlock() == this; ++i) {
-                ;
+            for(i = 1; p_196267_2_.getBlockState(p_196267_3_.below(i)).getBlock() == this; ++i) {
             }
 
             if (i < 3) {
-                int j = p_225534_1_.getValue(AGE);
-                if (net.minecraftforge.common.ForgeHooks.onCropsGrowPre(p_225534_2_, p_225534_3_, p_225534_1_, true)) {
+                int j = (Integer)p_196267_1_.getValue(AGE);
+                if (ForgeHooks.onCropsGrowPre(p_196267_2_, p_196267_3_, p_196267_1_, true)) {
                     if (j == 15) {
-                        p_225534_2_.setBlockAndUpdate(p_225534_3_.above(), this.defaultBlockState());
-                        p_225534_2_.setBlock(p_225534_3_, p_225534_1_.setValue(AGE, Integer.valueOf(0)), 4);
+                        p_196267_2_.setBlockAndUpdate(p_196267_3_.above(), this.defaultBlockState());
+                        p_196267_2_.setBlock(p_196267_3_, (BlockState)p_196267_1_.setValue(AGE, 0), 4);
                     } else {
-                        p_225534_2_.setBlock(p_225534_3_, p_225534_1_.setValue(AGE, Integer.valueOf(j + 1)), 4);
+                        p_196267_2_.setBlock(p_196267_3_, (BlockState)p_196267_1_.setValue(AGE, j + 1), 4);
                     }
-                    net.minecraftforge.common.ForgeHooks.onCropsGrowPost(p_225534_2_, p_225534_3_, p_225534_1_);
+
+                    ForgeHooks.onCropsGrowPost(p_196267_2_, p_196267_3_, p_196267_1_);
                 }
             }
         }
@@ -67,38 +73,53 @@ public class GrowableSugarCaneBlock extends Block implements net.minecraftforge.
 
     public boolean canSurvive(BlockState p_196260_1_, IWorldReader p_196260_2_, BlockPos p_196260_3_) {
         BlockState soil = p_196260_2_.getBlockState(p_196260_3_.below());
-        if (soil.canSustainPlant(p_196260_2_, p_196260_3_.below(), Direction.UP, this)) return true;
-        Block block = p_196260_2_.getBlockState(p_196260_3_.below()).getBlock();
-        if (block == this) {
+        if (soil.canSustainPlant(p_196260_2_, p_196260_3_.below(), Direction.UP, this)) {
             return true;
         } else {
-            if (block == Blocks.GRASS_BLOCK || block == Blocks.DIRT || block == Blocks.COARSE_DIRT || block == Blocks.PODZOL || block == Blocks.SAND || block == Blocks.RED_SAND) {
+            Block block = p_196260_2_.getBlockState(p_196260_3_.below()).getBlock();
+            if (block == this) {
+                return true;
+            } else if (block == Blocks.GRASS_BLOCK || block == Blocks.DIRT || block == Blocks.COARSE_DIRT || block == Blocks.PODZOL || block == Blocks.SAND || block == Blocks.RED_SAND) {
                 BlockPos blockpos = p_196260_3_.below();
+                Iterator var7 = Direction.Plane.HORIZONTAL.iterator();
 
-                for(Direction direction : Direction.Plane.HORIZONTAL) {
-                    BlockState blockstate = p_196260_2_.getBlockState(blockpos.relative(direction));
-                    IFluidState ifluidstate = p_196260_2_.getFluidState(blockpos.relative(direction));
-                    if (ifluidstate.is(FluidTags.WATER) || blockstate.getBlock() == Blocks.FROSTED_ICE) {
-                        return true;
+                BlockState blockstate;
+                IFluidState ifluidstate;
+                do {
+                    if (!var7.hasNext()) {
+                        return false;
                     }
-                }
-            }
 
-            return false;
+                    Direction direction = (Direction)var7.next();
+                    blockstate = p_196260_2_.getBlockState(blockpos.relative(direction));
+                    ifluidstate = p_196260_2_.getFluidState(blockpos.relative(direction));
+                } while(!ifluidstate.is(FluidTags.WATER) && blockstate.getBlock() != Blocks.FROSTED_ICE);
+
+                return true;
+            } else {
+                return false;
+            }
         }
     }
 
+    public BlockRenderLayer getRenderLayer() {
+        return BlockRenderLayer.CUTOUT;
+    }
+
     protected void createBlockStateDefinition(StateContainer.Builder<Block, BlockState> p_206840_1_) {
-        p_206840_1_.add(AGE);
+        p_206840_1_.add(new IProperty[]{AGE});
     }
 
-    @Override
-    public net.minecraftforge.common.PlantType getPlantType(IBlockReader world, BlockPos pos) {
-        return net.minecraftforge.common.PlantType.Beach;
+    public PlantType getPlantType(IBlockReader p_getPlantType_1_, BlockPos p_getPlantType_2_) {
+        return PlantType.Beach;
     }
 
-    @Override
-    public BlockState getPlant(IBlockReader world, BlockPos pos) {
-        return defaultBlockState();
+    public BlockState getPlant(IBlockReader p_getPlant_1_, BlockPos p_getPlant_2_) {
+        return this.defaultBlockState();
+    }
+
+    static {
+        AGE = BlockStateProperties.AGE_15;
+        SHAPE = Block.box(2.0, 0.0, 2.0, 14.0, 16.0, 14.0);
     }
 }

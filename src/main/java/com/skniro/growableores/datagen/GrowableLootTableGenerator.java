@@ -2,11 +2,8 @@ package com.skniro.growableores.datagen;
 
 
 import com.skniro.growableores.block.GrowableOresBlocks;
-import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
-import net.minecraft.client.render.RenderLayer;
-import net.minecraft.data.client.BlockStateModelGenerator;
 
 
 public class GrowableLootTableGenerator extends FabricBlockLootTableProvider {
@@ -29,10 +26,13 @@ public class GrowableLootTableGenerator extends FabricBlockLootTableProvider {
         addDrop(GrowableOresBlocks.Ender_Pearl_Cane);
         addDrop(GrowableOresBlocks.Netherite_Ingot_Cane);
         addDrop(GrowableOresBlocks.Clay_Cane);
+        addDrop(GrowableOresBlocks.Slime_Cane);
+        addDrop(GrowableOresBlocks.Nether_Star_Cane);
+        addDrop(GrowableOresBlocks.Glowstone_Cane);
+        addDrop(GrowableOresBlocks.Bone_Cane);
 
         //AE2
         addDrop(GrowableOresBlocks.certus_quartz_crystal_Cane);
-
         //Tech Reborn
         addDrop(GrowableOresBlocks.cinnabar_Cane);
         addDrop(GrowableOresBlocks.galena_Cane);

@@ -2,10 +2,8 @@ package com.skniro.growableores.datagen;
 
 import com.skniro.growableores.GrowableOres;
 import com.skniro.growableores.block.GrowableOresBlocks;
-import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
-import net.minecraft.client.render.RenderLayer;
 
 public class GrowableEnglishLanguageProvider extends FabricLanguageProvider {
     public GrowableEnglishLanguageProvider(FabricDataOutput dataGenerator){
@@ -27,6 +25,10 @@ public class GrowableEnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(GrowableOresBlocks.Ender_Pearl_Cane,"Ender Pearl Reed");
         translationBuilder.add(GrowableOresBlocks.Netherite_Ingot_Cane,"Netherite Ingot Reed");
         translationBuilder.add(GrowableOresBlocks.Clay_Cane,"Clay Reed");
+        translationBuilder.add(GrowableOresBlocks.Glowstone_Cane,"Glowstone Reed");
+        translationBuilder.add(GrowableOresBlocks.Slime_Cane,"Slime Reed");
+        translationBuilder.add(GrowableOresBlocks.Bone_Cane,"Bone Reed");
+        translationBuilder.add(GrowableOresBlocks.Nether_Star_Cane,"Nether Star Reed");
 
         //ae2
         translationBuilder.add(GrowableOresBlocks.certus_quartz_crystal_Cane,"Certus Quartz Crystal Reed");

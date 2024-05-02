@@ -4,13 +4,6 @@ package com.skniro.growableores;
 import com.skniro.growableores.block.GrowableOresBlocks;
 import com.skniro.growableores.item.GrowableOresItems;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.MapColor;
-import net.minecraft.block.SugarCaneBlock;
-import net.minecraft.block.piston.PistonBehavior;
-import net.minecraft.data.client.BlockStateModelGenerator;
-import net.minecraft.sound.BlockSoundGroup;
 
 
 public class ModContent {
@@ -39,6 +32,10 @@ public class ModContent {
             content.add(GrowableOresBlocks.Ender_Pearl_Cane);
             content.add(GrowableOresBlocks.Netherite_Ingot_Cane);
             content.add(GrowableOresBlocks.Clay_Cane);
+            content.add(GrowableOresBlocks.Glowstone_Cane);
+            content.add(GrowableOresBlocks.Slime_Cane);
+            content.add(GrowableOresBlocks.Bone_Cane);
+            content.add(GrowableOresBlocks.Nether_Star_Cane);
 
             //ae2
             content.add(GrowableOresBlocks.certus_quartz_crystal_Cane);

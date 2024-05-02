@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#G#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:sugar_cane"
+    },
+    "G": {
+      "item": "modern_industrialization:mozanite_dust"
+    }
+  },
+  "result": {
+    "item": "growable_ores:mi_monazite_cane",
+    "count": 1
+  }
+}

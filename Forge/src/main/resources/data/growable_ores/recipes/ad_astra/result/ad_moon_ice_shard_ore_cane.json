@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "growable_ores:ad_moon_ice_shard_ore_cane"
+    }
+  },
+  "result": {
+    "item": "ad_astra:ice_shard",
+    "count": 1
+  }
+}

@@ -63,6 +63,19 @@ public class GrowableOresClient {
         ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.ender_Cane.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.thallasium_Cane.get(), RenderType.cutout());
 
+        //Ad Astra!
+        ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.AD_Ostrum_Cane.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.AD_Ice_Shard_Cane.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.AD_Cheese_Cane.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.AD_Desh_Cane.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.AD_Calorite_Cane.get(), RenderType.cutout());
+
+        //ic2 and ic2c
+        ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks. IC2_Aluminium_Cane.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks. IC2_silver_Cane.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks. IC2_Tin_Cane.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks. IC2_Uranium_Cane.get(), RenderType.cutout());
+
 
         //Powah Rearchitected and Powah
         ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.Steel_Energized_Cane.get(), RenderType.cutout());

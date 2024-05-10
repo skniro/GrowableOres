@@ -1,7 +1,6 @@
 package com.skniro.growableores.block;
 
 import com.skniro.growableores.GrowableOres;
-import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.MapColor;
@@ -140,7 +139,7 @@ public class GrowableOresBlocks {
 
     private static Item registerBlockItem(String name, Block block, RegistryKey<ItemGroup> tab) {
         return Registry.register(Registries.ITEM, new Identifier(GrowableOres.MOD_ID, name),
-                new BlockItem(block, new FabricItemSettings()));
+                new BlockItem(block, new Item.Settings()));
     }
     public static void registerModBlocks(){
         Logger.getLogger("register mod blocks" + GrowableOres.MOD_ID);

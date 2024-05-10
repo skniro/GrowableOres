@@ -4,14 +4,17 @@ import com.skniro.growableores.GrowableOres;
 import com.skniro.growableores.block.GrowableOresBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
+import net.minecraft.registry.RegistryWrapper;
+
+import java.util.concurrent.CompletableFuture;
 
 public class GrowableSimplifiedChineseLanguageProvider extends FabricLanguageProvider {
-    public GrowableSimplifiedChineseLanguageProvider(FabricDataOutput dataGenerator){
-        super(dataGenerator,"zh_cn");
+    public GrowableSimplifiedChineseLanguageProvider(FabricDataOutput dataGenerator, CompletableFuture<RegistryWrapper.WrapperLookup> registryLookup){
+        super(dataGenerator,"zh_cn", registryLookup);
     }
 
     @Override
-    public void generateTranslations(TranslationBuilder translationBuilder){
+    public void generateTranslations(RegistryWrapper.WrapperLookup registryLookup, TranslationBuilder translationBuilder){
         translationBuilder.add(GrowableOresBlocks.Coal_Cane,"煤矿石杆");
         translationBuilder.add(GrowableOresBlocks.Iron_Cane,"铁矿石杆");
         translationBuilder.add(GrowableOresBlocks.Diamond_Cane,"钻石矿石杆");

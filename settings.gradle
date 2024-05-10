@@ -13,8 +13,12 @@ pluginManagement {
             name = 'Neoforge'
             url = 'https://maven.neoforged.net/releases'
         }
+        maven {
+            url = 'https://maven.minecraftforge.net/'
+        }
     }
 }
 
+
 rootProject.name = 'Growable-1.20.6'
-include("Fabric", "Forge","Neoforge")
+include("Fabric", "Forge", "Neoforge")

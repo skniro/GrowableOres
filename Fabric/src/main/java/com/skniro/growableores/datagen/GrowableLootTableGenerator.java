@@ -4,11 +4,14 @@ package com.skniro.growableores.datagen;
 import com.skniro.growableores.block.GrowableOresBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
+import net.minecraft.registry.RegistryWrapper;
+
+import java.util.concurrent.CompletableFuture;
 
 
 public class GrowableLootTableGenerator extends FabricBlockLootTableProvider {
-    public GrowableLootTableGenerator(FabricDataOutput dataGenerator) {
-        super(dataGenerator);
+    protected GrowableLootTableGenerator(FabricDataOutput dataOutput, CompletableFuture<RegistryWrapper.WrapperLookup> registryLookup) {
+        super(dataOutput, registryLookup);
     }
 
     @Override

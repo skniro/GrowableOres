@@ -21,7 +21,7 @@ version = "${project.forge_mod_version}"
 
 java {
     archivesBaseName = "${project.archives_base_name}"
-    toolchain.languageVersion = JavaLanguageVersion.of(17)
+    toolchain.languageVersion = JavaLanguageVersion.of(21)
 }
 
 minecraft {

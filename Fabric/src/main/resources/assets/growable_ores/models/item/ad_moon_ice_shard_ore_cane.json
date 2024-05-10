@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "growable_ores:block/ad_moon_ice_shard_ore_cane"
-  }
-}

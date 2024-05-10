@@ -7,6 +7,11 @@
   "authors": [
     "skniro"
   ],
+  "credits": [
+    "Rafan",
+    "gilnet",
+    "All translators"
+  ],
   "contact": {
     "website": "https://www.curseforge.com/skniro",
     "sources": "https://github.com/skniro/GrowableOres",
@@ -15,6 +20,9 @@
   "icon": "assets/growable_ores/icon.png",
   "environment": "*",
   "entrypoints": {
+    "fabric-datagen": [
+      "com.skniro.growableores.datagen.GrowableOresDataGeneration"
+    ],
     "client": [
       "com.skniro.growableores.client.GrowableOresClient"
     ],
@@ -26,8 +34,8 @@
     "growable_ores.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.14.13",
+    "fabricloader": ">=0.14.21",
     "fabric": "*",
-    "minecraft": "1.19.x"
+    "minecraft": "1.20.x"
   }
 }

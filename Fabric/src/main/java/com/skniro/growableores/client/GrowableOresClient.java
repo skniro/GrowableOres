@@ -1,11 +1,19 @@
 package com.skniro.growableores.client;
 
+import com.skniro.growableores.GrowableOres;
 import com.skniro.growableores.block.GrowableOresBlocks;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.Block;
+import net.minecraft.block.MapColor;
+import net.minecraft.block.SugarCaneBlock;
+import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.client.render.RenderLayer;
+import net.minecraft.data.client.BlockStateModelGenerator;
+import net.minecraft.sound.BlockSoundGroup;
 
 @Environment(EnvType.CLIENT)
 public class GrowableOresClient implements ClientModInitializer {
@@ -49,6 +57,7 @@ public class GrowableOresClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.sodalite_Cane, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.bauxite_Cane, RenderLayer.getCutout());
 
+
         //BetterEnd
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.amber_Cane, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.ender_Cane, RenderLayer.getCutout());
@@ -89,13 +98,12 @@ public class GrowableOresClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.MI_tungsten_Cane, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.MI_uranium_Cane, RenderLayer.getCutout());
 
-
-  /*      //ic2 and ic2c
+        //ic2 and ic2c
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.IC2_Aluminium_Cane, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.IC2_silver_Cane, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.IC2_Tin_Cane, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.IC2_Uranium_Cane, RenderLayer.getCutout());
-*/
+
         //Ad Astra!
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.AD_Ostrum_Cane, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.AD_Ice_Shard_Cane, RenderLayer.getCutout());
@@ -109,7 +117,6 @@ public class GrowableOresClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.C_Polished_Rose_Quartz_Cane, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.C_Zinc_Cane, RenderLayer.getCutout());
 
-/*
         //Thermal Series
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.TF_Apatite_Cane, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.TF_Cinnabar_Cane, RenderLayer.getCutout());
@@ -122,7 +129,6 @@ public class GrowableOresClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.TF_Silver_Cane, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.TF_Sulfur_Cane, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.TF_Tin_Cane, RenderLayer.getCutout());
-*/
 
     }
 }

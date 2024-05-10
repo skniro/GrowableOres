@@ -3,6 +3,7 @@ package com.skniro.growableores;
 import com.mojang.logging.LogUtils;
 import com.skniro.growableores.block.GrowableOresBlocks;
 import com.skniro.growableores.item.MapleItems;
+import com.skniro.growableores.item.ModCreativeModeTabs;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -31,6 +32,7 @@ public class GrowableOres {
         // Register the Deferred Register to the mod event bus so blocks get registered
         GrowableOresBlocks.registerMapleBlocks(modEventBus);
         MapleItems.registerModItems(modEventBus);
+        ModCreativeModeTabs.register(modEventBus);
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
     }

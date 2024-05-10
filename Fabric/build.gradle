@@ -21,6 +21,10 @@ repositories {
             includeGroup 'appeng'
         }
     }
+    maven {
+        name "BCLIB"
+        url 'https://jitpack.io'
+    }
 
     maven {
         // location of the maven that hosts JEI files since January 2023
@@ -44,12 +48,18 @@ dependencies {
     // Fabric API. This is technically optional, but you probably want it anyway.
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-    include modApi('teamreborn:energy:2.3.0') {
+   /* include modApi('teamreborn:energy:3.0.0') {
         exclude(group: "net.fabricmc.fabric-api")
     }
 
-    modRuntimeOnly  ("curse.maven:reborncore-237903:3902448")
-    modRuntimeOnly  ("curse.maven:techreborn-233564:3902447")
+    modImplementation  ("curse.maven:reborncore-237903:4582416")
+    modImplementation  ("curse.maven:techreborn-233564:4582415")*/
+
+    //modImplementation  ("curse.maven:powah-633483:4638300")
+
+    //modImplementation  ("curse.maven:betterend-413596:4658906")
+
+    //modImplementation "com.github.quiqueck:BCLib:${project.bclib_version}"
 
 }
 

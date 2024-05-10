@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "growable_ores:block/tf_cinnabar_ore_cane"
-  }
-}

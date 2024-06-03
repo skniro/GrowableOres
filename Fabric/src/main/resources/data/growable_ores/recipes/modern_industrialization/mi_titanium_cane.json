@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "growable_ores:mi_titanium_cane",
+    "id": "growable_ores:mi_titanium_cane",
     "count": 1
   }
 }

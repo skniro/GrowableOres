@@ -11,7 +11,7 @@
     }
   },
   "result": {
-    "item": "minecraft:bone",
+    "id": "minecraft:bone",
     "count": 2
   }
 }

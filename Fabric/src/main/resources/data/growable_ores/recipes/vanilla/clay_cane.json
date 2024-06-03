@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "growable_ores:clay_cane",
+    "id": "growable_ores:clay_cane",
     "count": 1
   }
 }

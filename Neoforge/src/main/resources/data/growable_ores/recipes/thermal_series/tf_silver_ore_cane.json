@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "growable_ores:tf_silver_ore_cane",
+    "id": "growable_ores:tf_silver_ore_cane",
     "count": 1
   }
 }

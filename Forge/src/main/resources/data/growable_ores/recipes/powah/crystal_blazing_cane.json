@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "growable_ores:crystal_blazing_cane",
+    "id": "growable_ores:crystal_blazing_cane",
     "count": 1
   }
 }

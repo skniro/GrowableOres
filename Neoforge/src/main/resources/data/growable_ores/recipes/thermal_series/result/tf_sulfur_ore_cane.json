@@ -11,7 +11,7 @@
     }
   },
   "result": {
-    "item": "thermal:sulfur",
+    "id": "thermal:sulfur",
     "count": 1
   }
 }

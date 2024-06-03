@@ -11,7 +11,7 @@
     }
   },
   "result": {
-    "item": "create:brass_ingot",
+    "id": "create:brass_ingot",
     "count": 1
   }
 }

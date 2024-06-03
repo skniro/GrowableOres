@@ -11,7 +11,7 @@
     }
   },
   "result": {
-    "item": "indrev:lead_ingot",
+    "id": "indrev:lead_ingot",
     "count": 1
   }
 }

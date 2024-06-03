@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "growable_ores:sheldonite_cane",
+    "id": "growable_ores:sheldonite_cane",
     "count": 1
   }
 }

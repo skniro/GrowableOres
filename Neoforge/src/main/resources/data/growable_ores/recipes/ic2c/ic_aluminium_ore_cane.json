@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "growable_ores:ic_aluminium_ore_cane",
+    "id": "growable_ores:ic_aluminium_ore_cane",
     "count": 1
   }
 }

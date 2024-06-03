@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "growable_ores:sphalerite_cane",
+    "id": "growable_ores:sphalerite_cane",
     "count": 1
   }
 }

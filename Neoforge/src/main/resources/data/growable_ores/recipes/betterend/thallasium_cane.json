@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "growable_ores:thallasium_cane",
+    "id": "growable_ores:thallasium_cane",
     "count": 1
   }
 }

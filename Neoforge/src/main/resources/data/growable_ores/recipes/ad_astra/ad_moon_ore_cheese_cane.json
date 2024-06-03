@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "growable_ores:ad_moon_ore_cheese_cane",
+    "id": "growable_ores:ad_moon_ore_cheese_cane",
     "count": 1
   }
 }

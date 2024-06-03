@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "growable_ores:peridot_cane",
+    "id": "growable_ores:peridot_cane",
     "count": 1
   }
 }

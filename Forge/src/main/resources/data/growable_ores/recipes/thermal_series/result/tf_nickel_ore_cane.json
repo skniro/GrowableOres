@@ -11,7 +11,7 @@
     }
   },
   "result": {
-    "item": "thermal:nickel_ingot",
+    "id": "thermal:nickel_ingot",
     "count": 1
   }
 }

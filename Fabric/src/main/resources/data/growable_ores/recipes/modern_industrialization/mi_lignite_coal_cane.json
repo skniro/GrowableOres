@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "growable_ores:mi_lignite_coal_cane",
+    "id": "growable_ores:mi_lignite_coal_cane",
     "count": 1
   }
 }

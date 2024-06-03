@@ -11,7 +11,7 @@
     }
   },
   "result": {
-    "item": "ic2:ingot_aluminium",
+    "id": "ic2:ingot_aluminium",
     "count": 1
   }
 }

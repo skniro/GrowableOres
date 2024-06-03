@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "growable_ores:ad_mars_ore_ostrum_cane",
+    "id": "growable_ores:ad_mars_ore_ostrum_cane",
     "count": 1
   }
 }

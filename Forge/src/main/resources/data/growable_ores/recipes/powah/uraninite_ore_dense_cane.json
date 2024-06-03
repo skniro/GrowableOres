@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "growable_ores:uraninite_ore_dense_cane",
+    "id": "growable_ores:uraninite_ore_dense_cane",
     "count": 1
   }
 }

@@ -11,7 +11,7 @@
     }
   },
   "result": {
-    "item": "ic2:ingot_silver",
+    "id": "ic2:ingot_silver",
     "count": 1
   }
 }

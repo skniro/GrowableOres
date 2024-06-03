@@ -11,7 +11,7 @@
     }
   },
   "result": {
-    "item": "indrev:silver_ingot",
+    "id": "indrev:silver_ingot",
     "count": 1
   }
 }

@@ -11,7 +11,7 @@
     }
   },
   "result": {
-    "item": "ic2:ingot_uranium",
+    "id": "ic2:ingot_uranium",
     "count": 1
   }
 }

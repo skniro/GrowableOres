@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "growable_ores:nether_quartz_cane",
+    "id": "growable_ores:nether_quartz_cane",
     "count": 1
   }
 }

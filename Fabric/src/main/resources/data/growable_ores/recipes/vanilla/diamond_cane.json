@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "growable_ores:diamond_cane",
+    "id": "growable_ores:diamond_cane",
     "count": 1
   }
 }

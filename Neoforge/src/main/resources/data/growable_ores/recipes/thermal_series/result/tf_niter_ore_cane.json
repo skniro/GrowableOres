@@ -11,7 +11,7 @@
     }
   },
   "result": {
-    "item": "thermal:niter",
+    "id": "thermal:niter",
     "count": 1
   }
 }

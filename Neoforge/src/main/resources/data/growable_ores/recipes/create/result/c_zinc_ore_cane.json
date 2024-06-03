@@ -11,7 +11,7 @@
     }
   },
   "result": {
-    "item": "create:zinc_ingot",
+    "id": "create:zinc_ingot",
     "count": 1
   }
 }

@@ -11,7 +11,7 @@
     }
   },
   "result": {
-    "item": "thermal:cinnabar_ore",
+    "id": "thermal:cinnabar_ore",
     "count": 1
   }
 }

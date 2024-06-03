@@ -11,7 +11,7 @@
     }
   },
   "result": {
-    "item": "thermal:lead_ingot",
+    "id": "thermal:lead_ingot",
     "count": 1
   }
 }

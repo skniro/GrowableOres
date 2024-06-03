@@ -11,7 +11,7 @@
     }
   },
   "result": {
-    "item": "minecraft:clay",
+    "id": "minecraft:clay",
     "count": 1
   }
 }

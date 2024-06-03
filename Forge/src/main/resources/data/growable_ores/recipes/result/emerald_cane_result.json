@@ -11,7 +11,7 @@
     }
   },
   "result": {
-    "item": "minecraft:emerald",
+    "id": "minecraft:emerald",
     "count": 1
   }
 }

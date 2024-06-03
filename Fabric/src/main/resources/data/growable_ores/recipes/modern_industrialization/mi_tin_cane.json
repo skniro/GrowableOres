@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "growable_ores:mi_tin_cane",
+    "id": "growable_ores:mi_tin_cane",
     "count": 1
   }
 }

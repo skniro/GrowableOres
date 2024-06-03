@@ -11,7 +11,7 @@
     }
   },
   "result": {
-    "item": "ic2:ingot_tin",
+    "id": "ic2:ingot_tin",
     "count": 1
   }
 }

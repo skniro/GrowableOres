@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "growable_ores:sodalite_cane",
+    "id": "growable_ores:sodalite_cane",
     "count": 1
   }
 }

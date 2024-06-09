@@ -1,17 +1,22 @@
 package com.skniro.growableores;
 
 import com.mojang.logging.LogUtils;
-import com.skniro.growableores.block.GrowableOresBlocks;
+import com.skniro.growableores.block.*;
+import com.skniro.growableores.conifg.GrowableConfig;
 import com.skniro.growableores.item.MapleItems;
 import com.skniro.growableores.item.ModCreativeModeTabs;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.ModList;
+import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.fml.loading.FMLLoader;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -24,13 +29,36 @@ public class GrowableOres {
 
 
     public GrowableOres() {
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, GrowableConfig.GENERAL_SPEC, "growable_ores_config.toml");
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
         // Register the Deferred Register to the mod event bus so blocks get registered
-        GrowableOresBlocks.registerMapleBlocks(modEventBus);
+        GrowableVanillaOresBlocks.registerMapleBlocks(modEventBus);
+        if(ModList.get().isLoaded("ad_astra") || GrowableConfig.All_Item_Mode.get()) {
+            GrowableAdAstraOresBlocks.registerAdAstraBlocks(modEventBus);
+        }
+        if (ModList.get().isLoaded("ae2") || GrowableConfig.All_Item_Mode.get()) {
+            GrowableAEOresBlocks.registerMapleBlocks(modEventBus);
+        }
+        if (ModList.get().isLoaded("create") || GrowableConfig.All_Item_Mode.get()) {
+            GrowableCreateOresBlocks.registerMapleBlocks(modEventBus);
+        }
+        if (ModList.get().isLoaded("betterend") || GrowableConfig.All_Item_Mode.get()) {
+            GrowableBetterEndOresBlocks.registerMapleBlocks(modEventBus);
+        }
+        if (ModList.get().isLoaded("ic2") || GrowableConfig.All_Item_Mode.get()) {
+            GrowableICOresBlocks.registerMapleBlocks(modEventBus);
+        }
+        if (ModList.get().isLoaded("powah") || GrowableConfig.All_Item_Mode.get()) {
+            GrowablePowahOresBlocks.registerMapleBlocks(modEventBus);
+        }
+        if (ModList.get().isLoaded("thermal") || GrowableConfig.All_Item_Mode.get()) {
+            GrowableThermalSeriesOresBlocks.registerMapleBlocks(modEventBus);
+        }
+
         MapleItems.registerModItems(modEventBus);
         ModCreativeModeTabs.register(modEventBus);
         // Register ourselves for server and other game events we are interested in

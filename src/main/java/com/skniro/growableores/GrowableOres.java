@@ -29,7 +29,7 @@ public class GrowableOres {
 
 
     public GrowableOres() {
-        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, GrowableConfig.GENERAL_SPEC, "growable_ores_config.toml");
+        //ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, GrowableConfig.GENERAL_SPEC, "growable_ores_config.toml");
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         // Register the commonSetup method for modloading
@@ -37,25 +37,25 @@ public class GrowableOres {
 
         // Register the Deferred Register to the mod event bus so blocks get registered
         GrowableVanillaOresBlocks.registerMapleBlocks(modEventBus);
-        if(ModList.get().isLoaded("ad_astra") || GrowableConfig.All_Item_Mode.get()) {
+        if(ModList.get().isLoaded("ad_astra")) {
             GrowableAdAstraOresBlocks.registerAdAstraBlocks(modEventBus);
         }
-        if (ModList.get().isLoaded("ae2") || GrowableConfig.All_Item_Mode.get()) {
+        if (ModList.get().isLoaded("ae2")) {
             GrowableAEOresBlocks.registerMapleBlocks(modEventBus);
         }
-        if (ModList.get().isLoaded("create") || GrowableConfig.All_Item_Mode.get()) {
+        if (ModList.get().isLoaded("create")) {
             GrowableCreateOresBlocks.registerMapleBlocks(modEventBus);
         }
-        if (ModList.get().isLoaded("betterend") || GrowableConfig.All_Item_Mode.get()) {
+        if (ModList.get().isLoaded("betterend")) {
             GrowableBetterEndOresBlocks.registerMapleBlocks(modEventBus);
         }
-        if (ModList.get().isLoaded("ic2") || GrowableConfig.All_Item_Mode.get()) {
+        if (ModList.get().isLoaded("ic2")) {
             GrowableICOresBlocks.registerMapleBlocks(modEventBus);
         }
-        if (ModList.get().isLoaded("powah") || GrowableConfig.All_Item_Mode.get()) {
+        if (ModList.get().isLoaded("powah")) {
             GrowablePowahOresBlocks.registerMapleBlocks(modEventBus);
         }
-        if (ModList.get().isLoaded("thermal") || GrowableConfig.All_Item_Mode.get()) {
+        if (ModList.get().isLoaded("thermal")) {
             GrowableThermalSeriesOresBlocks.registerMapleBlocks(modEventBus);
         }
 

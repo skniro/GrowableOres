@@ -2,6 +2,6 @@
   "parent": "minecraft:block/tinted_cross",
   "textures": {
     "cross": "growable_ores:block/fluix_crystal_cane"
-  }，
+  },F
   "render_type": "cutout"
 }

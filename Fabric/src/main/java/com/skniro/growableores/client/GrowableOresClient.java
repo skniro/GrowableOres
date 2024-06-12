@@ -31,6 +31,7 @@ public class GrowableOresClient implements ClientModInitializer {
 
         //ae2
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.certus_quartz_crystal_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.fluix_crystal_Cane, RenderLayer.getCutout());
 
         //Tech Reborn
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.cinnabar_Cane, RenderLayer.getCutout());

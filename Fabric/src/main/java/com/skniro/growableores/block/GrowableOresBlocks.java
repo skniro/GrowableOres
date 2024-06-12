@@ -34,6 +34,7 @@ public class GrowableOresBlocks {
 
     //Ae2
     public static final Block certus_quartz_crystal_Cane =registerBlock("certus_quartz_crystal_cane", new SugarCaneBlock(AbstractBlock.Settings.of(Material.PLANT).mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS)),GrowableOres.Growable_Ores_Group);
+    public static final Block fluix_crystal_Cane =registerBlock("fluix_crystal_cane", new SugarCaneBlock(AbstractBlock.Settings.of(Material.PLANT).mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS)),GrowableOres.Growable_Ores_Group);
 
 
     //TechReborn

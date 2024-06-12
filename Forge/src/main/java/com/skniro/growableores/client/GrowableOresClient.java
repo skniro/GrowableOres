@@ -39,6 +39,7 @@ public class GrowableOresClient {
         ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.Bone_Cane.get(), RenderType.cutout());
 
         //ae2
+        ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.fluix_crystal_Cane.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.certus_quartz_crystal_Cane.get(), RenderType.cutout());
         //Create
         ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.C_Andesite_Alloy_Cane.get(), RenderType.cutout());

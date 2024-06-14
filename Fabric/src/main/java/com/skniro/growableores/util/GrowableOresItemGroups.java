@@ -14,7 +14,7 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class GrowableOresItemGroups {
-    public static final RegistryKey<ItemGroup> Growable_Ores_Group = RegistryKey.of(RegistryKeys.ITEM_GROUP, new Identifier(GrowableOres.MOD_ID, "test_group"));
+    public static final RegistryKey<ItemGroup> Growable_Ores_Group = RegistryKey.of(RegistryKeys.ITEM_GROUP, Identifier.of(GrowableOres.MOD_ID, "test_group"));
 
     public static void vanilla_item() {
         Registry.register(Registries.ITEM_GROUP, Growable_Ores_Group, FabricItemGroup.builder()

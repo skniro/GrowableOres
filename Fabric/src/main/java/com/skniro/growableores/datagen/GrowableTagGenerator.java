@@ -17,7 +17,7 @@ public class GrowableTagGenerator extends FabricTagProvider.BlockTagProvider {
         super(output, completableFuture);
    }
 
-   private static final TagKey<Block> GROWABLE_CANE = TagKey.of(RegistryKeys.BLOCK, new Identifier(GrowableOres.MOD_ID,"growable_cane"));
+   private static final TagKey<Block> GROWABLE_CANE = TagKey.of(RegistryKeys.BLOCK, Identifier.of(GrowableOres.MOD_ID,"growable_cane"));
    @Override
    protected void configure(RegistryWrapper.WrapperLookup arg) {
       getOrCreateTagBuilder(GROWABLE_CANE)

@@ -8,7 +8,7 @@ import net.minecraft.util.Identifier;
 
 public class GrowableOresItems {
     private static Item registerItem(String name, Item item) {
-        return Registry.register(Registries.ITEM, new Identifier(GrowableOres.MOD_ID, name), item);
+        return Registry.register(Registries.ITEM, Identifier.of(GrowableOres.MOD_ID, name), item);
     }
 
     public static void shield_item(){

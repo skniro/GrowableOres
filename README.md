@@ -17,3 +17,4 @@ Submitting translations for GrowableOres can be done via our [Crowdin page](http
 ## License
 
 This project is licensed under MIT.
+

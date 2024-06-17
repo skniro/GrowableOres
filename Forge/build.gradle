@@ -12,6 +12,7 @@ buildscript {
 plugins {
     id 'net.minecraftforge.gradle' version '[6.0.24,6.2)'
     id 'maven-publish'
+    id 'idea'
 }
 
 apply plugin: 'org.spongepowered.mixin'
@@ -39,7 +40,7 @@ minecraft {
     // Use non-default mappings at your own risk. They may not always work.
     // Simply re-run your setup task after changing the mappings to update your workspace.
     mappings channel: 'official', version: "${project.minecraft_version}"
-
+    reobf = false
     copyIdeResources = true
 
     // accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
@@ -179,6 +180,7 @@ tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
 }
 
+
 publishing {
     publications {
         mavenJava(MavenPublication) {
@@ -204,9 +206,12 @@ publishing {
     }
 }
 
+
+
 sourceSets.each {
     def dir = layout.buildDirectory.dir("sourcesSets/$it.name")
     it.output.resourcesDir = dir
     it.java.destinationDirectory = dir
 }
+
 

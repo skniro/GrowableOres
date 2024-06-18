@@ -4,7 +4,7 @@ license="${mod_license}"
 
 [[mods]]
 modId="growable_ores"
-version="${mod_version}"
+version="${forge_mod_version}"
 displayName="${mod_name}"
 authors="${mod_authors}"
 description='''${mod_description}'''

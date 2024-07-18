@@ -1,4 +1,13 @@
 {
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "modern_industrialization",
+                "botanypots"
+            ]
+        }
+    ],
     "type": "botanypots:crop",
     "seed": {
         "item": "growable_ores:mi_tin_cane"

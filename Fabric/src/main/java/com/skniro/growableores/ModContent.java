@@ -62,6 +62,18 @@ public class ModContent {
             GrowableOresItemGroups.tf_item();
             GrowableThermalSeriesOresBlocks.registerModBlocks();
         }
+        if (FabricLoader.getInstance().isModLoaded("mekanism") || GrowableOresConfig.All_Item_Mode) {
+            GrowableOresItemGroups.mek_item();
+            GrowableMekanismOresBlocks.registerModBlocks();
+        }
+        if (FabricLoader.getInstance().isModLoaded("betternether") || GrowableOresConfig.All_Item_Mode) {
+            GrowableOresItemGroups.bn_item();
+            GrowableBetterNetherOresBlocks.registerModBlocks();
+        }
+        if (FabricLoader.getInstance().isModLoaded("energizedpower") || GrowableOresConfig.All_Item_Mode) {
+            GrowableOresItemGroups.ep_item();
+            GrowableEnergizedPowerOresBlocks.registerModBlocks();
+        }
     }
 
     public static void CreativeTab() {

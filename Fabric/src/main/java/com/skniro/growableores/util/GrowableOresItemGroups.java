@@ -40,6 +40,10 @@ public class GrowableOresItemGroups {
             content.add(GrowableVanillaOresBlocks.Slime_Cane);
             content.add(GrowableVanillaOresBlocks.Bone_Cane);
             content.add(GrowableVanillaOresBlocks.Nether_Star_Cane);
+            content.add(GrowableVanillaOresBlocks.Egg_Cane);
+            content.add(GrowableVanillaOresBlocks.Wool_Cane);
+            content.add(GrowableVanillaOresBlocks.Feather_Cane);
+
         });
     }
     public static void ae_item() {
@@ -170,6 +174,42 @@ public class GrowableOresItemGroups {
             content.add(GrowableThermalSeriesOresBlocks.TF_Silver_Cane);
             content.add(GrowableThermalSeriesOresBlocks.TF_Sulfur_Cane);
             content.add(GrowableThermalSeriesOresBlocks.TF_Tin_Cane);
+        });
+    }
+
+
+    public static void mek_item() {
+        ItemGroupEvents.modifyEntriesEvent(Growable_Ores_Group).register(content -> {
+            //Mekanism
+            content.add(GrowableMekanismOresBlocks.MEK_Fluorite_Cane);
+            content.add(GrowableMekanismOresBlocks.MEK_Lead_Cane);
+            content.add(GrowableMekanismOresBlocks.MEK_Osmium_Cane);
+            content.add(GrowableMekanismOresBlocks.MEK_Tin_Cane);
+            content.add(GrowableMekanismOresBlocks.MEK_Uranium_Cane);
+            content.add(GrowableMekanismOresBlocks.MEK_Steel_Cane);
+            content.add(GrowableMekanismOresBlocks.MEK_Refined_Obsidian_Cane);
+            content.add(GrowableMekanismOresBlocks.MEK_Refined_Glowstone_Cane);
+            content.add(GrowableMekanismOresBlocks.MEK_Bronze_Cane);
+        });
+    }
+
+    public static void bn_item() {
+        ItemGroupEvents.modifyEntriesEvent(Growable_Ores_Group).register(content -> {
+            //BetterNether
+            content.add(GrowableBetterNetherOresBlocks.BN_Cincinnasite_Cane);
+            content.add(GrowableBetterNetherOresBlocks.BN_Nether_Ruby_Cane);
+        });
+    }
+
+    public static void ep_item() {
+        ItemGroupEvents.modifyEntriesEvent(Growable_Ores_Group).register(content -> {
+            //EnergizedPower
+            content.add(GrowableEnergizedPowerOresBlocks.EP_Advanced_Alloy_Cane);
+            content.add(GrowableEnergizedPowerOresBlocks.EP_Energized_Copper_Cane);
+            content.add(GrowableEnergizedPowerOresBlocks.EP_Energized_Gold_Cane);
+            content.add(GrowableEnergizedPowerOresBlocks.EP_Redstone_Alloy_Cane);
+            content.add(GrowableEnergizedPowerOresBlocks.EP_Steel_Cane);
+            content.add(GrowableEnergizedPowerOresBlocks.EP_Tin_Cane);
         });
     }
 }

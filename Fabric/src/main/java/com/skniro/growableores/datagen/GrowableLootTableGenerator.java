@@ -2,8 +2,10 @@ package com.skniro.growableores.datagen;
 
 
 import com.skniro.growableores.block.*;
+import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
+import net.minecraft.client.render.RenderLayer;
 import net.minecraft.registry.RegistryWrapper;
 
 import java.util.concurrent.CompletableFuture;
@@ -33,6 +35,9 @@ public class GrowableLootTableGenerator extends FabricBlockLootTableProvider {
         addDrop(GrowableVanillaOresBlocks.Nether_Star_Cane);
         addDrop(GrowableVanillaOresBlocks.Glowstone_Cane);
         addDrop(GrowableVanillaOresBlocks.Bone_Cane);
+        addDrop(GrowableVanillaOresBlocks.Egg_Cane);
+        addDrop(GrowableVanillaOresBlocks.Wool_Cane);
+        addDrop(GrowableVanillaOresBlocks.Feather_Cane);
 
         //AE2
         addDrop(GrowableAEOresBlocks.certus_quartz_crystal_Cane);
@@ -126,5 +131,29 @@ public class GrowableLootTableGenerator extends FabricBlockLootTableProvider {
         addDrop(GrowableThermalSeriesOresBlocks.TF_Silver_Cane);
         addDrop(GrowableThermalSeriesOresBlocks.TF_Sulfur_Cane);
         addDrop(GrowableThermalSeriesOresBlocks.TF_Tin_Cane);
+
+        //Mekanism
+        addDrop(GrowableMekanismOresBlocks.MEK_Fluorite_Cane);
+        addDrop(GrowableMekanismOresBlocks.MEK_Lead_Cane);
+        addDrop(GrowableMekanismOresBlocks.MEK_Osmium_Cane);
+        addDrop(GrowableMekanismOresBlocks.MEK_Tin_Cane);
+        addDrop(GrowableMekanismOresBlocks.MEK_Uranium_Cane);
+        addDrop(GrowableMekanismOresBlocks.MEK_Steel_Cane);
+        addDrop(GrowableMekanismOresBlocks.MEK_Refined_Obsidian_Cane);
+        addDrop(GrowableMekanismOresBlocks.MEK_Refined_Glowstone_Cane);
+        addDrop(GrowableMekanismOresBlocks.MEK_Bronze_Cane);
+
+        //BetterNether
+        addDrop(GrowableBetterNetherOresBlocks.BN_Cincinnasite_Cane);
+        addDrop(GrowableBetterNetherOresBlocks.BN_Nether_Ruby_Cane);
+
+        //EnergizedPower
+        addDrop(GrowableEnergizedPowerOresBlocks.EP_Advanced_Alloy_Cane);
+        addDrop(GrowableEnergizedPowerOresBlocks.EP_Energized_Copper_Cane);
+        addDrop(GrowableEnergizedPowerOresBlocks.EP_Energized_Gold_Cane);
+        addDrop(GrowableEnergizedPowerOresBlocks.EP_Redstone_Alloy_Cane);
+        addDrop(GrowableEnergizedPowerOresBlocks.EP_Steel_Cane);
+        addDrop(GrowableEnergizedPowerOresBlocks.EP_Tin_Cane);
+
     }
 }

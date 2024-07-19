@@ -31,6 +31,9 @@ public class GrowableModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerTintableCross(GrowableVanillaOresBlocks.Nether_Star_Cane, BlockStateModelGenerator.TintType.TINTED);
         blockStateModelGenerator.registerTintableCross(GrowableVanillaOresBlocks.Glowstone_Cane, BlockStateModelGenerator.TintType.TINTED);
         blockStateModelGenerator.registerTintableCross(GrowableVanillaOresBlocks.Bone_Cane, BlockStateModelGenerator.TintType.TINTED);
+        blockStateModelGenerator.registerTintableCross(GrowableVanillaOresBlocks.Wool_Cane, BlockStateModelGenerator.TintType.TINTED);
+        blockStateModelGenerator.registerTintableCross(GrowableVanillaOresBlocks.Egg_Cane, BlockStateModelGenerator.TintType.TINTED);
+        blockStateModelGenerator.registerTintableCross(GrowableVanillaOresBlocks.Feather_Cane, BlockStateModelGenerator.TintType.TINTED);
 
         //AE2
         blockStateModelGenerator.registerTintableCross(GrowableAEOresBlocks.certus_quartz_crystal_Cane, BlockStateModelGenerator.TintType.TINTED);
@@ -124,6 +127,30 @@ public class GrowableModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerTintableCross(GrowableThermalSeriesOresBlocks.TF_Silver_Cane, BlockStateModelGenerator.TintType.TINTED);
         blockStateModelGenerator.registerTintableCross(GrowableThermalSeriesOresBlocks.TF_Sulfur_Cane, BlockStateModelGenerator.TintType.TINTED);
         blockStateModelGenerator.registerTintableCross(GrowableThermalSeriesOresBlocks.TF_Tin_Cane, BlockStateModelGenerator.TintType.TINTED);
+
+
+        //Mekanism
+        blockStateModelGenerator.registerTintableCross(GrowableMekanismOresBlocks.MEK_Fluorite_Cane, BlockStateModelGenerator.TintType.TINTED);
+        blockStateModelGenerator.registerTintableCross(GrowableMekanismOresBlocks.MEK_Lead_Cane, BlockStateModelGenerator.TintType.TINTED);
+        blockStateModelGenerator.registerTintableCross(GrowableMekanismOresBlocks.MEK_Osmium_Cane, BlockStateModelGenerator.TintType.TINTED);
+        blockStateModelGenerator.registerTintableCross(GrowableMekanismOresBlocks.MEK_Tin_Cane, BlockStateModelGenerator.TintType.TINTED);
+        blockStateModelGenerator.registerTintableCross(GrowableMekanismOresBlocks.MEK_Uranium_Cane, BlockStateModelGenerator.TintType.TINTED);
+        blockStateModelGenerator.registerTintableCross(GrowableMekanismOresBlocks.MEK_Steel_Cane, BlockStateModelGenerator.TintType.TINTED);
+        blockStateModelGenerator.registerTintableCross(GrowableMekanismOresBlocks.MEK_Refined_Obsidian_Cane, BlockStateModelGenerator.TintType.TINTED);
+        blockStateModelGenerator.registerTintableCross(GrowableMekanismOresBlocks.MEK_Refined_Glowstone_Cane, BlockStateModelGenerator.TintType.TINTED);
+        blockStateModelGenerator.registerTintableCross(GrowableMekanismOresBlocks.MEK_Bronze_Cane, BlockStateModelGenerator.TintType.TINTED);
+
+        //BetterNether
+        blockStateModelGenerator.registerTintableCross(GrowableBetterNetherOresBlocks.BN_Cincinnasite_Cane, BlockStateModelGenerator.TintType.TINTED);
+        blockStateModelGenerator.registerTintableCross(GrowableBetterNetherOresBlocks.BN_Nether_Ruby_Cane, BlockStateModelGenerator.TintType.TINTED);
+
+        //EnergizedPower
+        blockStateModelGenerator.registerTintableCross(GrowableEnergizedPowerOresBlocks.EP_Advanced_Alloy_Cane, BlockStateModelGenerator.TintType.TINTED);
+        blockStateModelGenerator.registerTintableCross(GrowableEnergizedPowerOresBlocks.EP_Energized_Copper_Cane, BlockStateModelGenerator.TintType.TINTED);
+        blockStateModelGenerator.registerTintableCross(GrowableEnergizedPowerOresBlocks.EP_Energized_Gold_Cane, BlockStateModelGenerator.TintType.TINTED);
+        blockStateModelGenerator.registerTintableCross(GrowableEnergizedPowerOresBlocks.EP_Redstone_Alloy_Cane, BlockStateModelGenerator.TintType.TINTED);
+        blockStateModelGenerator.registerTintableCross(GrowableEnergizedPowerOresBlocks.EP_Steel_Cane, BlockStateModelGenerator.TintType.TINTED);
+        blockStateModelGenerator.registerTintableCross(GrowableEnergizedPowerOresBlocks.EP_Tin_Cane, BlockStateModelGenerator.TintType.TINTED);
 
     }
     @Override

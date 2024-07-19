@@ -52,6 +52,15 @@ public class GrowableOres {
         if (ModList.get().isLoaded("thermal")) {
             GrowableThermalSeriesOresBlocks.registerMapleBlocks(modEventBus);
         }
+        if (ModList.get().isLoaded("mekanism")) {
+            GrowableMekanismOresBlocks.registerModBlocks(modEventBus);
+        }
+        if (ModList.get().isLoaded("betternether")) {
+            GrowableBetterEndOresBlocks.registerMapleBlocks(modEventBus);
+        }
+        if (ModList.get().isLoaded("energizedpower")) {
+            GrowableEnergizedPowerOresBlocks.registerModBlocks(modEventBus);
+        }
         MapleItems.registerModItems(modEventBus);
         ModCreativeModeTabs.register(modEventBus);
         // Register ourselves for server and other game events we are interested in

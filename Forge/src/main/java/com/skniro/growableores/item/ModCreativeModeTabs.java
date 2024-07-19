@@ -36,6 +36,9 @@ public class ModCreativeModeTabs {
                         pOutput.accept(GrowableVanillaOresBlocks.Nether_Star_Cane.get());
                         pOutput.accept(GrowableVanillaOresBlocks.Glowstone_Cane.get());
                         pOutput.accept(GrowableVanillaOresBlocks.Bone_Cane.get());
+                        pOutput.accept(GrowableVanillaOresBlocks.Egg_Cane.get());
+                        pOutput.accept(GrowableVanillaOresBlocks.Feather_Cane.get());
+                        pOutput.accept(GrowableVanillaOresBlocks.Wool_Cane.get());
 
                         if(ModList.get().isLoaded("ad_astra")) {
                             //Ad Astra!
@@ -108,8 +111,39 @@ public class ModCreativeModeTabs {
                             pOutput.accept(GrowableAdAstraOresBlocks.AD_Desh_Cane.get());
                             pOutput.accept(GrowableAdAstraOresBlocks.AD_Calorite_Cane.get());
                         }
+
+                        if(ModList.get().isLoaded("mekanism")) {
+                            //Mekanism
+                            pOutput.accept(GrowableMekanismOresBlocks.MEK_Fluorite_Cane.get());
+                            pOutput.accept(GrowableMekanismOresBlocks.MEK_Lead_Cane.get());
+                            pOutput.accept(GrowableMekanismOresBlocks.MEK_Osmium_Cane.get());
+                            pOutput.accept(GrowableMekanismOresBlocks.MEK_Tin_Cane.get());
+                            pOutput.accept(GrowableMekanismOresBlocks.MEK_Uranium_Cane.get());
+                            pOutput.accept(GrowableMekanismOresBlocks.MEK_Steel_Cane.get());
+                            pOutput.accept(GrowableMekanismOresBlocks.MEK_Refined_Obsidian_Cane.get());
+                            pOutput.accept(GrowableMekanismOresBlocks.MEK_Refined_Glowstone_Cane.get());
+                            pOutput.accept(GrowableMekanismOresBlocks.MEK_Bronze_Cane.get());
+                        }
+
+                        if(ModList.get().isLoaded("betternether")) {
+                            //BetterNether
+                            pOutput.accept(GrowableBetterNetherOresBlocks.BN_Cincinnasite_Cane.get());
+                            pOutput.accept(GrowableBetterNetherOresBlocks.BN_Nether_Ruby_Cane.get());
+                        }
+
+                        if(ModList.get().isLoaded("energizedpower")) {
+                            pOutput.accept(GrowableEnergizedPowerOresBlocks.EP_Advanced_Alloy_Cane.get());
+                            pOutput.accept(GrowableEnergizedPowerOresBlocks.EP_Energized_Copper_Cane.get());
+                            pOutput.accept(GrowableEnergizedPowerOresBlocks.EP_Energized_Gold_Cane.get());
+                            pOutput.accept(GrowableEnergizedPowerOresBlocks.EP_Redstone_Alloy_Cane.get());
+                            pOutput.accept(GrowableEnergizedPowerOresBlocks.EP_Steel_Cane.get());
+                            pOutput.accept(GrowableEnergizedPowerOresBlocks.EP_Tin_Cane.get());
+                        }
                     })
                     .build());
+
+
+
 
 
     public static void register(IEventBus eventBus) {

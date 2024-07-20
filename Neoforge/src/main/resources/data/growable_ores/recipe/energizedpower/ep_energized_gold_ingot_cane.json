@@ -1,0 +1,38 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "energizedpower"
+      ]
+    }
+  ],
+  "forge:conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "energizedpower"
+    }
+  ],
+  "neoforge:conditions": [ {
+    "type": "neoforge:mod_loaded",
+    "modid": "energizedpower"
+  }],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#G#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:sugar_cane"
+    },
+    "G": {
+      "item": "energizedpower:energized_gold_ingot"
+    }
+  },
+  "result": {
+    "id": "growable_ores:ep_energized_gold_ingot_cane",
+    "count": 1
+  }
+}

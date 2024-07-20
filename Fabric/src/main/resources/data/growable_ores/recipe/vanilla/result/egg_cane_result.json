@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "growable_ores:egg_cane"
+    }
+  },
+  "result": {
+    "id": "minecraft:egg",
+    "count": 2
+  }
+}

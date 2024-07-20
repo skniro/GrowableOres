@@ -5,6 +5,7 @@ import com.skniro.growableores.block.*;
 import com.skniro.growableores.util.GrowableOresItemGroups;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
+import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.registry.RegistryWrapper;
 
 import java.util.concurrent.CompletableFuture;
@@ -33,6 +34,9 @@ public class GrowableEnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(GrowableVanillaOresBlocks.Slime_Cane,"Slime Reed");
         translationBuilder.add(GrowableVanillaOresBlocks.Bone_Cane,"Bone Reed");
         translationBuilder.add(GrowableVanillaOresBlocks.Nether_Star_Cane,"Nether Star Reed");
+        translationBuilder.add(GrowableVanillaOresBlocks.Wool_Cane,"Wool Reed");
+        translationBuilder.add(GrowableVanillaOresBlocks.Egg_Cane,"Egg Reed");
+        translationBuilder.add(GrowableVanillaOresBlocks.Feather_Cane,"Feather Reed");
 
         //ae2
         translationBuilder.add(GrowableAEOresBlocks.certus_quartz_crystal_Cane,"Certus Quartz Crystal Reed");
@@ -128,6 +132,30 @@ public class GrowableEnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(GrowableThermalSeriesOresBlocks.TF_Silver_Cane, "Silver Reed(Thermal)");
         translationBuilder.add(GrowableThermalSeriesOresBlocks.TF_Sulfur_Cane, "Sulfur Reed(Thermal)");
         translationBuilder.add(GrowableThermalSeriesOresBlocks.TF_Tin_Cane, "Tin Reed(Thermal)");
+
+        //Mekanism
+        translationBuilder.add(GrowableMekanismOresBlocks.MEK_Fluorite_Cane, "Fluorite Reed(Mekanism)");
+        translationBuilder.add(GrowableMekanismOresBlocks.MEK_Lead_Cane, "Lead Reed(Mekanism)");
+        translationBuilder.add(GrowableMekanismOresBlocks.MEK_Osmium_Cane, "Osmium Reed(Mekanism)");
+        translationBuilder.add(GrowableMekanismOresBlocks.MEK_Tin_Cane, "Tin Reed(Mekanism)");
+        translationBuilder.add(GrowableMekanismOresBlocks.MEK_Uranium_Cane, "Uranium Reed(Mekanism)");
+        translationBuilder.add(GrowableMekanismOresBlocks.MEK_Steel_Cane, "Steel Reed(Mekanism)");
+        translationBuilder.add(GrowableMekanismOresBlocks.MEK_Refined_Obsidian_Cane, "Refined Obsidian Reed(Mekanism)");
+        translationBuilder.add(GrowableMekanismOresBlocks.MEK_Refined_Glowstone_Cane, "Refined Glowstone Reed(Mekanism)");
+        translationBuilder.add(GrowableMekanismOresBlocks.MEK_Bronze_Cane, "Bronze Reed(Mekanism)");
+
+        //BetterNether
+        translationBuilder.add(GrowableBetterNetherOresBlocks.BN_Cincinnasite_Cane, "Cincinnasite Reed(BetterNether)");
+        translationBuilder.add(GrowableBetterNetherOresBlocks.BN_Nether_Ruby_Cane, "Nether Ruby Reed(BetterNether)");
+
+        //EnergizedPower
+        translationBuilder.add(GrowableEnergizedPowerOresBlocks.EP_Advanced_Alloy_Cane, "Advanced Alloy Reed(EnergizedPower)");
+        translationBuilder.add(GrowableEnergizedPowerOresBlocks.EP_Energized_Copper_Cane, "Energized Copper Reed(EnergizedPower)");
+        translationBuilder.add(GrowableEnergizedPowerOresBlocks.EP_Energized_Gold_Cane, "Energized Gold Reed(EnergizedPower)");
+        translationBuilder.add(GrowableEnergizedPowerOresBlocks.EP_Redstone_Alloy_Cane, "Redstone Alloy Reed(EnergizedPower)");
+        translationBuilder.add(GrowableEnergizedPowerOresBlocks.EP_Steel_Cane, "Steel Reed(EnergizedPower)");
+        translationBuilder.add(GrowableEnergizedPowerOresBlocks.EP_Tin_Cane, "Tin Reed(EnergizedPower)");
+
 
     }
 }

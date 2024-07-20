@@ -1,0 +1,36 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "mekanism"
+      ]
+    }
+  ],
+  "forge:conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ],
+  "neoforge:conditions": [ {
+    "type": "neoforge:mod_loaded",
+    "modid": "mekanism"
+  }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "growable_ores:mek_uranium_cane"
+    }
+  },
+  "result": {
+    "id": "mekanism:ingot_tin",
+    "count": 1
+  }
+}

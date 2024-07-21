@@ -49,6 +49,7 @@ minecraft {
     runs {
         client {
             workingDirectory project.file('run')
+            taskName("Client")
 
             // Recommended logging data for a userdev environment
             // The markers can be added/remove as needed separated by commas.
@@ -76,7 +77,7 @@ minecraft {
 
         server {
             workingDirectory project.file('run')
-
+            taskName("Server")
             property 'forge.logging.markers', 'REGISTRIES'
 
             property 'forge.logging.console.level', 'debug'

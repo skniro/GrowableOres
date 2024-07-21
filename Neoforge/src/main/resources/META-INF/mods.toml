@@ -26,7 +26,7 @@ config="growable_ores.mixins.json"
 modId="growable_ores" #mandatory
 
 # The version number of the mod
-version="${project.mod_version}" #mandatory
+version="${project.neoforge_mod_version}" #mandatory
 
 # A display name for the mod
 displayName="${project.mod_name}" #mandatory

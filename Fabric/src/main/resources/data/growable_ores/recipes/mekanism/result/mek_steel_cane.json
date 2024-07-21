@@ -1,0 +1,36 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "mekanism"
+      ]
+    }
+  ],
+  "forge:conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ],
+  "neoforge:conditions": [ {
+    "type": "neoforge:mod_loaded",
+    "modid": "mekanism"
+  }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "growable_ores:mek_steel_cane"
+    }
+  },
+  "result": {
+    "item": "mekanism:ingot_steel",
+    "count": 1
+  }
+}

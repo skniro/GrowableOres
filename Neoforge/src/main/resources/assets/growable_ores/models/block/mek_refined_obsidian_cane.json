@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/tinted_cross",
+  "textures": {
+    "cross": "growable_ores:block/mek_refined_obsidian_cane"
+  },
+  "render_type": "cutout"
+}

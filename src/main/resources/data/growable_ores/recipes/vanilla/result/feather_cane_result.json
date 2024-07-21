@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "growable_ores:feather_cane"
+    }
+  },
+  "result": {
+    "item": "minecraft:feather",
+    "count": 2
+  }
+}

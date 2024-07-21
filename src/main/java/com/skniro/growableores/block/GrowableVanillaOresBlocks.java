@@ -2,8 +2,10 @@ package com.skniro.growableores.block;
 
 import com.skniro.growableores.GrowableOres;
 import com.skniro.growableores.util.GrowableOresItemGroups;
-import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.minecraft.block.*;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.Block;
+import net.minecraft.block.MapColor;
+import net.minecraft.block.SugarCaneBlock;
 import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -36,17 +38,20 @@ public class GrowableVanillaOresBlocks {
     public static final Block Nether_Star_Cane = registerBlock("nether_star_cane", new SugarCaneBlock(AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS).pistonBehavior(PistonBehavior.DESTROY)),GrowableOresItemGroups.Growable_Ores_Group);
     public static final Block Glowstone_Cane = registerBlock("glowstone_cane", new SugarCaneBlock(AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS).pistonBehavior(PistonBehavior.DESTROY)),GrowableOresItemGroups.Growable_Ores_Group);
     public static final Block Bone_Cane = registerBlock("bone_cane", new SugarCaneBlock(AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS).pistonBehavior(PistonBehavior.DESTROY)),GrowableOresItemGroups.Growable_Ores_Group);
+    public static final Block Egg_Cane = registerBlock("egg_cane", new SugarCaneBlock(AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS).pistonBehavior(PistonBehavior.DESTROY)),GrowableOresItemGroups.Growable_Ores_Group);
+    public static final Block Feather_Cane = registerBlock("feather_cane", new SugarCaneBlock(AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS).pistonBehavior(PistonBehavior.DESTROY)),GrowableOresItemGroups.Growable_Ores_Group);
+    public static final Block Wool_Cane = registerBlock("wool_cane", new SugarCaneBlock(AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS).pistonBehavior(PistonBehavior.DESTROY)),GrowableOresItemGroups.Growable_Ores_Group);
 
 
 
     private static Block registerBlock(String name, Block block, RegistryKey<ItemGroup> tab) {
         registerBlockItem(name, block, tab);
-        return Registry.register(Registries.BLOCK, new Identifier(GrowableOres.MOD_ID, name), block);
+        return Registry.register(Registries.BLOCK, Identifier.of(GrowableOres.MOD_ID, name), block);
     }
 
     private static Item registerBlockItem(String name, Block block, RegistryKey<ItemGroup> tab) {
-        return Registry.register(Registries.ITEM, new Identifier(GrowableOres.MOD_ID, name),
-                new BlockItem(block, new FabricItemSettings()));
+        return Registry.register(Registries.ITEM, Identifier.of(GrowableOres.MOD_ID, name),
+                new BlockItem(block, new Item.Settings()));
     }
     public static void registerModBlocks(){
         Logger.getLogger("register mod blocks" + GrowableOres.MOD_ID);

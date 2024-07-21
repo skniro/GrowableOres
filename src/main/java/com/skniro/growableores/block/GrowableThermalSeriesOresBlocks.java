@@ -2,7 +2,6 @@ package com.skniro.growableores.block;
 
 import com.skniro.growableores.GrowableOres;
 import com.skniro.growableores.util.GrowableOresItemGroups;
-import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.MapColor;
@@ -37,12 +36,12 @@ public class GrowableThermalSeriesOresBlocks {
 
     private static Block registerBlock(String name, Block block, RegistryKey<ItemGroup> tab) {
         registerBlockItem(name, block, tab);
-        return Registry.register(Registries.BLOCK, new Identifier(GrowableOres.MOD_ID, name), block);
+        return Registry.register(Registries.BLOCK, Identifier.of(GrowableOres.MOD_ID, name), block);
     }
 
     private static Item registerBlockItem(String name, Block block, RegistryKey<ItemGroup> tab) {
-        return Registry.register(Registries.ITEM, new Identifier(GrowableOres.MOD_ID, name),
-                new BlockItem(block, new FabricItemSettings()));
+        return Registry.register(Registries.ITEM, Identifier.of(GrowableOres.MOD_ID, name),
+                new BlockItem(block, new Item.Settings()));
     }
     public static void registerModBlocks(){
         Logger.getLogger("register mod blocks" + GrowableOres.MOD_ID);

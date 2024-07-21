@@ -28,6 +28,9 @@ public class GrowableOresClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableVanillaOresBlocks.Nether_Star_Cane, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableVanillaOresBlocks.Glowstone_Cane, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableVanillaOresBlocks.Bone_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableVanillaOresBlocks.Egg_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableVanillaOresBlocks.Wool_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableVanillaOresBlocks.Feather_Cane, RenderLayer.getCutout());
 
         //ae2
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableAEOresBlocks.certus_quartz_crystal_Cane, RenderLayer.getCutout());
@@ -123,6 +126,30 @@ public class GrowableOresClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableThermalSeriesOresBlocks.TF_Silver_Cane, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableThermalSeriesOresBlocks.TF_Sulfur_Cane, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableThermalSeriesOresBlocks.TF_Tin_Cane, RenderLayer.getCutout());
+
+        //Mekanism
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableMekanismOresBlocks.MEK_Fluorite_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableMekanismOresBlocks.MEK_Lead_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableMekanismOresBlocks.MEK_Osmium_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableMekanismOresBlocks.MEK_Tin_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableMekanismOresBlocks.MEK_Uranium_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableMekanismOresBlocks.MEK_Steel_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableMekanismOresBlocks.MEK_Refined_Obsidian_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableMekanismOresBlocks.MEK_Refined_Glowstone_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableMekanismOresBlocks.MEK_Bronze_Cane, RenderLayer.getCutout());
+
+        //BetterNether
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableBetterNetherOresBlocks.BN_Cincinnasite_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableBetterNetherOresBlocks.BN_Nether_Ruby_Cane, RenderLayer.getCutout());
+
+        //EnergizedPower
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableEnergizedPowerOresBlocks.EP_Advanced_Alloy_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableEnergizedPowerOresBlocks.EP_Energized_Copper_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableEnergizedPowerOresBlocks.EP_Energized_Gold_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableEnergizedPowerOresBlocks.EP_Redstone_Alloy_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableEnergizedPowerOresBlocks.EP_Steel_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableEnergizedPowerOresBlocks.EP_Tin_Cane, RenderLayer.getCutout());
+
 
     }
 }

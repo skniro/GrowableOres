@@ -1,0 +1,36 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "ad_astra"
+      ]
+    }
+  ],
+  "forge:conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ad_astra"
+    }
+  ],
+  "neoforge:conditions": [ {
+    "type": "neoforge:mod_loaded",
+    "modid": "ad_astra"
+  }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "growable_ores:ad_moon_ore_desh_cane"
+    }
+  },
+  "result": {
+    "item": "ad_astra:desh_ingot",
+    "count": 1
+  }
+}

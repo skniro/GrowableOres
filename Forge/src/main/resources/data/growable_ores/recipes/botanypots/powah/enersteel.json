@@ -1,0 +1,55 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "powah",
+                "botanypots"
+            ]
+        }
+    ],
+    "forge:conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "powah"
+        },
+        {
+            "type": "forge:mod_loaded",
+            "modid": "botanypots"
+        }
+    ],
+    "neoforge:conditions": [ {
+        "type": "neoforge:mod_loaded",
+        "modid": "powah"
+    },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "botanypots"
+        }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+        "item": "growable_ores:steel_energized_cane"
+    },
+    "categories": [
+        "sand",
+        "dirt"
+    ],
+    "growthTicks": 1200,
+    "display": [
+        {
+            "block": "growable_ores:steel_energized_cane"
+        },
+        {
+            "block": "growable_ores:steel_energized_cane"
+        }
+    ],
+    "drops": [
+        {
+            "chance": 1.00,
+            "output": {
+                "item": "growable_ores:steel_energized_cane"
+            }
+        }
+    ]
+}

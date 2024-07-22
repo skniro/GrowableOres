@@ -10,11 +10,11 @@
       "item": "minecraft:sugar_cane"
     },
     "G": {
-      "item": "techreborn:iridium_ingot"
+      "item": "betterend:ender_dust"
     }
   },
   "result": {
-    "item": "growable_ores:iridium_cane",
+    "item": "growable_ores:ender_cane",
     "count": 1
   }
 }

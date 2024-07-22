@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "growable_ores:iridium_cane"
+      "item": "growable_ores:clay_cane"
     }
   },
   "result": {
-    "item": "techreborn:iridium_ingot",
+    "item": "minecraft:clay",
     "count": 1
   }
 }

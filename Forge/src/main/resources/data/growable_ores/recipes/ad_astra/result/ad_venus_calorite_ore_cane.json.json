@@ -2,19 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "###",
-    "#G#",
+    "###",
     "###"
   ],
   "key": {
     "#": {
-      "item": "minecraft:sugar_cane"
-    },
-    "G": {
-      "item": "techreborn:galena_dust"
+      "item": "growable_ores:ad_venus_calorite_ore_cane"
     }
   },
   "result": {
-    "item": "growable_ores:galena_cane",
+    "item": "ad_astra:calorite_ingot",
     "count": 1
   }
 }

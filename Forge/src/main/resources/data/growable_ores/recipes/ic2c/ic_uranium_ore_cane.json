@@ -10,11 +10,11 @@
       "item": "minecraft:sugar_cane"
     },
     "G": {
-      "item": "techreborn:sulfur_dust"
+      "item": "ic2:ingot_uranium"
     }
   },
   "result": {
-    "item": "growable_ores:pyrite_cane",
+    "item": "growable_ores:ic_uranium_ore_cane",
     "count": 1
   }
 }

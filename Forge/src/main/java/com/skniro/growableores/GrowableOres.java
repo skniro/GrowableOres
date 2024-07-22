@@ -1,6 +1,8 @@
 package com.skniro.growableores;
 
 import com.mojang.logging.LogUtils;
+import com.skniro.growableores.block.GrowableEnergizedPowerOresBlocks;
+import com.skniro.growableores.block.GrowableMekanismOresBlocks;
 import com.skniro.growableores.block.GrowableOresBlocks;
 import com.skniro.growableores.item.MapleItems;
 import net.minecraftforge.common.MinecraftForge;
@@ -30,6 +32,8 @@ public class GrowableOres {
 
         // Register the Deferred Register to the mod event bus so blocks get registered
         GrowableOresBlocks.registerMapleBlocks(modEventBus);
+        GrowableMekanismOresBlocks.registerModBlocks(modEventBus);
+        GrowableEnergizedPowerOresBlocks.registerModBlocks(modEventBus);
         MapleItems.registerModItems(modEventBus);
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);

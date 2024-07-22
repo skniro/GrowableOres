@@ -48,6 +48,13 @@ public class ModContent {
         if (FabricLoader.getInstance().isModLoaded("thermal") || GrowableOresConfig.All_Item_Mode) {
             GrowableThermalSeriesOresBlocks.registerModBlocks();
         }
+        if (FabricLoader.getInstance().isModLoaded("betternether") || GrowableOresConfig.All_Item_Mode) {
+            GrowableBetterNetherOresBlocks.registerModBlocks();
+        }
+        if (FabricLoader.getInstance().isModLoaded("energizedpower") || GrowableOresConfig.All_Item_Mode) {
+            GrowableEnergizedPowerOresBlocks.registerModBlocks();
+        }
+
     }
 
     public static void CreativeTab() {

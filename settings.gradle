@@ -1,5 +1,6 @@
 pluginManagement {
     repositories {
+        mavenCentral()
         gradlePluginPortal()
         maven {
             name = 'Fabric'
@@ -8,6 +9,9 @@ pluginManagement {
         maven {
             name = 'Sponge Snapshots'
             url = 'https://repo.spongepowered.org/repository/maven-public/'
+        }
+        maven {
+            url = 'https://maven.minecraftforge.net/'
         }
     }
 }

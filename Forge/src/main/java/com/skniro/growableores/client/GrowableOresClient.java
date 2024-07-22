@@ -37,6 +37,9 @@ public class GrowableOresClient {
         ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.Nether_Star_Cane.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.Glowstone_Cane.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.Bone_Cane.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.Wool_Cane.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.Feather_Cane.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.Egg_Cane.get(), RenderType.cutout());
 
         //ae2
         ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.fluix_crystal_Cane.get(), RenderType.cutout());
@@ -87,7 +90,7 @@ public class GrowableOresClient {
         ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.Crystal_Niotic_Cane.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.Crystal_Blazing_Cane.get(), RenderType.cutout());
 
-        //BetterNether
+        //Mekanism
         ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.MEK_Fluorite_Cane.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.MEK_Bronze_Cane.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.MEK_Lead_Cane.get(), RenderType.cutout());

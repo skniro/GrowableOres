@@ -28,6 +28,9 @@ public class GrowableOresClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.Nether_Star_Cane, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.Glowstone_Cane, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.Bone_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.Egg_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.Wool_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.Feather_Cane, RenderLayer.getCutout());
 
         //ae2
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.certus_quartz_crystal_Cane, RenderLayer.getCutout());
@@ -118,6 +121,9 @@ public class GrowableOresClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.TF_Sulfur_Cane, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.TF_Tin_Cane, RenderLayer.getCutout());
 */
+        //BetterNether
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.BN_Cincinnasite_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.BN_Nether_Ruby_Cane, RenderLayer.getCutout());
 
     }
 }

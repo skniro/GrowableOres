@@ -4,6 +4,7 @@ import com.skniro.growableores.GrowableOres;
 import com.skniro.growableores.block.init.GrowableSugarCaneBlock;
 import com.skniro.growableores.item.MapleItems;
 import com.skniro.growableores.item.ModCreativeModeTabs;
+import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.SugarCaneBlock;
@@ -39,6 +40,9 @@ public class GrowableOresBlocks {
     public static final RegistryObject<Block> Nether_Star_Cane = registerBlock("nether_star_cane", () ->  new SugarCaneBlock(Block.Properties.of(Material.PLANT,MaterialColor.TERRACOTTA_GREEN).noCollission().randomTicks().instabreak().sound(SoundType.GRASS)), ModCreativeModeTabs.Growable_Ores_Group);
     public static final RegistryObject<Block> Glowstone_Cane = registerBlock("glowstone_cane", () ->  new SugarCaneBlock(Block.Properties.of(Material.PLANT,MaterialColor.TERRACOTTA_GREEN).noCollission().randomTicks().instabreak().sound(SoundType.GRASS)), ModCreativeModeTabs.Growable_Ores_Group);
     public static final RegistryObject<Block> Bone_Cane = registerBlock("bone_cane", () ->  new SugarCaneBlock(Block.Properties.of(Material.PLANT,MaterialColor.TERRACOTTA_GREEN).noCollission().randomTicks().instabreak().sound(SoundType.GRASS)), ModCreativeModeTabs.Growable_Ores_Group);
+    public static final RegistryObject<Block> Egg_Cane = registerBlock("egg_cane", () ->  new SugarCaneBlock(Block.Properties.of(Material.PLANT,MaterialColor.TERRACOTTA_GREEN).noCollission().randomTicks().instabreak().sound(SoundType.GRASS)), ModCreativeModeTabs.Growable_Ores_Group);
+    public static final RegistryObject<Block> Feather_Cane = registerBlock("feather_cane", () ->  new SugarCaneBlock(Block.Properties.of(Material.PLANT,MaterialColor.TERRACOTTA_GREEN).noCollission().randomTicks().instabreak().sound(SoundType.GRASS)), ModCreativeModeTabs.Growable_Ores_Group);
+    public static final RegistryObject<Block> Wool_Cane = registerBlock("wool_cane", () ->  new SugarCaneBlock(Block.Properties.of(Material.PLANT,MaterialColor.TERRACOTTA_GREEN).noCollission().randomTicks().instabreak().sound(SoundType.GRASS)), ModCreativeModeTabs.Growable_Ores_Group);
 
     //Ae2
     public static final RegistryObject<Block> certus_quartz_crystal_Cane =registerBlock("certus_quartz_crystal_cane", () -> new GrowableSugarCaneBlock(Block.Properties.of(Material.PLANT,MaterialColor.TERRACOTTA_GREEN).noCollission().randomTicks().strength(0.0F).sound(SoundType.GRASS)), ModCreativeModeTabs.Growable_Ores_Group);
@@ -79,6 +83,21 @@ public class GrowableOresBlocks {
     public static final RegistryObject<Block> TF_Silver_Cane =registerBlock("tf_silver_ore_cane", () ->new SugarCaneBlock(Block.Properties.of(Material.PLANT,MaterialColor.TERRACOTTA_GREEN).noCollission().randomTicks().instabreak().sound(SoundType.GRASS)), ModCreativeModeTabs.Growable_Ores_Group);
     public static final RegistryObject<Block> TF_Sulfur_Cane =registerBlock("tf_sulfur_ore_cane", () ->new SugarCaneBlock(Block.Properties.of(Material.PLANT,MaterialColor.TERRACOTTA_GREEN).noCollission().randomTicks().instabreak().sound(SoundType.GRASS)), ModCreativeModeTabs.Growable_Ores_Group);
     public static final RegistryObject<Block> TF_Tin_Cane =registerBlock("tf_tin_ore_cane", () ->new SugarCaneBlock(Block.Properties.of(Material.PLANT,MaterialColor.TERRACOTTA_GREEN).noCollission().randomTicks().instabreak().sound(SoundType.GRASS)), ModCreativeModeTabs.Growable_Ores_Group);
+
+    //BetterNether
+    public static final RegistryObject<Block> BN_Cincinnasite_Cane =registerBlock("bn_cincinnasite_cane", () ->new SugarCaneBlock(Block.Properties.of(Material.PLANT,MaterialColor.TERRACOTTA_GREEN).noCollission().randomTicks().instabreak().sound(SoundType.GRASS)), ModCreativeModeTabs.Growable_Ores_Group);
+    public static final RegistryObject<Block> BN_Nether_Ruby_Cane =registerBlock("bn_nether_ruby_cane", () ->new SugarCaneBlock(Block.Properties.of(Material.PLANT,MaterialColor.TERRACOTTA_GREEN).noCollission().randomTicks().instabreak().sound(SoundType.GRASS)), ModCreativeModeTabs.Growable_Ores_Group);
+
+    //Mekanism
+    public static final RegistryObject<Block> MEK_Fluorite_Cane =registerBlock("mek_fluorite_cane", () -> new SugarCaneBlock(Block.Properties.of(Material.PLANT,MaterialColor.TERRACOTTA_GREEN).noCollission().randomTicks().instabreak().sound(SoundType.GRASS)),ModCreativeModeTabs.Growable_Ores_Group);
+    public static final RegistryObject<Block> MEK_Lead_Cane =registerBlock("mek_lead_cane", () -> new SugarCaneBlock(Block.Properties.of(Material.PLANT,MaterialColor.TERRACOTTA_GREEN).noCollission().randomTicks().instabreak().sound(SoundType.GRASS)),ModCreativeModeTabs.Growable_Ores_Group);
+    public static final RegistryObject<Block> MEK_Osmium_Cane =registerBlock("mek_osmium_cane", () -> new SugarCaneBlock(Block.Properties.of(Material.PLANT,MaterialColor.TERRACOTTA_GREEN).noCollission().randomTicks().instabreak().sound(SoundType.GRASS)),ModCreativeModeTabs.Growable_Ores_Group);
+    public static final RegistryObject<Block> MEK_Tin_Cane =registerBlock("mek_tin_cane", () -> new SugarCaneBlock(Block.Properties.of(Material.PLANT,MaterialColor.TERRACOTTA_GREEN).noCollission().randomTicks().instabreak().sound(SoundType.GRASS)),ModCreativeModeTabs.Growable_Ores_Group);
+    public static final RegistryObject<Block> MEK_Uranium_Cane =registerBlock("mek_uranium_cane", () -> new SugarCaneBlock(Block.Properties.of(Material.PLANT,MaterialColor.TERRACOTTA_GREEN).noCollission().randomTicks().instabreak().sound(SoundType.GRASS)),ModCreativeModeTabs.Growable_Ores_Group);
+    public static final RegistryObject<Block> MEK_Steel_Cane =registerBlock("mek_steel_cane", () -> new SugarCaneBlock(Block.Properties.of(Material.PLANT,MaterialColor.TERRACOTTA_GREEN).noCollission().randomTicks().instabreak().sound(SoundType.GRASS)),ModCreativeModeTabs.Growable_Ores_Group);
+    public static final RegistryObject<Block> MEK_Refined_Obsidian_Cane =registerBlock("mek_refined_obsidian_cane", () -> new SugarCaneBlock(Block.Properties.of(Material.PLANT,MaterialColor.TERRACOTTA_GREEN).noCollission().randomTicks().instabreak().sound(SoundType.GRASS)),ModCreativeModeTabs.Growable_Ores_Group);
+    public static final RegistryObject<Block> MEK_Refined_Glowstone_Cane =registerBlock("mek_refined_glowstone_cane", () -> new SugarCaneBlock(Block.Properties.of(Material.PLANT, MaterialColor.TERRACOTTA_GREEN).noCollission().randomTicks().instabreak().sound(SoundType.GRASS)),ModCreativeModeTabs.Growable_Ores_Group);
+    public static final RegistryObject<Block> MEK_Bronze_Cane =registerBlock("mek_bronze_cane", () -> new SugarCaneBlock(Block.Properties.of(Material.PLANT,MaterialColor.TERRACOTTA_GREEN).noCollission().randomTicks().instabreak().sound(SoundType.GRASS)),ModCreativeModeTabs.Growable_Ores_Group);
 
 
 

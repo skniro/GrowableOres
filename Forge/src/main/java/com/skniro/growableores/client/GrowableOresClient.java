@@ -86,5 +86,24 @@ public class GrowableOresClient {
         ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.Crystal_Nitro_Cane.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.Crystal_Niotic_Cane.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.Crystal_Blazing_Cane.get(), RenderType.cutout());
+
+        //BetterNether
+        ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.MEK_Fluorite_Cane.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.MEK_Bronze_Cane.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.MEK_Lead_Cane.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.MEK_Osmium_Cane.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.MEK_Steel_Cane.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.MEK_Uranium_Cane.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.MEK_Tin_Cane.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.MEK_Refined_Glowstone_Cane.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.MEK_Refined_Obsidian_Cane.get(), RenderType.cutout());
+
+        //EnergizedPower
+        ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.EP_Advanced_Alloy_Cane.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.EP_Energized_Copper_Cane.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.EP_Energized_Gold_Cane.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.EP_Redstone_Alloy_Cane.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.EP_Steel_Cane.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.EP_Tin_Cane.get(), RenderType.cutout());
     }
 }

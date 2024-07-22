@@ -29,6 +29,9 @@ public class GrowableOresClient {
         RenderTypeLookup.setRenderLayer(GrowableOresBlocks.Nether_Star_Cane.get(), RenderType.cutout());
         RenderTypeLookup.setRenderLayer(GrowableOresBlocks.Glowstone_Cane.get(), RenderType.cutout());
         RenderTypeLookup.setRenderLayer(GrowableOresBlocks.Bone_Cane.get(), RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(GrowableOresBlocks.Wool_Cane.get(), RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(GrowableOresBlocks.Feather_Cane.get(), RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(GrowableOresBlocks.Egg_Cane.get(), RenderType.cutout());
 
         //ae2
         RenderTypeLookup.setRenderLayer(GrowableOresBlocks.certus_quartz_crystal_Cane.get(), RenderType.cutout());
@@ -60,6 +63,17 @@ public class GrowableOresClient {
         RenderTypeLookup.setRenderLayer(GrowableOresBlocks.Crystal_Nitro_Cane.get(), RenderType.cutout());
         RenderTypeLookup.setRenderLayer(GrowableOresBlocks.Crystal_Niotic_Cane.get(), RenderType.cutout());
         RenderTypeLookup.setRenderLayer(GrowableOresBlocks.Crystal_Blazing_Cane.get(), RenderType.cutout());
+
+        //Mekanism
+        RenderTypeLookup.setRenderLayer(GrowableOresBlocks.MEK_Fluorite_Cane.get(), RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(GrowableOresBlocks.MEK_Bronze_Cane.get(), RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(GrowableOresBlocks.MEK_Lead_Cane.get(), RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(GrowableOresBlocks.MEK_Osmium_Cane.get(), RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(GrowableOresBlocks.MEK_Steel_Cane.get(), RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(GrowableOresBlocks.MEK_Uranium_Cane.get(), RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(GrowableOresBlocks.MEK_Tin_Cane.get(), RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(GrowableOresBlocks.MEK_Refined_Glowstone_Cane.get(), RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(GrowableOresBlocks.MEK_Refined_Obsidian_Cane.get(), RenderType.cutout());
 
     }
 }

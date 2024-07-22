@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "growable_ores:steel_energized_cane"
+    }
+  },
+  "result": {
+    "item": "powah:steel_energized",
+    "count": 1
+  }
+}

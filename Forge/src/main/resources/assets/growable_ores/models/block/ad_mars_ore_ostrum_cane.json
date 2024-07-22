@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/tinted_cross",
+  "textures": {
+    "cross": "growable_ores:block/ad_mars_ore_ostrum_cane"
+  },
+  "render_type": "cutout"
+}

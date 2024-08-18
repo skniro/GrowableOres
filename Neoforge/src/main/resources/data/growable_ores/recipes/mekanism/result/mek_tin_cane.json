@@ -26,11 +26,11 @@
   ],
   "key": {
     "#": {
-      "item": "growable_ores:mek_uranium_cane"
+      "item": "growable_ores:mek_tin_cane"
     }
   },
-    "result": {
-    "item":"mekanism:ingot_tin",
+  "result": {
+    "item": "mekanism:ingot_tin",
     "count": 1
   }
 }

@@ -1,7 +1,7 @@
 package com.skniro.growableores.item;
 
 import com.skniro.growableores.GrowableOres;
-import net.minecraft.world.item.*;
+import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;

@@ -21,16 +21,19 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "###",
-    "###",
+    "#G#",
     "###"
   ],
   "key": {
     "#": {
-      "item": "growable_ores:mek_uranium_cane"
+      "item": "minecraft:sugar_cane"
+    },
+    "G": {
+      "item": "mekanism:ingot_tin"
     }
   },
-    "result": {
-    "item":"mekanism:ingot_tin",
+  "result": {
+    "item": "growable_ores:mek_tin_cane",
     "count": 1
   }
 }

@@ -32,8 +32,8 @@
       "item": "mekanism:ingot_tin"
     }
   },
-    "result": {
-    "item":"growable_ores:mek_tin_cane",
+  "result": {
+    "item": "growable_ores:mek_tin_cane",
     "count": 1
   }
 }

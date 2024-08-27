@@ -18,3 +18,6 @@ Submitting translations for GrowableOres can be done via our [Crowdin page](http
 
 This project is licensed under MIT.
 
+## Mod Life Cycle
+[LifeCycle Web](https://lifecycle.sttsakara.top/)
+

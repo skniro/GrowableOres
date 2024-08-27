@@ -19,3 +19,6 @@ Rafan
 gilnet  
 All translators  
 
+## Mod Life Cycle
+[LifeCycle Web](https://lifecycle.sttsakara.top/)
+

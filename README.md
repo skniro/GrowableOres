@@ -20,5 +20,6 @@ gilnet
 All translators  
 
 ## Mod Life Cycle
-[LifeCycle Web](https://lifecycle.sttsakara.top/)
+[LifeCycle Web](https://lifecycle.skniro.org/)
+
 

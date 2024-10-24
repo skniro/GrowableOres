@@ -20,5 +20,6 @@ pluginManagement {
 }
 
 
-rootProject.name = 'Growable-1.21'
-include("Fabric", "Forge", "Neoforge")
+rootProject.name = 'Growable-1.21.3'
+//include("Fabric", "Forge", "Neoforge")
+include("Fabric", "Neoforge")

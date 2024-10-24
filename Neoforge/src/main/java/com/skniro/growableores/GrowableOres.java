@@ -56,7 +56,7 @@ public class GrowableOres {
             GrowableMekanismOresBlocks.registerModBlocks(modEventBus);
         }
         if (ModList.get().isLoaded("betternether")) {
-            GrowableBetterEndOresBlocks.registerMapleBlocks(modEventBus);
+            GrowableBetterNetherOresBlocks.registerModBlocks(modEventBus);
         }
         if (ModList.get().isLoaded("energizedpower")) {
             GrowableEnergizedPowerOresBlocks.registerModBlocks(modEventBus);

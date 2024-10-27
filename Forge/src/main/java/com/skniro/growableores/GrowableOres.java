@@ -24,9 +24,9 @@ public class GrowableOres {
     private static final Logger LOGGER = LogUtils.getLogger();
 
 
-    public GrowableOres() {
+    public GrowableOres(FMLJavaModLoadingContext context) {
         //ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, GrowableConfig.GENERAL_SPEC, "growable_ores_config.toml");
-        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        IEventBus modEventBus = context.getModEventBus();
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

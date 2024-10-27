@@ -1,20 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "#G#",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:sugar_cane"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#G#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:sugar_cane",
+        "G": "ad_astra:calorite_ingot"
     },
-    "G": {
-      "item": "ad_astra:calorite_ingot"
+    "result": {
+        "id": "growable_ores:ad_venus_calorite_ore_cane",
+        "count": 1
     }
-  },
-  "result": {
-    "id": "growable_ores:ad_venus_calorite_ore_cane",
-    "count": 1
-  }
 }

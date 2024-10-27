@@ -1,17 +1,15 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "###",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "growable_ores:blaze_rod_cane"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": "growable_ores:blaze_rod_cane"
+    },
+    "result": {
+        "id": "minecraft:blaze_rod",
+        "count": 1
     }
-  },
-  "result": {
-    "id": "minecraft:blaze_rod",
-    "count": 1
-  }
 }

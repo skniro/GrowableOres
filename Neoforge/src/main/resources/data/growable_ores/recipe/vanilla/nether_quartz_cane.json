@@ -1,20 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "#G#",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:sugar_cane"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#G#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:sugar_cane",
+        "G": "minecraft:quartz"
     },
-    "G": {
-      "item": "minecraft:quartz"
+    "result": {
+        "id": "growable_ores:nether_quartz_cane",
+        "count": 1
     }
-  },
-  "result": {
-    "id": "growable_ores:nether_quartz_cane",
-    "count": 1
-  }
 }

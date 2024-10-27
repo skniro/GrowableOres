@@ -1,8 +1,6 @@
 {
     "type": "botanypots:crop",
-    "seed": {
-        "item": "growable_ores:crystal_niotic_cane"
-    },
+    "seed": "growable_ores:crystal_niotic_cane",
     "categories": [
         "sand",
         "dirt"
@@ -18,10 +16,8 @@
     ],
     "drops": [
         {
-            "chance": 1.00,
-            "output": {
-                "item": "growable_ores:crystal_niotic_cane"
-            }
+            "chance": 1.0,
+            "output": "growable_ores:crystal_niotic_cane"
         }
     ]
 }

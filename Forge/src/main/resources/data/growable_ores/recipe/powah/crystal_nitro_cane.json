@@ -1,20 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "#G#",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:sugar_cane"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#G#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:sugar_cane",
+        "G": "powah:crystal_nitro"
     },
-    "G": {
-      "item": "powah:crystal_nitro"
+    "result": {
+        "id": "growable_ores:crystal_nitro_cane",
+        "count": 1
     }
-  },
-  "result": {
-    "id": "growable_ores:crystal_nitro_cane",
-    "count": 1
-  }
 }

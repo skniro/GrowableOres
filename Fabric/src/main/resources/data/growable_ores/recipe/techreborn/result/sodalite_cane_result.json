@@ -1,25 +1,23 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "techreborn"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "techreborn"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": "growable_ores:sodalite_cane"
+    },
+    "result": {
+        "id": "techreborn:sodalite_dust",
+        "count": 4
     }
-  ],
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "###",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "growable_ores:sodalite_cane"
-    }
-  },
-  "result": {
-    "id": "techreborn:sodalite_dust",
-    "count": 4
-  }
 }

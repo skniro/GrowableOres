@@ -1,17 +1,15 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "###",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "growable_ores:gold_cane"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": "growable_ores:gold_cane"
+    },
+    "result": {
+        "id": "minecraft:gold_ingot",
+        "count": 1
     }
-  },
-  "result": {
-    "id": "minecraft:gold_ingot",
-    "count": 1
-  }
 }

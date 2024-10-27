@@ -1,20 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "#G#",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:sugar_cane"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#G#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:sugar_cane",
+        "G": "powah:crystal_blazing"
     },
-    "G": {
-      "item": "powah:crystal_blazing"
+    "result": {
+        "id": "growable_ores:crystal_blazing_cane",
+        "count": 1
     }
-  },
-  "result": {
-    "id": "growable_ores:crystal_blazing_cane",
-    "count": 1
-  }
 }

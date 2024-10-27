@@ -1,17 +1,15 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "###",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "growable_ores:bone_cane"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": "growable_ores:bone_cane"
+    },
+    "result": {
+        "id": "minecraft:bone",
+        "count": 2
     }
-  },
-  "result": {
-    "id": "minecraft:bone",
-    "count": 2
-  }
 }

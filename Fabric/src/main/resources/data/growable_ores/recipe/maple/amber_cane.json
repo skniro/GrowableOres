@@ -1,28 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "maple"
-      ]
-    }
-  ],
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "#G#",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:sugar_cane"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "maple"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#G#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:sugar_cane",
+        "G": "maple:salt"
     },
-    "G": {
-      "item": "maple:salt"
+    "result": {
+        "id": "growable_ores:salt_cane",
+        "count": 1
     }
-  },
-  "result": {
-    "id": "growable_ores:salt_cane",
-    "count": 1
-  }
 }

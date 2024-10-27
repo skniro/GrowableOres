@@ -1,20 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "#G#",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:sugar_cane"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#G#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:sugar_cane",
+        "G": "ic2:ingot_uranium"
     },
-    "G": {
-      "item": "ic2:ingot_uranium"
+    "result": {
+        "id": "growable_ores:ic_uranium_ore_cane",
+        "count": 1
     }
-  },
-  "result": {
-    "id": "growable_ores:ic_uranium_ore_cane",
-    "count": 1
-  }
 }

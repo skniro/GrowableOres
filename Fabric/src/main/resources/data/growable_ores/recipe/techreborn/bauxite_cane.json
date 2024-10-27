@@ -1,28 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "techreborn"
-      ]
-    }
-  ],
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "#G#",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:sugar_cane"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "techreborn"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#G#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:sugar_cane",
+        "G": "techreborn:aluminum_ingot"
     },
-    "G": {
-      "item": "techreborn:aluminum_ingot"
+    "result": {
+        "id": "growable_ores:bauxite_cane",
+        "count": 1
     }
-  },
-  "result": {
-    "id": "growable_ores:bauxite_cane",
-    "count": 1
-  }
 }

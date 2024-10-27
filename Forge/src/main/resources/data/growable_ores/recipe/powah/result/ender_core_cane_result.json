@@ -1,17 +1,15 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "###",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "growable_ores:ender_core_cane"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": "growable_ores:ender_core_cane"
+    },
+    "result": {
+        "id": "powah:ender_core",
+        "count": 1
     }
-  },
-  "result": {
-    "id": "powah:ender_core",
-    "count": 1
-  }
 }

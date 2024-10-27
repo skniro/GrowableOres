@@ -20,9 +20,7 @@
         }
     ],
     "type": "botanypots:crop",
-    "seed": {
-        "item": "growable_ores:netherite_ingot_cane"
-    },
+    "seed": "growable_ores:netherite_ingot_cane",
     "categories": [
         "sand",
         "dirt"
@@ -38,10 +36,8 @@
     ],
     "drops": [
         {
-            "chance": 1.00,
-            "output": {
-                "item": "growable_ores:netherite_ingot_cane"
-            }
+            "chance": 1.0,
+            "output": "growable_ores:netherite_ingot_cane"
         }
     ]
 }

@@ -18,19 +18,18 @@
             "modid": "botanypots"
         }
     ],
-    "neoforge:conditions": [ {
-        "type": "neoforge:mod_loaded",
-        "modid": "ic2"
-    },
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "ic2"
+        },
         {
             "type": "neoforge:mod_loaded",
             "modid": "botanypots"
         }
     ],
     "type": "botanypots:crop",
-    "seed": {
-        "item": "growable_ores:galena_cane"
-    },
+    "seed": "growable_ores:galena_cane",
     "categories": [
         "sand",
         "dirt"
@@ -46,10 +45,8 @@
     ],
     "drops": [
         {
-            "chance": 1.00,
-            "output": {
-                "item": "growable_ores:galena_cane"
-            }
+            "chance": 1.0,
+            "output": "growable_ores:galena_cane"
         }
     ]
 }

@@ -1,40 +1,36 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "ae2"
-      ]
-    }
-  ],
-  "forge:conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ae2"
-    }
-  ],
-  "neoforge:conditions": [ {
-    "type": "neoforge:mod_loaded",
-    "modid": "ae2"
-  }
-  ],
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "#G#",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:sugar_cane"
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "ae2"
+            ]
+        }
+    ],
+    "forge:conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ae2"
+        }
+    ],
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "ae2"
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#G#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:sugar_cane",
+        "G": "ae2:fluix_crystal"
     },
-    "G": {
-      "item": "ae2:fluix_crystal"
+    "result": {
+        "id": "growable_ores:fluix_crystal_cane",
+        "count": 1
     }
-  },
-  "result": {
-    "id": "growable_ores:fluix_crystal_cane",
-    "count": 1
-  }
 }
-

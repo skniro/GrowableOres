@@ -9,9 +9,7 @@
         }
     ],
     "type": "botanypots:crop",
-    "seed": {
-        "item": "growable_ores:mi_platinum_cane"
-    },
+    "seed": "growable_ores:mi_platinum_cane",
     "categories": [
         "sand",
         "dirt"
@@ -27,10 +25,8 @@
     ],
     "drops": [
         {
-            "chance": 1.00,
-            "output": {
-                "item": "growable_ores:mi_platinum_cane"
-            }
+            "chance": 1.0,
+            "output": "growable_ores:mi_platinum_cane"
         }
     ]
 }

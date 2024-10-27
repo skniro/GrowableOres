@@ -1,17 +1,15 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "###",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "growable_ores:emerald_cane"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": "growable_ores:emerald_cane"
+    },
+    "result": {
+        "id": "minecraft:emerald",
+        "count": 1
     }
-  },
-  "result": {
-    "id": "minecraft:emerald",
-    "count": 1
-  }
 }

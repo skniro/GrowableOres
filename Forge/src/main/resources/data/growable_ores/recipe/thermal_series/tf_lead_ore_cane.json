@@ -1,20 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "#G#",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:sugar_cane"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#G#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:sugar_cane",
+        "G": "thermal:lead_ingot"
     },
-    "G": {
-      "item": "thermal:lead_ingot"
+    "result": {
+        "id": "growable_ores:tf_lead_ore_cane",
+        "count": 1
     }
-  },
-  "result": {
-    "id": "growable_ores:tf_lead_ore_cane",
-    "count": 1
-  }
 }

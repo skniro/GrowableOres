@@ -1,21 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "#G#",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:sugar_cane"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#G#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:sugar_cane",
+        "G": "ae2:fluix_crystal"
     },
-    "G": {
-      "item": "ae2:fluix_crystal"
+    "result": {
+        "id": "growable_ores:fluix_crystal_cane",
+        "count": 1
     }
-  },
-  "result": {
-    "id": "growable_ores:fluix_crystal_cane",
-    "count": 1
-  }
 }
-

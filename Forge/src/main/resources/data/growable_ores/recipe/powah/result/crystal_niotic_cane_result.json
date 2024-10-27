@@ -1,17 +1,15 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "###",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "growable_ores:crystal_niotic_cane"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": "growable_ores:crystal_niotic_cane"
+    },
+    "result": {
+        "id": "powah:crystal_niotic",
+        "count": 1
     }
-  },
-  "result": {
-    "id": "powah:crystal_niotic",
-    "count": 1
-  }
 }

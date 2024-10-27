@@ -1,8 +1,6 @@
 {
     "type": "botanypots:crop",
-    "seed": {
-        "item": "growable_ores:ad_venus_calorite_ore_cane"
-    },
+    "seed": "growable_ores:ad_venus_calorite_ore_cane",
     "categories": [
         "sand",
         "dirt"
@@ -18,10 +16,8 @@
     ],
     "drops": [
         {
-            "chance": 1.00,
-            "output": {
-                "item": "growable_ores:ad_venus_calorite_ore_cane"
-            }
+            "chance": 1.0,
+            "output": "growable_ores:ad_venus_calorite_ore_cane"
         }
     ]
 }

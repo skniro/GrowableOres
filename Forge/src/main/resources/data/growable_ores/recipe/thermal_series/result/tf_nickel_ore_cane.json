@@ -1,17 +1,15 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "###",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "growable_ores:tf_nickel_ore_cane"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": "growable_ores:tf_nickel_ore_cane"
+    },
+    "result": {
+        "id": "thermal:nickel_ingot",
+        "count": 1
     }
-  },
-  "result": {
-    "id": "thermal:nickel_ingot",
-    "count": 1
-  }
 }

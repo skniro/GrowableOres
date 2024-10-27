@@ -1,25 +1,23 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "modern_industrialization"
-      ]
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "modern_industrialization"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": "growable_ores:mi_lignite_coal_cane"
+    },
+    "result": {
+        "id": "modern_industrialization:lignite_coal",
+        "count": 1
     }
-  ],
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "###",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "growable_ores:mi_lignite_coal_cane"
-    }
-  },
-  "result": {
-    "id": "modern_industrialization:lignite_coal",
-    "count": 1
-  }
 }

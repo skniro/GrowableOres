@@ -18,19 +18,18 @@
             "modid": "botanypots"
         }
     ],
-    "neoforge:conditions": [ {
-        "type": "neoforge:mod_loaded",
-        "modid": "ae2"
-    },
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "ae2"
+        },
         {
             "type": "neoforge:mod_loaded",
             "modid": "botanypots"
         }
     ],
     "type": "botanypots:crop",
-    "seed": {
-        "item": "growable_ores:ad_moon_ore_cheese_cane"
-    },
+    "seed": "growable_ores:ad_moon_ore_cheese_cane",
     "categories": [
         "sand",
         "dirt"
@@ -46,10 +45,8 @@
     ],
     "drops": [
         {
-            "chance": 1.00,
-            "output": {
-                "item": "growable_ores:ad_moon_ore_cheese_cane"
-            }
+            "chance": 1.0,
+            "output": "growable_ores:ad_moon_ore_cheese_cane"
         }
     ]
 }

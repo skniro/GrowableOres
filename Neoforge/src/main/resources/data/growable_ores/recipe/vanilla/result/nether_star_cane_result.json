@@ -1,17 +1,15 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "###",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "growable_ores:nether_star_cane"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": "growable_ores:nether_star_cane"
+    },
+    "result": {
+        "id": "minecraft:nether_star",
+        "count": 1
     }
-  },
-  "result": {
-    "id": "minecraft:nether_star",
-    "count": 1
-  }
 }

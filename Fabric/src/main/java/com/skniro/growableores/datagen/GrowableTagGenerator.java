@@ -2,11 +2,13 @@ package com.skniro.growableores.datagen;
 
 import com.skniro.growableores.GrowableOres;
 import com.skniro.growableores.block.*;
+import com.skniro.growableores.registry.tag.GrowableBlockTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.block.Block;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.Identifier;
 
@@ -20,6 +22,7 @@ public class GrowableTagGenerator extends FabricTagProvider.BlockTagProvider {
    private static final TagKey<Block> GROWABLE_CANE = TagKey.of(RegistryKeys.BLOCK, Identifier.of(GrowableOres.MOD_ID,"growable_cane"));
    @Override
    protected void configure(RegistryWrapper.WrapperLookup arg) {
+      getOrCreateTagBuilder(GrowableBlockTags.GrowBlock);
       getOrCreateTagBuilder(GROWABLE_CANE)
               .add(GrowableVanillaOresBlocks.Coal_Cane)
               .add(GrowableVanillaOresBlocks.Iron_Cane)

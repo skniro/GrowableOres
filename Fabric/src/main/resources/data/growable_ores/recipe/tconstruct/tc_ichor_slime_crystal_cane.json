@@ -1,8 +1,4 @@
 {
-  "parent": "minecraft:block/tinted_cross",
-  "textures": {
-    "cross": "growable_ores:block/tc_ichor_slime_crystal_cane"
-  },
   "fabric:load_conditions": [
     {
       "condition": "fabric:all_mods_loaded",

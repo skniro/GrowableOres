@@ -5,7 +5,7 @@ import com.skniro.growableores.util.GrowableOresItemGroups;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.MapColor;
-import net.minecraft.block.SugarCaneBlock;
+import net.minecraft.block.GrowableOreCaneBlock;
 import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -24,7 +24,7 @@ import static net.minecraft.util.PathUtil.validatePath;
 
 public class GrowableMapleOresBlocks {
     //Maple
-    public static final Block Salt_Cane =registerBlock("salt_cane",SugarCaneBlock::new ,AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS).pistonBehavior(PistonBehavior.DESTROY),GrowableOresItemGroups.Growable_Ores_Group);
+    public static final Block Salt_Cane =registerBlock("salt_cane",GrowableOreCaneBlock::new ,AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS).pistonBehavior(PistonBehavior.DESTROY),GrowableOresItemGroups.Growable_Ores_Group);
 
 
     private static Block registerBlock(String name, Function<AbstractBlock.Settings, Block> factory, AbstractBlock.Settings settings, RegistryKey<ItemGroup> tab) {

@@ -12,9 +12,12 @@ public class GrowableConfig {
     }
 
     public static ForgeConfigSpec.BooleanValue All_Item_Mode;
+    public static ForgeConfigSpec.IntValue Ore_Cane_Max_Height;
     private static void setupConfig(ForgeConfigSpec.Builder builder) {
         All_Item_Mode = builder.comment("Disable All Item Mode.")
                 .define("All Item Mode",false);
+        Ore_Cane_Max_Height = builder.comment("Control the max height of Ore cane. Default value is 3.")
+                .defineInRange("Ore_Cane_Max_Height",3,1,128);
     }
 
 }

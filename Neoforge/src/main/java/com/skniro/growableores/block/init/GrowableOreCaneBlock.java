@@ -1,7 +1,7 @@
 package com.skniro.growableores.block.init;
 
 import com.mojang.serialization.MapCodec;
-import com.skniro.growableores.conifg.GrowableConfig;
+import com.skniro.growableores.conifg.GrowableOresConfig;
 import com.skniro.growableores.registry.tag.GrowableBlockTags;
 import com.skniro.growableores.registry.tag.GrowableFluidTags;
 import net.minecraft.core.BlockPos;
@@ -58,7 +58,7 @@ public class GrowableOreCaneBlock extends Block {
             int i;
             for (i = 1; world.getBlockState(pos.below(i)).is(this); ++i) {
             }
-            if (i < GrowableConfig.Ore_Cane_Max_Height.get()) {
+            if (i < GrowableOresConfig.Ore_Cane_Max_Height) {
                 int j = (Integer) state.getValue(AGE);
                 if (j == 15) {
                     world.setBlockAndUpdate(pos.above(), this.defaultBlockState());

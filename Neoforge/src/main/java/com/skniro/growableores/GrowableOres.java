@@ -2,6 +2,8 @@ package com.skniro.growableores;
 
 import com.mojang.logging.LogUtils;
 import com.skniro.growableores.block.*;
+import com.skniro.growableores.conifg.Configuration;
+import com.skniro.growableores.conifg.GrowableOresConfig;
 import com.skniro.growableores.item.MapleItems;
 import com.skniro.growableores.item.ModCreativeModeTabs;
 import net.neoforged.bus.api.IEventBus;
@@ -24,40 +26,40 @@ public class GrowableOres {
 
 
     public GrowableOres(IEventBus modEventBus) {
-        // Register the commonSetup method for modloading
+        new Configuration(GrowableOresConfig.class, MODID);
         modEventBus.addListener(this::commonSetup);
 
         // Register the Deferred Register to the mod event bus so blocks get registered
         // Register the Deferred Register to the mod event bus so blocks get registered
         GrowableVanillaOresBlocks.registerMapleBlocks(modEventBus);
-        if(ModList.get().isLoaded("ad_astra")) {
+        if(ModList.get().isLoaded("ad_astra") || GrowableOresConfig.All_Item_Mode) {
             GrowableAdAstraOresBlocks.registerMapleBlocks(modEventBus);
         }
-        if (ModList.get().isLoaded("ae2")) {
+        if (ModList.get().isLoaded("ae2") || GrowableOresConfig.All_Item_Mode) {
             GrowableAEOresBlocks.registerMapleBlocks(modEventBus);
         }
-        if (ModList.get().isLoaded("create")) {
+        if (ModList.get().isLoaded("create") || GrowableOresConfig.All_Item_Mode) {
             GrowableCreateOresBlocks.registerMapleBlocks(modEventBus);
         }
-        if (ModList.get().isLoaded("betterend")) {
+        if (ModList.get().isLoaded("betterend") || GrowableOresConfig.All_Item_Mode) {
             GrowableBetterEndOresBlocks.registerMapleBlocks(modEventBus);
         }
-        if (ModList.get().isLoaded("ic2")) {
+        if (ModList.get().isLoaded("ic2") || GrowableOresConfig.All_Item_Mode) {
             GrowableICOresBlocks.registerMapleBlocks(modEventBus);
         }
-        if (ModList.get().isLoaded("powah")) {
+        if (ModList.get().isLoaded("powah") || GrowableOresConfig.All_Item_Mode) {
             GrowablePowahOresBlocks.registerMapleBlocks(modEventBus);
         }
-        if (ModList.get().isLoaded("thermal")) {
+        if (ModList.get().isLoaded("thermal") || GrowableOresConfig.All_Item_Mode) {
             GrowableThermalSeriesOresBlocks.registerMapleBlocks(modEventBus);
         }
-        if (ModList.get().isLoaded("mekanism")) {
+        if (ModList.get().isLoaded("mekanism") || GrowableOresConfig.All_Item_Mode) {
             GrowableMekanismOresBlocks.registerModBlocks(modEventBus);
         }
-        if (ModList.get().isLoaded("betternether")) {
+        if (ModList.get().isLoaded("betternether") || GrowableOresConfig.All_Item_Mode) {
             GrowableBetterNetherOresBlocks.registerModBlocks(modEventBus);
         }
-        if (ModList.get().isLoaded("energizedpower")) {
+        if (ModList.get().isLoaded("energizedpower") || GrowableOresConfig.All_Item_Mode) {
             GrowableEnergizedPowerOresBlocks.registerModBlocks(modEventBus);
         }
         MapleItems.registerModItems(modEventBus);

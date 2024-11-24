@@ -1,0 +1,130 @@
+package com.skniro.growableores.block.init;
+
+import com.mojang.serialization.MapCodec;
+import com.skniro.growableores.conifg.GrowableOresConfig;
+import com.skniro.growableores.registry.tag.GrowableBlockTags;
+import com.skniro.growableores.registry.tag.GrowableFluidTags;
+import net.minecraft.core.BlockPos;
+import net.minecraft.core.Direction;
+import net.minecraft.core.Direction.Plane;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.tags.BlockTags;
+import net.minecraft.tags.FluidTags;
+import net.minecraft.util.RandomSource;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.LevelReader;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.StateDefinition;
+import net.minecraft.world.level.block.state.properties.BlockStateProperties;
+import net.minecraft.world.level.block.state.properties.IntegerProperty;
+import net.minecraft.world.level.block.state.properties.Property;
+import net.minecraft.world.level.material.FluidState;
+import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.shapes.VoxelShape;
+import net.minecraftforge.common.IPlantable;
+import net.minecraftforge.common.PlantType;
+
+import java.util.Iterator;
+
+
+public class GrowableOreCaneBlock extends Block implements IPlantable {
+    public static final MapCodec<GrowableOreCaneBlock> CODEC = simpleCodec(GrowableOreCaneBlock::new);
+    public static final IntegerProperty AGE;
+    protected static final float field_31258 = 6.0F;
+    protected static final VoxelShape SHAPE;
+
+    public MapCodec<GrowableOreCaneBlock> codec() {
+        return CODEC;
+    }
+
+    public GrowableOreCaneBlock(Properties settings) {
+        super(settings);
+        this.registerDefaultState((BlockState)((BlockState)this.stateDefinition.any()).setValue(AGE, 0));
+    }
+
+    @Override
+    public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+        return SHAPE;
+    }
+
+    @Override
+    public void tick(BlockState state, ServerLevel world, BlockPos pos, RandomSource random) {
+        if (!state.canSurvive(world, pos)) {
+            world.destroyBlock(pos, true);
+        }
+    }
+
+    @Override
+    public void randomTick(BlockState state, ServerLevel world, BlockPos pos, RandomSource random) {
+        if (world.isEmptyBlock(pos.above())) {
+            int i;
+            for (i = 1; world.getBlockState(pos.below(i)).is(this); ++i) {
+            }
+            if (i < GrowableOresConfig.Ore_Cane_Max_Height) {
+                int j = (Integer) state.getValue(AGE);
+                if (j == 15) {
+                    world.setBlockAndUpdate(pos.above(), this.defaultBlockState());
+                    world.setBlock(pos, (BlockState) state.setValue(AGE, 0), 4);
+                } else {
+                    world.setBlock(pos, (BlockState) state.setValue(AGE, j + 1), 4);
+                }
+            }
+        }
+    }
+
+    @Override
+    public BlockState updateShape(BlockState p_57179_, Direction p_57180_, BlockState p_57181_, LevelAccessor p_57182_, BlockPos p_57183_, BlockPos p_57184_) {
+        if (!p_57179_.canSurvive(p_57182_, p_57183_)) {
+            p_57182_.scheduleTick(p_57183_, this, 1);
+        }
+
+        return super.updateShape(p_57179_, p_57180_, p_57181_, p_57182_, p_57183_, p_57184_);
+    }
+
+    @Override
+    public boolean canSurvive(BlockState state, LevelReader world, BlockPos pos) {
+        BlockState blockState = world.getBlockState(pos.below());
+        if (blockState.is(this)) {
+            return true;
+        } else {
+            if (blockState.is(BlockTags.DIRT) || blockState.is(BlockTags.SAND) || blockState.is(GrowableBlockTags.GrowBlock)) {
+                BlockPos blockPos = pos.below();
+                Iterator var6 = Plane.HORIZONTAL.iterator();
+
+                while(var6.hasNext()) {
+                    Direction direction = (Direction)var6.next();
+                    BlockState blockState2 = world.getBlockState(blockPos.relative(direction));
+                    FluidState fluidState = world.getFluidState(blockPos.relative(direction));
+                    if (fluidState.is(FluidTags.WATER) || blockState2.is(Blocks.FROSTED_ICE) || (fluidState.is(GrowableFluidTags.GrowFluid))) {
+                        return true;
+                    }
+                }
+            }
+
+            return false;
+        }
+    }
+
+    @Override
+    public void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
+        builder.add(new Property[]{AGE});
+    }
+
+    @Override
+    public PlantType getPlantType(BlockGetter world, BlockPos pos) {
+        return PlantType.BEACH;
+    }
+
+    @Override
+    public BlockState getPlant(BlockGetter world, BlockPos pos) {
+        return this.defaultBlockState();
+    }
+
+    static {
+        AGE = BlockStateProperties.AGE_15;
+        SHAPE = Block.box(2.0, 0.0, 2.0, 14.0, 16.0, 14.0);
+    }
+}

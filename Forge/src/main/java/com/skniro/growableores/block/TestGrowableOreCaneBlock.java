@@ -28,17 +28,17 @@ import net.minecraftforge.common.ForgeHooks;
 import net.minecraftforge.common.IPlantable;
 import net.minecraftforge.common.PlantType;
 
-public class TestSugarCaneBlock extends Block implements IPlantable {
-    public static final MapCodec<TestSugarCaneBlock> CODEC = simpleCodec(TestSugarCaneBlock::new);
+public class TestGrowableOreCaneBlock extends Block implements IPlantable {
+    public static final MapCodec<TestGrowableOreCaneBlock> CODEC = simpleCodec(TestGrowableOreCaneBlock::new);
     public static final IntegerProperty AGE;
     protected static final float AABB_OFFSET = 6.0F;
     protected static final VoxelShape SHAPE;
 
-    public MapCodec<TestSugarCaneBlock> codec() {
+    public MapCodec<TestGrowableOreCaneBlock> codec() {
         return CODEC;
     }
 
-    public TestSugarCaneBlock(BlockBehaviour.Properties p_57168_) {
+    public TestGrowableOreCaneBlock(BlockBehaviour.Properties p_57168_) {
         super(Properties.of().mapColor(MapColor.TERRACOTTA_GREEN).noCollission().randomTicks().instabreak().sound(SoundType.GRASS));
         this.registerDefaultState((BlockState)((BlockState)this.stateDefinition.any()).setValue(AGE, 0));
     }

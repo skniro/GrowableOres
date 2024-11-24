@@ -26,5 +26,6 @@ public class GrowableOres implements ModInitializer {
         ModContent.registerItem();
         ModContent.registerBlock();
         ModContent.CreativeTab();
+        ModContent.registerTag();
     }
 }

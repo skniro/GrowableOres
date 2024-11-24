@@ -1,5 +1,8 @@
 package com.skniro.growableores.block.init;
 
+import com.skniro.growableores.conifg.GrowableOresConfig;
+import com.skniro.growableores.registry.tag.GrowableBlockTags;
+import com.skniro.growableores.registry.tag.GrowableFluidTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
@@ -41,7 +44,7 @@ public class GrowableSugarCaneBlock extends Block implements net.minecraftforge.
                 ;
             }
 
-            if (i < 3) {
+            if (i < GrowableOresConfig.Ore_Cane_Max_Height) {
                 int j = p_225534_1_.getValue(AGE);
                 if (net.minecraftforge.common.ForgeHooks.onCropsGrowPre(p_225534_2_, p_225534_3_, p_225534_1_, true)) {
                     if (j == 15) {
@@ -72,13 +75,13 @@ public class GrowableSugarCaneBlock extends Block implements net.minecraftforge.
         if (block == this) {
             return true;
         } else {
-            if (block == Blocks.GRASS_BLOCK || block == Blocks.DIRT || block == Blocks.COARSE_DIRT || block == Blocks.PODZOL || block == Blocks.SAND || block == Blocks.RED_SAND) {
+            if (block == Blocks.GRASS_BLOCK || block == Blocks.DIRT || block == Blocks.COARSE_DIRT || block == Blocks.PODZOL || block == Blocks.SAND || block == Blocks.RED_SAND || block.is(GrowableBlockTags.GrowBlock)) {
                 BlockPos blockpos = p_196260_3_.below();
 
                 for(Direction direction : Direction.Plane.HORIZONTAL) {
                     BlockState blockstate = p_196260_2_.getBlockState(blockpos.relative(direction));
                     IFluidState ifluidstate = p_196260_2_.getFluidState(blockpos.relative(direction));
-                    if (ifluidstate.is(FluidTags.WATER) || blockstate.getBlock() == Blocks.FROSTED_ICE) {
+                    if (ifluidstate.is(FluidTags.WATER) || blockstate.getBlock() == Blocks.FROSTED_ICE || (ifluidstate.is(GrowableFluidTags.GrowFluid))) {
                         return true;
                     }
                 }

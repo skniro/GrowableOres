@@ -1,5 +1,8 @@
 package com.skniro.growableores.block.init;
 
+import com.skniro.growableores.conifg.GrowableOresConfig;
+import com.skniro.growableores.registry.tag.GrowableBlockTags;
+import com.skniro.growableores.registry.tag.GrowableFluidTags;
 import net.minecraft.block.*;
 import net.minecraft.entity.EntityContext;
 import net.minecraft.fluid.FluidState;
@@ -41,7 +44,7 @@ public class GrowableOresSugarCaneBlock extends Block {
             for(i = 1; world.getBlockState(pos.down(i)).getBlock() == this; ++i) {
             }
 
-            if (i < 3) {
+            if (i < GrowableOresConfig.Ore_Cane_Max_Height) {
                 int j = (Integer)state.get(AGE);
                 if (j == 15) {
                     world.setBlockState(pos.up(), this.getDefaultState());
@@ -67,7 +70,7 @@ public class GrowableOresSugarCaneBlock extends Block {
         if (block == this) {
             return true;
         } else {
-            if (block == Blocks.GRASS_BLOCK || block == Blocks.DIRT || block == Blocks.COARSE_DIRT || block == Blocks.PODZOL || block == Blocks.SAND || block == Blocks.RED_SAND) {
+            if (block == Blocks.GRASS_BLOCK || block == Blocks.DIRT || block == Blocks.COARSE_DIRT || block == Blocks.PODZOL || block == Blocks.SAND || block == Blocks.RED_SAND || block.matches(GrowableBlockTags.GrowBlock)) {
                 BlockPos blockPos = pos.down();
                 Iterator var6 = Direction.Type.HORIZONTAL.iterator();
 
@@ -75,7 +78,7 @@ public class GrowableOresSugarCaneBlock extends Block {
                     Direction direction = (Direction)var6.next();
                     BlockState blockState = world.getBlockState(blockPos.offset(direction));
                     FluidState fluidState = world.getFluidState(blockPos.offset(direction));
-                    if (fluidState.matches(FluidTags.WATER) || blockState.getBlock() == Blocks.FROSTED_ICE) {
+                    if (fluidState.matches(FluidTags.WATER) || blockState.getBlock() == Blocks.FROSTED_ICE || (fluidState.matches(GrowableFluidTags.GrowFluid))) {
                         return true;
                     }
                 }

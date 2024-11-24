@@ -2,6 +2,8 @@ package com.skniro.growableores;
 
 import com.skniro.growableores.block.GrowableOresBlocks;
 import com.skniro.growableores.client.GrowableOresClient;
+import com.skniro.growableores.conifg.Configuration;
+import com.skniro.growableores.conifg.GrowableOresConfig;
 import com.skniro.growableores.item.MapleItems;
 import net.minecraft.block.BlockRenderType;
 import net.minecraftforge.common.MinecraftForge;
@@ -24,6 +26,7 @@ public class GrowableOres {
 
 
     public GrowableOres() {
+        new Configuration(GrowableOresConfig.class, MODID);
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         // Register the commonSetup method for modloading

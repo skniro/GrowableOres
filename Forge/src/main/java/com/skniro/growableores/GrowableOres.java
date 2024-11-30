@@ -2,6 +2,7 @@ package com.skniro.growableores;
 
 import com.mojang.logging.LogUtils;
 import com.skniro.growableores.block.*;
+import com.skniro.growableores.conifg.Configuration;
 import com.skniro.growableores.conifg.GrowableOresConfig;
 import com.skniro.growableores.item.MapleItems;
 import com.skniro.growableores.item.ModCreativeModeTabs;
@@ -27,6 +28,7 @@ public class GrowableOres {
 
     public GrowableOres(FMLJavaModLoadingContext context) {
         //ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, GrowableConfig.GENERAL_SPEC, "growable_ores_config.toml");
+        new Configuration(GrowableOresConfig.class, MOD_ID);
         IEventBus modEventBus = context.getModEventBus();
 
         // Register the commonSetup method for modloading

@@ -8,6 +8,17 @@
       ]
     }
   ],
+  "forge:conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "maple"
+    }
+  ],
+  "neoforge:conditions": [ {
+    "type": "neoforge:mod_loaded",
+    "modid": "maple"
+  }
+  ],
   "type": "botanypots:crop",
   "seed": {
     "item": "growable_ores:salt_cane"

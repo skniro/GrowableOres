@@ -2,6 +2,7 @@ package com.skniro.growableores;
 
 import com.mojang.logging.LogUtils;
 import com.skniro.growableores.block.*;
+import com.skniro.growableores.conifg.Configuration;
 import com.skniro.growableores.conifg.GrowableOresConfig;
 import com.skniro.growableores.item.MapleItems;
 import com.skniro.growableores.item.ModCreativeModeTabs;
@@ -27,6 +28,7 @@ public class GrowableOres {
 
     public GrowableOres(IEventBus modEventBus) {
         // Register the commonSetup method for modloading
+        new Configuration(GrowableOresConfig.class, MOD_ID);
         modEventBus.addListener(this::commonSetup);
 
         // Register the Deferred Register to the mod event bus so blocks get registered

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#G#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:sugar_cane"
+    },
+    "G": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "growable_ores:redstone_cane",
+    "count": 1
+  }
+}

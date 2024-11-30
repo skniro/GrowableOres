@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "growable_ores:block/copper_cane"
+    }
+  }
+}

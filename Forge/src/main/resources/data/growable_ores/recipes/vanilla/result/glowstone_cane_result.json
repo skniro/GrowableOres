@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "growable_ores:glowstone_cane"
+    }
+  },
+  "result": {
+    "item": "minecraft:glowstone_dust",
+    "count": 2
+  }
+}

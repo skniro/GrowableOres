@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "growable_ores:block/c_zinc_ore_cane"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "growable_ores:block/ic_uranium_ore_cane"
+    }
+  }
+}

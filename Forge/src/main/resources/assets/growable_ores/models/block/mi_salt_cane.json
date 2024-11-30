@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/tinted_cross",
+  "textures": {
+    "cross": "growable_ores:block/mi_salt_cane"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/tinted_cross",
+  "textures": {
+    "cross": "growable_ores:block/ep_energized_copper_cane"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "growable_ores:clay_cane"
+    }
+  },
+  "result": {
+    "item": "minecraft:clay",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "growable_ores:sapphire_cane"
+    }
+  },
+  "result": {
+    "item": "techreborn:sapphire_gem",
+    "count": 1
+  }
+}

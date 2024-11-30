@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/tinted_cross",
+  "textures": {
+    "cross": "growable_ores:block/rft_dimensional_shard_cane"
+  }
+}

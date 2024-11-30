@@ -20,7 +20,7 @@ import java.util.logging.Logger;
 
 public class GrowableBiomesOPlentyOresBlocks {
     //Biomes O' Plenty
-    public static final Block BOP_Rose_Quartz_Chunk_Cane =registerBlock("bop_rose_quartz_chunk_cane", new GrowableOreCaneBlock(AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS).pistonBehavior(PistonBehavior.DESTROY)),GrowableOresItemGroups.Growable_Ores_Group);
+    public static final Block BOP_Rose_Quartz_Chunk_Cane =registerBlock("bop_rose_quartz_chunk_cane",  () -> new GrowableOreCaneBlock(BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_GREEN).noCollission().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.DESTROY)), ModCreativeModeTabs.Growable_Ores_Group);
 
 
     private static Block registerBlock(String name, Block block, RegistryKey<ItemGroup> tab) {

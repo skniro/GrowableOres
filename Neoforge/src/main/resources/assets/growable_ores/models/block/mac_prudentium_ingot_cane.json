@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/tinted_cross",
+  "textures": {
+    "cross": "growable_ores:block/mac_prudentium_ingot_cane"
+  }
+}

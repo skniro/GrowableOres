@@ -1,0 +1,40 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "gtm"
+      ]
+    }
+  ],
+  "forge:conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "gtm"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "gtm"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#G#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:sugar_cane"
+    },
+    "G": {
+      "item": "gtm:cinnabar_exquisite_gem"
+    }
+  },
+  "result": {
+    "id": "growable_ores:gtm_exquisitecinnabar_cane",
+    "count": 1
+  }
+}

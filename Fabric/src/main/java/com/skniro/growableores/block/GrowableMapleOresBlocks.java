@@ -20,7 +20,7 @@ import java.util.logging.Logger;
 
 public class GrowableMapleOresBlocks {
     //Maple
-    public static final Block Salt_Cane =registerBlock("salt_cane", new GrowableOreCaneBlock(AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS).pistonBehavior(PistonBehavior.DESTROY)),GrowableOresItemGroups.Growable_Ores_Group);
+    public static final Block Salt_Cane =registerBlock("salt_cane",  () -> new GrowableOreCaneBlock(BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_GREEN).noCollission().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.DESTROY)), ModCreativeModeTabs.Growable_Ores_Group);
 
 
     private static Block registerBlock(String name, Block block, RegistryKey<ItemGroup> tab) {

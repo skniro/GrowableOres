@@ -1,0 +1,28 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "modern_industrialization"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#G#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:sugar_cane"
+    },
+    "G": {
+      "item": "modern_industrialization:titanium_ingot"
+    }
+  },
+  "result": {
+    "id": "growable_ores:mi_titanium_cane",
+    "count": 1
+  }
+}

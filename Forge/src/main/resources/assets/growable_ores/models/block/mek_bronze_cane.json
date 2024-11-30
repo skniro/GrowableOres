@@ -2,6 +2,5 @@
   "parent": "minecraft:block/tinted_cross",
   "textures": {
     "cross": "growable_ores:block/mek_bronze_cane"
-  },
-  "render_type": "cutout"
+  }
 }

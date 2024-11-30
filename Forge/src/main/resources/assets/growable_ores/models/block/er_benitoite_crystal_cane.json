@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/tinted_cross",
+  "textures": {
+    "cross": "growable_ores:block/er_benitoite_crystal_cane"
+  }
+}

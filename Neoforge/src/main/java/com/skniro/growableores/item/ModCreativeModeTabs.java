@@ -14,7 +14,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 
 public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
-            DeferredRegister.create(Registries.CREATIVE_MODE_TAB, GrowableOres.MODID);
+            DeferredRegister.create(Registries.CREATIVE_MODE_TAB, GrowableOres.MOD_ID);
 
     public static final DeferredHolder<CreativeModeTab,CreativeModeTab> Growable_Ores_Group = CREATIVE_MODE_TABS.register("test_group",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(GrowableVanillaOresBlocks.Iron_Cane.get()))

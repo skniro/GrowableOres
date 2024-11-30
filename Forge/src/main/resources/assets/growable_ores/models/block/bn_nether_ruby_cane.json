@@ -2,6 +2,5 @@
   "parent": "minecraft:block/tinted_cross",
   "textures": {
     "cross": "growable_ores:block/bn_nether_ruby_cane"
-  },
-  "render_type": "cutout"
+  }
 }

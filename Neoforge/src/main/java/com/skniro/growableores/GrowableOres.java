@@ -16,10 +16,10 @@ import net.neoforged.neoforge.event.server.ServerStartingEvent;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
-@Mod(GrowableOres.MODID)
+@Mod(GrowableOres.MOD_ID)
 public class GrowableOres {
     // Define mod id in a common place for everything to reference
-    public static final String MODID = "growable_ores";
+    public static final String MOD_ID = "growable_ores";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
@@ -32,7 +32,7 @@ public class GrowableOres {
         // Register the Deferred Register to the mod event bus so blocks get registered
         GrowableVanillaOresBlocks.registerMapleBlocks(modEventBus);
         if(ModList.get().isLoaded("ad_astra")) {
-            GrowableAdAstraOresBlocks.registerMapleBlocks(modEventBus);
+            GrowableAdAstraOresBlocks.registerAdAstraBlocks(modEventBus);
         }
         if (ModList.get().isLoaded("ae2")) {
             GrowableAEOresBlocks.registerMapleBlocks(modEventBus);
@@ -77,7 +77,7 @@ public class GrowableOres {
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
-    @EventBusSubscriber(modid = MODID, bus = EventBusSubscriber.Bus.MOD)
+    @EventBusSubscriber(modid = MOD_ID, bus = EventBusSubscriber.Bus.MOD)
     public static class ClientModEvents {
 
         @SubscribeEvent

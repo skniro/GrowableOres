@@ -22,7 +22,7 @@ public class GrowableTagGenerator extends FabricTagProvider.BlockTagProvider {
    private static final TagKey<Block> GROWABLE_CANE = TagKey.of(RegistryKeys.BLOCK, Identifier.of(GrowableOres.MOD_ID,"growable_cane"));
    @Override
    protected void configure(RegistryWrapper.WrapperLookup arg) {
-      getOrCreateTagBuilder(GrowableBlockTags.GrowBlock);
+      //getOrCreateTagBuilder(GrowableBlockTags.GrowBlock);
       getOrCreateTagBuilder(GROWABLE_CANE)
               .add(GrowableVanillaOresBlocks.Coal_Cane)
               .add(GrowableVanillaOresBlocks.Iron_Cane)

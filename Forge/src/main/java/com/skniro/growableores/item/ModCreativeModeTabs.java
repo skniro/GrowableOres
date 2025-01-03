@@ -391,27 +391,23 @@ public class ModCreativeModeTabs {
                         if (ModList.get().isLoaded("tconstruct") || GrowableOresConfig.All_Item_Mode) {
                             //Tinkers' Construct
                             pOutput.accept(GrowableTinkersConstructBlocks.TC_Amethyst_Bronze_Ingot_Cane.get());
-                            pOutput.accept(GrowableTinkersConstructBlocks.TC_Ardite_Ingot_Cane.get());
                             pOutput.accept(GrowableTinkersConstructBlocks.TC_Blazing_Bone_Cane.get());
                             pOutput.accept(GrowableTinkersConstructBlocks.TC_Cheese_Ingot_Cane.get());
                             pOutput.accept(GrowableTinkersConstructBlocks.TC_Cobalt_Ingot_Cane.get());
                             pOutput.accept(GrowableTinkersConstructBlocks.TC_Earth_Slime_Crystal_Cane.get());
                             pOutput.accept(GrowableTinkersConstructBlocks.TC_Ender_Slime_Crystal_Cane.get());
                             pOutput.accept(GrowableTinkersConstructBlocks.TC_Hepatizon_Ingot_Cane.get());
-                            pOutput.accept(GrowableTinkersConstructBlocks.TC_Hollow_Ingot_Cane.get());
                             pOutput.accept(GrowableTinkersConstructBlocks.TC_Ichor_Slime_Crystal_Cane.get());
                             pOutput.accept(GrowableTinkersConstructBlocks.TC_Knightslime_Ingot_Cane.get());
                             pOutput.accept(GrowableTinkersConstructBlocks.TC_Manyullyn_Ingot_Cane.get());
                             pOutput.accept(GrowableTinkersConstructBlocks.TC_Modifier_Crystal_Cane.get());
                             pOutput.accept(GrowableTinkersConstructBlocks.TC_Necronium_Bone_Cane.get());
                             pOutput.accept(GrowableTinkersConstructBlocks.TC_Necrotic_Bone_Cane.get());
-                            pOutput.accept(GrowableTinkersConstructBlocks.TC_Pigiron_Ingot_Cane.get());
                             pOutput.accept(GrowableTinkersConstructBlocks.TC_Queens_Slime_Ingot_Cane.get());
                             pOutput.accept(GrowableTinkersConstructBlocks.TC_Rose_Gold_Ingot_Cane.get());
                             pOutput.accept(GrowableTinkersConstructBlocks.TC_Sky_Slime_Crystal_Cane.get());
                             pOutput.accept(GrowableTinkersConstructBlocks.TC_Slimesteel_Ingot_Cane.get());
                             pOutput.accept(GrowableTinkersConstructBlocks.TC_Soulsteel_Ingot_Cane.get());
-
                         }
                     })
                     .build());

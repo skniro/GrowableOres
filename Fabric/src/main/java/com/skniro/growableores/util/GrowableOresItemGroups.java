@@ -490,21 +490,18 @@ public class GrowableOresItemGroups {
         ItemGroupEvents.modifyEntriesEvent(Growable_Ores_Group).register(content -> {
             //Tinkers' Construct
             content.add(GrowableTinkersConstructBlocks.TC_Amethyst_Bronze_Ingot_Cane);
-            content.add(GrowableTinkersConstructBlocks.TC_Ardite_Ingot_Cane);
             content.add(GrowableTinkersConstructBlocks.TC_Blazing_Bone_Cane);
             content.add(GrowableTinkersConstructBlocks.TC_Cheese_Ingot_Cane);
             content.add(GrowableTinkersConstructBlocks.TC_Cobalt_Ingot_Cane);
             content.add(GrowableTinkersConstructBlocks.TC_Earth_Slime_Crystal_Cane);
             content.add(GrowableTinkersConstructBlocks.TC_Ender_Slime_Crystal_Cane);
             content.add(GrowableTinkersConstructBlocks.TC_Hepatizon_Ingot_Cane);
-            content.add(GrowableTinkersConstructBlocks.TC_Hollow_Ingot_Cane);
             content.add(GrowableTinkersConstructBlocks.TC_Ichor_Slime_Crystal_Cane);
             content.add(GrowableTinkersConstructBlocks.TC_Knightslime_Ingot_Cane);
             content.add(GrowableTinkersConstructBlocks.TC_Manyullyn_Ingot_Cane);
             content.add(GrowableTinkersConstructBlocks.TC_Modifier_Crystal_Cane);
             content.add(GrowableTinkersConstructBlocks.TC_Necronium_Bone_Cane);
             content.add(GrowableTinkersConstructBlocks.TC_Necrotic_Bone_Cane);
-            content.add(GrowableTinkersConstructBlocks.TC_Pigiron_Ingot_Cane);
             content.add(GrowableTinkersConstructBlocks.TC_Queens_Slime_Ingot_Cane);
             content.add(GrowableTinkersConstructBlocks.TC_Rose_Gold_Ingot_Cane);
             content.add(GrowableTinkersConstructBlocks.TC_Sky_Slime_Crystal_Cane);

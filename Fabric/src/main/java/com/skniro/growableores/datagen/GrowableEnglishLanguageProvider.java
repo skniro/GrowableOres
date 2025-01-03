@@ -237,7 +237,7 @@ public class GrowableEnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(GrowableGregTechCEuModernOresBlocks.GTM_Exquisite_Realgar_Cane, "Realgar Exquisite Gem Reed(GregTechCEu Modern)");
         translationBuilder.add(GrowableGregTechCEuModernOresBlocks.GTM_Exquisite_Red_Garnet_Cane, "Red Garnet Exquisite Gem Reed(GregTechCEu Modern)");
         translationBuilder.add(GrowableGregTechCEuModernOresBlocks.GTM_Exquisite_Rock_Salt_Cane, "Rock Salt Exquisite Gem Reed(GregTechCEu Modern)");
-        translationBuilder.add(GrowableGregTechCEuModernOresBlocks.GTM_Exquisite_Ruby_Cane, "Ruby_ Exquisite Gem Reed(GregTechCEu Modern)");
+        translationBuilder.add(GrowableGregTechCEuModernOresBlocks.GTM_Exquisite_Ruby_Cane, "Ruby Exquisite Gem Reed(GregTechCEu Modern)");
         translationBuilder.add(GrowableGregTechCEuModernOresBlocks.GTM_Exquisite_Rutile_Cane, "Rutile Exquisite Gem Reed(GregTechCEu Modern)");
         translationBuilder.add(GrowableGregTechCEuModernOresBlocks.GTM_Exquisite_Salt_Cane, "Salt Exquisite Gem Reed(GregTechCEu Modern)");
         translationBuilder.add(GrowableGregTechCEuModernOresBlocks.GTM_Exquisite_Sapphire_Cane, "Sapphire Exquisite Gem Reed(GregTechCEu Modern)");
@@ -288,7 +288,7 @@ public class GrowableEnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(GrowableGregTechCEuModernOresBlocks.GTM_Plutonium_Ingot_Cane, "Plutonium Ingot Reed(GregTechCEu Modern)");
         translationBuilder.add(GrowableGregTechCEuModernOresBlocks.GTM_Polybenzimidazole_Ingot_Cane, "Polybenzimidazole Ingot Reed(GregTechCEu Modern)");
         translationBuilder.add(GrowableGregTechCEuModernOresBlocks.GTM_Polycaprolactam_Ingot_Cane, "Polycaprolactam Ingot Reed(GregTechCEu Modern)");
-        translationBuilder.add(GrowableGregTechCEuModernOresBlocks.GTM_Polyethylene_Ingot_Cane, "EPolyethylene Ingot Reed(GregTechCEu Modern)");
+        translationBuilder.add(GrowableGregTechCEuModernOresBlocks.GTM_Polyethylene_Ingot_Cane, "Polyethylene Ingot Reed(GregTechCEu Modern)");
         translationBuilder.add(GrowableGregTechCEuModernOresBlocks.GTM_Polyphenylene_Sulfide_Ingot_Cane, "Polyphenylene Sulfide Ingot Reed(GregTechCEu Modern)");
         translationBuilder.add(GrowableGregTechCEuModernOresBlocks.GTM_Polytetrafluoroethylene_Ingot_Cane, "Polytetrafluoroethylene Ingot Reed(GregTechCEu Modern)");
         translationBuilder.add(GrowableGregTechCEuModernOresBlocks.GTM_Polyvinyl_Chloride_Ingot_Cane, "Polyvinyl Chloride Ingot Reed(GregTechCEu Modern)");
@@ -334,11 +334,11 @@ public class GrowableEnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(GrowableGregTechCEuModernOresBlocks.GTM_Invar_Ingot_Cane, "Invar Ingot Reed(GregTechCEu Modern)");
 
         //ManaandArtifice
-        translationBuilder.add(GrowableManaandArtificeOresBlocks.MA_Animus_Dust_Cane, "Electrum Ingot Reed(Mana and Artifice)");
-        translationBuilder.add(GrowableManaandArtificeOresBlocks.MA_Arcane_Ash_Cane, "Electrum Ingot Reed(Mana and Artifice)");
-        translationBuilder.add(GrowableManaandArtificeOresBlocks.MA_Bone_Ash_Cane, "Electrum Ingot Reed(Mana and Artifice)");
-        translationBuilder.add(GrowableManaandArtificeOresBlocks.MA_Ironbark_Cane, "Electrum Ingot Reed(Mana and Artifice)");
-        translationBuilder.add(GrowableManaandArtificeOresBlocks.MA_Living_Flame_Cane, "Electrum Ingot Reed(Mana and Artifice)");
+        translationBuilder.add(GrowableManaandArtificeOresBlocks.MA_Animus_Dust_Cane, "Animus Dust Reed(Mana and Artifice)");
+        translationBuilder.add(GrowableManaandArtificeOresBlocks.MA_Arcane_Ash_Cane, "Arcane Ash Reed(Mana and Artifice)");
+        translationBuilder.add(GrowableManaandArtificeOresBlocks.MA_Bone_Ash_Cane, "Bone Ash Reed(Mana and Artifice)");
+        translationBuilder.add(GrowableManaandArtificeOresBlocks.MA_Ironbark_Cane, "Ironbark Reed(Mana and Artifice)");
+        translationBuilder.add(GrowableManaandArtificeOresBlocks.MA_Living_Flame_Cane, "Living Flame Reed(Mana and Artifice)");
         translationBuilder.add(GrowableManaandArtificeOresBlocks.MA_Mote_Air_Cane, "Mote Air Reed(Mana and Artifice)");
         translationBuilder.add(GrowableManaandArtificeOresBlocks.MA_Mote_Arcane_Cane, "Mote Arcane Reed(Mana and Artifice)");
         translationBuilder.add(GrowableManaandArtificeOresBlocks.MA_Mote_Earth_Cane, "Mote Earth Reed(Mana and Artifice)");
@@ -401,20 +401,17 @@ public class GrowableEnglishLanguageProvider extends FabricLanguageProvider {
 
         //Tinkers' Construct
         translationBuilder.add(GrowableTinkersConstructBlocks.TC_Amethyst_Bronze_Ingot_Cane, "Electrum Ingot Reed(Tinkers' Construct)");
-        translationBuilder.add(GrowableTinkersConstructBlocks.TC_Ardite_Ingot_Cane, "Ardite Ingot Reed(Tinkers' Construct)");
         translationBuilder.add(GrowableTinkersConstructBlocks.TC_Blazing_Bone_Cane, "Blazing Ingot Reed(Tinkers' Construct)");
         translationBuilder.add(GrowableTinkersConstructBlocks.TC_Cheese_Ingot_Cane, "Cheese Ingot Reed(Tinkers' Construct)");
         translationBuilder.add(GrowableTinkersConstructBlocks.TC_Cobalt_Ingot_Cane, "Cobalt Ingot Reed(Tinkers' Construct)");
         translationBuilder.add(GrowableTinkersConstructBlocks.TC_Ender_Slime_Crystal_Cane, "Ender Slime Crystal Reed(Tinkers' Construct)");
         translationBuilder.add(GrowableTinkersConstructBlocks.TC_Hepatizon_Ingot_Cane, "Hepatizon Ingot Reed(Tinkers' Construct)");
-        translationBuilder.add(GrowableTinkersConstructBlocks.TC_Hollow_Ingot_Cane, "Hollow Ingot Reed(Tinkers' Construct)");
         translationBuilder.add(GrowableTinkersConstructBlocks.TC_Ichor_Slime_Crystal_Cane, "Ichor Slime Ingot Reed(Tinkers' Construct)");
         translationBuilder.add(GrowableTinkersConstructBlocks.TC_Knightslime_Ingot_Cane, "Knightslime Ingot Reed(Tinkers' Construct)");
         translationBuilder.add(GrowableTinkersConstructBlocks.TC_Manyullyn_Ingot_Cane, "Manyullyn Ingot Reed(Tinkers' Construct)");
         translationBuilder.add(GrowableTinkersConstructBlocks.TC_Modifier_Crystal_Cane, "Modifier Crystal Reed(Tinkers' Construct)");
         translationBuilder.add(GrowableTinkersConstructBlocks.TC_Necronium_Bone_Cane, "Necronium Ingot Reed(Tinkers' Construct)");
         translationBuilder.add(GrowableTinkersConstructBlocks.TC_Necrotic_Bone_Cane, "Necrotic Ingot Reed(Tinkers' Construct)");
-        translationBuilder.add(GrowableTinkersConstructBlocks.TC_Pigiron_Ingot_Cane, "Pigiron Ingot Reed(Tinkers' Construct)");
         translationBuilder.add(GrowableTinkersConstructBlocks.TC_Queens_Slime_Ingot_Cane, "Queens Slime Ingot Reed(Tinkers' Construct)");
         translationBuilder.add(GrowableTinkersConstructBlocks.TC_Rose_Gold_Ingot_Cane, "Rose Gold Ingot Reed(Tinkers' Construct)");
         translationBuilder.add(GrowableTinkersConstructBlocks.TC_Sky_Slime_Crystal_Cane, "Sky Slime Crystal Reed(Tinkers' Construct)");

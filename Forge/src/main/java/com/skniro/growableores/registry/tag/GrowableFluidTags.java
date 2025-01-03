@@ -12,6 +12,6 @@ public class GrowableFluidTags {
 
 
     private static TagKey<Fluid> of(String id) {
-        return TagKey.create(Registries.FLUID, ResourceLocation.fromNamespaceAndPath(GrowableOres.MOD_ID ,id));
+        return TagKey.create(Registries.FLUID, new ResourceLocation(GrowableOres.MOD_ID ,id));
     }
 }

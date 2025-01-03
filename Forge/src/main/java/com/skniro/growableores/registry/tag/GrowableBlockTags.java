@@ -12,6 +12,6 @@ public class GrowableBlockTags {
 
 
     private static TagKey<Block> of(String id) {
-        return TagKey.create(Registries.BLOCK, ResourceLocation.fromNamespaceAndPath(GrowableOres.MOD_ID ,id));
+        return TagKey.create(Registries.BLOCK,new ResourceLocation(GrowableOres.MOD_ID ,id));
     }
 }

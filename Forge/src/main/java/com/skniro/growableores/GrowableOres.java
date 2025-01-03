@@ -35,35 +35,71 @@ public class GrowableOres {
 
         // Register the Deferred Register to the mod event bus so blocks get registered
         GrowableVanillaOresBlocks.registerMapleBlocks(modEventBus);
-        if(ModList.get().isLoaded("ad_astra")) {
+        if(ModList.get().isLoaded("ad_astra") || GrowableOresConfig.All_Item_Mode) {
             GrowableAdAstraOresBlocks.registerAdAstraBlocks(modEventBus);
         }
-        if (ModList.get().isLoaded("ae2")) {
+        if (ModList.get().isLoaded("ae2") || GrowableOresConfig.All_Item_Mode) {
             GrowableAEOresBlocks.registerMapleBlocks(modEventBus);
         }
-        if (ModList.get().isLoaded("create")) {
+        if (ModList.get().isLoaded("create") || GrowableOresConfig.All_Item_Mode) {
             GrowableCreateOresBlocks.registerMapleBlocks(modEventBus);
         }
-        if (ModList.get().isLoaded("betterend")) {
+        if (ModList.get().isLoaded("betterend") || GrowableOresConfig.All_Item_Mode) {
             GrowableBetterEndOresBlocks.registerMapleBlocks(modEventBus);
         }
-        if (ModList.get().isLoaded("ic2")) {
+        if (ModList.get().isLoaded("ic2") || GrowableOresConfig.All_Item_Mode) {
             GrowableICOresBlocks.registerMapleBlocks(modEventBus);
         }
-        if (ModList.get().isLoaded("powah")) {
+        if (ModList.get().isLoaded("powah") || GrowableOresConfig.All_Item_Mode) {
             GrowablePowahOresBlocks.registerMapleBlocks(modEventBus);
         }
-        if (ModList.get().isLoaded("thermal")) {
+        if (ModList.get().isLoaded("thermal") || GrowableOresConfig.All_Item_Mode) {
             GrowableThermalSeriesOresBlocks.registerMapleBlocks(modEventBus);
         }
-        if (ModList.get().isLoaded("mekanism")) {
+        if (ModList.get().isLoaded("mekanism") || GrowableOresConfig.All_Item_Mode) {
             GrowableMekanismOresBlocks.registerModBlocks(modEventBus);
         }
-        if (ModList.get().isLoaded("betternether")) {
+        if (ModList.get().isLoaded("betternether") || GrowableOresConfig.All_Item_Mode) {
             GrowableBetterNetherOresBlocks.registerModBlocks(modEventBus);
         }
-        if (ModList.get().isLoaded("energizedpower")) {
+        if (ModList.get().isLoaded("energizedpower") || GrowableOresConfig.All_Item_Mode) {
             GrowableEnergizedPowerOresBlocks.registerModBlocks(modEventBus);
+        }
+        if (ModList.get().isLoaded("biomesoplenty") || GrowableOresConfig.All_Item_Mode) {
+            GrowableBiomesOPlentyOresBlocks.registerGrowableBlocks(modEventBus);
+        }
+        if (ModList.get().isLoaded("draconicevolution") || GrowableOresConfig.All_Item_Mode) {
+            GrowableDraconicEvolutionOresBlocks.registerGrowableBlocks(modEventBus);
+        }
+        if (ModList.get().isLoaded("extremereactors") || GrowableOresConfig.All_Item_Mode) {
+            GrowableExtremeReactorsOresBlocks.registerGrowableBlocks(modEventBus);
+        }
+        if (ModList.get().isLoaded("galosphere") || GrowableOresConfig.All_Item_Mode) {
+            GrowableGalosphereOresBlocks.registerGrowableBlocks(modEventBus);
+        }
+        if (ModList.get().isLoaded("gobber2") || GrowableOresConfig.All_Item_Mode) {
+            GrowableGobberOresBlocks.registerGrowableBlocks(modEventBus);
+        }
+        if (ModList.get().isLoaded("gtceu") || GrowableOresConfig.All_Item_Mode) {
+            GrowableGregTechCEuModernOresBlocks.registerGrowableBlocks(modEventBus);
+        }
+        if (ModList.get().isLoaded("mna") || GrowableOresConfig.All_Item_Mode) {
+            GrowableManaandArtificeOresBlocks.registerGrowableBlocks(modEventBus);
+        }
+        if (ModList.get().isLoaded("mysticalagradditions") || GrowableOresConfig.All_Item_Mode) {
+            GrowableMysticalAgradditionsBlocks.registerGrowableBlocks(modEventBus);
+        }
+        if (ModList.get().isLoaded("mysticalagriculture") || GrowableOresConfig.All_Item_Mode) {
+            GrowableMysticalAgricultureBlocks.registerGrowableBlocks(modEventBus);
+        }
+        if (ModList.get().isLoaded("railcraft") || GrowableOresConfig.All_Item_Mode) {
+            GrowableRailcraftOresBlocks.registerGrowableBlocks(modEventBus);
+        }
+        if (ModList.get().isLoaded("rftoolsbase") || GrowableOresConfig.All_Item_Mode) {
+            GrowableRFToolsOresBlocks.registerGrowableBlocks(modEventBus);
+        }
+        if (ModList.get().isLoaded("tconstruct") || GrowableOresConfig.All_Item_Mode) {
+            GrowableTinkersConstructBlocks.registerGrowableBlocks(modEventBus);
         }
 
         MapleItems.registerModItems(modEventBus);

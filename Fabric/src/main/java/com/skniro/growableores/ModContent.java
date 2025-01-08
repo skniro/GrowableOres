@@ -73,10 +73,6 @@ public class ModContent {
             GrowableOresItemGroups.ep_item();
             GrowableEnergizedPowerOresBlocks.registerModBlocks();
         }
-        if (FabricLoader.getInstance().isModLoaded("energizedpower") || GrowableOresConfig.All_Item_Mode) {
-            GrowableOresItemGroups.ep_item();
-            GrowableEnergizedPowerOresBlocks.registerModBlocks();
-        }
         if (FabricLoader.getInstance().isModLoaded("biomesoplenty") || GrowableOresConfig.All_Item_Mode) {
             GrowableOresItemGroups.bop_item();
             GrowableBiomesOPlentyOresBlocks.registerModBlocks();

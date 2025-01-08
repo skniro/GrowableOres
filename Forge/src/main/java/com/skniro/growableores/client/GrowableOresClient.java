@@ -5,6 +5,7 @@ import com.skniro.growableores.block.GrowableOresBlocks;
 import com.skniro.growableores.item.ModCreativeModeTabs;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.SugarCaneBlock;
@@ -15,13 +16,22 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-@Mod.EventBusSubscriber(modid = GrowableOres.MODID,bus = Mod.EventBusSubscriber.Bus.MOD ,value = Dist.CLIENT)
+@Mod.EventBusSubscriber(modid = GrowableOres.MOD_ID,bus = Mod.EventBusSubscriber.Bus.MOD ,value = Dist.CLIENT)
 public class GrowableOresClient {
     @SubscribeEvent
     public static void onInitializeClient(FMLClientSetupEvent event) {
-        ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.Coal_Cane.get(), RenderType.cutout());
+        event.enqueueWork(() -> {
+            ForgeRegistries.BLOCKS.forEach(block -> {
+                ResourceLocation blockId = ForgeRegistries.BLOCKS.getKey(block);
+                if (blockId != null && blockId.getNamespace().equals(GrowableOres.MOD_ID)) {
+                    ItemBlockRenderTypes.setRenderLayer(block, RenderType.cutout());
+                }
+            });
+        });
+       /* ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.Coal_Cane.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.Iron_Cane.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.Diamond_Cane.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.Copper_Cane.get(), RenderType.cutout());
@@ -107,6 +117,6 @@ public class GrowableOresClient {
         ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.EP_Energized_Gold_Cane.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.EP_Redstone_Alloy_Cane.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.EP_Steel_Cane.get(), RenderType.cutout());
-        ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.EP_Tin_Cane.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(GrowableOresBlocks.EP_Tin_Cane.get(), RenderType.cutout());*/
     }
 }

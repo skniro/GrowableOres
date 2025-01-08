@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/tinted_cross",
+  "textures": {
+    "cross": "growable_ores:block/gtm_reinforced_epoxy_resin_ingot_cane"
+  }
+}

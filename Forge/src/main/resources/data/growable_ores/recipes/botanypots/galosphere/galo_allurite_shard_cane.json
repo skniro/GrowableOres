@@ -1,0 +1,56 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "galosphere",
+                "botanypots"
+            ]
+        }
+    ],
+    "forge:conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "galosphere"
+        },
+        {
+            "type": "forge:mod_loaded",
+            "modid": "botanypots"
+        }
+    ],
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "galosphere"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "botanypots"
+        }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+        "item": "growable_ores:galo_allurite_shard_cane"
+    },
+    "categories": [
+        "sand",
+        "dirt"
+    ],
+    "growthTicks": 1200,
+    "display": [
+        {
+            "block": "growable_ores:galo_allurite_shard_cane"
+        },
+        {
+            "block": "growable_ores:galo_allurite_shard_cane"
+        }
+    ],
+    "drops": [
+        {
+            "chance": 1.0,
+            "output": {
+                "item": "growable_ores:galo_allurite_shard_cane"
+            }
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "growable_ores:redstone_cane"
+    }
+  },
+  "result": {
+    "item": "minecraft:redstone",
+    "count": 4
+  }
+}

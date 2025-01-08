@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "growable_ores:bauxite_cane"
+    }
+  },
+  "result": {
+    "item": "techreborn:aluminum_ingot",
+    "count": 1
+  }
+}

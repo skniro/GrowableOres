@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/tinted_cross",
+  "textures": {
+    "cross": "growable_ores:block/gtm_nickel_zinc_ferrite_ingot_cane"
+  }
+}

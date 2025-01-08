@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "growable_ores:block/gtm_exquisite_nether_quartz_cane"
+  }
+}

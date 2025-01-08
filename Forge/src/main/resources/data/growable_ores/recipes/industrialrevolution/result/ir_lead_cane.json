@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "growable_ores:ir_lead_cane"
+    }
+  },
+  "result": {
+    "item": "indrev:lead_ingot",
+    "count": 1
+  }
+}

@@ -1,6 +1,7 @@
 package com.skniro.growableores.block;
 
 import com.skniro.growableores.GrowableOres;
+import com.skniro.growableores.block.init.GrowableOreCaneBlock;
 import com.skniro.growableores.item.MapleItems;
 import com.skniro.growableores.item.ModCreativeModeTabs;
 import net.minecraft.world.item.BlockItem;
@@ -8,7 +9,6 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.SugarCaneBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.PushReaction;
@@ -23,8 +23,8 @@ public class GrowableBetterNetherOresBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, GrowableOres.MOD_ID);
 
     //BetterNether
-    public static final RegistryObject<Block> BN_Cincinnasite_Cane =registerBlock("bn_cincinnasite_cane", () -> new SugarCaneBlock(BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_GREEN).noCollission().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.DESTROY)), ModCreativeModeTabs.Growable_Ores_Group);
-    public static final RegistryObject<Block> BN_Nether_Ruby_Cane =registerBlock("bn_nether_ruby_cane", () -> new SugarCaneBlock(BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_GREEN).noCollission().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.DESTROY)), ModCreativeModeTabs.Growable_Ores_Group);
+    public static final RegistryObject<Block> BN_Cincinnasite_Cane =registerBlock("bn_cincinnasite_cane", () -> new GrowableOreCaneBlock(BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_GREEN).noCollission().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.DESTROY)), ModCreativeModeTabs.Growable_Ores_Group);
+    public static final RegistryObject<Block> BN_Nether_Ruby_Cane =registerBlock("bn_nether_ruby_cane", () -> new GrowableOreCaneBlock(BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_GREEN).noCollission().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.DESTROY)), ModCreativeModeTabs.Growable_Ores_Group);
 
 
 

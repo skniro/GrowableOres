@@ -1,6 +1,7 @@
 package com.skniro.growableores.block;
 
 import com.skniro.growableores.GrowableOres;
+import com.skniro.growableores.block.init.GrowableOreCaneBlock;
 import com.skniro.growableores.item.MapleItems;
 import com.skniro.growableores.item.ModCreativeModeTabs;
 import net.minecraft.world.item.BlockItem;
@@ -8,7 +9,6 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.SugarCaneBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.PushReaction;
@@ -24,10 +24,10 @@ public class GrowableCreateOresBlocks {
 
 
     //Create
-    public static final RegistryObject<Block> C_Andesite_Alloy_Cane =registerBlock("c_andesite_alloy_cane", () ->new SugarCaneBlock(BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_GREEN).noCollission().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.DESTROY)), ModCreativeModeTabs.Growable_Ores_Group);
-    public static final RegistryObject<Block> C_Brass_Ingot_Cane =registerBlock("c_brass_ingot_cane", () ->new SugarCaneBlock(BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_GREEN).noCollission().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.DESTROY)), ModCreativeModeTabs.Growable_Ores_Group);
-    public static final RegistryObject<Block> C_Polished_Rose_Quartz_Cane =registerBlock("c_polished_rose_quartz_cane", () ->new SugarCaneBlock(BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_GREEN).noCollission().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.DESTROY)), ModCreativeModeTabs.Growable_Ores_Group);
-    public static final RegistryObject<Block> C_Zinc_Cane =registerBlock("c_zinc_ore_cane", () ->new SugarCaneBlock(BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_GREEN).noCollission().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.DESTROY)), ModCreativeModeTabs.Growable_Ores_Group);
+    public static final RegistryObject<Block> C_Andesite_Alloy_Cane =registerBlock("c_andesite_alloy_cane", () ->new GrowableOreCaneBlock(BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_GREEN).noCollission().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.DESTROY)), ModCreativeModeTabs.Growable_Ores_Group);
+    public static final RegistryObject<Block> C_Brass_Ingot_Cane =registerBlock("c_brass_ingot_cane", () ->new GrowableOreCaneBlock(BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_GREEN).noCollission().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.DESTROY)), ModCreativeModeTabs.Growable_Ores_Group);
+    public static final RegistryObject<Block> C_Polished_Rose_Quartz_Cane =registerBlock("c_polished_rose_quartz_cane", () ->new GrowableOreCaneBlock(BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_GREEN).noCollission().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.DESTROY)), ModCreativeModeTabs.Growable_Ores_Group);
+    public static final RegistryObject<Block> C_Zinc_Cane =registerBlock("c_zinc_ore_cane", () ->new GrowableOreCaneBlock(BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_GREEN).noCollission().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.DESTROY)), ModCreativeModeTabs.Growable_Ores_Group);
 
 
     private static <T extends Block> RegistryObject<T> registerBlockWithoutItem(String name, Supplier<T> block) {

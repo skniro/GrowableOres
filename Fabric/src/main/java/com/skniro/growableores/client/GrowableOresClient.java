@@ -1,17 +1,26 @@
 package com.skniro.growableores.client;
 
+import com.skniro.growableores.GrowableOres;
 import com.skniro.growableores.block.*;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.minecraft.client.render.RenderLayer;
+import net.minecraft.util.Identifier;
+import net.minecraft.util.registry.Registry;
 
 @Environment(EnvType.CLIENT)
 public class GrowableOresClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableVanillaOresBlocks.Coal_Cane, RenderLayer.getCutout());
+        Registry.BLOCK.forEach(block -> {
+            Identifier blockId = Registry.BLOCK.getId(block);
+            if (blockId.getNamespace().equals(GrowableOres.MOD_ID)) {
+                BlockRenderLayerMap.INSTANCE.putBlock(block, RenderLayer.getCutout());
+            }
+        });
+        /*BlockRenderLayerMap.INSTANCE.putBlock(GrowableVanillaOresBlocks.Coal_Cane, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableVanillaOresBlocks.Iron_Cane, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableVanillaOresBlocks.Diamond_Cane, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableVanillaOresBlocks.Copper_Cane, RenderLayer.getCutout());
@@ -138,7 +147,7 @@ public class GrowableOresClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableEnergizedPowerOresBlocks.EP_Redstone_Alloy_Cane, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableEnergizedPowerOresBlocks.EP_Steel_Cane, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableEnergizedPowerOresBlocks.EP_Tin_Cane, RenderLayer.getCutout());
-
+*/
 
     }
 }

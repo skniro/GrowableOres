@@ -54,6 +54,42 @@ public class ModContent {
         if (FabricLoader.getInstance().isModLoaded("energizedpower") || GrowableOresConfig.All_Item_Mode) {
             GrowableEnergizedPowerOresBlocks.registerModBlocks();
         }
+        if (FabricLoader.getInstance().isModLoaded("biomesoplenty") || GrowableOresConfig.All_Item_Mode) {
+            GrowableBiomesOPlentyOresBlocks.registerModBlocks();
+        }
+        if (FabricLoader.getInstance().isModLoaded("draconicevolution") || GrowableOresConfig.All_Item_Mode) {
+            GrowableDraconicEvolutionOresBlocks.registerModBlocks();
+        }
+        if (FabricLoader.getInstance().isModLoaded("extremereactors") || GrowableOresConfig.All_Item_Mode) {
+            GrowableExtremeReactorsOresBlocks.registerModBlocks();
+        }
+        if (FabricLoader.getInstance().isModLoaded("galosphere") || GrowableOresConfig.All_Item_Mode) {
+            GrowableGalosphereOresBlocks.registerModBlocks();
+        }
+        if (FabricLoader.getInstance().isModLoaded("gobber2") || GrowableOresConfig.All_Item_Mode) {
+            GrowableGobberOresBlocks.registerModBlocks();
+        }
+        if (FabricLoader.getInstance().isModLoaded("gtceu") || GrowableOresConfig.All_Item_Mode) {
+            GrowableGregTechCEuModernOresBlocks.registerModBlocks();
+        }
+        if (FabricLoader.getInstance().isModLoaded("mna") || GrowableOresConfig.All_Item_Mode) {
+            GrowableManaandArtificeOresBlocks.registerModBlocks();
+        }
+        if (FabricLoader.getInstance().isModLoaded("mysticalagradditions") || GrowableOresConfig.All_Item_Mode) {
+            GrowableMysticalAgradditionsBlocks.registerModBlocks();
+        }
+        if (FabricLoader.getInstance().isModLoaded("mysticalagriculture") || GrowableOresConfig.All_Item_Mode) {
+            GrowableMysticalAgricultureBlocks.registerModBlocks();
+        }
+        if (FabricLoader.getInstance().isModLoaded("railcraft") || GrowableOresConfig.All_Item_Mode) {
+            GrowableRailcraftOresBlocks.registerModBlocks();
+        }
+        if (FabricLoader.getInstance().isModLoaded("rftoolsbase") || GrowableOresConfig.All_Item_Mode) {
+            GrowableRFToolsOresBlocks.registerModBlocks();
+        }
+        if (FabricLoader.getInstance().isModLoaded("tconstruct") || GrowableOresConfig.All_Item_Mode) {
+            GrowableTinkersConstructBlocks.registerModBlocks();
+        }
 
     }
 

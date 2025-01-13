@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/tinted_cross",
+  "textures": {
+    "cross": "growable_ores:block/gtceu_exquisite_blue_topaz_cane"
+  }
+}

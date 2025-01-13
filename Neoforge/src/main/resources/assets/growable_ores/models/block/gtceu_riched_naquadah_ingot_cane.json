@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/tinted_cross",
+  "textures": {
+    "cross": "growable_ores:block/gtceu_riched_naquadah_ingot_cane"
+  }
+}

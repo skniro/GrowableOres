@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "growable_ores:block/gtceu_enriched_naquadah_trinium_europium_duranide_ingot_cane"
+  }
+}

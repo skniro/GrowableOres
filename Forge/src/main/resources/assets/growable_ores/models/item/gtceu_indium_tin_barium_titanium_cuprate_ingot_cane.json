@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "growable_ores:block/gtceu_indium_tin_barium_titanium_cuprate_ingot_cane"
+  }
+}

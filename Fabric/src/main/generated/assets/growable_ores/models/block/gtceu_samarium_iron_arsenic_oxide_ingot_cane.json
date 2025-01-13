@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/tinted_cross",
+  "textures": {
+    "cross": "growable_ores:block/gtceu_samarium_iron_arsenic_oxide_ingot_cane"
+  }
+}

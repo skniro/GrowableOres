@@ -1,0 +1,40 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "tconstruct"
+            ]
+        }
+    ],
+    "forge:conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "tconstruct"
+        }
+    ],
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "tconstruct"
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#G#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:reeds"
+        },
+        "G": {
+            "item": "tconstruct:earth_slime_crystal"
+        }
+    },
+    "result": {
+        "count": 1,
+        "item": "growable_ores:tc_earth_slime_crystal_cane"
+    }
+}

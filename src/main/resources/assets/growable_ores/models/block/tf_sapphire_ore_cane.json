@@ -1,0 +1,6 @@
+{
+    "parent": "block/tinted_cross",
+    "textures": {
+        "cross": "growable_ores:blocks/tf_sapphire_ore_cane"
+    }
+}

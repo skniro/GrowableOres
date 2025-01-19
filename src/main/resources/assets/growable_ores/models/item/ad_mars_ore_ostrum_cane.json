@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "growable_ores:blocks/ad_mars_ore_ostrum_cane"
+    }
+}

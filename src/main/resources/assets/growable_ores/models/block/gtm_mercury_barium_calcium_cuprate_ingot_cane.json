@@ -1,0 +1,6 @@
+{
+    "parent": "block/tinted_cross",
+    "textures": {
+        "cross": "growable_ores:blocks/gtm_mercury_barium_calcium_cuprate_ingot_cane"
+    }
+}

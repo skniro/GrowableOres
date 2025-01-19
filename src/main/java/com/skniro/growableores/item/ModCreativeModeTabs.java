@@ -1,6 +1,7 @@
 package com.skniro.growableores.item;
 
 import com.skniro.growableores.block.GrowableOresBlocks;
+import net.minecraft.client.resources.I18n;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -18,7 +19,7 @@ public class ModCreativeModeTabs extends CreativeTabs
 
     @Override
     public String getTranslatedTabLabel() {
-        return "UsefulFood";
+        return I18n.format("itemGroup.growable_ores.test_group.name");
     }
 
     @Override

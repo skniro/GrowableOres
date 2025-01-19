@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "growable_ores:blocks/gtm_stainless_steel_ingot_cane"
+    }
+}

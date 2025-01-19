@@ -3,7 +3,7 @@
   "modid": "growable_ores",
   "name": "Growable Ores",
   "description": "GrowableOres Mod is a modification that contains a good amount of content to help to farm ores.",
-  "version": "${forge_mod_version}",
+  "version": "3.0.0-1.12.2-Forge",
   "mcversion": "${minecraft_version}",
   "url": "",
   "authors": ["skniro"],

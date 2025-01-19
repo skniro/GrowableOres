@@ -1,0 +1,6 @@
+{
+    "parent": "block/tinted_cross",
+    "textures": {
+        "cross": "growable_ores:blocks/er_cyanite_ingot_cane"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "block/tinted_cross",
+    "textures": {
+        "cross": "growable_ores:blocks/tc_earth_slime_crystal_cane"
+    }
+}

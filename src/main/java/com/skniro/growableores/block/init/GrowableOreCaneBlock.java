@@ -44,22 +44,22 @@ public class GrowableOreCaneBlock extends Block implements net.minecraftforge.co
 
     @Override
     public void updateTick(World worldIn, BlockPos pos, IBlockState state, Random rand) {
-        if (!this.canBlockStay(worldIn, pos)) {
-            worldIn.destroyBlock(pos, true);
-        } else if (worldIn.isAirBlock(pos.up())) {
-            int height;
-            for (height = 1; worldIn.getBlockState(pos.down(height)).getBlock() == this; ++height);
+        if (!this.checkForDrop(worldIn, pos, state)) {
+            if (worldIn.isAirBlock(pos.up())) {
+                int height;
+                for (height = 1; worldIn.getBlockState(pos.down(height)).getBlock() == this; ++height) ;
 
-            if (height < 3) {
-                int age = state.getValue(AGE);
-                if (net.minecraftforge.common.ForgeHooks.onCropsGrowPre(worldIn, pos, state, true)) {
-                    if (age == 15) {
-                        worldIn.setBlockState(pos.up(), this.getDefaultState());
-                        worldIn.setBlockState(pos, state.withProperty(AGE, 0), 4);
-                    } else {
-                        worldIn.setBlockState(pos, state.withProperty(AGE, age + 1), 4);
+                if (height < 3) {
+                    int age = state.getValue(AGE);
+                    if (net.minecraftforge.common.ForgeHooks.onCropsGrowPre(worldIn, pos, state, true)) {
+                        if (age == 15) {
+                            worldIn.setBlockState(pos.up(), this.getDefaultState());
+                            worldIn.setBlockState(pos, state.withProperty(AGE, 0), 4);
+                        } else {
+                            worldIn.setBlockState(pos, state.withProperty(AGE, age + 1), 4);
+                        }
+                        net.minecraftforge.common.ForgeHooks.onCropsGrowPost(worldIn, pos, state, worldIn.getBlockState(pos));
                     }
-                    net.minecraftforge.common.ForgeHooks.onCropsGrowPost(worldIn, pos, state, worldIn.getBlockState(pos));
                 }
             }
         }

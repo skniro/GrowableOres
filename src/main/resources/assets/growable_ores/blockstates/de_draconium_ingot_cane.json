@@ -1,0 +1,52 @@
+{
+    "variants": {
+        "age=0": {
+            "model": "growable_ores:de_draconium_ingot_cane"
+        },
+        "age=1": {
+            "model": "growable_ores:de_draconium_ingot_cane"
+        },
+        "age=2": {
+            "model": "growable_ores:de_draconium_ingot_cane"
+        },
+        "age=3": {
+            "model": "growable_ores:de_draconium_ingot_cane"
+        },
+        "age=4": {
+            "model": "growable_ores:de_draconium_ingot_cane"
+        },
+        "age=5": {
+            "model": "growable_ores:de_draconium_ingot_cane"
+        },
+        "age=6": {
+            "model": "growable_ores:de_draconium_ingot_cane"
+        },
+        "age=7": {
+            "model": "growable_ores:de_draconium_ingot_cane"
+        },
+        "age=8": {
+            "model": "growable_ores:de_draconium_ingot_cane"
+        },
+        "age=9": {
+            "model": "growable_ores:de_draconium_ingot_cane"
+        },
+        "age=10": {
+            "model": "growable_ores:de_draconium_ingot_cane"
+        },
+        "age=11": {
+            "model": "growable_ores:de_draconium_ingot_cane"
+        },
+        "age=12": {
+            "model": "growable_ores:de_draconium_ingot_cane"
+        },
+        "age=13": {
+            "model": "growable_ores:de_draconium_ingot_cane"
+        },
+        "age=14": {
+            "model": "growable_ores:de_draconium_ingot_cane"
+        },
+        "age=15": {
+            "model": "growable_ores:de_draconium_ingot_cane"
+        }
+    }
+}

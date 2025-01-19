@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "growable_ores:blocks/gtm_exquisite_rock_salt_cane"
+    }
+}

@@ -17,7 +17,7 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
 
-@Mod(modid = "growable_ores", name = "GrowableOres", version = "3.0.0")
+@Mod(modid = "growable_ores", name = "GrowableOres")
 public class GrowableOres {
     @SidedProxy(clientSide="com.skniro.growableores.client.GrowableOresClient", serverSide="com.skniro.growableores.GrowableOresServer")
     public static GrowableOresServer proxy;

@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "growable_ores:blocks/gtm_platinum_ingot_cane"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "block/tinted_cross",
+    "textures": {
+        "cross": "growable_ores:blocks/gtm_uranium_rhodium_dinaquadide_ingot_cane"
+    }
+}

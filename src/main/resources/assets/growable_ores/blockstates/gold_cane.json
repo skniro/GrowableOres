@@ -1,7 +1,5 @@
 {
-  "variants": {
-    "": {
-      "model": "growable_ores:block/gold_cane"
+    "variants": {
+        "normal": { "model": "reeds" }
     }
-  }
 }

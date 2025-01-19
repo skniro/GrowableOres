@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#G#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:reeds"
+        },
+        "G": {
+            "item": "ae2:certus_quartz_crystal"
+        }
+    },
+    "result": {
+        "item": "growable_ores:certus_quartz_crystal_cane",
+        "count": 1
+    }
+}

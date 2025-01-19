@@ -1,0 +1,12 @@
+[
+{
+  "modid": "growable_ores",
+  "name": "Growable Ores",
+  "description": "GrowableOres Mod is a modification that contains a good amount of content to help to farm ores.",
+  "version": "${forge_mod_version}",
+  "mcversion": "${minecraft_version}",
+  "url": "",
+  "authors": ["skniro"],
+  "logoFile": "icon.png"
+}
+]

@@ -1,54 +1,42 @@
 package com.skniro.growableores.client;
 
-import com.skniro.growableores.block.GrowableOresBlocks;
-import net.fabricmc.api.ClientModInitializer;
-import net.fabricmc.api.EnvType;
-import net.fabricmc.api.Environment;
-import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
-import net.minecraft.client.render.RenderLayer;
+import com.skniro.growableores.GrowableOres;
+import com.skniro.growableores.GrowableOresServer;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.ItemModelMesher;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
-@Environment(EnvType.CLIENT)
-public class GrowableOresClient implements ClientModInitializer {
-    @Override
-    public void onInitializeClient() {
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.Coal_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.Iron_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.Diamond_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.Copper_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.Emerald_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.Gold_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.Lapis_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.Nether_Quartz_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.Redstone_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.Blaze_Rod_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.Ender_Pearl_Cane, RenderLayer.getCutout());
+//@Mod.EventBusSubscriber(modid = GrowableOres.MODID,bus = Mod.EventBusSubscriber.Bus.MOD ,value = Dist.CLIENT)
+public class GrowableOresClient extends GrowableOresServer {
+
+    public void preInit(FMLPreInitializationEvent event) {}
+
+    public void init(FMLInitializationEvent event)
+    {
+        ItemModelMesher imm = Minecraft.getMinecraft().getRenderItem().getItemModelMesher();
+
+        for (GrowableOresItemModel o : GrowableOres.getItem2Models()) {
+            imm.register(o.item, 0, new ModelResourceLocation("growable_ores:" + o.name, "inventory"));
+        }
+    }
+   /* @SubscribeEvent
+    public static void onInitializeClient(FMLClientSetupEvent event) {
+        RenderTypeLookup.setRenderLayer(GrowableOresBlocks.Coal_Cane.get(), RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(GrowableOresBlocks.Iron_Cane.get(), RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(GrowableOresBlocks.Diamond_Cane.get(), RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(GrowableOresBlocks.Copper_Cane.get(), RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(GrowableOresBlocks.Emerald_Cane.get(), RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(GrowableOresBlocks.Gold_Cane.get(), RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(GrowableOresBlocks.Lapis_Cane.get(), RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(GrowableOresBlocks.Nether_Quartz_Cane.get(), RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(GrowableOresBlocks.Redstone_Cane.get(), RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(GrowableOresBlocks.Blaze_Rod_Cane.get(), RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(GrowableOresBlocks.Ender_Pearl_Cane.get(), RenderType.cutout());
 
         //ae2
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.certus_quartz_crystal_Cane, RenderLayer.getCutout());
-
-        //Tech Reborn
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.cinnabar_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.galena_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.iridium_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.lead_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.peridot_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.pyrite_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.ruby_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.sapphire_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.sheldonite_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.silver_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.sphalerite_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.tin_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.tungsten_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.sodalite_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.bauxite_Cane, RenderLayer.getCutout());
-
-        //BetterEnd
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.amber_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.ender_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.thallasium_Cane, RenderLayer.getCutout());
-
-        //Maple
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableOresBlocks.Salt_Cane, RenderLayer.getCutout());
-    }
+        RenderTypeLookup.setRenderLayer(GrowableOresBlocks.certus_quartz_crystal_Cane.get(), RenderType.cutout());
+*/
+    //}
 }

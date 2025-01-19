@@ -1,6 +1,0 @@
-{
-    "parent": "minecraft:item/generated",
-    "textures": {
-        "layer0": "growable_ores:blocks/maa_dragon_egg_essence_cane"
-    }
-}

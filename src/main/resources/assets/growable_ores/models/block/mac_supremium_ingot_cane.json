@@ -1,6 +1,0 @@
-{
-    "parent": "block/tinted_cross",
-    "textures": {
-        "cross": "growable_ores:blocks/mac_supremium_ingot_cane"
-    }
-}

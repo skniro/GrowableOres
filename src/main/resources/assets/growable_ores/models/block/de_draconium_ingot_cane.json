@@ -1,6 +1,0 @@
-{
-    "parent": "block/tinted_cross",
-    "textures": {
-        "cross": "growable_ores:blocks/de_draconium_ingot_cane"
-    }
-}

@@ -22,16 +22,20 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "###",
-        "###",
+        "#G#",
         "###"
     ],
     "key": {
         "#": {
-            "item": "growable_ores:ic_uranium_ore_cane"
+            "item": "minecraft:reeds"
+        },
+        "G": {
+            "item": "ic2:ingot",
+            "data": 4
         }
     },
     "result": {
-        "item": "ic2:ingot_uranium",
+        "item": "growable_ores:ic_silver_ore_cane",
         "count": 1
     }
 }

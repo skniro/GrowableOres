@@ -11,7 +11,8 @@
         }
     },
     "result": {
-        "item": "minecraft:copper_ingot",
+        "item": "ic2:ingot",
+        "data": 2,
         "count": 4
     }
 }

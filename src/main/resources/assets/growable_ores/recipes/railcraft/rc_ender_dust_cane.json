@@ -30,7 +30,8 @@
             "item": "minecraft:reeds"
         },
         "G": {
-            "item": "railcraft:ender_dust"
+            "item": "railcraft:dust",
+            "data": 6
         }
     },
     "result": {

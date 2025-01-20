@@ -31,7 +31,8 @@
         }
     },
     "result": {
-        "item": "thermal:sulfur",
+        "item": "thermalfoundation:material",
+        "data": 771,
         "count": 1
     }
 }

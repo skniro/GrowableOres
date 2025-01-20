@@ -22,6 +22,7 @@ public class GrowableOresBlocks {
     private static final Set<Block> CACHE = Sets.<Block>newHashSet();
     private static List<Item> itemBlocks;
     //Village
+    public static Block Copper_Cane;
     public static Block Iron_Cane;
     public static Block Coal_Cane;
     public static Block Diamond_Cane;
@@ -51,11 +52,7 @@ public class GrowableOresBlocks {
     public static Block ER_Blutonium_Ingot_Cane;
     public static Block ER_Cyanite_Ingot_Cane;
     public static Block ER_Graphite_Ingot_Cane;
-    public static Block ER_Inanite_Ingot_Cane;
-    public static Block ER_Insanite_Ingot_Cane;
     public static Block ER_Ludicrite_Ingot_Cane;
-    public static Block ER_Magentite_Ingot_Cane;
-    public static Block ER_Ridiculite_Ingot_Cane;
     public static Block ER_Yellorium_Ingot_Cane;
 
     //Tech Reborn
@@ -75,54 +72,30 @@ public class GrowableOresBlocks {
     public static Block sodalite_Cane;
     public static Block bauxite_Cane;
     //ic2 and ic2c
-    public static Block IC2_Aluminium_Cane;
     public static Block IC2_silver_Cane;
     public static Block IC2_Tin_Cane;
     public static Block IC2_Uranium_Cane;
 
     //Thermal Series
     public static Block TF_Apatite_Cane;
-    public static Block TF_Cinnabar_Cane;
     public static Block TF_Copper_Cane;
     public static Block TF_Lead_Cane;
     public static Block TF_Nickel_Cane;
     public static Block TF_Niter_Cane;
-    public static Block TF_Ruby_Cane;
-    public static Block TF_Sapphire_Cane;
     public static Block TF_Silver_Cane;
     public static Block TF_Sulfur_Cane;
     public static Block TF_Tin_Cane;
 
-    //Mekanism
-    public static Block MEK_Fluorite_Cane;
-    public static Block MEK_Lead_Cane;
-    public static Block MEK_Osmium_Cane;
-    public static Block MEK_Tin_Cane;
-    public static Block MEK_Uranium_Cane;
-    public static Block MEK_Steel_Cane;
-    public static Block MEK_Refined_Obsidian_Cane;
-    public static Block MEK_Refined_Glowstone_Cane;
-    public static Block MEK_Bronze_Cane;
-
     //Tinkers' Construct
-    public static Block TC_Amethyst_Bronze_Ingot_Cane;
-    public static Block TC_Blazing_Bone_Cane;
-    public static Block TC_Cheese_Ingot_Cane;
     public static Block TC_Cobalt_Ingot_Cane;
-    public static Block TC_Earth_Slime_Crystal_Cane;
     public static Block TC_Ender_Slime_Crystal_Cane;
     public static Block TC_Hepatizon_Ingot_Cane;
     public static Block TC_Ichor_Slime_Crystal_Cane;
     public static Block TC_Knightslime_Ingot_Cane;
     public static Block TC_Manyullyn_Ingot_Cane;
-    public static Block TC_Modifier_Crystal_Cane;
-    public static Block TC_Necronium_Bone_Cane;
     public static Block TC_Necrotic_Bone_Cane;
-    public static Block TC_Queens_Slime_Ingot_Cane;
     public static Block TC_Rose_Gold_Ingot_Cane;
     public static Block TC_Sky_Slime_Crystal_Cane;
-    public static Block TC_Slimesteel_Ingot_Cane;
-    public static Block TC_Soulsteel_Ingot_Cane;
 
     //RFTools
     public static Block RFT_Dimensional_Shard_Cane;
@@ -151,6 +124,7 @@ public class GrowableOresBlocks {
     public static void getRegisteredBlock(RegistryEvent.Register<Block> event) {
         IForgeRegistry<Block> registry = event.getRegistry();
         itemBlocks = new ArrayList<>();
+        Copper_Cane =registerReedBlock("copper_cane", new GrowableOreCaneBlock(),GrowableOres.Growable_Ores_Group, registry);
         Iron_Cane =registerReedBlock("iron_cane", new GrowableOreCaneBlock(), GrowableOres.Growable_Ores_Group, registry);
         Coal_Cane =registerReedBlock("coal_cane", new GrowableOreCaneBlock(),GrowableOres.Growable_Ores_Group, registry);
         Emerald_Cane =registerReedBlock("emerald_cane", new GrowableOreCaneBlock(),GrowableOres.Growable_Ores_Group, registry);
@@ -180,29 +154,13 @@ public class GrowableOresBlocks {
         ER_Blutonium_Ingot_Cane = registerReedBlock("er_blutonium_ingot_cane", new GrowableOreCaneBlock(), GrowableOres.Growable_Ores_Group, registry);
         ER_Cyanite_Ingot_Cane = registerReedBlock("er_cyanite_ingot_cane", new GrowableOreCaneBlock(), GrowableOres.Growable_Ores_Group, registry);
         ER_Graphite_Ingot_Cane = registerReedBlock("er_graphite_ingot_cane", new GrowableOreCaneBlock(), GrowableOres.Growable_Ores_Group, registry);
-        ER_Inanite_Ingot_Cane = registerReedBlock("er_inanite_ingot_cane", new GrowableOreCaneBlock(), GrowableOres.Growable_Ores_Group, registry);
-        ER_Insanite_Ingot_Cane = registerReedBlock("er_insanite_ingot_cane", new GrowableOreCaneBlock(), GrowableOres.Growable_Ores_Group, registry);
         ER_Ludicrite_Ingot_Cane = registerReedBlock("er_ludicrite_ingot_cane", new GrowableOreCaneBlock(), GrowableOres.Growable_Ores_Group, registry);
-        ER_Magentite_Ingot_Cane = registerReedBlock("er_magentite_ingot_cane", new GrowableOreCaneBlock(), GrowableOres.Growable_Ores_Group, registry);
-        ER_Ridiculite_Ingot_Cane = registerReedBlock("er_ridiculite_ingot_cane", new GrowableOreCaneBlock(), GrowableOres.Growable_Ores_Group, registry);
         ER_Yellorium_Ingot_Cane = registerReedBlock("er_yellorium_ingot_cane", new GrowableOreCaneBlock(), GrowableOres.Growable_Ores_Group, registry);
 
         //ic2
-        IC2_Aluminium_Cane = registerReedBlock("ic_aluminium_ore_cane", new GrowableOreCaneBlock(),GrowableOres.Growable_Ores_Group, registry);
         IC2_silver_Cane = registerReedBlock("ic_silver_ore_cane", new GrowableOreCaneBlock(),GrowableOres.Growable_Ores_Group, registry);
         IC2_Tin_Cane = registerReedBlock("ic_tin_ore_cane", new GrowableOreCaneBlock(),GrowableOres.Growable_Ores_Group, registry);
         IC2_Uranium_Cane = registerReedBlock("ic_uranium_ore_cane", new GrowableOreCaneBlock(),GrowableOres.Growable_Ores_Group, registry);
-
-        //mek
-        MEK_Fluorite_Cane = registerReedBlock("mek_fluorite_cane", new GrowableOreCaneBlock(), GrowableOres.Growable_Ores_Group, registry);
-        MEK_Lead_Cane = registerReedBlock("mek_lead_cane", new GrowableOreCaneBlock(), GrowableOres.Growable_Ores_Group, registry);
-        MEK_Osmium_Cane = registerReedBlock("mek_osmium_cane", new GrowableOreCaneBlock(), GrowableOres.Growable_Ores_Group, registry);
-        MEK_Tin_Cane = registerReedBlock("mek_tin_cane", new GrowableOreCaneBlock(), GrowableOres.Growable_Ores_Group, registry);
-        MEK_Uranium_Cane = registerReedBlock("mek_uranium_cane", new GrowableOreCaneBlock(), GrowableOres.Growable_Ores_Group, registry);
-        MEK_Steel_Cane = registerReedBlock("mek_steel_cane", new GrowableOreCaneBlock(), GrowableOres.Growable_Ores_Group, registry);
-        MEK_Refined_Obsidian_Cane = registerReedBlock("mek_refined_obsidian_cane", new GrowableOreCaneBlock(), GrowableOres.Growable_Ores_Group, registry);
-        MEK_Refined_Glowstone_Cane = registerReedBlock("mek_refined_glowstone_cane", new GrowableOreCaneBlock(), GrowableOres.Growable_Ores_Group, registry);
-        MEK_Bronze_Cane = registerReedBlock("mek_bronze_cane", new GrowableOreCaneBlock(), GrowableOres.Growable_Ores_Group, registry);
 
         //Tech reborn
         cinnabar_Cane = registerReedBlock("cinnabar_cane", new GrowableOreCaneBlock(),GrowableOres.Growable_Ores_Group, registry);
@@ -223,36 +181,24 @@ public class GrowableOresBlocks {
 
         //ThermalSeries
         TF_Apatite_Cane = registerReedBlock("tf_apatite_ore_cane", new GrowableOreCaneBlock(),GrowableOres.Growable_Ores_Group, registry);
-        TF_Cinnabar_Cane = registerReedBlock("tf_cinnabar_ore_cane", new GrowableOreCaneBlock(),GrowableOres.Growable_Ores_Group, registry);
         TF_Copper_Cane = registerReedBlock("tf_copper_ore_cane", new GrowableOreCaneBlock(),GrowableOres.Growable_Ores_Group, registry);
         TF_Lead_Cane = registerReedBlock("tf_lead_ore_cane", new GrowableOreCaneBlock(),GrowableOres.Growable_Ores_Group, registry);
         TF_Nickel_Cane = registerReedBlock("tf_nickel_ore_cane", new GrowableOreCaneBlock(),GrowableOres.Growable_Ores_Group, registry);
         TF_Niter_Cane = registerReedBlock("tf_niter_ore_cane", new GrowableOreCaneBlock(),GrowableOres.Growable_Ores_Group, registry);
-        TF_Ruby_Cane = registerReedBlock("tf_ruby_ore_cane", new GrowableOreCaneBlock(),GrowableOres.Growable_Ores_Group, registry);
-        TF_Sapphire_Cane = registerReedBlock("tf_sapphire_ore_cane", new GrowableOreCaneBlock(),GrowableOres.Growable_Ores_Group, registry);
         TF_Silver_Cane = registerReedBlock("tf_silver_ore_cane", new GrowableOreCaneBlock(),GrowableOres.Growable_Ores_Group, registry);
         TF_Sulfur_Cane = registerReedBlock("tf_sulfur_ore_cane", new GrowableOreCaneBlock(),GrowableOres.Growable_Ores_Group, registry);
         TF_Tin_Cane = registerReedBlock("tf_tin_ore_cane", new GrowableOreCaneBlock(),GrowableOres.Growable_Ores_Group, registry);
 
         //TinkersConstruct
-        TC_Amethyst_Bronze_Ingot_Cane = registerReedBlock("tc_amethyst_bronze_ingot_cane", new GrowableOreCaneBlock(), GrowableOres.Growable_Ores_Group, registry);
-        TC_Blazing_Bone_Cane = registerReedBlock("tc_blazing_bone_cane", new GrowableOreCaneBlock(), GrowableOres.Growable_Ores_Group, registry);
-        TC_Cheese_Ingot_Cane = registerReedBlock("tc_cheese_ingot_cane", new GrowableOreCaneBlock(), GrowableOres.Growable_Ores_Group, registry);
         TC_Cobalt_Ingot_Cane = registerReedBlock("tc_cobalt_ingot_cane", new GrowableOreCaneBlock(), GrowableOres.Growable_Ores_Group, registry);
-        TC_Earth_Slime_Crystal_Cane = registerReedBlock("tc_earth_slime_crystal_cane", new GrowableOreCaneBlock(), GrowableOres.Growable_Ores_Group, registry);
         TC_Ender_Slime_Crystal_Cane = registerReedBlock("tc_ender_slime_crystal_cane", new GrowableOreCaneBlock(), GrowableOres.Growable_Ores_Group, registry);
         TC_Hepatizon_Ingot_Cane = registerReedBlock("tc_hepatizon_ingot_cane", new GrowableOreCaneBlock(), GrowableOres.Growable_Ores_Group, registry);
         TC_Ichor_Slime_Crystal_Cane = registerReedBlock("tc_ichor_slime_crystal_cane", new GrowableOreCaneBlock(), GrowableOres.Growable_Ores_Group, registry);
         TC_Knightslime_Ingot_Cane = registerReedBlock("tc_knightslime_ingot_cane", new GrowableOreCaneBlock(), GrowableOres.Growable_Ores_Group, registry);
         TC_Manyullyn_Ingot_Cane = registerReedBlock("tc_manyullyn_ingot_cane", new GrowableOreCaneBlock(), GrowableOres.Growable_Ores_Group, registry);
-        TC_Modifier_Crystal_Cane = registerReedBlock("tc_modifier_crystal_cane", new GrowableOreCaneBlock(), GrowableOres.Growable_Ores_Group, registry);
-        TC_Necronium_Bone_Cane = registerReedBlock("tc_necronium_bone_cane", new GrowableOreCaneBlock(), GrowableOres.Growable_Ores_Group, registry);
         TC_Necrotic_Bone_Cane = registerReedBlock("tc_necrotic_bone_cane", new GrowableOreCaneBlock(), GrowableOres.Growable_Ores_Group, registry);
-        TC_Queens_Slime_Ingot_Cane = registerReedBlock("tc_queens_slime_ingot_cane", new GrowableOreCaneBlock(), GrowableOres.Growable_Ores_Group, registry);
         TC_Rose_Gold_Ingot_Cane = registerReedBlock("tc_rose_gold_ingot_cane", new GrowableOreCaneBlock(), GrowableOres.Growable_Ores_Group, registry);
         TC_Sky_Slime_Crystal_Cane = registerReedBlock("tc_sky_slime_crystal_cane", new GrowableOreCaneBlock(), GrowableOres.Growable_Ores_Group, registry);
-        TC_Slimesteel_Ingot_Cane = registerReedBlock("tc_slimesteel_ingot_cane", new GrowableOreCaneBlock(), GrowableOres.Growable_Ores_Group, registry);
-        TC_Soulsteel_Ingot_Cane = registerReedBlock("tc_soulsteel_ingot_cane", new GrowableOreCaneBlock(), GrowableOres.Growable_Ores_Group, registry);
 
         //RFTools
         RFT_Dimensional_Shard_Cane = registerReedBlock("rft_dimensional_shard_cane", new GrowableOreCaneBlock(), GrowableOres.Growable_Ores_Group, registry);

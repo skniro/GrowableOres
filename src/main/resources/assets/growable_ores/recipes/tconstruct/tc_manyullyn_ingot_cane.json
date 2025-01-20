@@ -30,7 +30,8 @@
             "item": "minecraft:reeds"
         },
         "G": {
-            "item": "tconstruct:manyullyn_ingot"
+            "item": "tconstruct:ingots",
+            "data": 2
         }
     },
     "result": {

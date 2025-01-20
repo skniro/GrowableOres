@@ -3,38 +3,36 @@
         {
             "condition": "fabric:all_mods_loaded",
             "values": [
-                "tconstruct"
+                "ic2"
             ]
         }
     ],
     "forge:conditions": [
         {
             "type": "forge:mod_loaded",
-            "modid": "tconstruct"
+            "modid": "ic2"
         }
     ],
     "neoforge:conditions": [
         {
             "type": "neoforge:mod_loaded",
-            "modid": "tconstruct"
+            "modid": "ic2"
         }
     ],
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "###",
-        "#G#",
+        "###",
         "###"
     ],
     "key": {
         "#": {
-            "item": "minecraft:reeds"
-        },
-        "G": {
-            "item": "tconstruct:necronium_bone"
+            "item": "growable_ores:ic_tin_ore_cane"
         }
     },
     "result": {
-        "count": 1,
-        "item": "growable_ores:tc_necronium_bone_cane"
+        "item": "ic2:ingot",
+        "data": 6,
+        "count": 1
     }
 }

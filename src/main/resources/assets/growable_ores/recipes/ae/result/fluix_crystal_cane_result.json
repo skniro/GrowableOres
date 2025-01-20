@@ -31,7 +31,8 @@
         }
     },
     "result": {
-        "item": "ae2:fluix_crystal",
+        "item": "appliedenergistics2:material",
+        "data": 7,
         "count": 1
     }
 }

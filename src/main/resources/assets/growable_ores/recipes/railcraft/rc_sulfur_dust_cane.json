@@ -30,7 +30,8 @@
             "item": "minecraft:reeds"
         },
         "G": {
-            "item": "railcraft:sulfur_dust"
+            "item": "railcraft:dust",
+            "data": 1
         }
     },
     "result": {

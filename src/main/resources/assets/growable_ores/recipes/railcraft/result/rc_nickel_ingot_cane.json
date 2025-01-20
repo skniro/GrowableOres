@@ -32,6 +32,7 @@
     },
     "result": {
         "count": 1,
-        "item": "railcraft:nickel_ingot"
+        "item": "railcraft:ingot",
+        "data": 6
     }
 }

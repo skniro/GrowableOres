@@ -31,7 +31,8 @@
         }
     },
     "result": {
-        "item": "ae2:certus_quartz_crystal",
+        "item": "appliedenergistics2:material",
+        "data": 0,
         "count": 1
     }
 }

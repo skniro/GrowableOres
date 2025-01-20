@@ -30,7 +30,8 @@
             "item": "minecraft:reeds"
         },
         "G": {
-            "item": "thermal:lead_ingot"
+            "item": "thermalfoundation:material",
+            "data": 131
         }
     },
     "result": {

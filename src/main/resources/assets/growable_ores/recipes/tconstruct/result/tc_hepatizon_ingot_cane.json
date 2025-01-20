@@ -32,6 +32,7 @@
     },
     "result": {
         "count": 1,
-        "item": "tconstruct:hepatizon_ingot"
+        "item": "tconstruct:edible",
+        "data": 2
     }
 }

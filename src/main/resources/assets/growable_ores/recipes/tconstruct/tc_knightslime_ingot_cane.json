@@ -30,7 +30,8 @@
             "item": "minecraft:reeds"
         },
         "G": {
-            "item": "tconstruct:knightslime_ingot"
+            "item": "tconstruct:ingots",
+            "data": 3
         }
     },
     "result": {

@@ -30,7 +30,7 @@
             "item": "minecraft:reeds"
         },
         "G": {
-            "item": "extremereactors:cyanite_ingot"
+            "item": "bigreactors:ingotcyanite"
         }
     },
     "result": {

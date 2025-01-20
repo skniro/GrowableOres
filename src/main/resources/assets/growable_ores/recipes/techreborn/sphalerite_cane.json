@@ -18,7 +18,8 @@
             "item": "minecraft:reeds"
         },
         "G": {
-            "item": "techreborn:zinc_ingot"
+            "item": "techreborn:ingot",
+            "data": 18
         }
     },
     "result": {

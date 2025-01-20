@@ -19,7 +19,8 @@
         }
     },
     "result": {
-        "item": "techreborn:aluminum_ingot",
+        "item": "techreborn:dust",
+        "data": 5,
         "count": 1
     }
 }

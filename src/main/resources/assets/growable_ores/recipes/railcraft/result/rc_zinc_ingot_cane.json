@@ -32,6 +32,7 @@
     },
     "result": {
         "count": 1,
-        "item": "railcraft:zinc_ingot"
+        "item": "railcraft:ingot",
+        "data": 8
     }
 }

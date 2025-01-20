@@ -19,7 +19,8 @@
         }
     },
     "result": {
-        "item": "techreborn:tin_ingot",
+        "item": "techreborn:ingot",
+        "data": 13,
         "count": 1
     }
 }

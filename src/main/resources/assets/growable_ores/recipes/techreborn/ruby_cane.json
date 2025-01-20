@@ -18,7 +18,8 @@
             "item": "minecraft:reeds"
         },
         "G": {
-            "item": "techreborn:ruby_gem"
+            "item": "techreborn:gem",
+            "data": 0
         }
     },
     "result": {

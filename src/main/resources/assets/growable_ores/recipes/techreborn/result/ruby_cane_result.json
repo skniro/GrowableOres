@@ -19,7 +19,8 @@
         }
     },
     "result": {
-        "item": "techreborn:ruby_gem",
+        "item": "techreborn:gem",
+        "data": 0,
         "count": 1
     }
 }

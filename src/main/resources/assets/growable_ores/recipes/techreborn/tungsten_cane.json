@@ -18,7 +18,8 @@
             "item": "minecraft:reeds"
         },
         "G": {
-            "item": "techreborn:tungsten_ingot"
+            "item": "techreborn:ingot",
+            "data": 15
         }
     },
     "result": {

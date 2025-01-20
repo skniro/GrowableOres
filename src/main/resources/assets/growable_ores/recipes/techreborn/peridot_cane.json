@@ -18,7 +18,8 @@
             "item": "minecraft:reeds"
         },
         "G": {
-            "item": "techreborn:peridot_gem"
+            "item": "techreborn:gem",
+            "data": 2
         }
     },
     "result": {

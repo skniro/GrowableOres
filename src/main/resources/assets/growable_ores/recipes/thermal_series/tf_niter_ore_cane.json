@@ -30,7 +30,8 @@
             "item": "minecraft:reeds"
         },
         "G": {
-            "item": "thermal:niter"
+            "item": "thermalfoundation:material",
+            "data": 772
         }
     },
     "result": {

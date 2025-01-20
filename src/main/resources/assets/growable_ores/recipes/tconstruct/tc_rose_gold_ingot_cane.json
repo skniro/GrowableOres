@@ -30,7 +30,8 @@
             "item": "minecraft:reeds"
         },
         "G": {
-            "item": "tconstruct:rose_gold_ingot"
+            "item": "tconstruct:ingots",
+            "data": 5
         }
     },
     "result": {

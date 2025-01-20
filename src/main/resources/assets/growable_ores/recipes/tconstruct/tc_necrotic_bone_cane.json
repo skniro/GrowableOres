@@ -30,7 +30,8 @@
             "item": "minecraft:reeds"
         },
         "G": {
-            "item": "tconstruct:necrotic_bone"
+            "item": "tconstruct:materials",
+            "data": 17
         }
     },
     "result": {

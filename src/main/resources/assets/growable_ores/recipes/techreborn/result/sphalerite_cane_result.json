@@ -19,7 +19,8 @@
         }
     },
     "result": {
-        "item": "techreborn:zinc_ingot",
+        "item": "techreborn:ingot",
+        "data": 18,
         "count": 1
     }
 }

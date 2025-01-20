@@ -35,6 +35,7 @@ public class GrowableOreCaneBlock extends Block implements net.minecraftforge.co
         super(Material.PLANTS);
         this.setDefaultState(this.blockState.getBaseState().withProperty(AGE, Integer.valueOf(0)));
         this.setTickRandomly(true);
+        this.setHardness(0.1F);
     }
 
     public AxisAlignedBB getBoundingBox(IBlockState state, IBlockAccess source, BlockPos pos)
@@ -44,7 +45,7 @@ public class GrowableOreCaneBlock extends Block implements net.minecraftforge.co
 
     @Override
     public void updateTick(World worldIn, BlockPos pos, IBlockState state, Random rand) {
-        if (!this.checkForDrop(worldIn, pos, state)) {
+        if (this.checkForDrop(worldIn, pos, state)) {
             if (worldIn.isAirBlock(pos.up())) {
                 int height;
                 for (height = 1; worldIn.getBlockState(pos.down(height)).getBlock() == this; ++height) ;
@@ -85,45 +86,10 @@ public class GrowableOreCaneBlock extends Block implements net.minecraftforge.co
         return false;
     }
 
-    public IBlockState getStateFromMeta(int meta)
-    {
-        return this.getDefaultState().withProperty(AGE, Integer.valueOf(meta));
-    }
-
-    @SideOnly(Side.CLIENT)
-    public BlockRenderLayer getBlockLayer()
-    {
-        return BlockRenderLayer.CUTOUT;
-    }
-
-
     @Override
     public void neighborChanged(IBlockState state, World worldIn, BlockPos pos, Block blockIn, BlockPos fromPos)
     {
         this.checkForDrop(worldIn, pos, state);
-    }
-
-    @Override
-    public net.minecraftforge.common.EnumPlantType getPlantType(IBlockAccess world, BlockPos pos)
-    {
-        return net.minecraftforge.common.EnumPlantType.Beach;
-    }
-
-    @Override
-    public IBlockState getPlant(IBlockAccess world, BlockPos pos)
-    {
-        return this.getDefaultState();
-    }
-
-    @Override
-    protected BlockStateContainer createBlockState()
-    {
-        return new BlockStateContainer(this, AGE);
-    }
-
-    public boolean canBlockStay(World worldIn, BlockPos pos)
-    {
-        return this.canPlaceBlockAt(worldIn, pos);
     }
 
     protected final boolean checkForDrop(World worldIn, BlockPos pos, IBlockState state)
@@ -138,6 +104,11 @@ public class GrowableOreCaneBlock extends Block implements net.minecraftforge.co
             worldIn.setBlockToAir(pos);
             return false;
         }
+    }
+
+    public boolean canBlockStay(World worldIn, BlockPos pos)
+    {
+        return this.canPlaceBlockAt(worldIn, pos);
     }
 
     @Override
@@ -157,10 +128,39 @@ public class GrowableOreCaneBlock extends Block implements net.minecraftforge.co
         return false;
     }
 
+    public IBlockState getStateFromMeta(int meta)
+    {
+        return this.getDefaultState().withProperty(AGE, Integer.valueOf(meta));
+    }
+
+    @SideOnly(Side.CLIENT)
+    public BlockRenderLayer getBlockLayer()
+    {
+        return BlockRenderLayer.CUTOUT;
+    }
+
     @Override
     public int getMetaFromState(IBlockState state)
     {
         return ((Integer)state.getValue(AGE)).intValue();
+    }
+
+    @Override
+    public net.minecraftforge.common.EnumPlantType getPlantType(IBlockAccess world, BlockPos pos)
+    {
+        return net.minecraftforge.common.EnumPlantType.Beach;
+    }
+
+    @Override
+    public IBlockState getPlant(IBlockAccess world, BlockPos pos)
+    {
+        return this.getDefaultState();
+    }
+
+    @Override
+    protected BlockStateContainer createBlockState()
+    {
+        return new BlockStateContainer(this, AGE);
     }
 
 

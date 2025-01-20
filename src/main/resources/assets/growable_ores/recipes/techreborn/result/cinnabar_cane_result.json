@@ -19,7 +19,8 @@
         }
     },
     "result": {
-        "item": "techreborn:cinnabar_dust",
+        "item": "techreborn:dust",
+        "data": 11,
         "count": 4
     }
 }

@@ -32,6 +32,7 @@
     },
     "result": {
         "count": 1,
-        "item": "railcraft:sulfur_dust"
+        "item": "railcraft:dust",
+        "data": 1
     }
 }

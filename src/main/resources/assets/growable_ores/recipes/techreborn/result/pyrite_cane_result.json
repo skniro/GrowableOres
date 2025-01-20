@@ -19,7 +19,8 @@
         }
     },
     "result": {
-        "item": "techreborn:sulfur_dust",
+        "item": "techreborn:dust",
+        "data": 52,
         "count": 4
     }
 }

@@ -30,7 +30,8 @@
             "item": "minecraft:reeds"
         },
         "G": {
-            "item": "tconstruct:hepatizon_ingot"
+            "item": "tconstruct:edible",
+            "data": 2
         }
     },
     "result": {

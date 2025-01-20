@@ -18,7 +18,8 @@
             "item": "minecraft:reeds"
         },
         "G": {
-            "item": "techreborn:galena_dust"
+            "item": "techreborn:dust",
+            "data": 23
         }
     },
     "result": {

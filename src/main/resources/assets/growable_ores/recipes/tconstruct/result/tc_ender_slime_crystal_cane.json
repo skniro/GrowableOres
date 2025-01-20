@@ -32,6 +32,7 @@
     },
     "result": {
         "count": 1,
-        "item": "tconstruct:ender_slime_crystal"
+        "item": "tconstruct:edible",
+        "data": 2
     }
 }

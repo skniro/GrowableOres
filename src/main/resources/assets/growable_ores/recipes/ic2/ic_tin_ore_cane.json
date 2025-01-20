@@ -3,35 +3,39 @@
         {
             "condition": "fabric:all_mods_loaded",
             "values": [
-                "extremereactors"
+                "ic2"
             ]
         }
     ],
     "forge:conditions": [
         {
             "type": "forge:mod_loaded",
-            "modid": "extremereactors"
+            "modid": "ic2"
         }
     ],
     "neoforge:conditions": [
         {
             "type": "neoforge:mod_loaded",
-            "modid": "extremereactors"
+            "modid": "ic2"
         }
     ],
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "###",
-        "###",
+        "#G#",
         "###"
     ],
     "key": {
         "#": {
-            "item": "growable_ores:er_ridiculite_ingot_cane"
+            "item": "minecraft:reeds"
+        },
+        "G": {
+            "item": "ic2:ingot",
+            "data": 6
         }
     },
     "result": {
-        "count": 1,
-        "item": "extremereactors:magentite_ingot"
+        "item": "growable_ores:ic_tin_ore_cane",
+        "count": 1
     }
 }

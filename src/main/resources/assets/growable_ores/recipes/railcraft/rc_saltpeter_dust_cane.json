@@ -30,7 +30,8 @@
             "item": "minecraft:reeds"
         },
         "G": {
-            "item": "railcraft:saltpeter_dust"
+            "item": "railcraft:dust",
+            "data": 2
         }
     },
     "result": {

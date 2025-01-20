@@ -30,7 +30,8 @@
             "item": "minecraft:reeds"
         },
         "G": {
-            "item": "railcraft:silver_ingot"
+            "item": "railcraft:ingot",
+            "data": 4
         }
     },
     "result": {

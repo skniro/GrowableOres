@@ -18,7 +18,8 @@
             "item": "minecraft:reeds"
         },
         "G": {
-            "item": "techreborn:sapphire_gem"
+            "item": "techreborn:gem",
+            "data": 1
         }
     },
     "result": {

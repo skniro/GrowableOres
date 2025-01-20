@@ -19,7 +19,8 @@
         }
     },
     "result": {
-        "item": "techreborn:galena_dust",
+        "item": "techreborn:dust",
+        "data": 23,
         "count": 4
     }
 }

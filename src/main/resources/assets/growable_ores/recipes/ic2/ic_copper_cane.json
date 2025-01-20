@@ -10,12 +10,12 @@
             "item": "minecraft:reeds"
         },
         "G": {
-            "item": "minecraft:dye",
-            "data": 4
+            "item": "ic2:ingot",
+            "data": 2
         }
     },
     "result": {
-        "item": "growable_ores:lapis_cane",
+        "item": "growable_ores:copper_cane",
         "count": 1
     }
 }

@@ -27,11 +27,12 @@
     ],
     "key": {
         "#": {
-            "item": "growable_ores:tc_necrotic_bone_cane"
+            "item": "growable_ores:tc_necrotic_bone_cane",
         }
     },
     "result": {
         "count": 1,
-        "item": "tconstruct:necrotic_bone"
+        "item": "tconstruct:materials",
+        "data": 17
     }
 }

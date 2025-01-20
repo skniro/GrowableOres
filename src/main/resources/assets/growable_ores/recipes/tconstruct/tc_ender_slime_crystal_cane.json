@@ -30,7 +30,8 @@
             "item": "minecraft:reeds"
         },
         "G": {
-            "item": "tconstruct:ender_slime_crystal"
+            "item": "tconstruct:edible",
+            "data": 2
         }
     },
     "result": {

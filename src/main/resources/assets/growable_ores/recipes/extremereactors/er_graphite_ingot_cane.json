@@ -30,11 +30,11 @@
             "item": "minecraft:reeds"
         },
         "G": {
-            "item": "extremereactors:inanite_ingot"
+            "item": "bigreactors:ingotgraphite"
         }
     },
     "result": {
         "count": 1,
-        "item": "growable_ores:er_inanite_ingot_cane"
+        "item": "growable_ores:er_graphite_ingot_cane"
     }
 }

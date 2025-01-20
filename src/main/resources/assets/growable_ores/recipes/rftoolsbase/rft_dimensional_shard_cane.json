@@ -30,7 +30,7 @@
             "item": "minecraft:reeds"
         },
         "G": {
-            "item": "rftoolsbase:dimensionalshard"
+            "item": "rftools:dimensional_shard"
         }
     },
     "result": {

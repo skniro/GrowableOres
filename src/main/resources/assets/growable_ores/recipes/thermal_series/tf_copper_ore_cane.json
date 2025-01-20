@@ -30,7 +30,8 @@
             "item": "minecraft:reeds"
         },
         "G": {
-            "item": "thermal:copper_dust"
+            "item": "thermalfoundation:material",
+            "data": 128
         }
     },
     "result": {

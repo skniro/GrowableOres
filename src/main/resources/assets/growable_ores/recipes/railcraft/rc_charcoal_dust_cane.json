@@ -30,7 +30,8 @@
             "item": "minecraft:reeds"
         },
         "G": {
-            "item": "railcraft:charcoal_dust"
+            "item": "railcraft:dust",
+            "data": 3
         }
     },
     "result": {

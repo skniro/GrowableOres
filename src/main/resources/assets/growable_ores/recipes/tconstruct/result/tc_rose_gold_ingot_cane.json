@@ -32,6 +32,7 @@
     },
     "result": {
         "count": 1,
-        "item": "tconstruct:rose_gold_ingot"
+        "item": "tconstruct:ingots",
+        "data": 5
     }
 }

@@ -19,7 +19,8 @@
         }
     },
     "result": {
-        "item": "techreborn:platinum_ingot",
+        "item": "techreborn:ingot",
+        "data": 10,
         "count": 1
     }
 }

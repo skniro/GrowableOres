@@ -31,7 +31,8 @@
         }
     },
     "result": {
-        "item": "thermal:niter",
+        "item": "thermalfoundation:material",
+        "data": 772,
         "count": 1
     }
 }

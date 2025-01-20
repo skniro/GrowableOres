@@ -3,35 +3,39 @@
         {
             "condition": "fabric:all_mods_loaded",
             "values": [
-                "mekanism"
+                "ic2"
             ]
         }
     ],
     "forge:conditions": [
         {
             "type": "forge:mod_loaded",
-            "modid": "mekanism"
+            "modid": "ic2"
         }
     ],
     "neoforge:conditions": [
         {
             "type": "neoforge:mod_loaded",
-            "modid": "mekanism"
+            "modid": "ic2"
         }
     ],
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "###",
-        "###",
+        "#G#",
         "###"
     ],
     "key": {
         "#": {
-            "item": "growable_ores:mek_steel_cane"
+            "item": "minecraft:reeds"
+        },
+        "G": {
+            "item": "ic2:nuclear",
+            "data": 2
         }
     },
     "result": {
-        "item": "mekanism:ingot_steel",
+        "item": "growable_ores:ic_uranium_ore_cane",
         "count": 1
     }
 }

@@ -10,11 +10,11 @@
             "item": "minecraft:reeds"
         },
         "G": {
-            "item": "minecraft:copper_ingot"
+            "item": "forestry:apatite"
         }
     },
     "result": {
-        "item": "growable_ores:copper_cane",
+        "item": "growable_ores:tf_apatite_ore_cane",
         "count": 1
     }
 }

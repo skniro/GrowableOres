@@ -19,7 +19,8 @@
         }
     },
     "result": {
-        "item": "techreborn:iridium_ingot",
+        "item": "techreborn:ingot",
+        "data": 7,
         "count": 1
     }
 }

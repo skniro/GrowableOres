@@ -12,6 +12,7 @@
     },
     "result": {
         "item": "minecraft:coal",
+        "data": 0,
         "count": 4
     }
 }

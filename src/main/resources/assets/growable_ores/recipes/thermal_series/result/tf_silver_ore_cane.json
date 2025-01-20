@@ -31,7 +31,8 @@
         }
     },
     "result": {
-        "item": "thermal:silver_ingot",
+        "item": "thermalfoundation:material",
+        "data": 130,
         "count": 1
     }
 }

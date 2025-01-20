@@ -30,7 +30,8 @@
             "item": "minecraft:reeds"
         },
         "G": {
-            "item": "railcraft:obsidian_dust"
+            "item": "railcraft:dust",
+            "data": 0
         }
     },
     "result": {

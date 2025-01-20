@@ -32,6 +32,7 @@
     },
     "result": {
         "count": 1,
-        "item": "tconstruct:ichor_slime_crystal"
+        "item": "tconstruct:edible",
+        "data": 4
     }
 }

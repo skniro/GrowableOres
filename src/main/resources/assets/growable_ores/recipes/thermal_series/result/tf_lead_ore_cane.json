@@ -31,7 +31,8 @@
         }
     },
     "result": {
-        "item": "thermal:lead_ingot",
+        "item": "thermalfoundation:material",
+        "data": 131,
         "count": 1
     }
 }

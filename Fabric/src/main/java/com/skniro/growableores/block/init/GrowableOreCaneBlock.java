@@ -22,11 +22,12 @@ import net.minecraft.util.math.random.Random;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.GameRules;
+import net.minecraft.world.World;
 import net.minecraft.world.WorldView;
 import net.minecraft.world.tick.ScheduledTickView;
 
 
-public class GrowableOreCaneBlock extends Block {
+public class GrowableOreCaneBlock extends Block implements Fertilizable {
     public static final MapCodec<GrowableOreCaneBlock> CODEC = createCodec(GrowableOreCaneBlock::new);
     public static final IntProperty AGE;
     protected static final float field_31258 = 6.0F;
@@ -102,6 +103,49 @@ public class GrowableOreCaneBlock extends Block {
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
         builder.add(new Property[]{AGE});
     }
+
+    protected IntProperty getAgeProperty() {
+        return AGE;
+    }
+
+    public int getAge(BlockState state) {
+        return state.get(this.getAgeProperty());
+    }
+
+    @Override
+    public boolean isFertilizable(WorldView levelReader, BlockPos pos, BlockState state) {
+        if(GrowableOresConfig.Ore_Cane_Bonemeal){
+            return this.getAge(state) < 15;
+        }
+        return false;
+    }
+
+    @Override
+    public boolean canGrow(World level, Random random, BlockPos pos, BlockState state) {
+        if(GrowableOresConfig.Ore_Cane_Bonemeal) {
+            return true;
+        }
+        return false;
+    }
+
+    @Override
+    public void grow(ServerWorld level, Random randomSource, BlockPos pos, BlockState state) {
+        if (GrowableOresConfig.Ore_Cane_Bonemeal) {
+            for (int y = pos.getY(); y <= level.getHeight(); y++) {
+                BlockPos uppos = new BlockPos(pos.getX(), y, pos.getZ());
+                Block block = level.getBlockState(uppos).getBlock();
+                if (block != this) {
+                    if (block.equals(Blocks.AIR)) {
+                        level.setBlockState(uppos, this.getDefaultState());
+                        level.syncWorldEvent(2005, uppos, 0);
+                        level.syncWorldEvent(2005, uppos.up(), 0);
+                    }
+                    break;
+                }
+            }
+        }
+    }
+
 
     static {
         AGE = Properties.AGE_15;

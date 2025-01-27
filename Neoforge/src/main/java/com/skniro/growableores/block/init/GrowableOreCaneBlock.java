@@ -12,10 +12,12 @@ import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.FluidTags;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.ScheduledTickAccess;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.BonemealableBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
@@ -28,7 +30,7 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 import java.util.Iterator;
 
 
-public class GrowableOreCaneBlock extends Block {
+public class GrowableOreCaneBlock extends Block implements BonemealableBlock {
     public static final MapCodec<GrowableOreCaneBlock> CODEC = simpleCodec(GrowableOreCaneBlock::new);
     public static final IntegerProperty AGE;
     protected static final float field_31258 = 6.0F;
@@ -103,6 +105,48 @@ public class GrowableOreCaneBlock extends Block {
 
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
         builder.add(new Property[]{AGE});
+    }
+
+    protected IntegerProperty getAgeProperty() {
+        return AGE;
+    }
+
+    public int getAge(BlockState state) {
+        return state.getValue(this.getAgeProperty());
+    }
+
+    @Override
+    public boolean isValidBonemealTarget(LevelReader levelReader, BlockPos pos, BlockState state) {
+        if(GrowableOresConfig.Ore_Cane_Bonemeal){
+            return this.getAge(state) < 15;
+        }
+        return false;
+    }
+
+    @Override
+    public boolean isBonemealSuccess(Level level, RandomSource random, BlockPos pos, BlockState state) {
+        if(GrowableOresConfig.Ore_Cane_Bonemeal) {
+            return true;
+        }
+        return false;
+    }
+
+    @Override
+    public void performBonemeal(ServerLevel level, RandomSource randomSource, BlockPos pos, BlockState state) {
+        if (GrowableOresConfig.Ore_Cane_Bonemeal) {
+            for (int y = pos.getY(); y <= level.getHeight(); y++) {
+                BlockPos uppos = new BlockPos(pos.getX(), y, pos.getZ());
+                Block block = level.getBlockState(uppos).getBlock();
+                if (block != this) {
+                    if (block.equals(Blocks.AIR)) {
+                        level.setBlockAndUpdate(uppos, this.defaultBlockState());
+                        level.levelEvent(2005, uppos, 0);
+                        level.levelEvent(2005, uppos.above(), 0);
+                    }
+                    break;
+                }
+            }
+        }
     }
 
     static {

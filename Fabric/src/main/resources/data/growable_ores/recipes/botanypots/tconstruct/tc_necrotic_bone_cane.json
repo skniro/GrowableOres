@@ -50,7 +50,9 @@
             "chance": 1.0,
             "output": {
                 "item": "growable_ores:tc_necrotic_bone_cane"
-            }
+            },
+            "minRolls": 1,
+            "maxRolls": 1
         }
     ]
 }

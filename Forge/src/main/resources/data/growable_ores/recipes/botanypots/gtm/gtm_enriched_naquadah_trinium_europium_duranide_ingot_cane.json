@@ -50,7 +50,9 @@
             "chance": 1.0,
             "output": {
                 "item": "growable_ores:gtm_enriched_naquadah_trinium_europium_duranide_ingot_cane"
-            }
+            },
+            "minRolls": 1,
+            "maxRolls": 1
         }
     ]
 }

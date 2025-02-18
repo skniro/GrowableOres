@@ -18,10 +18,11 @@
             "modid": "botanypots"
         }
     ],
-    "neoforge:conditions": [ {
-        "type": "neoforge:mod_loaded",
-        "modid": "ic2"
-    },
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "ic2"
+        },
         {
             "type": "neoforge:mod_loaded",
             "modid": "botanypots"
@@ -46,10 +47,12 @@
     ],
     "drops": [
         {
-            "chance": 1.00,
+            "chance": 1.0,
             "output": {
                 "item": "growable_ores:galena_cane"
-            }
+            },
+            "minRolls": 1,
+            "maxRolls": 1
         }
     ]
 }

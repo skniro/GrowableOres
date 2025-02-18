@@ -18,10 +18,12 @@
     ],
     "drops": [
         {
-            "chance": 1.00,
+            "chance": 1.0,
             "output": {
                 "item": "growable_ores:ad_moon_ore_cheese_cane"
-            }
+            },
+            "minRolls": 1,
+            "maxRolls": 1
         }
     ]
 }

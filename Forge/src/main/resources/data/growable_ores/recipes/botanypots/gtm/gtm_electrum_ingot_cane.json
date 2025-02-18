@@ -50,7 +50,9 @@
             "chance": 1.0,
             "output": {
                 "item": "growable_ores:gtm_electrum_ingot_cane"
-            }
+            },
+            "minRolls": 1,
+            "maxRolls": 1
         }
     ]
 }

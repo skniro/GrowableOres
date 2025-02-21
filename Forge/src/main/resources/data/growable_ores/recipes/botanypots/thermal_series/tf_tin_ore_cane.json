@@ -29,7 +29,7 @@
   ],
   "type": "botanypots:crop",
   "seed": {
-    "item": "growable_ores:tf_sapphire_ore_cane"
+    "item": "growable_ores:tf_tin_ore_cane"
   },
   "categories": [
     "sand",
@@ -38,17 +38,17 @@
   "growthTicks": 1200,
   "display": [
     {
-      "block": "growable_ores:tf_sapphire_ore_cane"
+      "block": "growable_ores:tf_tin_ore_cane"
     },
     {
-      "block": "growable_ores:tf_sapphire_ore_cane"
+      "block": "growable_ores:tf_tin_ore_cane"
     }
   ],
   "drops": [
     {
       "chance": 1.00,
       "output": {
-        "item": "growable_ores:tf_sapphire_ore_cane"
+        "item": "growable_ores:tf_tin_ore_cane"
       }
     }
   ]

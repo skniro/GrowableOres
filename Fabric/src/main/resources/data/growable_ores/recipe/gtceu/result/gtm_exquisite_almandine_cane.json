@@ -27,11 +27,11 @@
     ],
     "key": {
         "#": {
-            "item": "growable_ores:gtm_exquisitealmandine_cane"
+            "item": "growable_ores:gtm_exquisite_almandine_cane"
         }
     },
     "result": {
-        "id": "gtceu:almandine_exquisite_gem",
-        "count": 1
+        "count": 1,
+        "id": "gtceu:exquisite_almandine_gem"
     }
 }

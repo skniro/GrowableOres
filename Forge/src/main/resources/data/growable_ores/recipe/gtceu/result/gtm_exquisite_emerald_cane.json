@@ -27,11 +27,11 @@
     ],
     "key": {
         "#": {
-            "item": "growable_ores:gtm_exquisiteemerald_cane"
+            "item": "growable_ores:gtm_exquisite_emerald_cane"
         }
     },
     "result": {
-        "id": "gtceu:emerald_exquisite_gem",
-        "count": 1
+        "count": 1,
+        "id": "gtceu:exquisite_emerald_gem"
     }
 }

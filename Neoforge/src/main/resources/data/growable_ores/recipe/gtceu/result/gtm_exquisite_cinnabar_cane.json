@@ -27,11 +27,11 @@
     ],
     "key": {
         "#": {
-            "item": "growable_ores:gtm_exquisitecinnabar_cane"
+            "item": "growable_ores:gtm_exquisite_cinnabar_cane"
         }
     },
     "result": {
-        "id": "gtceu:cinnabar_exquisite_gem",
-        "count": 1
+        "count": 1,
+        "id": "gtceu:exquisite_cinnabar_gem"
     }
 }

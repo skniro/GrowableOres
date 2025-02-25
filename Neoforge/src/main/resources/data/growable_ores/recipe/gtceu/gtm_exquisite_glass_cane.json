@@ -30,11 +30,11 @@
             "item": "minecraft:sugar_cane"
         },
         "G": {
-            "item": "gtceu:glass_exquisite_gem"
+            "item": "gtceu:exquisite_glass_gem"
         }
     },
     "result": {
-        "id": "growable_ores:gtm_exquisite_glass_cane",
-        "count": 1
+        "count": 1,
+        "id": "growable_ores:gtm_exquisite_glass_cane"
     }
 }

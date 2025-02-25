@@ -30,11 +30,11 @@
             "item": "minecraft:sugar_cane"
         },
         "G": {
-            "item": "gtceu:yellow_garnet_exquisite_gem"
+            "item": "gtceu:exquisite_yellow_garnet_gem"
         }
     },
     "result": {
-        "id": "growable_ores:gtm_exquisite_yellow_garnet_cane",
-        "count": 1
+        "count": 1,
+        "id": "growable_ores:gtm_exquisite_yellow_garnet_cane"
     }
 }

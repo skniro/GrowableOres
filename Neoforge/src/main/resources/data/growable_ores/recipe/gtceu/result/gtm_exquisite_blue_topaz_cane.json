@@ -27,11 +27,11 @@
     ],
     "key": {
         "#": {
-            "item": "growable_ores:gtm_exquisiteblue_topaz_cane"
+            "item": "growable_ores:gtm_exquisite_blue_topaz_cane"
         }
     },
     "result": {
-        "id": "gtceu:blue_topaz_exquisite_gem",
-        "count": 1
+        "count": 1,
+        "id": "gtceu:exquisite_blue_topaz_gem"
     }
 }

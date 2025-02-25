@@ -27,11 +27,11 @@
     ],
     "key": {
         "#": {
-            "item": "growable_ores:gtm_exquisitediamond_cane"
+            "item": "growable_ores:gtm_exquisite_diamond_cane"
         }
     },
     "result": {
-        "id": "gtceu:diamond_exquisite_gem",
-        "count": 1
+        "count": 1,
+        "id": "gtceu:exquisite_diamond_gem"
     }
 }

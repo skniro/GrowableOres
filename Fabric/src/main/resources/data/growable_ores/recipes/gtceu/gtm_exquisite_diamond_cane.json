@@ -30,11 +30,11 @@
             "item": "minecraft:sugar_cane"
         },
         "G": {
-            "item": "gtceu:diamond_exquisite_gem"
+            "item": "gtceu:exquisite_diamond_gem"
         }
     },
     "result": {
         "count": 1,
-        "item": "growable_ores:gtm_exquisitediamond_cane"
+        "item": "growable_ores:gtm_exquisite_diamond_cane"
     }
 }

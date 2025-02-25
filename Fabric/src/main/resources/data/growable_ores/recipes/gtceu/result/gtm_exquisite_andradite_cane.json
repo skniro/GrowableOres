@@ -27,11 +27,11 @@
     ],
     "key": {
         "#": {
-            "item": "growable_ores:gtm_exquisiteandradite_cane"
+            "item": "growable_ores:gtm_exquisite_andradite_cane"
         }
     },
     "result": {
         "count": 1,
-        "item": "gtceu:andradite_exquisite_gem"
+        "item": "gtceu:exquisite_andradite_gem"
     }
 }

@@ -27,11 +27,11 @@
     ],
     "key": {
         "#": {
-            "item": "growable_ores:gtm_exquisitecoal_cane"
+            "item": "growable_ores:gtm_exquisite_coal_cane"
         }
     },
     "result": {
         "count": 1,
-        "item": "gtceu:coal_exquisite_gem"
+        "item": "gtceu:exquisite_coal_gem"
     }
 }

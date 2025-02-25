@@ -27,11 +27,11 @@
     ],
     "key": {
         "#": {
-            "item": "growable_ores:gtm_exquisitegreen_sapphire_cane"
+            "item": "growable_ores:gtm_exquisite_green_sapphire_cane"
         }
     },
     "result": {
         "count": 1,
-        "item": "gtceu:green_sapphire_exquisite_gem"
+        "item": "gtceu:exquisite_green_sapphire_gem"
     }
 }

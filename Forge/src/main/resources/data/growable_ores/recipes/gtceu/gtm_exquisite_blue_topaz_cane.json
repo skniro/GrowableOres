@@ -30,11 +30,11 @@
             "item": "minecraft:sugar_cane"
         },
         "G": {
-            "item": "gtceu:blue_topaz_exquisite_gem"
+            "item": "gtceu:exquisite_blue_topaz_gem"
         }
     },
     "result": {
         "count": 1,
-        "item": "growable_ores:gtm_exquisiteblue_topaz_cane"
+        "item": "growable_ores:gtm_exquisite_blue_topaz_cane"
     }
 }

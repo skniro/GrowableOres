@@ -48,6 +48,7 @@ public class GrowableOresClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableVanillaOresBlocks.Bone_Cane, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableVanillaOresBlocks.Egg_Cane, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableVanillaOresBlocks.Wool_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableVanillaOresBlocks.Gunpowder_Cane, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableVanillaOresBlocks.Feather_Cane, RenderLayer.getCutout());
 
         //ae2

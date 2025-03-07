@@ -45,7 +45,7 @@
             "block": "growable_ores:ic_aluminium_ore_cane"
         }
     ],
-    "drops": [
+    "results": [
         {
             "chance": 1.0,
             "output": {

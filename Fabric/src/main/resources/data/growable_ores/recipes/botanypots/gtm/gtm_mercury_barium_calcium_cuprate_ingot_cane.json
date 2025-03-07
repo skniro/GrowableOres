@@ -45,7 +45,7 @@
             "block": "growable_ores:gtm_mercury_barium_calcium_cuprate_ingot_cane"
         }
     ],
-    "drops": [
+    "results": [
         {
             "chance": 1.0,
             "output": {

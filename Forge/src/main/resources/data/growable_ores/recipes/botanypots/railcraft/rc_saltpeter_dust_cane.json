@@ -45,7 +45,7 @@
             "block": "growable_ores:rc_saltpeter_dust_cane"
         }
     ],
-    "drops": [
+    "results": [
         {
             "chance": 1.0,
             "output": {

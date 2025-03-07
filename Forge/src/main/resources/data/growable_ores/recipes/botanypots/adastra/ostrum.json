@@ -16,7 +16,7 @@
             "block": "growable_ores:ad_mars_ore_ostrum_cane"
         }
     ],
-    "drops": [
+    "results": [
         {
             "chance": 1.0,
             "output": {

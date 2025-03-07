@@ -45,7 +45,7 @@
             "block": "growable_ores:gtm_enriched_naquadah_trinium_europium_duranide_ingot_cane"
         }
     ],
-    "drops": [
+    "results": [
         {
             "chance": 1.0,
             "output": {

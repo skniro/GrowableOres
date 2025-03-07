@@ -45,7 +45,7 @@
             "block": "growable_ores:de_awakened_draconium_ingot_cane"
         }
     ],
-    "drops": [
+    "results": [
         {
             "chance": 1.0,
             "output": {

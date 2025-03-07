@@ -16,7 +16,7 @@
             "block": "growable_ores:mi_titanium_cane"
         }
     ],
-    "drops": [
+    "results": [
         {
             "chance": 1.0,
             "output": {

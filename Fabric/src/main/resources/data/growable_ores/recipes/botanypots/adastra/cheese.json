@@ -16,7 +16,7 @@
             "block": "growable_ores:ad_moon_ore_cheese_cane"
         }
     ],
-    "drops": [
+    "results": [
         {
             "chance": 1.0,
             "output": {

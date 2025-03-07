@@ -45,7 +45,7 @@
             "block": "growable_ores:gtm_platinum_ingot_cane"
         }
     ],
-    "drops": [
+    "results": [
         {
             "chance": 1.0,
             "output": {

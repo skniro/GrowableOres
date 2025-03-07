@@ -45,7 +45,7 @@
             "block": "growable_ores:ma_ironbark_cane"
         }
     ],
-    "drops": [
+    "results": [
         {
             "chance": 1.0,
             "output": {

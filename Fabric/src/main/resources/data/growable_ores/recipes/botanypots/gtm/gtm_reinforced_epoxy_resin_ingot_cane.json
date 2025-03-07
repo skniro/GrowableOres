@@ -45,7 +45,7 @@
             "block": "growable_ores:gtm_reinforced_epoxy_resin_ingot_cane"
         }
     ],
-    "drops": [
+    "results": [
         {
             "chance": 1.0,
             "output": {

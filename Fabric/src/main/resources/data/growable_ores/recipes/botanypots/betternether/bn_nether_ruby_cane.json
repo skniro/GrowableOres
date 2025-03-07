@@ -45,7 +45,7 @@
             "block": "growable_ores:bn_nether_ruby_cane"
         }
     ],
-    "drops": [
+    "results": [
         {
             "chance": 1.0,
             "output": {

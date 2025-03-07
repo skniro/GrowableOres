@@ -45,7 +45,7 @@
             "block": "growable_ores:gtm_exquisiteemerald_cane"
         }
     ],
-    "drops": [
+    "results": [
         {
             "chance": 1.0,
             "output": {

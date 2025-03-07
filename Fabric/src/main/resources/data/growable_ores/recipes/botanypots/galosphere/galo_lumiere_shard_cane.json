@@ -45,7 +45,7 @@
             "block": "growable_ores:galo_lumiere_shard_cane"
         }
     ],
-    "drops": [
+    "results": [
         {
             "chance": 1.0,
             "output": {

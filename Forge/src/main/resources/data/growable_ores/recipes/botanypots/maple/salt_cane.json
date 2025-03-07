@@ -25,7 +25,7 @@
             "block": "growable_ores:salt_cane"
         }
     ],
-    "drops": [
+    "results": [
         {
             "chance": 1.0,
             "output": {

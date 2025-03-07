@@ -45,7 +45,7 @@
             "block": "growable_ores:gtm_nickel_zinc_ferrite_ingot_cane"
         }
     ],
-    "drops": [
+    "results": [
         {
             "chance": 1.0,
             "output": {

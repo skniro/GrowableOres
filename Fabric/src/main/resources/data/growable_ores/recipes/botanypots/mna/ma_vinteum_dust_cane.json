@@ -45,7 +45,7 @@
             "block": "growable_ores:ma_vinteum_dust_cane"
         }
     ],
-    "drops": [
+    "results": [
         {
             "chance": 1.0,
             "output": {

@@ -45,7 +45,7 @@
             "block": "growable_ores:rc_tin_ingot_cane"
         }
     ],
-    "drops": [
+    "results": [
         {
             "chance": 1.0,
             "output": {

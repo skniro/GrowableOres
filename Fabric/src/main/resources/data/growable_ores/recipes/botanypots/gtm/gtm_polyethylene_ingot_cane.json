@@ -45,7 +45,7 @@
             "block": "growable_ores:gtm_polyethylene_ingot_cane"
         }
     ],
-    "drops": [
+    "results": [
         {
             "chance": 1.0,
             "output": {

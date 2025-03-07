@@ -45,7 +45,7 @@
             "block": "growable_ores:tc_ender_slime_crystal_cane"
         }
     ],
-    "drops": [
+    "results": [
         {
             "chance": 1.0,
             "output": {

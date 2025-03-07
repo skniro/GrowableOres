@@ -45,7 +45,7 @@
             "block": "growable_ores:gtm_samarium_iron_arsenic_oxide_ingot_cane"
         }
     ],
-    "drops": [
+    "results": [
         {
             "chance": 1.0,
             "output": {

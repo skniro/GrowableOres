@@ -45,7 +45,7 @@
             "block": "growable_ores:ma_mote_fire_cane"
         }
     ],
-    "drops": [
+    "results": [
         {
             "chance": 1.0,
             "output": {

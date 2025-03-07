@@ -16,7 +16,7 @@
             "block": "growable_ores:crystal_blazing_cane"
         }
     ],
-    "drops": [
+    "results": [
         {
             "chance": 1.0,
             "output": {

@@ -45,7 +45,7 @@
             "block": "growable_ores:er_benitoite_crystal_cane"
         }
     ],
-    "drops": [
+    "results": [
         {
             "chance": 1.0,
             "output": {

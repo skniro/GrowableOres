@@ -45,7 +45,7 @@
             "block": "growable_ores:tc_ardite_ingot_cane"
         }
     ],
-    "drops": [
+    "results": [
         {
             "chance": 1.0,
             "output": {

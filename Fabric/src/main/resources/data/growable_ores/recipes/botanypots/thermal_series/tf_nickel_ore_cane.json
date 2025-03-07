@@ -45,7 +45,7 @@
             "block": "growable_ores:tf_nickel_ore_cane"
         }
     ],
-    "drops": [
+    "results": [
         {
             "chance": 1.0,
             "output": {

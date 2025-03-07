@@ -45,7 +45,7 @@
             "block": "growable_ores:ma_arcane_ash_cane"
         }
     ],
-    "drops": [
+    "results": [
         {
             "chance": 1.0,
             "output": {

@@ -36,7 +36,7 @@
             "block": "growable_ores:feather_cane"
         }
     ],
-    "drops": [
+    "results": [
         {
             "chance": 1.0,
             "output": {

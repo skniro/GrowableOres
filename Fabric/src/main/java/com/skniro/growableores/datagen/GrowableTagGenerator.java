@@ -41,6 +41,7 @@ public class GrowableTagGenerator extends FabricTagProvider.BlockTagProvider {
               .add(GrowableVanillaOresBlocks.Slime_Cane)
               .add(GrowableVanillaOresBlocks.Bone_Cane)
               .add(GrowableVanillaOresBlocks.Nether_Star_Cane)
+              .add(GrowableVanillaOresBlocks.Gunpowder_Cane)
 
               //ae2
               .add(GrowableAEOresBlocks.certus_quartz_crystal_Cane)

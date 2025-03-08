@@ -34,6 +34,7 @@ public class GrowableEnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(GrowableVanillaOresBlocks.Nether_Star_Cane,"Nether Star Reed");
         translationBuilder.add(GrowableVanillaOresBlocks.Wool_Cane,"Wool Reed");
         translationBuilder.add(GrowableVanillaOresBlocks.Egg_Cane,"Egg Reed");
+        translationBuilder.add(GrowableVanillaOresBlocks.Gunpowder_Cane,"Gunpowder Reed");
         translationBuilder.add(GrowableVanillaOresBlocks.Feather_Cane,"Feather Reed");
 
         //ae2

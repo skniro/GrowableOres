@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#G#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:sugar_cane",
+        "G": "minecraft:gunpowder"
+    },
+    "result": {
+        "id": "growable_ores:gunpowder_cane",
+        "count": 1
+    }
+}

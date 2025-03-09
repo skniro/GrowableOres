@@ -1,0 +1,28 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "indrev"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#G#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:sugar_cane"
+    },
+    "G": {
+      "item": "indrev:lead_ingot"
+    }
+  },
+  "result": {
+    "item": "growable_ores:ir_lead_cane",
+    "count": 1
+  }
+}

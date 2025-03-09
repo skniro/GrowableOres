@@ -325,5 +325,6 @@
   "block.growable_ores.tungsten_cane": "Roseau de tungstène",
   "block.growable_ores.uraninite_ore_dense_cane": "Roseau dense de minerai d’uraninite",
   "block.growable_ores.wool_cane": "Roseau de laine",
+  "block.growable_ores.gunpowder_cane": "Roseau de poudre à canon",
   "itemGroup.growable_ores.test_group": "Minerais cultivables"
 }

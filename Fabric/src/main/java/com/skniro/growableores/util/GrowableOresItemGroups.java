@@ -43,6 +43,7 @@ public class GrowableOresItemGroups {
             content.add(GrowableVanillaOresBlocks.Egg_Cane);
             content.add(GrowableVanillaOresBlocks.Wool_Cane);
             content.add(GrowableVanillaOresBlocks.Feather_Cane);
+            content.add(GrowableVanillaOresBlocks.Gunpowder_Cane);
 
         });
     }

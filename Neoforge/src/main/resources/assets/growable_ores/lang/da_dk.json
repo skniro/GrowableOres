@@ -325,5 +325,6 @@
   "block.growable_ores.tungsten_cane": "Tungsten Reed",
   "block.growable_ores.uraninite_ore_dense_cane": "Uraninite Ore Dense Reed",
   "block.growable_ores.wool_cane": "Wool Reed",
+  "block.growable_ores.gunpowder_cane": "Gunpowder Reed",
   "itemGroup.growable_ores.test_group": "Growable Ores"
 }

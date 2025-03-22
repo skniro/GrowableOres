@@ -1,4 +1,4 @@
-// 1.21.1	2025-01-03T16:10:09.4379665	Skniro's GrowableOres/Block Loot Tables
+// 1.21.1	2025-03-07T21:29:12.7469737	Skniro's GrowableOres/Block Loot Tables
 2e11da282fb606ba737b19c75f93e35e93929684 data\growable_ores\loot_table\blocks\gtm_exquisite_malachite_cane.json
 b9c3cc590279018bb992fdad2bb08c85e6d41b50 data\growable_ores\loot_table\blocks\rft_dimensional_shard_cane.json
 192fa4668a1666d4775c79a7500e8b11d4c9d7a0 data\growable_ores\loot_table\blocks\lead_cane.json
@@ -180,6 +180,7 @@ b23b8b59a20434319500bbd68dc87a1402d6a408 data\growable_ores\loot_table\blocks\bn
 937308e0dd1ee527a622db2e0329a0888dc07e15 data\growable_ores\loot_table\blocks\mi_iridium_cane.json
 cfd31f293e64ec9b0fe01e0316d3f48647164899 data\growable_ores\loot_table\blocks\gtm_tritanium_ingot_cane.json
 0b455e819b6cc516ec5f174e4d12abe86a3b47a3 data\growable_ores\loot_table\blocks\ma_purified_vinteum_dust_cane.json
+42bdb322a79f7f4147c7cd3d606643772e51fcae data\growable_ores\loot_table\blocks\gunpowder_cane.json
 4d4e5b62f959dd23d1af337a21ec261647adfec8 data\growable_ores\loot_table\blocks\rc_ender_dust_cane.json
 cbfbf669ae41cdff50351646994832fd704a74fd data\growable_ores\loot_table\blocks\ma_purified_vinteum_ingot_cane.json
 a76ed8ce34370633d8544a31072c7368825ad8e8 data\growable_ores\loot_table\blocks\sapphire_cane.json

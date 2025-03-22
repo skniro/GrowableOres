@@ -34,6 +34,7 @@ public class GrowableModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerTintableCross(GrowableVanillaOresBlocks.Wool_Cane, BlockStateModelGenerator.CrossType.TINTED);
         blockStateModelGenerator.registerTintableCross(GrowableVanillaOresBlocks.Egg_Cane, BlockStateModelGenerator.CrossType.TINTED);
         blockStateModelGenerator.registerTintableCross(GrowableVanillaOresBlocks.Feather_Cane, BlockStateModelGenerator.CrossType.TINTED);
+        blockStateModelGenerator.registerTintableCross(GrowableVanillaOresBlocks.Gunpowder_Cane, BlockStateModelGenerator.CrossType.TINTED);
 
         //AE2
         blockStateModelGenerator.registerTintableCross(GrowableAEOresBlocks.certus_quartz_crystal_Cane, BlockStateModelGenerator.CrossType.TINTED);

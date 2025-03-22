@@ -35,6 +35,7 @@ public class GrowableSimplifiedChineseLanguageProvider extends FabricLanguagePro
         translationBuilder.add(GrowableVanillaOresBlocks.Glowstone_Cane,"萤石杆");
         translationBuilder.add(GrowableVanillaOresBlocks.Wool_Cane,"羊毛杆");
         translationBuilder.add(GrowableVanillaOresBlocks.Egg_Cane,"鸡蛋杆");
+        translationBuilder.add(GrowableVanillaOresBlocks.Gunpowder_Cane,"火药杆");
         translationBuilder.add(GrowableVanillaOresBlocks.Feather_Cane,"羽毛杆");
 
         // Copilot did translation. I am so sorry if its wrong.

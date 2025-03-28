@@ -20,8 +20,6 @@ import net.minecraft.util.Identifier;
 import java.util.function.Function;
 import java.util.logging.Logger;
 
-import static net.minecraft.util.PathUtil.validatePath;
-
 public class GrowableMapleOresBlocks {
     //Maple
     public static final Block Salt_Cane =registerBlock("salt_cane",GrowableOreCaneBlock::new ,AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS).pistonBehavior(PistonBehavior.DESTROY),GrowableOresItemGroups.Growable_Ores_Group);

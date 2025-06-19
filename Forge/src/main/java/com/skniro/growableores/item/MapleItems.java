@@ -2,7 +2,8 @@ package com.skniro.growableores.item;
 
 import com.skniro.growableores.GrowableOres;
 import net.minecraft.world.item.*;
-import net.minecraftforge.eventbus.api.IEventBus;
+
+import net.minecraftforge.eventbus.api.bus.BusGroup;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -17,7 +18,7 @@ public class MapleItems {
         return toReturn;
     }
 
-    public static void registerModItems(IEventBus eventBus) {
+    public static void registerModItems(BusGroup eventBus) {
         ITEMS.register(eventBus);
     }
 }

@@ -4,152 +4,153 @@ import com.skniro.growableores.block.*;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
-import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
+import net.fabricmc.fabric.api.client.rendering.v1.BlockRenderLayerMap;
+import net.minecraft.client.render.BlockRenderLayer;
 import net.minecraft.client.render.RenderLayer;
 
 @Environment(EnvType.CLIENT)
 public class GrowableOresClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableVanillaOresBlocks.Coal_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableVanillaOresBlocks.Iron_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableVanillaOresBlocks.Diamond_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableVanillaOresBlocks.Copper_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableVanillaOresBlocks.Emerald_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableVanillaOresBlocks.Gold_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableVanillaOresBlocks.Lapis_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableVanillaOresBlocks.Nether_Quartz_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableVanillaOresBlocks.Redstone_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableVanillaOresBlocks.Blaze_Rod_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableVanillaOresBlocks.Ender_Pearl_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableVanillaOresBlocks.Netherite_Ingot_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableVanillaOresBlocks.Clay_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableVanillaOresBlocks.Slime_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableVanillaOresBlocks.Nether_Star_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableVanillaOresBlocks.Glowstone_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableVanillaOresBlocks.Bone_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableVanillaOresBlocks.Egg_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableVanillaOresBlocks.Wool_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableVanillaOresBlocks.Feather_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableVanillaOresBlocks.Gunpowder_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.putBlock(GrowableVanillaOresBlocks.Coal_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableVanillaOresBlocks.Iron_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableVanillaOresBlocks.Diamond_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableVanillaOresBlocks.Copper_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableVanillaOresBlocks.Emerald_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableVanillaOresBlocks.Gold_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableVanillaOresBlocks.Lapis_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableVanillaOresBlocks.Nether_Quartz_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableVanillaOresBlocks.Redstone_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableVanillaOresBlocks.Blaze_Rod_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableVanillaOresBlocks.Ender_Pearl_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableVanillaOresBlocks.Netherite_Ingot_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableVanillaOresBlocks.Clay_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableVanillaOresBlocks.Slime_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableVanillaOresBlocks.Nether_Star_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableVanillaOresBlocks.Glowstone_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableVanillaOresBlocks.Bone_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableVanillaOresBlocks.Egg_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableVanillaOresBlocks.Wool_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableVanillaOresBlocks.Feather_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableVanillaOresBlocks.Gunpowder_Cane, BlockRenderLayer.CUTOUT);
 
         //ae2
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableAEOresBlocks.certus_quartz_crystal_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableAEOresBlocks.fluix_crystal_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.putBlock(GrowableAEOresBlocks.certus_quartz_crystal_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableAEOresBlocks.fluix_crystal_Cane, BlockRenderLayer.CUTOUT);
 
         //Tech Reborn
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableTechRebornOresBlocks.cinnabar_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableTechRebornOresBlocks.galena_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableTechRebornOresBlocks.iridium_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableTechRebornOresBlocks.lead_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableTechRebornOresBlocks.peridot_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableTechRebornOresBlocks.pyrite_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableTechRebornOresBlocks.ruby_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableTechRebornOresBlocks.sapphire_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableTechRebornOresBlocks.sheldonite_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableTechRebornOresBlocks.silver_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableTechRebornOresBlocks.sphalerite_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableTechRebornOresBlocks.tin_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableTechRebornOresBlocks.tungsten_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableTechRebornOresBlocks.sodalite_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableTechRebornOresBlocks.bauxite_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.putBlock(GrowableTechRebornOresBlocks.cinnabar_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableTechRebornOresBlocks.galena_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableTechRebornOresBlocks.iridium_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableTechRebornOresBlocks.lead_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableTechRebornOresBlocks.peridot_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableTechRebornOresBlocks.pyrite_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableTechRebornOresBlocks.ruby_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableTechRebornOresBlocks.sapphire_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableTechRebornOresBlocks.sheldonite_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableTechRebornOresBlocks.silver_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableTechRebornOresBlocks.sphalerite_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableTechRebornOresBlocks.tin_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableTechRebornOresBlocks.tungsten_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableTechRebornOresBlocks.sodalite_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableTechRebornOresBlocks.bauxite_Cane, BlockRenderLayer.CUTOUT);
 
 
         //BetterEnd
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableBetterEndOresBlocks.amber_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableBetterEndOresBlocks.ender_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableBetterEndOresBlocks.thallasium_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.putBlock(GrowableBetterEndOresBlocks.amber_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableBetterEndOresBlocks.ender_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableBetterEndOresBlocks.thallasium_Cane, BlockRenderLayer.CUTOUT);
 
 
         //Maple
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableMapleOresBlocks.Salt_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.putBlock(GrowableMapleOresBlocks.Salt_Cane, BlockRenderLayer.CUTOUT);
 
         //Powah Rearchitected and Powah
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowablePowahOresBlocks.Steel_Energized_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowablePowahOresBlocks.Uraninite_Ore_Dense_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowablePowahOresBlocks.Ender_Core_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowablePowahOresBlocks.Crystal_Spirited_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowablePowahOresBlocks.Crystal_Nitro_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowablePowahOresBlocks.Crystal_Niotic_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowablePowahOresBlocks.Crystal_Blazing_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.putBlock(GrowablePowahOresBlocks.Steel_Energized_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowablePowahOresBlocks.Uraninite_Ore_Dense_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowablePowahOresBlocks.Ender_Core_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowablePowahOresBlocks.Crystal_Spirited_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowablePowahOresBlocks.Crystal_Nitro_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowablePowahOresBlocks.Crystal_Niotic_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowablePowahOresBlocks.Crystal_Blazing_Cane, BlockRenderLayer.CUTOUT);
 
         //Industrial Revolution
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableIndustrialRevolutionOresBlocks.IR_Lead_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableIndustrialRevolutionOresBlocks.IR_nikolite_Cane , RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableIndustrialRevolutionOresBlocks.IR_silver_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableIndustrialRevolutionOresBlocks.IR_tin_ore_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableIndustrialRevolutionOresBlocks.IR_tungsten_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.putBlock(GrowableIndustrialRevolutionOresBlocks.IR_Lead_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableIndustrialRevolutionOresBlocks.IR_nikolite_Cane , BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableIndustrialRevolutionOresBlocks.IR_silver_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableIndustrialRevolutionOresBlocks.IR_tin_ore_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableIndustrialRevolutionOresBlocks.IR_tungsten_Cane, BlockRenderLayer.CUTOUT);
 
         //Modern Industrialization
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableModernIndustrializationOresBlocks.MI_antimony_Cane , RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableModernIndustrializationOresBlocks.MI_bauxite_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableModernIndustrializationOresBlocks.MI_iridium_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableModernIndustrializationOresBlocks.MI_lead_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableModernIndustrializationOresBlocks.MI_lignite_coal_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableModernIndustrializationOresBlocks.MI_monazite_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableModernIndustrializationOresBlocks.MI_nickel_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableModernIndustrializationOresBlocks.MI_platinum_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableModernIndustrializationOresBlocks.MI_quartz_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableModernIndustrializationOresBlocks.MI_salt_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableModernIndustrializationOresBlocks.MI_tin_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableModernIndustrializationOresBlocks.MI_titanium_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableModernIndustrializationOresBlocks.MI_tungsten_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableModernIndustrializationOresBlocks.MI_uranium_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.putBlock(GrowableModernIndustrializationOresBlocks.MI_antimony_Cane , BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableModernIndustrializationOresBlocks.MI_bauxite_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableModernIndustrializationOresBlocks.MI_iridium_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableModernIndustrializationOresBlocks.MI_lead_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableModernIndustrializationOresBlocks.MI_lignite_coal_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableModernIndustrializationOresBlocks.MI_monazite_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableModernIndustrializationOresBlocks.MI_nickel_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableModernIndustrializationOresBlocks.MI_platinum_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableModernIndustrializationOresBlocks.MI_quartz_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableModernIndustrializationOresBlocks.MI_salt_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableModernIndustrializationOresBlocks.MI_tin_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableModernIndustrializationOresBlocks.MI_titanium_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableModernIndustrializationOresBlocks.MI_tungsten_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableModernIndustrializationOresBlocks.MI_uranium_Cane, BlockRenderLayer.CUTOUT);
 
         //ic2 and ic2c
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableICOresBlocks.IC2_Aluminium_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableICOresBlocks.IC2_silver_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableICOresBlocks.IC2_Tin_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableICOresBlocks.IC2_Uranium_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.putBlock(GrowableICOresBlocks.IC2_Aluminium_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableICOresBlocks.IC2_silver_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableICOresBlocks.IC2_Tin_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableICOresBlocks.IC2_Uranium_Cane, BlockRenderLayer.CUTOUT);
 
         //Ad Astra!
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableAdAstraOresBlocks.AD_Ostrum_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableAdAstraOresBlocks.AD_Ice_Shard_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableAdAstraOresBlocks.AD_Cheese_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableAdAstraOresBlocks.AD_Desh_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableAdAstraOresBlocks.AD_Calorite_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.putBlock(GrowableAdAstraOresBlocks.AD_Ostrum_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableAdAstraOresBlocks.AD_Ice_Shard_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableAdAstraOresBlocks.AD_Cheese_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableAdAstraOresBlocks.AD_Desh_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableAdAstraOresBlocks.AD_Calorite_Cane, BlockRenderLayer.CUTOUT);
 
         //Create
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableCreateOresBlocks.C_Andesite_Alloy_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableCreateOresBlocks.C_Brass_Ingot_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableCreateOresBlocks.C_Polished_Rose_Quartz_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableCreateOresBlocks.C_Zinc_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.putBlock(GrowableCreateOresBlocks.C_Andesite_Alloy_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableCreateOresBlocks.C_Brass_Ingot_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableCreateOresBlocks.C_Polished_Rose_Quartz_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableCreateOresBlocks.C_Zinc_Cane, BlockRenderLayer.CUTOUT);
 
         //Thermal Series
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableThermalSeriesOresBlocks.TF_Apatite_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableThermalSeriesOresBlocks.TF_Cinnabar_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableThermalSeriesOresBlocks.TF_Copper_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableThermalSeriesOresBlocks.TF_Lead_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableThermalSeriesOresBlocks.TF_Nickel_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableThermalSeriesOresBlocks.TF_Niter_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableThermalSeriesOresBlocks.TF_Ruby_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableThermalSeriesOresBlocks.TF_Sapphire_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableThermalSeriesOresBlocks.TF_Silver_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableThermalSeriesOresBlocks.TF_Sulfur_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableThermalSeriesOresBlocks.TF_Tin_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.putBlock(GrowableThermalSeriesOresBlocks.TF_Apatite_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableThermalSeriesOresBlocks.TF_Cinnabar_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableThermalSeriesOresBlocks.TF_Copper_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableThermalSeriesOresBlocks.TF_Lead_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableThermalSeriesOresBlocks.TF_Nickel_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableThermalSeriesOresBlocks.TF_Niter_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableThermalSeriesOresBlocks.TF_Ruby_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableThermalSeriesOresBlocks.TF_Sapphire_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableThermalSeriesOresBlocks.TF_Silver_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableThermalSeriesOresBlocks.TF_Sulfur_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableThermalSeriesOresBlocks.TF_Tin_Cane, BlockRenderLayer.CUTOUT);
 
         //Mekanism
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableMekanismOresBlocks.MEK_Fluorite_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableMekanismOresBlocks.MEK_Lead_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableMekanismOresBlocks.MEK_Osmium_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableMekanismOresBlocks.MEK_Tin_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableMekanismOresBlocks.MEK_Uranium_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableMekanismOresBlocks.MEK_Steel_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableMekanismOresBlocks.MEK_Refined_Obsidian_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableMekanismOresBlocks.MEK_Refined_Glowstone_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableMekanismOresBlocks.MEK_Bronze_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.putBlock(GrowableMekanismOresBlocks.MEK_Fluorite_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableMekanismOresBlocks.MEK_Lead_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableMekanismOresBlocks.MEK_Osmium_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableMekanismOresBlocks.MEK_Tin_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableMekanismOresBlocks.MEK_Uranium_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableMekanismOresBlocks.MEK_Steel_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableMekanismOresBlocks.MEK_Refined_Obsidian_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableMekanismOresBlocks.MEK_Refined_Glowstone_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableMekanismOresBlocks.MEK_Bronze_Cane, BlockRenderLayer.CUTOUT);
 
         //BetterNether
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableBetterNetherOresBlocks.BN_Cincinnasite_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableBetterNetherOresBlocks.BN_Nether_Ruby_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.putBlock(GrowableBetterNetherOresBlocks.BN_Cincinnasite_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableBetterNetherOresBlocks.BN_Nether_Ruby_Cane, BlockRenderLayer.CUTOUT);
 
         //EnergizedPower
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableEnergizedPowerOresBlocks.EP_Advanced_Alloy_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableEnergizedPowerOresBlocks.EP_Energized_Copper_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableEnergizedPowerOresBlocks.EP_Energized_Gold_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableEnergizedPowerOresBlocks.EP_Redstone_Alloy_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableEnergizedPowerOresBlocks.EP_Steel_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableEnergizedPowerOresBlocks.EP_Tin_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.putBlock(GrowableEnergizedPowerOresBlocks.EP_Advanced_Alloy_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableEnergizedPowerOresBlocks.EP_Energized_Copper_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableEnergizedPowerOresBlocks.EP_Energized_Gold_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableEnergizedPowerOresBlocks.EP_Redstone_Alloy_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableEnergizedPowerOresBlocks.EP_Steel_Cane, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(GrowableEnergizedPowerOresBlocks.EP_Tin_Cane, BlockRenderLayer.CUTOUT);
 
 
     }

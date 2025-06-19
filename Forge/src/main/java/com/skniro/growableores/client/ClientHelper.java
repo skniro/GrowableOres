@@ -2,19 +2,16 @@ package com.skniro.growableores.client;
 
 
 import com.skniro.growableores.GrowableOres;
-import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.chunk.ChunkSectionLayer;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.level.block.Block;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.RegisterParticleProvidersEvent;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.eventbus.api.listener.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.registries.ForgeRegistries;
-
-import java.util.function.Supplier;
 
 @Mod.EventBusSubscriber(modid = GrowableOres.MODID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class ClientHelper {
@@ -25,7 +22,7 @@ public class ClientHelper {
             ForgeRegistries.BLOCKS.forEach(block -> {
                 ResourceLocation blockId = ForgeRegistries.BLOCKS.getKey(block);
                 if (blockId != null && blockId.getNamespace().equals(GrowableOres.MODID)) {
-                    ItemBlockRenderTypes.setRenderLayer(block, RenderType.cutout());
+                    ItemBlockRenderTypes.setRenderLayer(block, ChunkSectionLayer.CUTOUT);
                 }
             });
         });

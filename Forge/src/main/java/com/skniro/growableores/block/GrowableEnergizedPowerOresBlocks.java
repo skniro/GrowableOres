@@ -2,12 +2,10 @@ package com.skniro.growableores.block;
 
 import com.skniro.growableores.GrowableOres;
 import com.skniro.growableores.item.MapleItems;
-import com.skniro.growableores.item.ModCreativeModeTabs;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
@@ -15,7 +13,8 @@ import com.skniro.growableores.block.init.GrowableOreCaneBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.PushReaction;
-import net.minecraftforge.eventbus.api.IEventBus;
+
+import net.minecraftforge.eventbus.api.bus.BusGroup;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -63,7 +62,7 @@ public class GrowableEnergizedPowerOresBlocks {
                 new Item.Properties().useBlockDescriptionPrefix().setId(ResourceKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath(GrowableOres.MODID, name)))));
     }
 
-    public static void registerModBlocks(IEventBus eventBus) {
+    public static void registerModBlocks(BusGroup eventBus) {
         BLOCKS.register(eventBus);
     }
 }

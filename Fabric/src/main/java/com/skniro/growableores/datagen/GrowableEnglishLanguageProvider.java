@@ -418,7 +418,7 @@ public class GrowableEnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(GrowableTinkersConstructBlocks.TC_Sky_Slime_Crystal_Cane, "Sky Slime Crystal Reed(Tinkers' Construct)");
         translationBuilder.add(GrowableTinkersConstructBlocks.TC_Slimesteel_Ingot_Cane, "Slimesteel Ingot Reed(Tinkers' Construct)");
         translationBuilder.add(GrowableTinkersConstructBlocks.TC_Soulsteel_Ingot_Cane, "Soulsteel Ingot Reed(Tinkers' Construct)");
-
+        translationBuilder.add(GrowableTinkersConstructBlocks.TC_Earth_Slime_Crystal_Cane, "Earth Slime Crystal Reed(Tinkers' Construct)");
 
     }
 }

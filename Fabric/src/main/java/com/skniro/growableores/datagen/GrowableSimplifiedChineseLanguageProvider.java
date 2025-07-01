@@ -419,5 +419,6 @@ public class GrowableSimplifiedChineseLanguageProvider extends FabricLanguagePro
         translationBuilder.add(GrowableTinkersConstructBlocks.TC_Sky_Slime_Crystal_Cane, "碧空黏液水晶 矿石杆(Tinkers' Construct)");
         translationBuilder.add(GrowableTinkersConstructBlocks.TC_Slimesteel_Ingot_Cane, "黏钢矿石杆(Tinkers' Construct)");
         translationBuilder.add(GrowableTinkersConstructBlocks.TC_Soulsteel_Ingot_Cane, "魂钢矿石杆(Tinkers' Construct)");
+        translationBuilder.add(GrowableTinkersConstructBlocks.TC_Earth_Slime_Crystal_Cane, "大地黏液水晶(Tinkers' Construct)");
     }
 }

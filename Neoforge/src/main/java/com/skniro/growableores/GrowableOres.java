@@ -100,6 +100,9 @@ public class GrowableOres {
         if (ModList.get().isLoaded("tconstruct") || GrowableOresConfig.All_Item_Mode) {
             GrowableTinkersConstructBlocks.registerGrowableBlocks(modEventBus);
         }
+        if (ModList.get().isLoaded("maple") || GrowableOresConfig.All_Item_Mode) {
+            GrowableMapleOresBlocks.registerGrowableBlocks(modEventBus);
+        }
         MapleItems.registerModItems(modEventBus);
         ModCreativeModeTabs.register(modEventBus);
         // Register ourselves for server and other game events we are interested in

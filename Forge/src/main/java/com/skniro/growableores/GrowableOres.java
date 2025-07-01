@@ -18,22 +18,20 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(GrowableOres.MODID)
+@Mod(GrowableOres.MOD_ID)
 public class GrowableOres {
     // Define mod id in a common place for everything to reference
-    public static final String MODID = "growable_ores";
+    public static final String MOD_ID = "growable_ores";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
 
     public GrowableOres(FMLJavaModLoadingContext context) {
-        new Configuration(GrowableOresConfig.class, MODID);
+        new Configuration(GrowableOresConfig.class, MOD_ID);
         var modEventBus = context.getModBusGroup();
 
         // Register the commonSetup method for modloading
         FMLCommonSetupEvent.getBus(modEventBus).addListener(this::commonSetup);
-
-        // Register the Deferred Register to the mod event bus so blocks get registered
         GrowableVanillaOresBlocks.registerMapleBlocks(modEventBus);
 
         if(ModList.get().isLoaded("ad_astra") || GrowableOresConfig.All_Item_Mode) {
@@ -66,6 +64,45 @@ public class GrowableOres {
         if (ModList.get().isLoaded("energizedpower") || GrowableOresConfig.All_Item_Mode) {
             GrowableEnergizedPowerOresBlocks.registerModBlocks(modEventBus);
         }
+        if (ModList.get().isLoaded("biomesoplenty") || GrowableOresConfig.All_Item_Mode) {
+            GrowableBiomesOPlentyOresBlocks.registerGrowableBlocks(modEventBus);
+        }
+        if (ModList.get().isLoaded("draconicevolution") || GrowableOresConfig.All_Item_Mode) {
+            GrowableDraconicEvolutionOresBlocks.registerGrowableBlocks(modEventBus);
+        }
+        if (ModList.get().isLoaded("extremereactors") || GrowableOresConfig.All_Item_Mode) {
+            GrowableExtremeReactorsOresBlocks.registerGrowableBlocks(modEventBus);
+        }
+        if (ModList.get().isLoaded("galosphere") || GrowableOresConfig.All_Item_Mode) {
+            GrowableGalosphereOresBlocks.registerGrowableBlocks(modEventBus);
+        }
+        if (ModList.get().isLoaded("gobber2") || GrowableOresConfig.All_Item_Mode) {
+            GrowableGobberOresBlocks.registerGrowableBlocks(modEventBus);
+        }
+        if (ModList.get().isLoaded("gtceu") || GrowableOresConfig.All_Item_Mode) {
+            GrowableGregTechCEuModernOresBlocks.registerGrowableBlocks(modEventBus);
+        }
+        if (ModList.get().isLoaded("mna") || GrowableOresConfig.All_Item_Mode) {
+            GrowableManaandArtificeOresBlocks.registerGrowableBlocks(modEventBus);
+        }
+        if (ModList.get().isLoaded("mysticalagradditions") || GrowableOresConfig.All_Item_Mode) {
+            GrowableMysticalAgradditionsBlocks.registerGrowableBlocks(modEventBus);
+        }
+        if (ModList.get().isLoaded("mysticalagriculture") || GrowableOresConfig.All_Item_Mode) {
+            GrowableMysticalAgricultureBlocks.registerGrowableBlocks(modEventBus);
+        }
+        if (ModList.get().isLoaded("railcraft") || GrowableOresConfig.All_Item_Mode) {
+            GrowableRailcraftOresBlocks.registerGrowableBlocks(modEventBus);
+        }
+        if (ModList.get().isLoaded("rftoolsbase") || GrowableOresConfig.All_Item_Mode) {
+            GrowableRFToolsOresBlocks.registerGrowableBlocks(modEventBus);
+        }
+        if (ModList.get().isLoaded("tconstruct") || GrowableOresConfig.All_Item_Mode) {
+            GrowableTinkersConstructBlocks.registerGrowableBlocks(modEventBus);
+        }
+        if (ModList.get().isLoaded("maple") || GrowableOresConfig.All_Item_Mode) {
+            GrowableMapleOresBlocks.registerGrowableBlocks(modEventBus);
+        }
         MapleItems.registerModItems(modEventBus);
         ModCreativeModeTabs.register(modEventBus);
     }
@@ -80,7 +117,7 @@ public class GrowableOres {
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
-    @Mod.EventBusSubscriber(modid = MODID, value = Dist.CLIENT)
+    @Mod.EventBusSubscriber(modid = MOD_ID, value = Dist.CLIENT)
     public static class ClientModEvents {
 
         @SubscribeEvent

@@ -2,6 +2,5 @@
   "parent": "minecraft:block/tinted_cross",
   "textures": {
     "cross": "growable_ores:block/ep_energized_gold_ingot_cane"
-  },
-  "render_type": "cutout"
+  }
 }

@@ -1,10 +1,13 @@
 package com.skniro.growableores.datagen;
 
+import com.skniro.growableores.GrowableOres;
 import com.skniro.growableores.block.*;
 import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.minecraft.client.data.BlockStateModelGenerator;
 import net.minecraft.client.data.ItemModelGenerator;
+import net.minecraft.registry.Registries;
+import net.minecraft.util.Identifier;
 
 public class GrowableModelProvider extends FabricModelProvider {
     public GrowableModelProvider(FabricDataOutput dataGenerator){
@@ -13,7 +16,13 @@ public class GrowableModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        //Village
+        Registries.BLOCK.forEach(block -> {
+            Identifier blockId = Registries.BLOCK.getId(block);
+            if (blockId.getNamespace().equals(GrowableOres.MOD_ID)) {
+                blockStateModelGenerator.registerTintableCross(block, BlockStateModelGenerator.CrossType.TINTED);
+            }
+        });
+      /*  //Village
         blockStateModelGenerator.registerTintableCross(GrowableVanillaOresBlocks.Iron_Cane, BlockStateModelGenerator.CrossType.TINTED);
         blockStateModelGenerator.registerTintableCross(GrowableVanillaOresBlocks.Coal_Cane, BlockStateModelGenerator.CrossType.TINTED);
         blockStateModelGenerator.registerTintableCross(GrowableVanillaOresBlocks.Diamond_Cane, BlockStateModelGenerator.CrossType.TINTED);
@@ -152,7 +161,7 @@ public class GrowableModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerTintableCross(GrowableEnergizedPowerOresBlocks.EP_Redstone_Alloy_Cane, BlockStateModelGenerator.CrossType.TINTED);
         blockStateModelGenerator.registerTintableCross(GrowableEnergizedPowerOresBlocks.EP_Steel_Cane, BlockStateModelGenerator.CrossType.TINTED);
         blockStateModelGenerator.registerTintableCross(GrowableEnergizedPowerOresBlocks.EP_Tin_Cane, BlockStateModelGenerator.CrossType.TINTED);
-
+*/
     }
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {

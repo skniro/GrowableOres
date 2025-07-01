@@ -5,7 +5,6 @@ import com.skniro.growableores.block.*;
 import com.skniro.growableores.conifg.GrowableOresConfig;
 import com.skniro.growableores.item.GrowableOresItems;
 import com.skniro.growableores.util.GrowableOresItemGroups;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.loader.api.FabricLoader;
 
 
@@ -73,6 +72,54 @@ public class ModContent {
         if (FabricLoader.getInstance().isModLoaded("energizedpower") || GrowableOresConfig.All_Item_Mode) {
             GrowableOresItemGroups.ep_item();
             GrowableEnergizedPowerOresBlocks.registerModBlocks();
+        }
+        if (FabricLoader.getInstance().isModLoaded("biomesoplenty") || GrowableOresConfig.All_Item_Mode) {
+            GrowableOresItemGroups.bop_item();
+            GrowableBiomesOPlentyOresBlocks.registerModBlocks();
+        }
+        if (FabricLoader.getInstance().isModLoaded("draconicevolution") || GrowableOresConfig.All_Item_Mode) {
+            GrowableOresItemGroups.de_item();
+            GrowableDraconicEvolutionOresBlocks.registerModBlocks();
+        }
+        if (FabricLoader.getInstance().isModLoaded("extremereactors") || GrowableOresConfig.All_Item_Mode) {
+            GrowableOresItemGroups.er_item();
+            GrowableExtremeReactorsOresBlocks.registerModBlocks();
+        }
+        if (FabricLoader.getInstance().isModLoaded("galosphere") || GrowableOresConfig.All_Item_Mode) {
+            GrowableOresItemGroups.galo_item();
+            GrowableGalosphereOresBlocks.registerModBlocks();
+        }
+        if (FabricLoader.getInstance().isModLoaded("gobber2") || GrowableOresConfig.All_Item_Mode) {
+            GrowableOresItemGroups.gobber_item();
+            GrowableGobberOresBlocks.registerModBlocks();
+        }
+        if (FabricLoader.getInstance().isModLoaded("gtceu") || GrowableOresConfig.All_Item_Mode) {
+            GrowableOresItemGroups.gtceu_item();
+            GrowableGregTechCEuModernOresBlocks.registerModBlocks();
+        }
+        if (FabricLoader.getInstance().isModLoaded("mna") || GrowableOresConfig.All_Item_Mode) {
+            GrowableOresItemGroups.ma_item();
+            GrowableManaandArtificeOresBlocks.registerModBlocks();
+        }
+        if (FabricLoader.getInstance().isModLoaded("mysticalagradditions") || GrowableOresConfig.All_Item_Mode) {
+            GrowableOresItemGroups.maa_item();
+            GrowableMysticalAgradditionsBlocks.registerModBlocks();
+        }
+        if (FabricLoader.getInstance().isModLoaded("mysticalagriculture") || GrowableOresConfig.All_Item_Mode) {
+            GrowableOresItemGroups.mac_item();
+            GrowableMysticalAgricultureBlocks.registerModBlocks();
+        }
+        if (FabricLoader.getInstance().isModLoaded("railcraft") || GrowableOresConfig.All_Item_Mode) {
+            GrowableOresItemGroups.rc_item();
+            GrowableRailcraftOresBlocks.registerModBlocks();
+        }
+        if (FabricLoader.getInstance().isModLoaded("rftoolsbase") || GrowableOresConfig.All_Item_Mode) {
+            GrowableOresItemGroups.rft_item();
+            GrowableRFToolsOresBlocks.registerModBlocks();
+        }
+        if (FabricLoader.getInstance().isModLoaded("tconstruct") || GrowableOresConfig.All_Item_Mode) {
+            GrowableOresItemGroups.tc_item();
+            GrowableTinkersConstructBlocks.registerModBlocks();
         }
     }
 

@@ -2,6 +2,5 @@
   "parent": "minecraft:block/tinted_cross",
   "textures": {
     "cross": "growable_ores:block/ad_moon_ice_shard_ore_cane"
-  },
-  "render_type": "cutout"
+  }
 }

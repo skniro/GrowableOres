@@ -1,10 +1,13 @@
 package com.skniro.growableores.datagen;
 
 
+import com.skniro.growableores.GrowableOres;
 import com.skniro.growableores.block.*;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
+import net.minecraft.registry.Registries;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.util.Identifier;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -16,7 +19,13 @@ public class GrowableLootTableGenerator extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
-        addDrop(GrowableVanillaOresBlocks.Coal_Cane);
+        Registries.BLOCK.forEach(block -> {
+            Identifier blockId = Registries.BLOCK.getId(block);
+            if (blockId.getNamespace().equals(GrowableOres.MOD_ID)) {
+                addDrop(block);
+            }
+        });
+       /* addDrop(GrowableVanillaOresBlocks.Coal_Cane);
         addDrop(GrowableVanillaOresBlocks.Iron_Cane);
         addDrop(GrowableVanillaOresBlocks.Diamond_Cane);
         addDrop(GrowableVanillaOresBlocks.Gold_Cane);
@@ -152,7 +161,7 @@ public class GrowableLootTableGenerator extends FabricBlockLootTableProvider {
         addDrop(GrowableEnergizedPowerOresBlocks.EP_Energized_Gold_Cane);
         addDrop(GrowableEnergizedPowerOresBlocks.EP_Redstone_Alloy_Cane);
         addDrop(GrowableEnergizedPowerOresBlocks.EP_Steel_Cane);
-        addDrop(GrowableEnergizedPowerOresBlocks.EP_Tin_Cane);
+        addDrop(GrowableEnergizedPowerOresBlocks.EP_Tin_Cane);*/
 
     }
 }

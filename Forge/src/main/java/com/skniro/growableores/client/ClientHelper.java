@@ -13,7 +13,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.registries.ForgeRegistries;
 
-@Mod.EventBusSubscriber(modid = GrowableOres.MODID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+@Mod.EventBusSubscriber(modid = GrowableOres.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class ClientHelper {
 
     @SubscribeEvent
@@ -21,7 +21,7 @@ public class ClientHelper {
         event.enqueueWork(() -> {
             ForgeRegistries.BLOCKS.forEach(block -> {
                 ResourceLocation blockId = ForgeRegistries.BLOCKS.getKey(block);
-                if (blockId != null && blockId.getNamespace().equals(GrowableOres.MODID)) {
+                if (blockId != null && blockId.getNamespace().equals(GrowableOres.MOD_ID)) {
                     ItemBlockRenderTypes.setRenderLayer(block, ChunkSectionLayer.CUTOUT);
                 }
             });

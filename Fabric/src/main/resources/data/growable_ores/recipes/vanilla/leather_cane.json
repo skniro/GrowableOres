@@ -2,16 +2,19 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "###",
-    "###",
+    "#G#",
     "###"
   ],
   "key": {
     "#": {
-      "item": "growable_ores:tin_cane"
+      "item": "minecraft:sugar_cane"
+    },
+    "G": {
+      "item": "minecraft:leather"
     }
   },
   "result": {
-    "item": "techreborn:tin_ingot",
+    "item": "growable_ores:leather_cane",
     "count": 1
   }
 }

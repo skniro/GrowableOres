@@ -36,6 +36,8 @@ public class GrowableEnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(GrowableVanillaOresBlocks.Egg_Cane,"Egg Reed");
         translationBuilder.add(GrowableVanillaOresBlocks.Gunpowder_Cane,"Gunpowder Reed");
         translationBuilder.add(GrowableVanillaOresBlocks.Feather_Cane,"Feather Reed");
+        translationBuilder.add(GrowableVanillaOresBlocks.Leather_Cane,"Leather Reed");
+
 
         //ae2
         translationBuilder.add(GrowableAEOresBlocks.certus_quartz_crystal_Cane,"Certus Quartz Crystal Reed");

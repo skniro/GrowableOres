@@ -1,0 +1,56 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "gtceu",
+        "botanypots"
+      ]
+    }
+  ],
+  "forge:conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "gtceu"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botanypots"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "gtceu"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botanypots"
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "growable_ores:gtm_zinc_ingot_cane"
+  },
+  "categories": [
+    "sand",
+    "dirt"
+  ],
+  "growthTicks": 1200,
+  "display": [
+    {
+      "block": "growable_ores:gtm_zinc_ingot_cane"
+    },
+    {
+      "block": "growable_ores:gtm_zinc_ingot_cane"
+    }
+  ],
+  "drops": [
+    {
+      "chance": 1.0,
+      "output": {
+        "item": "growable_ores:gtm_zinc_ingot_cane"
+      }
+    }
+  ]
+}

@@ -50,7 +50,7 @@ public class GrowableOresItemGroups {
             content.add(GrowableVanillaOresBlocks.Wool_Cane);
             content.add(GrowableVanillaOresBlocks.Gunpowder_Cane);
             content.add(GrowableVanillaOresBlocks.Feather_Cane);
-
+            content.add(GrowableVanillaOresBlocks.Leather_Cane);
         });
     }
     public static void ae_item() {

@@ -42,6 +42,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(GrowableVanillaOresBlocks.Feather_Cane.get());
                         pOutput.accept(GrowableVanillaOresBlocks.Wool_Cane.get());
                         pOutput.accept(GrowableVanillaOresBlocks.Gunpowder_Cane.get());
+                        pOutput.accept(GrowableVanillaOresBlocks.Leather_Cane.get());
 
                         if(ModList.get().isLoaded("ad_astra") || GrowableOresConfig.All_Item_Mode) {
                             //Ad Astra!

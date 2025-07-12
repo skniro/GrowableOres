@@ -5,7 +5,6 @@ import com.skniro.growableores.block.*;
 import com.skniro.growableores.conifg.GrowableOresConfig;
 import com.skniro.growableores.item.GrowableOresItems;
 import com.skniro.growableores.util.GrowableOresItemGroups;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.loader.api.FabricLoader;
 
 

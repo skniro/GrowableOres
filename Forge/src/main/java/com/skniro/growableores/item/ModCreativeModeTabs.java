@@ -41,6 +41,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(GrowableVanillaOresBlocks.Feather_Cane.get());
                         pOutput.accept(GrowableVanillaOresBlocks.Wool_Cane.get());
                         pOutput.accept(GrowableVanillaOresBlocks.Gunpowder_Cane.get());
+                        pOutput.accept(GrowableVanillaOresBlocks.Leather_Cane.get());
 
                         if(ModList.get().isLoaded("ad_astra") || GrowableOresConfig.All_Item_Mode) {
                             //Ad Astra!
@@ -148,9 +149,9 @@ public class ModCreativeModeTabs {
                         }
 
                         if (ModList.get().isLoaded("draconicevolution") || GrowableOresConfig.All_Item_Mode) {
-                            //Draconic Evolution
-                            pOutput.accept(GrowableDraconicEvolutionOresBlocks.DE_Awakened_Draconium_Ingot_Cane.get());
-                            pOutput.accept(GrowableDraconicEvolutionOresBlocks.DE_Draconium_Ingot_Cane.get());
+                                //Draconic Evolution
+                                pOutput.accept(GrowableDraconicEvolutionOresBlocks.DE_Awakened_Draconium_Ingot_Cane.get());
+                                pOutput.accept(GrowableDraconicEvolutionOresBlocks.DE_Draconium_Ingot_Cane.get());
                         }
 
                         if (ModList.get().isLoaded("extremereactors") || GrowableOresConfig.All_Item_Mode) {

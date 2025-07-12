@@ -1,4 +1,4 @@
-// 1.21.4	-999999999-01-01T00:00:00	Skniro's GrowableOres/Model Definitions
+// 1.21.5	-999999999-01-01T00:00:00	Skniro's GrowableOres/Model Definitions
 4b6f8362267621e7108902af9503fcc231059bb7 assets/growable_ores/blockstates/ad_mars_ore_ostrum_cane.json
 5c8ee1ef98aedb49144d523fa870f6774678565d assets/growable_ores/blockstates/ad_moon_ice_shard_ore_cane.json
 0c1ee41fa0cdc74bc0fd3233dc99225da4f94729 assets/growable_ores/blockstates/ad_moon_ore_cheese_cane.json
@@ -54,6 +54,7 @@ cb1393e101e7f6fc20138c11ffcb7863e331db89 assets/growable_ores/blockstates/ir_nik
 621bc104a4dd13e51d827a8602d9cacbf14f7383 assets/growable_ores/blockstates/iron_cane.json
 d134bb0141ef8160c93571905a2038377b1b037b assets/growable_ores/blockstates/lapis_cane.json
 ede33162e140ad48395cb57dbb228215dea67375 assets/growable_ores/blockstates/lead_cane.json
+d9da26ba85ab8d15939e82bb51ae44d6ff8ff0d1 assets/growable_ores/blockstates/leather_cane.json
 e9df18d77ae46da87834579e56795e1549be5794 assets/growable_ores/blockstates/mek_bronze_cane.json
 7e4a2229e01b6ff3b5433e99a7fba47d11003f57 assets/growable_ores/blockstates/mek_fluorite_cane.json
 c1c2841739a3b26070c481c466dcacda9686e34a assets/growable_ores/blockstates/mek_lead_cane.json
@@ -163,6 +164,7 @@ b68271bc7df3196fa7e1d1edc401e10e3928f1d9 assets/growable_ores/items/iridium_cane
 2a0ef36bbb2941b415dceb391197fac0f09ff8c8 assets/growable_ores/items/iron_cane.json
 c0260362bdcc7e2139c29ce88b4104de61935d85 assets/growable_ores/items/lapis_cane.json
 dcd77c25c9d3f8bd9a302760ffbe35eca22bbac0 assets/growable_ores/items/lead_cane.json
+c1a8b072768bf4105019ed96026f4a5d7a605ee1 assets/growable_ores/items/leather_cane.json
 2d00d114297f4f05d6b28880ce33b0c58942772d assets/growable_ores/items/mek_bronze_cane.json
 35b71250c7a3506bf22d10070eb60c6ed7e11a75 assets/growable_ores/items/mek_fluorite_cane.json
 1e201596b49e8ac844dd937bece5fb619293b604 assets/growable_ores/items/mek_lead_cane.json
@@ -272,6 +274,7 @@ c1aeffbdc18ca745b205e7058860f3d89644288d assets/growable_ores/models/block/iridi
 f1d90bd1294f7706c95d02c6633e37498da8a97d assets/growable_ores/models/block/iron_cane.json
 0246c9fe94b4f5578f5c8ec66749a3b53e0b7ce3 assets/growable_ores/models/block/lapis_cane.json
 59b10fa70ccd61ea4b1e223806cf20f1e4dd4868 assets/growable_ores/models/block/lead_cane.json
+e3545e791f5dfd98393d205887a78647974ffd25 assets/growable_ores/models/block/leather_cane.json
 eeeb9e1087e401ab3a36efd8874ee5eaca266263 assets/growable_ores/models/block/mek_bronze_cane.json
 fea835740c71c0c5559e54f6c82f6216fbd36e12 assets/growable_ores/models/block/mek_fluorite_cane.json
 92e395928a0a3b135a09805c3122cecf1dfdb8de assets/growable_ores/models/block/mek_lead_cane.json
@@ -381,6 +384,7 @@ bed5852fe06799dc352f184169428b45dcc94f30 assets/growable_ores/models/item/iridiu
 5381d70865ec53de6316c8861810447eab4cf605 assets/growable_ores/models/item/iron_cane.json
 04fff8c0d436b0c921fe415ba2afa70dc1eb25bf assets/growable_ores/models/item/lapis_cane.json
 8ad004dc86e87f07678f31c5688b504348bc4bc1 assets/growable_ores/models/item/lead_cane.json
+14cccdd7b530e271f5c25fb678edb8951553fe61 assets/growable_ores/models/item/leather_cane.json
 19092fc1942058db748e06b472728f9f8b3bc1ac assets/growable_ores/models/item/mek_bronze_cane.json
 a0d54cee8f078f2aa2ab5feb8b1b33a8fa8e3091 assets/growable_ores/models/item/mek_fluorite_cane.json
 b19594c46a28b7dfb710bc8ccf421dc04582772b assets/growable_ores/models/item/mek_lead_cane.json

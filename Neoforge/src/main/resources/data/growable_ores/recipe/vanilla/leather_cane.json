@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#G#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:sugar_cane",
+        "G": "minecraft:leather"
+    },
+    "result": {
+        "id": "growable_ores:leather_cane",
+        "count": 1
+    }
+}

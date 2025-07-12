@@ -1,6 +1,5 @@
 package com.skniro.growableores.datagen;
 
-import com.skniro.growableores.GrowableOres;
 import com.skniro.growableores.block.*;
 import com.skniro.growableores.util.GrowableOresItemGroups;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
@@ -23,7 +22,7 @@ public class GrowableSimplifiedChineseLanguageProvider extends FabricLanguagePro
         translationBuilder.add(GrowableVanillaOresBlocks.Emerald_Cane,"绿宝石矿石杆");
         translationBuilder.add(GrowableVanillaOresBlocks.Gold_Cane,"金矿石杆");
         translationBuilder.add(GrowableVanillaOresBlocks.Lapis_Cane,"青金石矿石杆");
-        translationBuilder.add(GrowableVanillaOresBlocks.Nether_Quartz_Cane,"下届石英矿石杆");
+        translationBuilder.add(GrowableVanillaOresBlocks.Nether_Quartz_Cane,"下界石英矿石杆");
         translationBuilder.add(GrowableVanillaOresBlocks.Redstone_Cane,"红石矿石杆");
         translationBuilder.add(GrowableVanillaOresBlocks.Blaze_Rod_Cane,"烈焰棒杆");
         translationBuilder.add(GrowableVanillaOresBlocks.Ender_Pearl_Cane,"末影珍珠杆");
@@ -31,12 +30,13 @@ public class GrowableSimplifiedChineseLanguageProvider extends FabricLanguagePro
         translationBuilder.add(GrowableVanillaOresBlocks.Clay_Cane,"粘土杆");
         translationBuilder.add(GrowableVanillaOresBlocks.Slime_Cane,"史莱姆球杆");
         translationBuilder.add(GrowableVanillaOresBlocks.Bone_Cane,"骨头杆");
-        translationBuilder.add(GrowableVanillaOresBlocks.Nether_Star_Cane,"下届之星杆");
+        translationBuilder.add(GrowableVanillaOresBlocks.Nether_Star_Cane,"下界之星杆");
         translationBuilder.add(GrowableVanillaOresBlocks.Glowstone_Cane,"萤石杆");
         translationBuilder.add(GrowableVanillaOresBlocks.Wool_Cane,"羊毛杆");
         translationBuilder.add(GrowableVanillaOresBlocks.Egg_Cane,"鸡蛋杆");
         translationBuilder.add(GrowableVanillaOresBlocks.Gunpowder_Cane,"火药杆");
         translationBuilder.add(GrowableVanillaOresBlocks.Feather_Cane,"羽毛杆");
+        translationBuilder.add(GrowableVanillaOresBlocks.Leather_Cane,"皮革杆");
 
         // Copilot did translation. I am so sorry if its wrong.
         // Don't worry about translation. I will fix it. Thanks you make this mod better.
@@ -78,7 +78,7 @@ public class GrowableSimplifiedChineseLanguageProvider extends FabricLanguagePro
         translationBuilder.add(GrowablePowahOresBlocks.Uraninite_Ore_Dense_Cane,"晶质铀杆(Powah)");
         translationBuilder.add(GrowablePowahOresBlocks.Ender_Core_Cane,"末影核心杆(Powah)");
         translationBuilder.add(GrowablePowahOresBlocks.Crystal_Spirited_Cane,"富生水晶杆(Powah)");
-        translationBuilder.add(GrowablePowahOresBlocks.Crystal_Nitro_Cane,"下届水晶杆(Powah)");
+        translationBuilder.add(GrowablePowahOresBlocks.Crystal_Nitro_Cane,"下界水晶杆(Powah)");
         translationBuilder.add(GrowablePowahOresBlocks.Crystal_Niotic_Cane,"钻石水晶杆(Powah)");
         translationBuilder.add(GrowablePowahOresBlocks.Crystal_Blazing_Cane,"烈焰水晶杆(Powah)");
 
@@ -149,8 +149,8 @@ public class GrowableSimplifiedChineseLanguageProvider extends FabricLanguagePro
         translationBuilder.add(GrowableMekanismOresBlocks.MEK_Bronze_Cane, "青铜矿石杆(通用机械MEK)");
 
         //BetterNether
-        translationBuilder.add(GrowableBetterNetherOresBlocks.BN_Cincinnasite_Cane, "辛辛那金矿石矿石杆(更好的下届)");
-        translationBuilder.add(GrowableBetterNetherOresBlocks.BN_Nether_Ruby_Cane, "下届红宝石矿石杆(更好的下届)");
+        translationBuilder.add(GrowableBetterNetherOresBlocks.BN_Cincinnasite_Cane, "辛辛那金矿石矿石杆(更好的下界)");
+        translationBuilder.add(GrowableBetterNetherOresBlocks.BN_Nether_Ruby_Cane, "下界红宝石矿石杆(更好的下界)");
 
         //EnergizedPower
         translationBuilder.add(GrowableEnergizedPowerOresBlocks.EP_Advanced_Alloy_Cane, "高级合金矿石杆(EnergizedPower)");

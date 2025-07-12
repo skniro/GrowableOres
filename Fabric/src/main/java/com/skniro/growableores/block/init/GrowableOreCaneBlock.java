@@ -4,10 +4,7 @@ import com.mojang.serialization.MapCodec;
 import com.skniro.growableores.conifg.GrowableOresConfig;
 import com.skniro.growableores.registry.tag.GrowableBlockTags;
 import com.skniro.growableores.registry.tag.GrowableFluidTags;
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.ShapeContext;
+import net.minecraft.block.*;
 import net.minecraft.fluid.FluidState;
 import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.registry.tag.FluidTags;
@@ -22,13 +19,14 @@ import net.minecraft.util.math.Direction.Type;
 import net.minecraft.util.math.random.Random;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
+import net.minecraft.world.World;
 import net.minecraft.world.WorldAccess;
 import net.minecraft.world.WorldView;
 
 import java.util.Iterator;
 
 
-public class GrowableOreCaneBlock extends Block {
+public class GrowableOreCaneBlock extends Block implements Fertilizable {
     public static final MapCodec<GrowableOreCaneBlock> CODEC = createCodec(GrowableOreCaneBlock::new);
     public static final IntProperty AGE;
     protected static final float field_31258 = 6.0F;
@@ -82,6 +80,7 @@ public class GrowableOreCaneBlock extends Block {
         return super.getStateForNeighborUpdate(state, direction, neighborState, world, pos, neighborPos);
     }
 
+
     @Override
     public boolean canPlaceAt(BlockState state, WorldView world, BlockPos pos) {
         BlockState blockState = world.getBlockState(pos.down());
@@ -111,8 +110,48 @@ public class GrowableOreCaneBlock extends Block {
         builder.add(new Property[]{AGE});
     }
 
+    protected IntProperty getAgeProperty() {
+        return AGE;
+    }
+
+    public int getAge(BlockState state) {
+        return state.get(this.getAgeProperty());
+    }
+
+    @Override
+    public boolean isFertilizable(WorldView world, BlockPos pos, BlockState state) {
+        if(GrowableOresConfig.Ore_Cane_Bonemeal){
+            return this.getAge(state) < 15;
+        }
+        return false;
+    }
 
 
+    @Override
+    public boolean canGrow(World level, Random random, BlockPos pos, BlockState state) {
+        if(GrowableOresConfig.Ore_Cane_Bonemeal) {
+            return true;
+        }
+        return false;
+    }
+
+    @Override
+    public void grow(ServerWorld level, Random randomSource, BlockPos pos, BlockState state) {
+        if (GrowableOresConfig.Ore_Cane_Bonemeal) {
+            for (int y = pos.getY(); y <= level.getHeight(); y++) {
+                BlockPos uppos = new BlockPos(pos.getX(), y, pos.getZ());
+                Block block = level.getBlockState(uppos).getBlock();
+                if (block != this) {
+                    if (block.equals(Blocks.AIR)) {
+                        level.setBlockState(uppos, this.getDefaultState());
+                        level.syncWorldEvent(2005, uppos, 0);
+                        level.syncWorldEvent(2005, uppos.up(), 0);
+                    }
+                    break;
+                }
+            }
+        }
+    }
 
     static {
         AGE = Properties.AGE_15;

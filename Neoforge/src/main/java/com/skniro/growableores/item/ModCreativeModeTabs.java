@@ -413,6 +413,25 @@ public class ModCreativeModeTabs {
                             pOutput.accept(GrowableTinkersConstructBlocks.TC_Soulsteel_Ingot_Cane.get());
 
                         }
+
+                        if (ModList.get().isLoaded("modern_industrialization") || GrowableOresConfig.All_Item_Mode) {
+                            //Modern Industrialization
+                            pOutput.accept(GrowableModernIndustrializationOresBlocks.MI_antimony_Cane.get());
+                            pOutput.accept(GrowableModernIndustrializationOresBlocks.MI_bauxite_Cane.get());
+                            pOutput.accept(GrowableModernIndustrializationOresBlocks.MI_iridium_Cane.get());
+                            pOutput.accept(GrowableModernIndustrializationOresBlocks.MI_lead_Cane.get());
+                            pOutput.accept(GrowableModernIndustrializationOresBlocks.MI_lignite_coal_Cane.get());
+                            pOutput.accept(GrowableModernIndustrializationOresBlocks.MI_monazite_Cane.get());
+                            pOutput.accept(GrowableModernIndustrializationOresBlocks.MI_nickel_Cane.get());
+                            pOutput.accept(GrowableModernIndustrializationOresBlocks.MI_platinum_Cane.get());
+                            pOutput.accept(GrowableModernIndustrializationOresBlocks.MI_quartz_Cane.get());
+                            pOutput.accept(GrowableModernIndustrializationOresBlocks.MI_salt_Cane.get());
+                            pOutput.accept(GrowableModernIndustrializationOresBlocks.MI_tin_Cane.get());
+                            pOutput.accept(GrowableModernIndustrializationOresBlocks.MI_titanium_Cane.get());
+                            pOutput.accept(GrowableModernIndustrializationOresBlocks.MI_tungsten_Cane.get());
+                            pOutput.accept(GrowableModernIndustrializationOresBlocks.MI_uranium_Cane.get());
+                        }
+
                     })
                     .build());
 

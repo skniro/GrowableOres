@@ -105,6 +105,9 @@ public class GrowableOres {
         if (ModList.get().isLoaded("maple") || GrowableOresConfig.All_Item_Mode) {
             GrowableMapleOresBlocks.registerGrowableBlocks(modEventBus);
         }
+        if (ModList.get().isLoaded("modern_industrialization") || GrowableOresConfig.All_Item_Mode) {
+            GrowableModernIndustrializationOresBlocks.registerModBlocks();
+        }
 
         MapleItems.registerModItems(modEventBus);
         ModCreativeModeTabs.register(modEventBus);

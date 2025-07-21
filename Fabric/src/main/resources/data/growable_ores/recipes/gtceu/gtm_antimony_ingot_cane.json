@@ -3,20 +3,20 @@
         {
             "condition": "fabric:all_mods_loaded",
             "values": [
-                "gtm"
+                "gtceu"
             ]
         }
     ],
     "forge:conditions": [
         {
             "type": "forge:mod_loaded",
-            "modid": "gtm"
+            "modid": "gtceu"
         }
     ],
     "neoforge:conditions": [
         {
             "type": "neoforge:mod_loaded",
-            "modid": "gtm"
+            "modid": "gtceu"
         }
     ],
     "type": "minecraft:crafting_shaped",
@@ -30,7 +30,7 @@
             "item": "minecraft:sugar_cane"
         },
         "G": {
-            "item": "gtm:ntimony_ingot"
+            "item": "gtceu:ntimony_ingot"
         }
     },
     "result": {

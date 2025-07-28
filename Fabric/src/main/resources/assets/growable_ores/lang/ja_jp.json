@@ -193,6 +193,7 @@
   "block.growable_ores.gtm_yttrium_barium_cuprate_ingot_cane": "Yttrium Barium Cuprate Ingot Reed(GregTechCEu Modern)",
   "block.growable_ores.gtm_yttrium_ingot_cane": "Yttrium Ingot Reed(GregTechCEu Modern)",
   "block.growable_ores.gtm_zinc_ingot_cane": "Zinc Ingot Reed(GregTechCEu Modern)",
+  "block.growable_ores.gunpowder_cane": "Gunpowder Reed",
   "block.growable_ores.ic_aluminium_ore_cane": "Aluminiumのキビ（IC2 or IC2C）",
   "block.growable_ores.ic_silver_ore_cane": "Silverのキビ（IC2 or IC2C）",
   "block.growable_ores.ic_tin_ore_cane": "Tinのキビ（IC2 or IC2C）",
@@ -206,6 +207,7 @@
   "block.growable_ores.iron_cane": "鉄のキビ",
   "block.growable_ores.lapis_cane": "ラピスラズリのキビ",
   "block.growable_ores.lead_cane": "鉛のキビ",
+  "block.growable_ores.leather_cane": "Leather Reed",
   "block.growable_ores.ma_animus_dust_cane": "Animus Dust Reed(Mana and Artifice)",
   "block.growable_ores.ma_arcane_ash_cane": "Arcane Ash Reed(Mana and Artifice)",
   "block.growable_ores.ma_bone_ash_cane": "Bone Ash Reed(Mana and Artifice)",
@@ -296,6 +298,7 @@
   "block.growable_ores.tc_blazing_bone_cane": "Blazing Ingot Reed(Tinkers' Construct)",
   "block.growable_ores.tc_cheese_ingot_cane": "Cheese Ingot Reed(Tinkers' Construct)",
   "block.growable_ores.tc_cobalt_ingot_cane": "Cobalt Ingot Reed(Tinkers' Construct)",
+  "block.growable_ores.tc_earth_slime_crystal_cane": "Earth Slime Crystal Reed(Tinkers' Construct)",
   "block.growable_ores.tc_ender_slime_crystal_cane": "Ender Slime Crystal Reed(Tinkers' Construct)",
   "block.growable_ores.tc_hepatizon_ingot_cane": "Hepatizon Ingot Reed(Tinkers' Construct)",
   "block.growable_ores.tc_ichor_slime_crystal_cane": "Ichor Slime Ingot Reed(Tinkers' Construct)",
@@ -325,6 +328,5 @@
   "block.growable_ores.tungsten_cane": "タングステンのキビ",
   "block.growable_ores.uraninite_ore_dense_cane": "Uraninite Ore Denseのキビ",
   "block.growable_ores.wool_cane": "Wool Reed",
-  "block.growable_ores.gunpowder_cane": "Gunpowder Reed",
   "itemGroup.growable_ores.test_group": "Growable Ores"
 }

@@ -106,6 +106,12 @@ public class GrowableOres {
         if (ModList.get().isLoaded("modern_industrialization") || GrowableOresConfig.All_Item_Mode) {
             GrowableModernIndustrializationOresBlocks.registerModBlocks();
         }
+        if (ModList.get().isLoaded("techreborn") || GrowableOresConfig.All_Item_Mode) {
+            GrowableTechRebornOresBlocks.registerGrowableBlocks(modEventBus);
+        }
+        if (ModList.get().isLoaded("indrev") || GrowableOresConfig.All_Item_Mode) {
+            GrowableIndustrialRevolutionOresBlocks.registerGrowableBlocks(modEventBus);
+        }
         MapleItems.registerModItems(modEventBus);
         ModCreativeModeTabs.register(modEventBus);
         // Register ourselves for server and other game events we are interested in

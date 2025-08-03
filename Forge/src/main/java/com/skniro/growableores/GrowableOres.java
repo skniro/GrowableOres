@@ -101,6 +101,18 @@ public class GrowableOres {
         if (ModList.get().isLoaded("tconstruct") || GrowableOresConfig.All_Item_Mode) {
             GrowableTinkersConstructBlocks.registerGrowableBlocks(modEventBus);
         }
+        if (ModList.get().isLoaded("modern_industrialization") || GrowableOresConfig.All_Item_Mode) {
+            GrowableModernIndustrializationOresBlocks.registerGrowableBlocks(modEventBus);
+        }
+        if (ModList.get().isLoaded("techreborn") || GrowableOresConfig.All_Item_Mode) {
+            GrowableTechRebornOresBlocks.registerGrowableBlocks(modEventBus);
+        }
+        if (ModList.get().isLoaded("maple") || GrowableOresConfig.All_Item_Mode) {
+            GrowableMapleOresBlocks.registerGrowableBlocks(modEventBus);
+        }
+        if (ModList.get().isLoaded("indrev") || GrowableOresConfig.All_Item_Mode) {
+            GrowableIndustrialRevolutionOresBlocks.registerGrowableBlocks(modEventBus);
+        }
 
         MapleItems.registerModItems(modEventBus);
         ModCreativeModeTabs.register(modEventBus);

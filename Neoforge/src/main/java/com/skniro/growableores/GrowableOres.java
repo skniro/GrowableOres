@@ -104,7 +104,7 @@ public class GrowableOres {
             GrowableMapleOresBlocks.registerGrowableBlocks(modEventBus);
         }
         if (ModList.get().isLoaded("modern_industrialization") || GrowableOresConfig.All_Item_Mode) {
-            GrowableModernIndustrializationOresBlocks.registerModBlocks();
+            GrowableModernIndustrializationOresBlocks.registerModBlocks(modEventBus);
         }
         if (ModList.get().isLoaded("techreborn") || GrowableOresConfig.All_Item_Mode) {
             GrowableTechRebornOresBlocks.registerGrowableBlocks(modEventBus);

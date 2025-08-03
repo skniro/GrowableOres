@@ -11,6 +11,7 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.PushReaction;
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -54,8 +55,8 @@ public class GrowableModernIndustrializationOresBlocks {
                 new net.minecraft.world.item.Item.Properties()));
     }
 
-    public static void registerModBlocks(){
-        Logger.getLogger("register mod blocks" + GrowableOres.MOD_ID);
+    public static void registerModBlocks(IEventBus eventBus) {
+        BLOCKS.register(eventBus);
     }
 }
 

@@ -2,20 +2,14 @@ package com.skniro.growableores.util;
 
 import com.skniro.growableores.GrowableOres;
 import com.skniro.growableores.block.*;
-import com.skniro.growableores.block.init.GrowableOreCaneBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.MapColor;
-import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
-import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
@@ -41,6 +35,7 @@ public class GrowableOresItemGroups {
             content.add(GrowableVanillaOresBlocks.Blaze_Rod_Cane);
             content.add(GrowableVanillaOresBlocks.Ender_Pearl_Cane);
             content.add(GrowableVanillaOresBlocks.Netherite_Ingot_Cane);
+            content.add(GrowableVanillaOresBlocks.Netherite_Scrap_Cane);
             content.add(GrowableVanillaOresBlocks.Clay_Cane);
             content.add(GrowableVanillaOresBlocks.Glowstone_Cane);
             content.add(GrowableVanillaOresBlocks.Slime_Cane);
@@ -51,6 +46,7 @@ public class GrowableOresItemGroups {
             content.add(GrowableVanillaOresBlocks.Gunpowder_Cane);
             content.add(GrowableVanillaOresBlocks.Feather_Cane);
             content.add(GrowableVanillaOresBlocks.Leather_Cane);
+
         });
     }
     public static void ae_item() {

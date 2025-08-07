@@ -32,6 +32,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(GrowableVanillaOresBlocks.Blaze_Rod_Cane.get());
                         pOutput.accept(GrowableVanillaOresBlocks.Ender_Pearl_Cane.get());
                         pOutput.accept(GrowableVanillaOresBlocks.Netherite_Ingot_Cane.get());
+                        pOutput.accept(GrowableVanillaOresBlocks.Netherite_Scrap_Cane.get());
                         pOutput.accept(GrowableVanillaOresBlocks.Clay_Cane.get());
                         pOutput.accept(GrowableVanillaOresBlocks.Slime_Cane.get());
                         pOutput.accept(GrowableVanillaOresBlocks.Nether_Star_Cane.get());
@@ -411,6 +412,7 @@ public class ModCreativeModeTabs {
                             pOutput.accept(GrowableTinkersConstructBlocks.TC_Slimesteel_Ingot_Cane.get());
                             pOutput.accept(GrowableTinkersConstructBlocks.TC_Soulsteel_Ingot_Cane.get());
                         }
+
                         if (ModList.get().isLoaded("modern_industrialization") || GrowableOresConfig.All_Item_Mode) {
                             //Modern Industrialization
                             pOutput.accept(GrowableModernIndustrializationOresBlocks.MI_antimony_Cane.get());
@@ -444,6 +446,9 @@ public class ModCreativeModeTabs {
                             pOutput.accept(GrowableTechRebornOresBlocks.tungsten_Cane.get());
                             pOutput.accept(GrowableTechRebornOresBlocks.sodalite_Cane.get());
                             pOutput.accept(GrowableTechRebornOresBlocks.bauxite_Cane.get());
+                        }
+                        if (ModList.get().isLoaded("maple") || GrowableOresConfig.All_Item_Mode) {
+                            pOutput.accept(GrowableMapleOresBlocks.Salt_Cane.get());
                         }
                         if (ModList.get().isLoaded("indrev") || GrowableOresConfig.All_Item_Mode) {
                             pOutput.accept(GrowableIndustrialRevolutionOresBlocks.IR_Lead_Cane.get());

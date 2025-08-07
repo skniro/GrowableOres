@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#G#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:sugar_cane",
+        "G": "minecraft:netherite_scrap"
+    },
+    "result": {
+        "id": "growable_ores:netherite_scrap_cane",
+        "count": 1
+    }
+}

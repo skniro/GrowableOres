@@ -447,6 +447,9 @@ public class ModCreativeModeTabs {
                             pOutput.accept(GrowableTechRebornOresBlocks.sodalite_Cane.get());
                             pOutput.accept(GrowableTechRebornOresBlocks.bauxite_Cane.get());
                         }
+                        if (ModList.get().isLoaded("maple") || GrowableOresConfig.All_Item_Mode) {
+                            pOutput.accept(GrowableMapleOresBlocks.Salt_Cane.get());
+                        }
                         if (ModList.get().isLoaded("indrev") || GrowableOresConfig.All_Item_Mode) {
                             pOutput.accept(GrowableIndustrialRevolutionOresBlocks.IR_Lead_Cane.get());
                             pOutput.accept(GrowableIndustrialRevolutionOresBlocks.IR_nikolite_Cane.get());

@@ -32,6 +32,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(GrowableVanillaOresBlocks.Blaze_Rod_Cane.get());
                         pOutput.accept(GrowableVanillaOresBlocks.Ender_Pearl_Cane.get());
                         pOutput.accept(GrowableVanillaOresBlocks.Netherite_Ingot_Cane.get());
+                        pOutput.accept(GrowableVanillaOresBlocks.Netherite_Scrap_Cane.get());
                         pOutput.accept(GrowableVanillaOresBlocks.Clay_Cane.get());
                         pOutput.accept(GrowableVanillaOresBlocks.Slime_Cane.get());
                         pOutput.accept(GrowableVanillaOresBlocks.Nether_Star_Cane.get());

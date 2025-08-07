@@ -35,6 +35,7 @@ public class GrowableOresItemGroups {
             content.add(GrowableVanillaOresBlocks.Blaze_Rod_Cane);
             content.add(GrowableVanillaOresBlocks.Ender_Pearl_Cane);
             content.add(GrowableVanillaOresBlocks.Netherite_Ingot_Cane);
+            content.add(GrowableVanillaOresBlocks.Netherite_Scrap_Cane);
             content.add(GrowableVanillaOresBlocks.Clay_Cane);
             content.add(GrowableVanillaOresBlocks.Glowstone_Cane);
             content.add(GrowableVanillaOresBlocks.Slime_Cane);

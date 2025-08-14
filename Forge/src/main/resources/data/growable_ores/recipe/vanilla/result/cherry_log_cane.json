@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": "growable_ores:cherry_log_cane"
+    },
+    "result": {
+        "id": "minecraft:cherry_log",
+        "count": 1
+    }
+}

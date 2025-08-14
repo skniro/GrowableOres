@@ -38,6 +38,20 @@ public class GrowableEnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(GrowableVanillaOresBlocks.Gunpowder_Cane,"Gunpowder Reed");
         translationBuilder.add(GrowableVanillaOresBlocks.Feather_Cane,"Feather Reed");
         translationBuilder.add(GrowableVanillaOresBlocks.Leather_Cane,"Leather Reed");
+        translationBuilder.add(GrowableVanillaOresBlocks.Oak_Log_Cane, "Oak Log Cane");
+        translationBuilder.add(GrowableVanillaOresBlocks.Spruce_Log_Cane, "Spruce Log Cane");
+        translationBuilder.add(GrowableVanillaOresBlocks.Birch_Log_Cane, "Birch Log Cane");
+        translationBuilder.add(GrowableVanillaOresBlocks.Jungle_Log_Cane, "Jungle Log Cane");
+        translationBuilder.add(GrowableVanillaOresBlocks.Acacia_Log_Cane, "Acacia Log Cane");
+        translationBuilder.add(GrowableVanillaOresBlocks.Dark_Oak_Log_Cane, "Dark Oak Log Cane");
+        translationBuilder.add(GrowableVanillaOresBlocks.Mangrove_Log_Cane, "Mangrove Log Cane");
+        translationBuilder.add(GrowableVanillaOresBlocks.Bamboo_Block_Cane, "Bamboo Block Cane");
+        translationBuilder.add(GrowableVanillaOresBlocks.Cherry_Log_Cane, "Cherry Log Cane");
+        translationBuilder.add(GrowableVanillaOresBlocks.Crimson_Stem_Cane, "Crimson Stem Cane");
+        translationBuilder.add(GrowableVanillaOresBlocks.Warped_Stem_Cane, "Warped Stem Cane");
+        translationBuilder.add(GrowableVanillaOresBlocks.Pale_Oak_Log_Cane, "Pale Oak Log Cane");
+        translationBuilder.add(GrowableVanillaOresBlocks.Amethyst_Shard_Cane, "Amethyst Shard Cane");
+
 
 
         //ae2

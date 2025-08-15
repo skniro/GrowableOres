@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "growable_ores:dark_oak_log_cane"
+        }
+    },
+    "result": {
+        "count": 1,
+        "item": "minecraft:dark_oak_log"
+    }
+}

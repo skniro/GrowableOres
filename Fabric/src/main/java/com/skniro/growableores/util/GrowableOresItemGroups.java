@@ -46,6 +46,20 @@ public class GrowableOresItemGroups {
             content.add(GrowableVanillaOresBlocks.Feather_Cane);
             content.add(GrowableVanillaOresBlocks.Gunpowder_Cane);
             content.add(GrowableVanillaOresBlocks.Leather_Cane);
+            content.add(GrowableVanillaOresBlocks.Oak_Log_Cane);
+            content.add(GrowableVanillaOresBlocks.Spruce_Log_Cane);
+            content.add(GrowableVanillaOresBlocks.Birch_Log_Cane);
+            content.add(GrowableVanillaOresBlocks.Jungle_Log_Cane);
+            content.add(GrowableVanillaOresBlocks.Acacia_Log_Cane);
+            content.add(GrowableVanillaOresBlocks.Dark_Oak_Log_Cane);
+            content.add(GrowableVanillaOresBlocks.Mangrove_Log_Cane);
+            content.add(GrowableVanillaOresBlocks.Bamboo_Block_Cane);
+            content.add(GrowableVanillaOresBlocks.Cherry_Log_Cane);
+            content.add(GrowableVanillaOresBlocks.Crimson_Stem_Cane);
+            content.add(GrowableVanillaOresBlocks.Warped_Stem_Cane);
+            content.add(GrowableVanillaOresBlocks.Pale_Oak_Log_Cane);
+            content.add(GrowableVanillaOresBlocks.Amethyst_Shard_Cane);
+
         });
     }
     public static void ae_item() {

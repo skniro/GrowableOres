@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": "growable_ores:bamboo_block_cane"
+    },
+    "result": {
+        "id": "minecraft:bamboo_block",
+        "count": 1
+    }
+}

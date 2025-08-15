@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#G#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:sugar_cane"
+        },
+        "G": {
+            "item": "minecraft:bamboo_block"
+        }
+    },
+    "result": {
+        "count": 1,
+        "item": "growable_ores:bamboo_block_cane"
+    }
+}

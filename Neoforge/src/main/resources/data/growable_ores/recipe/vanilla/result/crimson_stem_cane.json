@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "growable_ores:crimson_stem_cane"
+        }
+    },
+    "result": {
+        "id": "minecraft:crimson_stem",
+        "count": 1
+    }
+}

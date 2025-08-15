@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#G#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:sugar_cane"
+        },
+        "G": {
+            "item": "minecraft:amethyst_shard"
+        }
+    },
+    "result": {
+        "id": "growable_ores:amethyst_shard_cane",
+        "count": 1
+    }
+}

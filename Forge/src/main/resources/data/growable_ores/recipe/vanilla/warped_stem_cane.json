@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#G#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:sugar_cane"
+        },
+        "G": {
+            "item": "minecraft:warped_stem"
+        }
+    },
+    "result": {
+        "id": "growable_ores:warped_stem_cane",
+        "count": 1
+    }
+}

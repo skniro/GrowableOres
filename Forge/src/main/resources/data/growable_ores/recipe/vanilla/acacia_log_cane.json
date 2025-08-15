@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#G#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:sugar_cane"
+        },
+        "G": {
+            "item": "minecraft:acacia_log"
+        }
+    },
+    "result": {
+        "id": "growable_ores:acacia_log_cane",
+        "count": 1
+    }
+}

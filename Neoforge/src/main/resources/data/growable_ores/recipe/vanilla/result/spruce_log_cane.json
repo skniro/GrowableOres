@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "growable_ores:spruce_log_cane"
+        }
+    },
+    "result": {
+        "id": "minecraft:spruce_log",
+        "count": 1
+    }
+}

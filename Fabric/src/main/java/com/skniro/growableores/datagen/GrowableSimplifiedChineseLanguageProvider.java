@@ -38,6 +38,19 @@ public class GrowableSimplifiedChineseLanguageProvider extends FabricLanguagePro
         translationBuilder.add(GrowableVanillaOresBlocks.Gunpowder_Cane,"火药杆");
         translationBuilder.add(GrowableVanillaOresBlocks.Feather_Cane,"羽毛杆");
         translationBuilder.add(GrowableVanillaOresBlocks.Leather_Cane,"皮革杆");
+        translationBuilder.add(GrowableVanillaOresBlocks.Oak_Log_Cane, "橡木原木杆");
+        translationBuilder.add(GrowableVanillaOresBlocks.Spruce_Log_Cane, "云杉原木杆");
+        translationBuilder.add(GrowableVanillaOresBlocks.Birch_Log_Cane, "白桦原木杆");
+        translationBuilder.add(GrowableVanillaOresBlocks.Jungle_Log_Cane, "丛林原木杆");
+        translationBuilder.add(GrowableVanillaOresBlocks.Acacia_Log_Cane, "金合欢原木杆");
+        translationBuilder.add(GrowableVanillaOresBlocks.Dark_Oak_Log_Cane, "深色橡木原木杆");
+        translationBuilder.add(GrowableVanillaOresBlocks.Mangrove_Log_Cane, "红树原木杆");
+        translationBuilder.add(GrowableVanillaOresBlocks.Bamboo_Block_Cane, "竹块杆");
+        translationBuilder.add(GrowableVanillaOresBlocks.Cherry_Log_Cane, "樱花原木杆");
+        translationBuilder.add(GrowableVanillaOresBlocks.Crimson_Stem_Cane, "绯红菌柄杆");
+        translationBuilder.add(GrowableVanillaOresBlocks.Warped_Stem_Cane, "诡异菌柄杆");
+        translationBuilder.add(GrowableVanillaOresBlocks.Pale_Oak_Log_Cane, "苍白橡木原木杆");
+        translationBuilder.add(GrowableVanillaOresBlocks.Amethyst_Shard_Cane, "紫水晶杆");
 
         // Copilot did translation. I am so sorry if its wrong.
         // Don't worry about translation. I will fix it. Thanks you make this mod better.

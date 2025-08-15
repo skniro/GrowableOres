@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#G#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:sugar_cane",
+        "G": "minecraft:birch_log"
+    },
+    "result": {
+        "id": "growable_ores:birch_log_cane",
+        "count": 1
+    }
+}

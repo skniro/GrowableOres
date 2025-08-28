@@ -9,7 +9,7 @@ displayName="${mod_name}"
 authors="${mod_authors}"
 description='''${mod_description}'''
 credits = "Rafan,gilnet,All translators"
-
+logoFile="icon.png"
 
 [[dependencies.growable_ores]]
 modId="forge"

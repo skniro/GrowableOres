@@ -17,7 +17,7 @@
     "sources": "https://github.com/skniro/GrowableOres",
     "issues": "https://github.com/skniro/GrowableOres/issues"},
   "license": "MIT",
-  "icon": "assets/growable_ores/icon.png",
+  "icon": "icon.png",
   "environment": "*",
   "entrypoints": {
     "fabric-datagen": [

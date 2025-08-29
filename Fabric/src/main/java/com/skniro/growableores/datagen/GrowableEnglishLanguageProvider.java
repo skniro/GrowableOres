@@ -51,6 +51,8 @@ public class GrowableEnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(GrowableVanillaOresBlocks.Warped_Stem_Cane, "Warped Stem Cane");
         translationBuilder.add(GrowableVanillaOresBlocks.Pale_Oak_Log_Cane, "Pale Oak Log Cane");
         translationBuilder.add(GrowableVanillaOresBlocks.Amethyst_Shard_Cane, "Amethyst Shard Cane");
+        translationBuilder.add(GrowableVanillaOresBlocks.Prismarine_Crystals_Cane, "Prismarine Crystals Cane");
+        translationBuilder.add(GrowableVanillaOresBlocks.Prismarine_Shard_Cane, "Prismarine Shard Cane");
 
 
 
@@ -433,5 +435,17 @@ public class GrowableEnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(GrowableTinkersConstructBlocks.TC_Slimesteel_Ingot_Cane, "Slimesteel Ingot Reed(Tinkers' Construct)");
         translationBuilder.add(GrowableTinkersConstructBlocks.TC_Soulsteel_Ingot_Cane, "Soulsteel Ingot Reed(Tinkers' Construct)");
         translationBuilder.add(GrowableTinkersConstructBlocks.TC_Earth_Slime_Crystal_Cane, "Earth Slime Crystal Reed(Tinkers' Construct)");
+
+        //Oritech
+        translationBuilder.add(GrowableOritechBlocks.OT_Adamant_Ingot_Cane, "Adamant Ingot Cane(Oritech)");
+        translationBuilder.add(GrowableOritechBlocks.OT_Biosteel_Ingot_Cane, "Biosteel Ingot Cane(Oritech)");
+        translationBuilder.add(GrowableOritechBlocks.OT_Duratium_Ingot_Cane, "Duratium Ingot Cane(Oritech)");
+        translationBuilder.add(GrowableOritechBlocks.OT_Electrum_Ingot_Cane, "Electrum Ingot Cane(Oritech)");
+        translationBuilder.add(GrowableOritechBlocks.OT_Energite_Ingot_Cane, "Energite Ingot Cane(Oritech)");
+        translationBuilder.add(GrowableOritechBlocks.OT_Nickel_Ingot_Cane, "Nickel Ingot Cane(Oritech)");
+        translationBuilder.add(GrowableOritechBlocks.OT_Platinum_Ingot_Cane, "Platinum Ingot Cane(Oritech)");
+        translationBuilder.add(GrowableOritechBlocks.OT_Prometheum_Ingot_Cane, "Prometheum Ingot Cane(Oritech)");
+        translationBuilder.add(GrowableOritechBlocks.OT_Steel_Ingot_Cane, "Steel Ingot Cane(Oritech)");
+        translationBuilder.add(GrowableOritechBlocks.OT_Uranium_Crystal_Cane, "Uranium Crystal Cane(Oritech)");
     }
 }

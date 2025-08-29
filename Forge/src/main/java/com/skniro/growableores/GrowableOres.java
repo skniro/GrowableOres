@@ -112,6 +112,9 @@ public class GrowableOres {
         if (ModList.get().isLoaded("indrev") || GrowableOresConfig.All_Item_Mode) {
             GrowableIndustrialRevolutionOresBlocks.registerGrowableBlocks(modEventBus);
         }
+        if (ModList.get().isLoaded("oritech") || GrowableOresConfig.All_Item_Mode) {
+            GrowableOritechBlocks.registerMapleBlocks(modEventBus);
+        }
         MapleItems.registerModItems(modEventBus);
         ModCreativeModeTabs.register(modEventBus);
     }

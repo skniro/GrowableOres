@@ -121,6 +121,10 @@ public class ModContent {
             GrowableOresItemGroups.tc_item();
             GrowableTinkersConstructBlocks.registerModBlocks();
         }
+        if (FabricLoader.getInstance().isModLoaded("oritech") || GrowableOresConfig.All_Item_Mode) {
+            GrowableOresItemGroups.ot_item();
+            GrowableOritechBlocks.registerModBlocks();
+        }
     }
 
     public static void CreativeTab() {

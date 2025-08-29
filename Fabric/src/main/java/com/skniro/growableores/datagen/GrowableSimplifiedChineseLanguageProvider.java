@@ -52,6 +52,8 @@ public class GrowableSimplifiedChineseLanguageProvider extends FabricLanguagePro
         translationBuilder.add(GrowableVanillaOresBlocks.Warped_Stem_Cane, "诡异菌柄杆");
         translationBuilder.add(GrowableVanillaOresBlocks.Pale_Oak_Log_Cane, "苍白橡木原木杆");
         translationBuilder.add(GrowableVanillaOresBlocks.Amethyst_Shard_Cane, "紫水晶杆");
+        translationBuilder.add(GrowableVanillaOresBlocks.Prismarine_Crystals_Cane, "海晶砂粒杆");
+        translationBuilder.add(GrowableVanillaOresBlocks.Prismarine_Shard_Cane, "海晶碎片杆");
 
         // Copilot did translation. I am so sorry if its wrong.
         // Don't worry about translation. I will fix it. Thanks you make this mod better.
@@ -435,5 +437,17 @@ public class GrowableSimplifiedChineseLanguageProvider extends FabricLanguagePro
         translationBuilder.add(GrowableTinkersConstructBlocks.TC_Slimesteel_Ingot_Cane, "黏钢矿石杆(Tinkers' Construct)");
         translationBuilder.add(GrowableTinkersConstructBlocks.TC_Soulsteel_Ingot_Cane, "魂钢矿石杆(Tinkers' Construct)");
         translationBuilder.add(GrowableTinkersConstructBlocks.TC_Earth_Slime_Crystal_Cane, "大地黏液水晶(Tinkers' Construct)");
+
+        //Oritech
+        translationBuilder.add(GrowableOritechBlocks.OT_Adamant_Ingot_Cane, "精镍锭矿石杆(Oritech)");
+        translationBuilder.add(GrowableOritechBlocks.OT_Biosteel_Ingot_Cane, "有机钢锭矿石杆(Oritech)");
+        translationBuilder.add(GrowableOritechBlocks.OT_Duratium_Ingot_Cane, "昶铂锭矿石杆(Oritech)");
+        translationBuilder.add(GrowableOritechBlocks.OT_Electrum_Ingot_Cane, "琥珀金锭矿石杆(Oritech)");
+        translationBuilder.add(GrowableOritechBlocks.OT_Energite_Ingot_Cane, "辐镍晶锭矿石杆(Oritech)");
+        translationBuilder.add(GrowableOritechBlocks.OT_Nickel_Ingot_Cane, "镍锭矿石杆(Oritech)");
+        translationBuilder.add(GrowableOritechBlocks.OT_Platinum_Ingot_Cane, "铂锭矿石杆(Oritech)");
+        translationBuilder.add(GrowableOritechBlocks.OT_Prometheum_Ingot_Cane, "钷锭矿石杆(Oritech)");
+        translationBuilder.add(GrowableOritechBlocks.OT_Steel_Ingot_Cane, "钢锭矿石杆(Oritech)");
+        translationBuilder.add(GrowableOritechBlocks.OT_Uranium_Crystal_Cane, "铀晶体矿石杆(Oritech)");
     }
 }

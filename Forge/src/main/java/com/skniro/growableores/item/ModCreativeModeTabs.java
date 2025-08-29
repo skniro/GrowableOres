@@ -55,6 +55,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(GrowableVanillaOresBlocks.Crimson_Stem_Cane.get());
                         pOutput.accept(GrowableVanillaOresBlocks.Warped_Stem_Cane.get());
                         pOutput.accept(GrowableVanillaOresBlocks.Amethyst_Shard_Cane.get());
+                        pOutput.accept(GrowableVanillaOresBlocks.Prismarine_Crystals_Cane.get());
+                        pOutput.accept(GrowableVanillaOresBlocks.Prismarine_Shard_Cane.get());
 
                         if(ModList.get().isLoaded("ad_astra") || GrowableOresConfig.All_Item_Mode) {
                             //Ad Astra!
@@ -162,9 +164,9 @@ public class ModCreativeModeTabs {
                         }
 
                         if (ModList.get().isLoaded("draconicevolution") || GrowableOresConfig.All_Item_Mode) {
-                                //Draconic Evolution
-                                pOutput.accept(GrowableDraconicEvolutionOresBlocks.DE_Awakened_Draconium_Ingot_Cane.get());
-                                pOutput.accept(GrowableDraconicEvolutionOresBlocks.DE_Draconium_Ingot_Cane.get());
+                            //Draconic Evolution
+                            pOutput.accept(GrowableDraconicEvolutionOresBlocks.DE_Awakened_Draconium_Ingot_Cane.get());
+                            pOutput.accept(GrowableDraconicEvolutionOresBlocks.DE_Draconium_Ingot_Cane.get());
                         }
 
                         if (ModList.get().isLoaded("extremereactors") || GrowableOresConfig.All_Item_Mode) {
@@ -423,6 +425,7 @@ public class ModCreativeModeTabs {
                             pOutput.accept(GrowableTinkersConstructBlocks.TC_Sky_Slime_Crystal_Cane.get());
                             pOutput.accept(GrowableTinkersConstructBlocks.TC_Slimesteel_Ingot_Cane.get());
                             pOutput.accept(GrowableTinkersConstructBlocks.TC_Soulsteel_Ingot_Cane.get());
+
                         }
 
                         if (ModList.get().isLoaded("modern_industrialization") || GrowableOresConfig.All_Item_Mode) {
@@ -469,6 +472,20 @@ public class ModCreativeModeTabs {
                             pOutput.accept(GrowableIndustrialRevolutionOresBlocks.IR_tin_ore_Cane.get());
                             pOutput.accept(GrowableIndustrialRevolutionOresBlocks.IR_tungsten_Cane.get());
 
+                        }
+
+                        if (ModList.get().isLoaded("oritech") || GrowableOresConfig.All_Item_Mode) {
+                            //Oritech
+                            pOutput.accept(GrowableOritechBlocks.OT_Adamant_Ingot_Cane.get());
+                            pOutput.accept(GrowableOritechBlocks.OT_Biosteel_Ingot_Cane.get());
+                            pOutput.accept(GrowableOritechBlocks.OT_Duratium_Ingot_Cane.get());
+                            pOutput.accept(GrowableOritechBlocks.OT_Electrum_Ingot_Cane.get());
+                            pOutput.accept(GrowableOritechBlocks.OT_Energite_Ingot_Cane.get());
+                            pOutput.accept(GrowableOritechBlocks.OT_Nickel_Ingot_Cane.get());
+                            pOutput.accept(GrowableOritechBlocks.OT_Platinum_Ingot_Cane.get());
+                            pOutput.accept(GrowableOritechBlocks.OT_Prometheum_Ingot_Cane.get());
+                            pOutput.accept(GrowableOritechBlocks.OT_Steel_Ingot_Cane.get());
+                            pOutput.accept(GrowableOritechBlocks.OT_Uranium_Crystal_Cane.get());
                         }
                     })
                     .build());

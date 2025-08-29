@@ -58,7 +58,8 @@ public class GrowableOresItemGroups {
             content.add(GrowableVanillaOresBlocks.Crimson_Stem_Cane);
             content.add(GrowableVanillaOresBlocks.Warped_Stem_Cane);
             content.add(GrowableVanillaOresBlocks.Amethyst_Shard_Cane);
-
+            content.add(GrowableVanillaOresBlocks.Prismarine_Crystals_Cane);
+            content.add(GrowableVanillaOresBlocks.Prismarine_Shard_Cane);
         });
     }
     public static void ae_item() {
@@ -518,4 +519,22 @@ public class GrowableOresItemGroups {
             content.add(GrowableTinkersConstructBlocks.TC_Soulsteel_Ingot_Cane);
         });
     }
+
+    public static void ot_item() {
+        ItemGroupEvents.modifyEntriesEvent(Growable_Ores_Group).register(content -> {
+            //Oritech
+            content.add(GrowableOritechBlocks.OT_Adamant_Ingot_Cane);
+            content.add(GrowableOritechBlocks.OT_Biosteel_Ingot_Cane);
+            content.add(GrowableOritechBlocks.OT_Duratium_Ingot_Cane);
+            content.add(GrowableOritechBlocks.OT_Electrum_Ingot_Cane);
+            content.add(GrowableOritechBlocks.OT_Energite_Ingot_Cane);
+            content.add(GrowableOritechBlocks.OT_Nickel_Ingot_Cane);
+            content.add(GrowableOritechBlocks.OT_Platinum_Ingot_Cane);
+            content.add(GrowableOritechBlocks.OT_Prometheum_Ingot_Cane);
+            content.add(GrowableOritechBlocks.OT_Steel_Ingot_Cane);
+            content.add(GrowableOritechBlocks.OT_Uranium_Crystal_Cane);
+
+        });
+    }
+
 }

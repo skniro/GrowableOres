@@ -7,6 +7,7 @@ import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.MapColor;
 import net.minecraft.block.Material;
+import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -53,6 +54,8 @@ public class GrowableVanillaOresBlocks {
     public static final Block Crimson_Stem_Cane = registerBlock("crimson_stem_cane", new GrowableOreCaneBlock(AbstractBlock.Settings.of(Material.PLANT).mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS)),GrowableOres.Growable_Ores_Group);
     public static final Block Warped_Stem_Cane = registerBlock("warped_stem_cane", new GrowableOreCaneBlock(AbstractBlock.Settings.of(Material.PLANT).mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS)),GrowableOres.Growable_Ores_Group);
     public static final Block Amethyst_Shard_Cane = registerBlock("amethyst_shard_cane", new GrowableOreCaneBlock(AbstractBlock.Settings.of(Material.PLANT).mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS)),GrowableOres.Growable_Ores_Group);
+    public static final Block Prismarine_Crystals_Cane = registerBlock("prismarine_crystals_cane", new GrowableOreCaneBlock(AbstractBlock.Settings.of(Material.PLANT).mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS)),GrowableOres.Growable_Ores_Group);
+    public static final Block Prismarine_Shard_Cane = registerBlock("prismarine_shard_cane", new GrowableOreCaneBlock(AbstractBlock.Settings.of(Material.PLANT).mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS)),GrowableOres.Growable_Ores_Group);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {

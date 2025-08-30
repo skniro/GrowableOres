@@ -51,6 +51,8 @@ public class GrowableEnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(GrowableVanillaOresBlocks.Warped_Stem_Cane, "Warped Stem Cane");
         translationBuilder.add(GrowableVanillaOresBlocks.Pale_Oak_Log_Cane, "Pale Oak Log Cane");
         translationBuilder.add(GrowableVanillaOresBlocks.Amethyst_Shard_Cane, "Amethyst Shard Cane");
+        translationBuilder.add(GrowableVanillaOresBlocks.Prismarine_Crystals_Cane, "Prismarine Crystals Cane");
+        translationBuilder.add(GrowableVanillaOresBlocks.Prismarine_Shard_Cane, "Prismarine Shard Cane");
 
         //ae2
         translationBuilder.add(GrowableAEOresBlocks.certus_quartz_crystal_Cane,"Certus Quartz Crystal Reed");

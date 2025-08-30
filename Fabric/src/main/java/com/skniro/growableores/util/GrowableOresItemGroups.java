@@ -59,6 +59,8 @@ public class GrowableOresItemGroups {
             content.add(GrowableVanillaOresBlocks.Warped_Stem_Cane);
             content.add(GrowableVanillaOresBlocks.Pale_Oak_Log_Cane);
             content.add(GrowableVanillaOresBlocks.Amethyst_Shard_Cane);
+            content.add(GrowableVanillaOresBlocks.Prismarine_Crystals_Cane);
+            content.add(GrowableVanillaOresBlocks.Prismarine_Shard_Cane);
 
         });
     }

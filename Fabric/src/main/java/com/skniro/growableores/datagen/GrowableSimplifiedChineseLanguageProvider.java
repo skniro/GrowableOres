@@ -51,6 +51,8 @@ public class GrowableSimplifiedChineseLanguageProvider extends FabricLanguagePro
         translationBuilder.add(GrowableVanillaOresBlocks.Warped_Stem_Cane, "诡异菌柄杆");
         translationBuilder.add(GrowableVanillaOresBlocks.Pale_Oak_Log_Cane, "苍白橡木原木杆");
         translationBuilder.add(GrowableVanillaOresBlocks.Amethyst_Shard_Cane, "紫水晶杆");
+        translationBuilder.add(GrowableVanillaOresBlocks.Prismarine_Crystals_Cane, "海晶砂粒杆");
+        translationBuilder.add(GrowableVanillaOresBlocks.Prismarine_Shard_Cane, "海晶碎片杆");
 
         // Copilot did translation. I am so sorry if its wrong.
         // Don't worry about translation. I will fix it. Thanks you make this mod better.

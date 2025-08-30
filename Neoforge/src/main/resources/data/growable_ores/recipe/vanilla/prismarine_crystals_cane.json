@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#G#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:sugar_cane",
+        "G": "minecraft:prismarine_crystals"
+    },
+    "result": {
+        "id": "growable_ores:prismarine_crystals_cane",
+        "count": 1
+    }
+}

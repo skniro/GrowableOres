@@ -62,6 +62,8 @@ public class GrowableVanillaOresBlocks {
     public static final RegistryObject<Block> Warped_Stem_Cane = registerBlock("warped_stem_cane", GrowableOreCaneBlock::new , (BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_GREEN).noCollission().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.DESTROY)));
     public static final RegistryObject<Block> Pale_Oak_Log_Cane = registerBlock("pale_oak_log_cane", GrowableOreCaneBlock::new , (BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_GREEN).noCollission().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.DESTROY)));
     public static final RegistryObject<Block> Amethyst_Shard_Cane = registerBlock("amethyst_shard_cane", GrowableOreCaneBlock::new , (BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_GREEN).noCollission().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.DESTROY)));
+    public static final RegistryObject<Block> Prismarine_Crystals_Cane = registerBlock("prismarine_crystals_cane", GrowableOreCaneBlock::new , (BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_GREEN).noCollission().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.DESTROY)));
+    public static final RegistryObject<Block> Prismarine_Shard_Cane = registerBlock("prismarine_shard_cane", GrowableOreCaneBlock::new , (BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_GREEN).noCollission().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.DESTROY)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlockWithoutItem(String name, Supplier<T> block) {

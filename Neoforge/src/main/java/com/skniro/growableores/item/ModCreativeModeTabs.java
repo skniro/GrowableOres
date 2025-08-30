@@ -57,6 +57,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(GrowableVanillaOresBlocks.Warped_Stem_Cane.get());
                         pOutput.accept(GrowableVanillaOresBlocks.Pale_Oak_Log_Cane.get());
                         pOutput.accept(GrowableVanillaOresBlocks.Amethyst_Shard_Cane.get());
+                        pOutput.accept(GrowableVanillaOresBlocks.Prismarine_Crystals_Cane.get());
+                        pOutput.accept(GrowableVanillaOresBlocks.Prismarine_Shard_Cane.get());
 
                         if(ModList.get().isLoaded("ad_astra") || GrowableOresConfig.All_Item_Mode) {
                             //Ad Astra!

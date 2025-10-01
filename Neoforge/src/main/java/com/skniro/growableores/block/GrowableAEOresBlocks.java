@@ -29,8 +29,8 @@ public class GrowableAEOresBlocks {
 
 
     //Ae2
-    public static final Supplier<Block> certus_quartz_crystal_Cane =registerBlock("certus_quartz_crystal_cane", GrowableOreCaneBlock::new,(BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_GREEN).noCollission().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.DESTROY)), ModCreativeModeTabs.Growable_Ores_Group);
-    public static final Supplier<Block> fluix_crystal_Cane =registerBlock("fluix_crystal_cane", GrowableOreCaneBlock::new,(BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_GREEN).noCollission().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.DESTROY)), ModCreativeModeTabs.Growable_Ores_Group);
+    public static final Supplier<Block> certus_quartz_crystal_Cane =registerBlock("certus_quartz_crystal_cane", GrowableOreCaneBlock::new,(BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_GREEN).noCollision().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.DESTROY)), ModCreativeModeTabs.Growable_Ores_Group);
+    public static final Supplier<Block> fluix_crystal_Cane =registerBlock("fluix_crystal_cane", GrowableOreCaneBlock::new,(BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_GREEN).noCollision().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.DESTROY)), ModCreativeModeTabs.Growable_Ores_Group);
 
 
     private static <B extends Block> DeferredBlock<B> registerBlockWithoutItem(String name, Function<BlockBehaviour.Properties, ? extends B> block, BlockBehaviour.Properties properties) {

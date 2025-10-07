@@ -1,5 +1,5 @@
 {
-  "block.growable_ores.acacia_log_cane": "Acacia Log Cane",
+  "block.growable_ores.acacia_log_cane": "アカシアの原木のキビ",
   "block.growable_ores.ad_mars_ore_ostrum_cane": "Ostrumのキビ（Ad Astra!）",
   "block.growable_ores.ad_moon_ice_shard_ore_cane": "Ice Shardのキビ（Ad Astra!）",
   "block.growable_ores.ad_moon_ore_cheese_cane": "Cheeseのキビ（Ad Astra!）",
@@ -200,7 +200,7 @@
   "block.growable_ores.gtm_yttrium_barium_cuprate_ingot_cane": "Yttrium Barium Cuprate Ingot Reed(GregTechCEu Modern)",
   "block.growable_ores.gtm_yttrium_ingot_cane": "Yttrium Ingot Reed(GregTechCEu Modern)",
   "block.growable_ores.gtm_zinc_ingot_cane": "Zinc Ingot Reed(GregTechCEu Modern)",
-  "block.growable_ores.gunpowder_cane": "Gunpowder Reed",
+  "block.growable_ores.gunpowder_cane": "火薬のキビ",
   "block.growable_ores.ic_aluminium_ore_cane": "Aluminiumのキビ（IC2 or IC2C）",
   "block.growable_ores.ic_silver_ore_cane": "Silverのキビ（IC2 or IC2C）",
   "block.growable_ores.ic_tin_ore_cane": "Tinのキビ（IC2 or IC2C）",
@@ -353,6 +353,6 @@
   "block.growable_ores.tungsten_cane": "タングステンのキビ",
   "block.growable_ores.uraninite_ore_dense_cane": "Uraninite Ore Denseのキビ",
   "block.growable_ores.warped_stem_cane": "Warped Stem Cane",
-  "block.growable_ores.wool_cane": "Wool Reed",
+  "block.growable_ores.wool_cane": "羊毛のキビ",
   "itemGroup.growable_ores.test_group": "Growable Ores"
 }

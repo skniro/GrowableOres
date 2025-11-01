@@ -60,6 +60,8 @@ public class GrowableOresItemGroups {
             content.add(GrowableVanillaOresBlocks.Amethyst_Shard_Cane);
             content.add(GrowableVanillaOresBlocks.Prismarine_Crystals_Cane);
             content.add(GrowableVanillaOresBlocks.Prismarine_Shard_Cane);
+            content.add(GrowableVanillaOresBlocks.Sand_Cane);
+            content.add(GrowableVanillaOresBlocks.String_Cane);
         });
     }
     public static void ae_item() {
@@ -537,4 +539,26 @@ public class GrowableOresItemGroups {
         });
     }
 
+    public static void ed_item() {
+        ItemGroupEvents.modifyEntriesEvent(Growable_Ores_Group).register(content -> {
+            //Electro Dynamics
+            content.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Aluminum_Cane);
+            content.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Bronze_Cane);
+            content.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Chromium_Cane);
+            content.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Hsla_Steel_Cane);
+            content.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Lead_Cane);
+            content.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Lithium_Cane);
+            content.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Molybdenum_Cane);
+            content.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Silver_Cane);
+            content.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Stainless_Steel_Cane);
+            content.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Steel_Cane);
+            content.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Superconductive_Cane);
+            content.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Tin_Cane);
+            content.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Titanium_Cane);
+            content.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Titanium_Carbide_Cane);
+            content.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Vanadium_Cane);
+            content.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Vanadium_Steel_Cane);
+
+        });
+    }
 }

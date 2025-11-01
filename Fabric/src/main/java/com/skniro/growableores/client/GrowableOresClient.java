@@ -29,7 +29,7 @@ public class GrowableOresClient implements ClientModInitializer {
                 BlockRenderLayerMap.INSTANCE.putBlock(block, RenderLayer.getCutout());
             }
         });
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableVanillaOresBlocks.Coal_Cane, RenderLayer.getCutout());
+/*        BlockRenderLayerMap.INSTANCE.putBlock(GrowableVanillaOresBlocks.Coal_Cane, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableVanillaOresBlocks.Iron_Cane, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableVanillaOresBlocks.Diamond_Cane, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableVanillaOresBlocks.Copper_Cane, RenderLayer.getCutout());
@@ -167,7 +167,7 @@ public class GrowableOresClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableEnergizedPowerOresBlocks.EP_Energized_Gold_Cane, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableEnergizedPowerOresBlocks.EP_Redstone_Alloy_Cane, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(GrowableEnergizedPowerOresBlocks.EP_Steel_Cane, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(GrowableEnergizedPowerOresBlocks.EP_Tin_Cane, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(GrowableEnergizedPowerOresBlocks.EP_Tin_Cane, RenderLayer.getCutout());*/
 
 
     }

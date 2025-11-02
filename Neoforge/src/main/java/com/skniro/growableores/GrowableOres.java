@@ -12,7 +12,6 @@ import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.ModList;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.common.Mod;
-import net.neoforged.fml.config.ModConfig;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
@@ -116,6 +115,9 @@ public class GrowableOres {
         }
         if (ModList.get().isLoaded("oritech") || GrowableOresConfig.All_Item_Mode) {
             GrowableOritechBlocks.registerGrowableBlocks(modEventBus);
+        }
+        if (ModList.get().isLoaded("electrodynamics") || GrowableOresConfig.All_Item_Mode) {
+            GrowableElectroDynamicsOresBlocks.registerModBlocks(modEventBus);
         }
         MapleItems.registerModItems(modEventBus);
         ModCreativeModeTabs.register(modEventBus);

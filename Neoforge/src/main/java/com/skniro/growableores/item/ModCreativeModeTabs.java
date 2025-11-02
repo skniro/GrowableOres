@@ -59,6 +59,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(GrowableVanillaOresBlocks.Amethyst_Shard_Cane.get());
                         pOutput.accept(GrowableVanillaOresBlocks.Prismarine_Crystals_Cane.get());
                         pOutput.accept(GrowableVanillaOresBlocks.Prismarine_Shard_Cane.get());
+                        pOutput.accept(GrowableVanillaOresBlocks.Sand_Cane.get());
+                        pOutput.accept(GrowableVanillaOresBlocks.String_Cane.get());
 
                         if(ModList.get().isLoaded("ad_astra") || GrowableOresConfig.All_Item_Mode) {
                             //Ad Astra!
@@ -488,6 +490,25 @@ public class ModCreativeModeTabs {
                             pOutput.accept(GrowableOritechBlocks.OT_Prometheum_Ingot_Cane.get());
                             pOutput.accept(GrowableOritechBlocks.OT_Steel_Ingot_Cane.get());
                             pOutput.accept(GrowableOritechBlocks.OT_Uranium_Crystal_Cane.get());
+                        }
+
+                        if (ModList.get().isLoaded("electrodynamics") || GrowableOresConfig.All_Item_Mode) {
+                            pOutput.accept(GrowableElectroDynamicsOresBlocks.ED_Ingot_Aluminum_Cane.get());
+                            pOutput.accept(GrowableElectroDynamicsOresBlocks.ED_Ingot_Bronze_Cane.get());
+                            pOutput.accept(GrowableElectroDynamicsOresBlocks.ED_Ingot_Chromium_Cane.get());
+                            pOutput.accept(GrowableElectroDynamicsOresBlocks.ED_Ingot_Hsla_Steel_Cane.get());
+                            pOutput.accept(GrowableElectroDynamicsOresBlocks.ED_Ingot_Lead_Cane.get());
+                            pOutput.accept(GrowableElectroDynamicsOresBlocks.ED_Ingot_Lithium_Cane.get());
+                            pOutput.accept(GrowableElectroDynamicsOresBlocks.ED_Ingot_Molybdenum_Cane.get());
+                            pOutput.accept(GrowableElectroDynamicsOresBlocks.ED_Ingot_Silver_Cane.get());
+                            pOutput.accept(GrowableElectroDynamicsOresBlocks.ED_Ingot_Stainless_Steel_Cane.get());
+                            pOutput.accept(GrowableElectroDynamicsOresBlocks.ED_Ingot_Steel_Cane.get());
+                            pOutput.accept(GrowableElectroDynamicsOresBlocks.ED_Ingot_Superconductive_Cane.get());
+                            pOutput.accept(GrowableElectroDynamicsOresBlocks.ED_Ingot_Tin_Cane.get());
+                            pOutput.accept(GrowableElectroDynamicsOresBlocks.ED_Ingot_Titanium_Cane.get());
+                            pOutput.accept(GrowableElectroDynamicsOresBlocks.ED_Ingot_Titanium_Carbide_Cane.get());
+                            pOutput.accept(GrowableElectroDynamicsOresBlocks.ED_Ingot_Vanadium_Cane.get());
+                            pOutput.accept(GrowableElectroDynamicsOresBlocks.ED_Ingot_Vanadium_Steel_Cane.get());
                         }
                     })
                     .build());

@@ -53,7 +53,8 @@ public class GrowableEnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(GrowableVanillaOresBlocks.Amethyst_Shard_Cane, "Amethyst Shard Cane");
         translationBuilder.add(GrowableVanillaOresBlocks.Prismarine_Crystals_Cane, "Prismarine Crystals Cane");
         translationBuilder.add(GrowableVanillaOresBlocks.Prismarine_Shard_Cane, "Prismarine Shard Cane");
-
+        translationBuilder.add(GrowableVanillaOresBlocks.Sand_Cane, "Sand Cane");
+        translationBuilder.add(GrowableVanillaOresBlocks.String_Cane, "String Cane");
 
 
         //ae2
@@ -447,5 +448,23 @@ public class GrowableEnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(GrowableOritechBlocks.OT_Prometheum_Ingot_Cane, "Prometheum Ingot Cane(Oritech)");
         translationBuilder.add(GrowableOritechBlocks.OT_Steel_Ingot_Cane, "Steel Ingot Cane(Oritech)");
         translationBuilder.add(GrowableOritechBlocks.OT_Uranium_Crystal_Cane, "Uranium Crystal Cane(Oritech)");
+
+        //Electro Dynamics
+        translationBuilder.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Aluminum_Cane, "Aluminum Ingot Cane (ElectroDynamics)");
+        translationBuilder.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Bronze_Cane, "Bronze Ingot Cane (ElectroDynamics)");
+        translationBuilder.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Chromium_Cane, "Chromium Ingot Cane (ElectroDynamics)");
+        translationBuilder.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Hsla_Steel_Cane, "HSLA Steel Ingot Cane (ElectroDynamics)");
+        translationBuilder.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Lead_Cane, "Lead Ingot Cane (ElectroDynamics)");
+        translationBuilder.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Lithium_Cane, "Lithium Ingot Cane (ElectroDynamics)");
+        translationBuilder.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Molybdenum_Cane, "Molybdenum Ingot Cane (ElectroDynamics)");
+        translationBuilder.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Silver_Cane, "Silver Ingot Cane (ElectroDynamics)");
+        translationBuilder.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Stainless_Steel_Cane, "Stainless Steel Ingot Cane (ElectroDynamics)");
+        translationBuilder.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Steel_Cane, "Steel Ingot Cane (ElectroDynamics)");
+        translationBuilder.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Superconductive_Cane, "Superconductive Ingot Cane (ElectroDynamics)");
+        translationBuilder.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Tin_Cane, "Tin Ingot Cane (ElectroDynamics)");
+        translationBuilder.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Titanium_Cane, "Titanium Ingot Cane (ElectroDynamics)");
+        translationBuilder.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Titanium_Carbide_Cane, "Titanium Carbide Ingot Cane (ElectroDynamics)");
+        translationBuilder.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Vanadium_Cane, "Vanadium Ingot Cane (ElectroDynamics)");
+        translationBuilder.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Vanadium_Steel_Cane, "Vanadium Steel Ingot Cane (ElectroDynamics)");
     }
 }

@@ -7,7 +7,6 @@ import com.skniro.growableores.conifg.GrowableOresConfig;
 import com.skniro.growableores.item.MapleItems;
 import com.skniro.growableores.item.ModCreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.listener.SubscribeEvent;
 import net.minecraftforge.fml.ModList;
@@ -114,6 +113,9 @@ public class GrowableOres {
         }
         if (ModList.get().isLoaded("oritech") || GrowableOresConfig.All_Item_Mode) {
             GrowableOritechBlocks.registerMapleBlocks(modEventBus);
+        }
+        if (ModList.get().isLoaded("electrodynamics") || GrowableOresConfig.All_Item_Mode) {
+            GrowableElectroDynamicsOresBlocks.registerModBlocks(modEventBus);
         }
         MapleItems.registerModItems(modEventBus);
         ModCreativeModeTabs.register(modEventBus);

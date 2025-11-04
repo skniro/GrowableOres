@@ -113,6 +113,9 @@ public class GrowableOres {
         if (ModList.get().isLoaded("indrev") || GrowableOresConfig.All_Item_Mode) {
             GrowableIndustrialRevolutionOresBlocks.registerGrowableBlocks(modEventBus);
         }
+        if (ModList.get().isLoaded("electrodynamics") || GrowableOresConfig.All_Item_Mode) {
+            GrowableElectroDynamicsOresBlocks.registerModBlocks(modEventBus);
+        }
 
         MapleItems.registerModItems(modEventBus);
         ModCreativeModeTabs.register(modEventBus);

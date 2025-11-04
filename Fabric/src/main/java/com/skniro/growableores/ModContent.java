@@ -121,6 +121,10 @@ public class ModContent {
             GrowableOresItemGroups.tc_item();
             GrowableTinkersConstructBlocks.registerModBlocks();
         }
+        if (FabricLoader.getInstance().isModLoaded("electrodynamics") || GrowableOresConfig.All_Item_Mode) {
+            GrowableOresItemGroups.ed_item();
+            GrowableElectroDynamicsOresBlocks.registerModBlocks();
+        }
     }
 
     public static void CreativeTab() {

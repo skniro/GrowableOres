@@ -54,6 +54,8 @@ public class GrowableSimplifiedChineseLanguageProvider extends FabricLanguagePro
         translationBuilder.add(GrowableVanillaOresBlocks.Amethyst_Shard_Cane, "紫水晶杆");
         translationBuilder.add(GrowableVanillaOresBlocks.Prismarine_Crystals_Cane, "海晶砂粒杆");
         translationBuilder.add(GrowableVanillaOresBlocks.Prismarine_Shard_Cane, "海晶碎片杆");
+        translationBuilder.add(GrowableVanillaOresBlocks.Sand_Cane, "沙子杆");
+        translationBuilder.add(GrowableVanillaOresBlocks.String_Cane, "线杆");
 
         // Copilot did translation. I am so sorry if its wrong.
         // Don't worry about translation. I will fix it. Thanks you make this mod better.
@@ -449,5 +451,24 @@ public class GrowableSimplifiedChineseLanguageProvider extends FabricLanguagePro
         translationBuilder.add(GrowableOritechBlocks.OT_Prometheum_Ingot_Cane, "钷锭矿石杆(Oritech)");
         translationBuilder.add(GrowableOritechBlocks.OT_Steel_Ingot_Cane, "钢锭矿石杆(Oritech)");
         translationBuilder.add(GrowableOritechBlocks.OT_Uranium_Crystal_Cane, "铀晶体矿石杆(Oritech)");
+
+        //Electro Dynamics
+        translationBuilder.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Aluminum_Cane, "铝锭矿石杆（ElectroDynamics）");
+        translationBuilder.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Bronze_Cane, "青铜锭矿石杆（ElectroDynamics）");
+        translationBuilder.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Chromium_Cane, "铬锭矿石杆（ElectroDynamics）");
+        translationBuilder.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Hsla_Steel_Cane, "高强度钢锭矿石杆（ElectroDynamics）");
+        translationBuilder.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Lead_Cane, "铅锭矿石杆（ElectroDynamics）");
+        translationBuilder.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Lithium_Cane, "锂锭矿石杆（ElectroDynamics）");
+        translationBuilder.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Molybdenum_Cane, "钼锭矿石杆（ElectroDynamics）");
+        translationBuilder.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Silver_Cane, "银锭矿石杆（ElectroDynamics）");
+        translationBuilder.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Stainless_Steel_Cane, "不锈钢锭矿石杆（ElectroDynamics）");
+        translationBuilder.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Steel_Cane, "钢锭矿石杆（ElectroDynamics）");
+        translationBuilder.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Superconductive_Cane, "超导锭矿石杆（ElectroDynamics）");
+        translationBuilder.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Tin_Cane, "锡锭矿石杆（ElectroDynamics）");
+        translationBuilder.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Titanium_Cane, "钛锭矿石杆（ElectroDynamics）");
+        translationBuilder.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Titanium_Carbide_Cane, "碳化钛锭矿石杆（ElectroDynamics）");
+        translationBuilder.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Vanadium_Cane, "钒锭矿石杆（ElectroDynamics）");
+        translationBuilder.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Vanadium_Steel_Cane, "钒钢锭矿石杆（ElectroDynamics）");
+
     }
 }

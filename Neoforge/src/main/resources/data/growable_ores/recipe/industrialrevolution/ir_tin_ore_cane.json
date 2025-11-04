@@ -1,24 +1,36 @@
 {
-    "fabric:load_conditions": [
-        {
-            "condition": "fabric:all_mods_loaded",
-            "values": [
-                "indrev"
-            ]
-        }
-    ],
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "###",
-        "#G#",
-        "###"
-    ],
-    "key": {
-        "#": "minecraft:sugar_cane",
-        "G": "indrev:tin_ingot"
-    },
-    "result": {
-        "id": "growable_ores:ir_tin_ore_cane",
-        "count": 1
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "indrev"
+      ]
     }
+  ],
+  "forge:conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "indrev"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "indrev"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#G#",
+    "###"
+  ],
+  "key": {
+    "#": "minecraft:sugar_cane",
+    "G": "indrev:tin_ingot"
+  },
+  "result": {
+    "id": "growable_ores:ir_tin_ore_cane",
+    "count": 1
+  }
 }

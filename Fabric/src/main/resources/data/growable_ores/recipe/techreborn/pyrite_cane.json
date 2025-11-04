@@ -1,24 +1,36 @@
 {
-    "fabric:load_conditions": [
-        {
-            "condition": "fabric:all_mods_loaded",
-            "values": [
-                "techreborn"
-            ]
-        }
-    ],
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "###",
-        "#G#",
-        "###"
-    ],
-    "key": {
-        "#": "minecraft:sugar_cane",
-        "G": "techreborn:sulfur_dust"
-    },
-    "result": {
-        "id": "growable_ores:pyrite_cane",
-        "count": 1
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "techreborn"
+      ]
     }
+  ],
+  "forge:conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "techreborn"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "techreborn"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#G#",
+    "###"
+  ],
+  "key": {
+    "#": "minecraft:sugar_cane",
+    "G": "techreborn:sulfur_dust"
+  },
+  "result": {
+    "id": "growable_ores:pyrite_cane",
+    "count": 1
+  }
 }

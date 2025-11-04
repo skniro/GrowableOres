@@ -68,12 +68,22 @@ public class GrowableVanillaOresBlocks {
     public static final Supplier<Block> Prismarine_Crystals_Cane = registerBlock("prismarine_crystals_cane", GrowableOreCaneBlock::new , (BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_GREEN).noCollision().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.DESTROY)), ModCreativeModeTabs.Growable_Ores_Group);
     public static final Supplier<Block> Prismarine_Shard_Cane = registerBlock("prismarine_shard_cane", GrowableOreCaneBlock::new , (BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_GREEN).noCollision().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.DESTROY)), ModCreativeModeTabs.Growable_Ores_Group);
 
+    public static final Supplier<Block> String_Cane = registerBlock("string_cane", GrowableOreCaneBlock::new ,BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).noCollision().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.DESTROY));
+    public static final Supplier<Block> Sand_Cane = registerBlock("sand_cane", GrowableOreCaneBlock::new ,BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).noCollision().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.DESTROY));
+
+
     private static <B extends Block> DeferredBlock<B> registerBlockWithoutItem(String name, Function<BlockBehaviour.Properties, ? extends B> block, BlockBehaviour.Properties properties) {
         DeferredBlock<B> register = BLOCKS.registerBlock(name, block, properties.setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.fromNamespaceAndPath(GrowableOres.MOD_ID, name))));
         return register;
     }
 
     private static <B extends Block> DeferredBlock<B> registerBlock(String name, Function<BlockBehaviour.Properties, ? extends B> block, BlockBehaviour.Properties properties, Supplier<CreativeModeTab> tab) {
+        DeferredBlock<B> bDeferredBlock = registerBlockWithoutItem(name, block, properties);
+        registerBlockItem(name, bDeferredBlock);
+        return bDeferredBlock;
+    }
+
+    private static <B extends Block> DeferredBlock<B> registerBlock(String name, Function<BlockBehaviour.Properties, ? extends B> block, BlockBehaviour.Properties properties) {
         DeferredBlock<B> bDeferredBlock = registerBlockWithoutItem(name, block, properties);
         registerBlockItem(name, bDeferredBlock);
         return bDeferredBlock;

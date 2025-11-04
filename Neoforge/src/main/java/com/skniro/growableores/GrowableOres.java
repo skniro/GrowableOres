@@ -117,6 +117,9 @@ public class GrowableOres {
         if (ModList.get().isLoaded("oritech") || GrowableOresConfig.All_Item_Mode) {
             GrowableOritechBlocks.registerGrowableBlocks(modEventBus);
         }
+        if (ModList.get().isLoaded("electrodynamics") || GrowableOresConfig.All_Item_Mode) {
+            GrowableElectroDynamicsOresBlocks.registerModBlocks(modEventBus);
+        }
         MapleItems.registerModItems(modEventBus);
         ModCreativeModeTabs.register(modEventBus);
         // Register ourselves for server and other game events we are interested in

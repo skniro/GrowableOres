@@ -57,6 +57,9 @@ public class GrowableVanillaOresBlocks {
     public static final Block Prismarine_Crystals_Cane = registerBlock("prismarine_crystals_cane", new GrowableOreCaneBlock(AbstractBlock.Settings.of(Material.PLANT).mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS)),GrowableOres.Growable_Ores_Group);
     public static final Block Prismarine_Shard_Cane = registerBlock("prismarine_shard_cane", new GrowableOreCaneBlock(AbstractBlock.Settings.of(Material.PLANT).mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS)),GrowableOres.Growable_Ores_Group);
 
+    public static final Block String_Cane = registerBlock("string_cane", new GrowableOreCaneBlock(AbstractBlock.Settings.of(Material.PLANT).mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GLASS)), GrowableOres.Growable_Ores_Group);
+    public static final Block Sand_Cane = registerBlock("sand_cane", new GrowableOreCaneBlock(AbstractBlock.Settings.of(Material.PLANT).mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GLASS)), GrowableOres.Growable_Ores_Group);
+
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
         registerBlockItem(name, block, tab);

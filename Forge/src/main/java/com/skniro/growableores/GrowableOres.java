@@ -100,6 +100,9 @@ public class GrowableOres {
         if (ModList.get().isLoaded("tconstruct") || GrowableOresConfig.All_Item_Mode) {
             GrowableTinkersConstructBlocks.registerGrowableBlocks(modEventBus);
         }
+        if (ModList.get().isLoaded("electrodynamics") || GrowableOresConfig.All_Item_Mode) {
+            GrowableElectroDynamicsOresBlocks.registerModBlocks(modEventBus);
+        }
         MapleItems.registerModItems(modEventBus);
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);

@@ -90,6 +90,9 @@ public class ModContent {
         if (FabricLoader.getInstance().isModLoaded("tconstruct") || GrowableOresConfig.All_Item_Mode) {
             GrowableTinkersConstructBlocks.registerModBlocks();
         }
+        if (FabricLoader.getInstance().isModLoaded("electrodynamics") || GrowableOresConfig.All_Item_Mode) {
+            GrowableElectroDynamicsOresBlocks.registerModBlocks();
+        }
 
     }
 

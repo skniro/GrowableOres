@@ -7,7 +7,7 @@ plugins {
     id 'net.minecraftforge.jarjar' version '0.2.3'
 }
 
-version = mod_version
+version = forge_mod_version
 group = mod_group_id
 base.archivesName = mod_id
 
@@ -180,6 +180,7 @@ publishing {
             groupId project.maven_group
             artifactId project.archives_base_name
             version project.version
+            from components.jarJar
             artifact jar
         }
     }

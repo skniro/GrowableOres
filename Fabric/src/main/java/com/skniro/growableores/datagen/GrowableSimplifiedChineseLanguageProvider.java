@@ -1,6 +1,5 @@
 package com.skniro.growableores.datagen;
 
-import com.skniro.growableores.GrowableOres;
 import com.skniro.growableores.block.*;
 import com.skniro.growableores.util.GrowableOresItemGroups;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;

@@ -5,7 +5,7 @@ import com.skniro.growableores.block.init.GrowableOreCaneBlock;
 import com.skniro.growableores.item.MapleItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -18,7 +18,6 @@ import net.minecraftforge.registries.RegistryObject;
 
 import java.util.function.Function;
 import java.util.function.Supplier;
-import java.util.logging.Logger;
 
 public class GrowableModernIndustrializationOresBlocks {
     public static final DeferredRegister<net.minecraft.world.level.block.Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, GrowableOres.MOD_ID);
@@ -48,12 +47,12 @@ public class GrowableModernIndustrializationOresBlocks {
 
     public static <B extends net.minecraft.world.level.block.Block> RegistryObject<net.minecraft.world.level.block.Block> register(String name, Function<BlockBehaviour.Properties, ? extends B> func, BlockBehaviour.Properties props) {
         return BLOCKS.register(name, () -> {
-            return (net.minecraft.world.level.block.Block)func.apply(props.setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.fromNamespaceAndPath(GrowableOres.MOD_ID, name))));
+            return (net.minecraft.world.level.block.Block)func.apply(props.setId(ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(GrowableOres.MOD_ID, name))));
         });
     }
 
     private static <B extends net.minecraft.world.level.block.Block> RegistryObject<net.minecraft.world.level.block.Block> registerBlockWithoutItem(String name, Function<BlockBehaviour.Properties, ? extends B> block, BlockBehaviour.Properties properties) {
-        RegistryObject<net.minecraft.world.level.block.Block> register = register(name, block, properties.setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.fromNamespaceAndPath(GrowableOres.MOD_ID, name))));
+        RegistryObject<net.minecraft.world.level.block.Block> register = register(name, block, properties.setId(ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(GrowableOres.MOD_ID, name))));
         return register;
     }
 
@@ -65,7 +64,7 @@ public class GrowableModernIndustrializationOresBlocks {
 
     private static <T extends net.minecraft.world.level.block.Block> RegistryObject<net.minecraft.world.item.Item> registerBlockItem(String name, Supplier<T> block) {
         return MapleItems.ITEMS.register(name, () -> new net.minecraft.world.item.BlockItem(block.get(),
-                new net.minecraft.world.item.Item.Properties().useBlockDescriptionPrefix().setId(ResourceKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath(GrowableOres.MOD_ID, name)))));
+                new net.minecraft.world.item.Item.Properties().useBlockDescriptionPrefix().setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(GrowableOres.MOD_ID, name)))));
     }
 
     public static void registerModBlocks(BusGroup eventBus) {

@@ -7,7 +7,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.minecraft.client.data.models.BlockModelGenerators;
 import net.minecraft.client.data.models.ItemModelGenerators;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 
 public class GrowableModelProvider extends FabricModelProvider {
     public GrowableModelProvider(FabricDataOutput dataGenerator){
@@ -17,7 +17,7 @@ public class GrowableModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockModelGenerators blockStateModelGenerator) {
         BuiltInRegistries.BLOCK.forEach(block -> {
-            ResourceLocation blockId = BuiltInRegistries.BLOCK.getKey(block);
+            Identifier blockId = BuiltInRegistries.BLOCK.getKey(block);
             if (blockId.getNamespace().equals(GrowableOres.MOD_ID)) {
                 blockStateModelGenerator.createCrossBlockWithDefaultItem(block, BlockModelGenerators.PlantType.TINTED);
             }

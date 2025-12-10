@@ -7,7 +7,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.Registries;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.level.block.Block;
 import java.util.concurrent.CompletableFuture;
@@ -17,7 +17,7 @@ public class GrowableTagGenerator extends FabricTagProvider.BlockTagProvider {
         super(output, completableFuture);
    }
 
-   private static final TagKey<Block> GROWABLE_CANE = TagKey.create(Registries.BLOCK, ResourceLocation.fromNamespaceAndPath(GrowableOres.MOD_ID,"growable_cane"));
+   private static final TagKey<Block> GROWABLE_CANE = TagKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(GrowableOres.MOD_ID,"growable_cane"));
    @Override
    protected void addTags(HolderLookup.Provider arg) {
      /* getOrCreateTagBuilder(GROWABLE_CANE)

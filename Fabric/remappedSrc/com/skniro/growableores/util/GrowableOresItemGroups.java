@@ -9,12 +9,12 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 
 public class GrowableOresItemGroups {
-    public static final ResourceKey<CreativeModeTab> Growable_Ores_Group = ResourceKey.create(Registries.CREATIVE_MODE_TAB, ResourceLocation.fromNamespaceAndPath(GrowableOres.MOD_ID, "test_group"));
+    public static final ResourceKey<CreativeModeTab> Growable_Ores_Group = ResourceKey.create(Registries.CREATIVE_MODE_TAB, Identifier.fromNamespaceAndPath(GrowableOres.MOD_ID, "test_group"));
 
     public static void vanilla_item() {
         Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, Growable_Ores_Group, FabricItemGroup.builder()

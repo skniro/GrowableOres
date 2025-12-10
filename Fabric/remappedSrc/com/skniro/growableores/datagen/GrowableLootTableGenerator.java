@@ -7,7 +7,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import java.util.concurrent.CompletableFuture;
 
 
@@ -19,7 +19,7 @@ public class GrowableLootTableGenerator extends FabricBlockLootTableProvider {
     @Override
     public void generate() {
         BuiltInRegistries.BLOCK.forEach(block -> {
-            ResourceLocation blockId = BuiltInRegistries.BLOCK.getKey(block);
+            Identifier blockId = BuiltInRegistries.BLOCK.getKey(block);
             if (blockId.getNamespace().equals(GrowableOres.MOD_ID)) {
                 dropSelf(block);
             }

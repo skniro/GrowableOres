@@ -1,7 +1,6 @@
 package com.skniro.growableores.registry.tag;
 
 import com.skniro.growableores.GrowableOres;
-import net.minecraft.block.Block;
 import net.minecraft.fluid.Fluid;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.tag.TagKey;

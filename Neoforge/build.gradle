@@ -158,7 +158,7 @@ publishing {
     publications {
         mavenJava(MavenPublication) {
             groupId project.maven_group
-            artifactId project.archivesBaseName
+            artifactId project.archives_base_name
             version project.version
             artifact jar
         }

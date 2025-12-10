@@ -19,7 +19,11 @@ pluginManagement {
     }
 }
 
+plugins {
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '1.0.0'
+}
 
-rootProject.name = 'Growable-1.21.9'
+
+rootProject.name = 'Growable-1.21.11'
 //include("Fabric", "Neoforge")
-include("Fabric", "Forge", "Neoforge")
+include("Forge", "Fabric", "Neoforge")

@@ -3,9 +3,8 @@ package com.skniro.growableores.client;
 
 import com.skniro.growableores.GrowableOres;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
-import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.chunk.ChunkSectionLayer;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.RegisterParticleProvidersEvent;
 import net.minecraftforge.eventbus.api.listener.SubscribeEvent;
@@ -20,7 +19,7 @@ public class ClientHelper {
     public static void onClientSetup(FMLClientSetupEvent event) {
         event.enqueueWork(() -> {
             ForgeRegistries.BLOCKS.forEach(block -> {
-                ResourceLocation blockId = ForgeRegistries.BLOCKS.getKey(block);
+                Identifier blockId = ForgeRegistries.BLOCKS.getKey(block);
                 if (blockId != null && blockId.getNamespace().equals(GrowableOres.MOD_ID)) {
                     ItemBlockRenderTypes.setRenderLayer(block, ChunkSectionLayer.CUTOUT);
                 }

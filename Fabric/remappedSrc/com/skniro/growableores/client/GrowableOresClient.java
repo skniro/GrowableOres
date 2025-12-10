@@ -8,14 +8,14 @@ import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.client.rendering.v1.BlockRenderLayerMap;
 import net.minecraft.client.renderer.chunk.ChunkSectionLayer;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 
 @Environment(EnvType.CLIENT)
 public class GrowableOresClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         BuiltInRegistries.BLOCK.forEach(block -> {
-            ResourceLocation blockId = BuiltInRegistries.BLOCK.getKey(block);
+            Identifier blockId = BuiltInRegistries.BLOCK.getKey(block);
             if (blockId.getNamespace().equals(GrowableOres.MOD_ID)) {
                 BlockRenderLayerMap.putBlock(block, ChunkSectionLayer.CUTOUT);
             }

@@ -1,22 +1,10 @@
 {
-    "fabric:load_conditions": [
+    "sknirolib:load_conditions": [
         {
-            "condition": "fabric:all_mods_loaded",
+            "type": "sknirolib:item_exists",
             "values": [
-                "electrodynamics"
+                "growable_ores:ed_ingot_stainless_steel_cane"
             ]
-        }
-    ],
-    "forge:conditions": [
-        {
-            "type": "forge:mod_loaded",
-            "modid": "electrodynamics"
-        }
-    ],
-    "neoforge:conditions": [
-        {
-            "type": "neoforge:mod_loaded",
-            "modid": "electrodynamics"
         }
     ],
     "type": "minecraft:crafting_shaped",

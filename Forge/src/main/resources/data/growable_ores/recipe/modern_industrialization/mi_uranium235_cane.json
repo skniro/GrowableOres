@@ -1,36 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "modern_industrialization"
-      ]
+    "sknirolib:load_conditions": [
+        {
+            "type": "sknirolib:item_exists",
+            "values": [
+                "growable_ores:mi_uranium_cane"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#G#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:sugar_cane",
+        "G": "modern_industrialization:uranium_235_ingot"
+    },
+    "result": {
+        "id": "growable_ores:mi_uranium_cane",
+        "count": 1
     }
-  ],
-  "forge:conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "modern_industrialization"
-    }
-  ],
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "modern_industrialization"
-    }
-  ],
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "#G#",
-    "###"
-  ],
-  "key": {
-    "#": "minecraft:sugar_cane",
-    "G": "modern_industrialization:uranium_235_ingot"
-  },
-  "result": {
-    "id": "growable_ores:mi_uranium_cane",
-    "count": 1
-  }
 }

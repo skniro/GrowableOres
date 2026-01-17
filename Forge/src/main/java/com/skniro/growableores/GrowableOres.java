@@ -6,6 +6,7 @@ import com.skniro.growableores.conifg.Configuration;
 import com.skniro.growableores.conifg.GrowableOresConfig;
 import com.skniro.growableores.item.MapleItems;
 import com.skniro.growableores.item.ModCreativeModeTabs;
+import com.skniro.sknirolib.impl.resource.conditions.ResourceConditionsImpl;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.listener.SubscribeEvent;
@@ -119,6 +120,7 @@ public class GrowableOres {
         }
         MapleItems.registerModItems(modEventBus);
         ModCreativeModeTabs.register(modEventBus);
+        ResourceConditionsImpl.onInitialize();
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {

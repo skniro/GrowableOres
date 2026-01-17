@@ -1,35 +1,23 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "maple"
-      ]
+    "sknirolib:load_conditions": [
+        {
+            "type": "sknirolib:item_exists",
+            "values": [
+                "maple:salt"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": "growable_ores:salt_cane"
+    },
+    "result": {
+        "id": "maple:salt",
+        "count": 1
     }
-  ],
-  "forge:conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "maple"
-    }
-  ],
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "maple"
-    }
-  ],
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "###",
-    "###"
-  ],
-  "key": {
-    "#": "growable_ores:salt_cane"
-  },
-  "result": {
-    "id": "maple:salt",
-    "count": 1
-  }
 }

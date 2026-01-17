@@ -1,36 +1,24 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "techreborn"
-      ]
+    "sknirolib:load_conditions": [
+        {
+            "type": "sknirolib:item_exists",
+            "values": [
+                "growable_ores:silver_cane"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#G#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:sugar_cane",
+        "G": "techreborn:silver_ingot"
+    },
+    "result": {
+        "id": "growable_ores:silver_cane",
+        "count": 1
     }
-  ],
-  "forge:conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "techreborn"
-    }
-  ],
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "techreborn"
-    }
-  ],
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "#G#",
-    "###"
-  ],
-  "key": {
-    "#": "minecraft:sugar_cane",
-    "G": "techreborn:silver_ingot"
-  },
-  "result": {
-    "id": "growable_ores:silver_cane",
-    "count": 1
-  }
 }

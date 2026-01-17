@@ -1,22 +1,10 @@
 {
-    "fabric:load_conditions": [
+    "sknirolib:load_conditions": [
         {
-            "condition": "fabric:all_mods_loaded",
+            "type": "sknirolib:item_exists",
             "values": [
-                "tconstruct"
+                "tconstruct:soulsteel_ingot"
             ]
-        }
-    ],
-    "forge:conditions": [
-        {
-            "type": "forge:mod_loaded",
-            "modid": "tconstruct"
-        }
-    ],
-    "neoforge:conditions": [
-        {
-            "type": "neoforge:mod_loaded",
-            "modid": "tconstruct"
         }
     ],
     "type": "minecraft:crafting_shaped",

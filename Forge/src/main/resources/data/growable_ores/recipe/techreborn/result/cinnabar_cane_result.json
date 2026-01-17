@@ -1,35 +1,23 @@
 {
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "techreborn"
-      ]
+    "sknirolib:load_conditions": [
+        {
+            "type": "sknirolib:item_exists",
+            "values": [
+                "techreborn:cinnabar_dust"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": "growable_ores:cinnabar_cane"
+    },
+    "result": {
+        "id": "techreborn:cinnabar_dust",
+        "count": 4
     }
-  ],
-  "forge:conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "techreborn"
-    }
-  ],
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "techreborn"
-    }
-  ],
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "###",
-    "###"
-  ],
-  "key": {
-    "#": "growable_ores:cinnabar_cane"
-  },
-  "result": {
-    "id": "techreborn:cinnabar_dust",
-    "count": 4
-  }
 }

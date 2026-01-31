@@ -1,22 +1,10 @@
 {
-    "fabric:load_conditions": [
+    "sknirolib:load_conditions": [
         {
-            "condition": "fabric:all_mods_loaded",
+            "type": "sknirolib:item_exists",
             "values": [
-                "gobber2"
+                "growable_ores:gobber_gobber_ingot_cane"
             ]
-        }
-    ],
-    "forge:conditions": [
-        {
-            "type": "forge:mod_loaded",
-            "modid": "gobber2"
-        }
-    ],
-    "neoforge:conditions": [
-        {
-            "type": "neoforge:mod_loaded",
-            "modid": "gobber2"
         }
     ],
     "type": "minecraft:crafting_shaped",

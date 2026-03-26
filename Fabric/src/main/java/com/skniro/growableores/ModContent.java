@@ -81,7 +81,7 @@ public class ModContent {
             GrowableOresItemGroups.de_item();
             GrowableDraconicEvolutionOresBlocks.registerModBlocks();
         }
-        if (FabricLoader.getInstance().isModLoaded("extremereactors") || GrowableOresConfig.All_Item_Mode) {
+        if (FabricLoader.getInstance().isModLoaded("bigreactors") || GrowableOresConfig.All_Item_Mode) {
             GrowableOresItemGroups.er_item();
             GrowableExtremeReactorsOresBlocks.registerModBlocks();
         }

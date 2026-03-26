@@ -71,7 +71,7 @@ public class GrowableOres {
         if (ModList.get().isLoaded("draconicevolution") || GrowableOresConfig.All_Item_Mode) {
             GrowableDraconicEvolutionOresBlocks.registerGrowableBlocks(modEventBus);
         }
-        if (ModList.get().isLoaded("extremereactors") || GrowableOresConfig.All_Item_Mode) {
+        if (ModList.get().isLoaded("bigreactors") || GrowableOresConfig.All_Item_Mode) {
             GrowableExtremeReactorsOresBlocks.registerGrowableBlocks(modEventBus);
         }
         if (ModList.get().isLoaded("galosphere") || GrowableOresConfig.All_Item_Mode) {

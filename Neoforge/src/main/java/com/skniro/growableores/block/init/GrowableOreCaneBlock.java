@@ -85,7 +85,7 @@ public class GrowableOreCaneBlock extends Block implements BonemealableBlock {
         if (blockState.is(this)) {
             return true;
         } else {
-            if (blockState.is(BlockTags.DIRT) || blockState.is(BlockTags.SAND) || blockState.is(GrowableBlockTags.GrowBlock)) {
+            if (blockState.is(BlockTags.SUPPORTS_SUGAR_CANE) || blockState.is(GrowableBlockTags.GrowBlock)) {
                 BlockPos blockPos = pos.below();
                 Iterator var6 = Plane.HORIZONTAL.iterator();
 
@@ -93,7 +93,7 @@ public class GrowableOreCaneBlock extends Block implements BonemealableBlock {
                     Direction direction = (Direction)var6.next();
                     BlockState blockState2 = world.getBlockState(blockPos.relative(direction));
                     FluidState fluidState = world.getFluidState(blockPos.relative(direction));
-                    if (fluidState.is(FluidTags.WATER) || blockState2.is(Blocks.FROSTED_ICE) || (fluidState.is(GrowableFluidTags.GrowFluid))) {
+                    if (fluidState.is(FluidTags.SUPPORTS_SUGAR_CANE_ADJACENTLY) || blockState2.is(BlockTags.SUPPORTS_SUGAR_CANE_ADJACENTLY) || (fluidState.is(GrowableFluidTags.GrowFluid))) {
                         return true;
                     }
                 }
@@ -148,6 +148,7 @@ public class GrowableOreCaneBlock extends Block implements BonemealableBlock {
             }
         }
     }
+
 
     static {
         AGE = BlockStateProperties.AGE_15;

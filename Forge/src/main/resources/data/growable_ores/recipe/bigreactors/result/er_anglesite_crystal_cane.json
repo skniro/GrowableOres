@@ -1,0 +1,23 @@
+{
+    "sknirolib:load_conditions": [
+        {
+            "type": "sknirolib:item_exists",
+            "values": [
+                "bigreactors:anglesite_crystal"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": "growable_ores:er_anglesite_crystal_cane"
+    },
+    "result": {
+        "id": "bigreactors:anglesite_crystal",
+        "count": 1
+    }
+}

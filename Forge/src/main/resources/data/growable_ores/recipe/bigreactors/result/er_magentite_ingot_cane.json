@@ -1,0 +1,23 @@
+{
+    "sknirolib:load_conditions": [
+        {
+            "type": "sknirolib:item_exists",
+            "values": [
+                "bigreactors:magentite_ingot"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": "growable_ores:er_ridiculite_ingot_cane"
+    },
+    "result": {
+        "id": "bigreactors:magentite_ingot",
+        "count": 1
+    }
+}

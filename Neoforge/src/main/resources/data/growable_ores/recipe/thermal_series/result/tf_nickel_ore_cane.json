@@ -7,13 +7,10 @@
             ]
         }
     ],
-   "conditions": [
+    "forge:conditions": [
         {
-            "type": "forge:not",
-            "value": {
-                "type": "forge:mod_loaded",
-                "modid": "thermal"
-            }
+            "type": "forge:mod_loaded",
+            "modid": "thermal"
         }
     ],
     "neoforge:conditions": [

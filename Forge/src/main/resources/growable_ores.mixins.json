@@ -4,13 +4,6 @@
   "package": "com.skniro.growableores.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "resource.conditions.ReloadableServerResourcesMixin",
-    "resource.conditions.DataProviderMixin",
-    "resource.conditions.SimpleJsonResourceReloadListenerMixin",
-    "resource.conditions.RegistryDataLoaderMixin",
-    "resource.conditions.RegistryOpsAccessor",
-    "resource.conditions.FileToIdConverterAccessor",
-    "resource.conditions.PackMixin"
   ],
   "client": [
   ],

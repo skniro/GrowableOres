@@ -2,19 +2,18 @@ package com.skniro.growableores.datagen;
 
 import com.skniro.growableores.block.*;
 import com.skniro.growableores.util.GrowableOresItemGroups;
-import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
+import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
-import net.minecraft.registry.RegistryWrapper;
-
+import net.minecraft.core.HolderLookup;
 import java.util.concurrent.CompletableFuture;
 
 public class GrowableEnglishLanguageProvider extends FabricLanguageProvider {
-    public GrowableEnglishLanguageProvider(FabricDataOutput dataGenerator, CompletableFuture<RegistryWrapper.WrapperLookup> registryLookup){
+    public GrowableEnglishLanguageProvider(FabricPackOutput dataGenerator, CompletableFuture<HolderLookup.Provider> registryLookup){
         super(dataGenerator,"en_us",registryLookup);
     }
 
     @Override
-    public void generateTranslations(RegistryWrapper.WrapperLookup registryLookup, TranslationBuilder translationBuilder) {
+    public void generateTranslations(HolderLookup.Provider registryLookup, TranslationBuilder translationBuilder) {
         translationBuilder.add(GrowableVanillaOresBlocks.Coal_Cane,"Coal Reed");
         translationBuilder.add(GrowableVanillaOresBlocks.Iron_Cane,"Iron Reed");
         translationBuilder.add(GrowableVanillaOresBlocks.Diamond_Cane,"Diamond Reed");

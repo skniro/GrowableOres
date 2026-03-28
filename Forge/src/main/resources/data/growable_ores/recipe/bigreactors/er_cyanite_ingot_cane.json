@@ -1,0 +1,24 @@
+{
+    "sknirolib:load_conditions": [
+        {
+            "type": "sknirolib:item_exists",
+            "values": [
+                "growable_ores:er_cyanite_ingot_cane"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#G#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:sugar_cane",
+        "G": "bigreactors:cyanite_ingot"
+    },
+    "result": {
+        "id": "growable_ores:er_cyanite_ingot_cane",
+        "count": 1
+    }
+}

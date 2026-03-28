@@ -1,5 +1,5 @@
 plugins {
-    id 'fabric-loom' version '1.14-SNAPSHOT'
+    id 'net.fabricmc.fabric-loom' version '1.15-SNAPSHOT'
     id 'maven-publish'
 }
 
@@ -32,6 +32,12 @@ repositories {
         name = "Jared's maven"
         url = "https://maven.blamejared.com/"
     }
+
+    maven{
+        name = 'skniro'
+        url  = 'https://raw.githubusercontent.com/skniro/maven3/main/'
+    }
+
     // Add repositories to retrieve artifacts from in here.
     // You should only use this when depending on other mods because
     // Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
@@ -44,17 +50,16 @@ repositories {
 dependencies {
     // To change the versions see the gradle.properties file
     minecraft "com.mojang:minecraft:${project.minecraft_version}"
-    mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
-    modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    implementation "net.fabricmc:fabric-loader:${project.loader_version}"
     // Fabric API. This is technically optional, but you probably want it anyway.
-    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-
+    implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+    implementation("com.skniro:sknirolib:${skniro_lib_version}-${minecraft_version}-Fabric")
    /* include modApi('teamreborn:energy:3.0.0') {
         exclude(group: "net.fabricmc.fabric-api")
     }
 
-    modImplementation  ("curse.maven:reborncore-237903:4582416")
-    modImplementation  ("curse.maven:techreborn-233564:4582415")*/
+    implementation  ("curse.maven:reborncore-237903:4582416")
+    implementation  ("curse.maven:techreborn-233564:4582415")*/
 
     //modImplementation  ("curse.maven:powah-633483:4638300")
 

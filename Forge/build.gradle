@@ -3,20 +3,15 @@ plugins {
     id 'idea'
     id 'eclipse'
     id 'maven-publish'
-    id 'net.minecraftforge.gradle' version '7.0.0-rc.+'
-    id 'net.minecraftforge.jarjar' version '0.2.3'
+    id 'net.minecraftforge.gradle' version '7.0.+'
 }
 
 version = forge_mod_version
 group = mod_group_id
 base.archivesName = mod_id
 
-// Mojang ships Java 21 to end users in 1.20.5+, so your mod should target Java 21.
-java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+java.toolchain.languageVersion = JavaLanguageVersion.of(25)
 
-println "Java: ${providers.systemProperty('java.version').get()}, " +
-    "JVM: ${providers.systemProperty('java.vm.version').get()} (${providers.systemProperty('java.vendor').get()}), " +
-    "Arch: ${providers.systemProperty('os.arch').get()}"
 
 minecraft {
     // The mappings can be changed at any time and must be in the following format.
@@ -74,9 +69,6 @@ sourceSets.main.resources.srcDir 'src/generated/resources'
 // This methods registers jarJar for the default jar task.
 // The closure allows you to configure the task, instead of needing to do this:
 // tasks.named('jarJar', net.minecraftforge.jarjar.gradle.JarJar)
-jarJar.register() {
-    archiveClassifier = null
-}
 
 repositories {
     maven minecraft.mavenizer
@@ -111,8 +103,6 @@ dependencies {
     // If the group id is "net.minecraft" and the artifact id is one of ["client", "server", "joined"],
     // then special handling is done to allow a setup of a vanilla dependency without the use of an external repository.
     implementation minecraft.dependency("net.minecraftforge:forge:${project.minecraft_version}-${project.forge_version}")
-    compileOnly(annotationProcessor("io.github.llamalad7:mixinextras-common:0.5.3"))
-    jarJar('io.github.llamalad7:mixinextras-forge:0.5.3')
     // Forge 1.21.6+ uses EventBus 7, which shifts most of its runtime validation to compile-time via an annotation processor
     // to improve performance in production environments. This line is required to enable said compile-time validation
     // in your development environment, helping you catch issues early.
@@ -171,8 +161,6 @@ tasks.named('jar', Jar) {
         ])
         attributes['MixinConfigs'] = "${mod_id}.mixins.json"
     }
-
-    archiveClassifier = 'slim'
 }
 
 publishing {
@@ -181,7 +169,6 @@ publishing {
             groupId project.maven_group
             artifactId project.archives_base_name
             version project.version
-            from components.jarJar
             artifact jar
         }
     }

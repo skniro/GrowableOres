@@ -1,10 +1,10 @@
 package com.skniro.growableores.registry.tag;
 
 import com.skniro.growableores.GrowableOres;
-import net.minecraft.fluid.Fluid;
-import net.minecraft.registry.RegistryKeys;
-import net.minecraft.registry.tag.TagKey;
-import net.minecraft.util.Identifier;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.Identifier;
+import net.minecraft.tags.TagKey;
+import net.minecraft.world.level.material.Fluid;
 
 public class GrowableFluidTags {
     public static final TagKey<Fluid> GrowFluid = of("growfluid");
@@ -12,6 +12,6 @@ public class GrowableFluidTags {
 
 
     private static TagKey<Fluid> of(String id) {
-        return TagKey.of(RegistryKeys.FLUID, Identifier.of(GrowableOres.MOD_ID ,id));
+        return TagKey.create(Registries.FLUID, Identifier.fromNamespaceAndPath(GrowableOres.MOD_ID ,id));
     }
 }

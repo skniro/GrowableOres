@@ -1,0 +1,23 @@
+{
+    "sknirolib:load_conditions": [
+        {
+            "type": "sknirolib:item_exists",
+            "values": [
+                "bigreactors:yellorium_ingot"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": "growable_ores:er_yellorium_ingot_cane"
+    },
+    "result": {
+        "id": "bigreactors:yellorium_ingot",
+        "count": 1
+    }
+}

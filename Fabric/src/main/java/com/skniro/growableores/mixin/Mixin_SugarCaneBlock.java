@@ -1,12 +1,12 @@
 package com.skniro.growableores.mixin;
 
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.SugarCaneBlock;
-import net.minecraft.server.world.ServerWorld;
-import net.minecraft.state.property.IntProperty;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.math.random.Random;
+import net.minecraft.core.BlockPos;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.util.RandomSource;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SugarCaneBlock;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
@@ -15,26 +15,26 @@ import org.spongepowered.asm.mixin.Shadow;
 public class Mixin_SugarCaneBlock extends Block {
     @Shadow
     @Final
-    public static IntProperty AGE;
+    public static IntegerProperty AGE;
 
-    public Mixin_SugarCaneBlock(Settings settings) {
+    public Mixin_SugarCaneBlock(Properties settings) {
         super(settings);
     }
 
     @Override
-    public void randomTick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
-        if (world.isAir(pos.up())) {
+    public void randomTick(BlockState state, ServerLevel world, BlockPos pos, RandomSource random) {
+        if (world.isEmptyBlock(pos.above())) {
             int i;
-            for(i = 1; world.getBlockState(pos.down(i)).isOf(this); ++i) {
+            for(i = 1; world.getBlockState(pos.below(i)).is(this); ++i) {
             }
 
             if (i < 3) {
-                int j = (Integer)state.get(AGE);
+                int j = (Integer)state.getValue(AGE);
                 if (j >= 2) {
-                    world.setBlockState(pos.up(), this.getDefaultState());
-                    world.setBlockState(pos, (BlockState)state.with(AGE, 0), 2);
+                    world.setBlockAndUpdate(pos.above(), this.defaultBlockState());
+                    world.setBlock(pos, (BlockState)state.setValue(AGE, 0), 2);
                 } else {
-                    world.setBlockState(pos, (BlockState)state.with(AGE, j + 1), 2);
+                    world.setBlock(pos, (BlockState)state.setValue(AGE, j + 1), 2);
                 }
             }
         }

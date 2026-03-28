@@ -2,7 +2,6 @@ package com.skniro.growableores.client;
 
 
 import com.skniro.growableores.GrowableOres;
-import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.chunk.ChunkSectionLayer;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.Identifier;
@@ -21,7 +20,7 @@ public class ClientHelper {
             BuiltInRegistries.BLOCK.forEach(block -> {
                 Identifier blockId = BuiltInRegistries.BLOCK.getKey(block);
                 if (blockId != null && blockId.getNamespace().equals(GrowableOres.MOD_ID)) {
-                    ItemBlockRenderTypes.setRenderLayer(block, ChunkSectionLayer.CUTOUT);
+                    ModItemBlockRenderTypes.setRenderLayer(block, ChunkSectionLayer.CUTOUT);
                 }
             });
         });

@@ -60,6 +60,9 @@ public class ModCreativeModeTabs {
                         pOutput.accept(GrowableVanillaOresBlocks.Prismarine_Shard_Cane.get());
                         pOutput.accept(GrowableVanillaOresBlocks.Sand_Cane.get());
                         pOutput.accept(GrowableVanillaOresBlocks.String_Cane.get());
+                        pOutput.accept(GrowableVanillaOresBlocks.Honeycomb_Cane.get());
+                        pOutput.accept(GrowableVanillaOresBlocks.Echo_Shard_Cane.get());
+                        pOutput.accept(GrowableVanillaOresBlocks.breeze_rod_Cane.get());
 
                         if(ModList.isLoaded("ad_astra") || GrowableOresConfig.All_Item_Mode) {
                             //Ad Astra!
@@ -507,6 +510,22 @@ public class ModCreativeModeTabs {
                             pOutput.accept(GrowableElectroDynamicsOresBlocks.ED_Ingot_Vanadium_Cane.get());
                             pOutput.accept(GrowableElectroDynamicsOresBlocks.ED_Ingot_Vanadium_Steel_Cane.get());
                         }
+
+                        if (ModList.isLoaded("cobblemon") || GrowableOresConfig.All_Item_Mode) {
+                            //Cobblemon
+                            pOutput.accept(GrowableCobblemonOresBlocks.CLM_Dusk_Stone_Cane.get());
+                            pOutput.accept(GrowableCobblemonOresBlocks.CLM_Dawn_Stone_Cane.get());
+                            pOutput.accept(GrowableCobblemonOresBlocks.CLM_Fire_Stone_Cane.get());
+                            pOutput.accept(GrowableCobblemonOresBlocks.CLM_Sun_Stone_Cane.get());
+                            pOutput.accept(GrowableCobblemonOresBlocks.CLM_Thunder_Stone_Cane.get());
+                            pOutput.accept(GrowableCobblemonOresBlocks.CLM_Shiny_Stone_Cane.get());
+                            pOutput.accept(GrowableCobblemonOresBlocks.CLM_Ice_Stone_Cane.get());
+                            pOutput.accept(GrowableCobblemonOresBlocks.CLM_Moon_Stone_Cane.get());
+                            pOutput.accept(GrowableCobblemonOresBlocks.CLM_Leaf_Stone_Cane.get());
+                            pOutput.accept(GrowableCobblemonOresBlocks.CLM_Water_Stone_Cane.get());
+
+                        }
+
                     })
                     .build());
 

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/tinted_cross",
+  "textures": {
+    "cross": "growable_ores:block/clm_shiny_stone_cane"
+  }
+}

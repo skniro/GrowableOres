@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#G#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:sugar_cane",
+        "G": "minecraft:breeze_rod"
+    },
+    "result": {
+        "id": "growable_ores:breeze_rod_cane",
+        "count": 1
+    }
+}

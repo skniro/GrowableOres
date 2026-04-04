@@ -63,6 +63,9 @@ public class GrowableOresItemGroups {
             content.accept(GrowableVanillaOresBlocks.Prismarine_Shard_Cane);
             content.accept(GrowableVanillaOresBlocks.Sand_Cane);
             content.accept(GrowableVanillaOresBlocks.String_Cane);
+            content.accept(GrowableVanillaOresBlocks.Honeycomb_Cane);
+            content.accept(GrowableVanillaOresBlocks.Echo_Shard_Cane);
+            content.accept(GrowableVanillaOresBlocks.breeze_rod_Cane);
 
         });
     }
@@ -560,6 +563,23 @@ public class GrowableOresItemGroups {
             content.accept(GrowableElectroDynamicsOresBlocks.ED_Ingot_Titanium_Carbide_Cane);
             content.accept(GrowableElectroDynamicsOresBlocks.ED_Ingot_Vanadium_Cane);
             content.accept(GrowableElectroDynamicsOresBlocks.ED_Ingot_Vanadium_Steel_Cane);
+
+        });
+    }
+
+    public static void clm_item() {
+        CreativeModeTabEvents.modifyOutputEvent(Growable_Ores_Group).register(content -> {
+            //Cobblemon
+            content.accept(GrowableCobblemonOresBlocks.CLM_Dusk_Stone_Cane);
+            content.accept(GrowableCobblemonOresBlocks.CLM_Dawn_Stone_Cane);
+            content.accept(GrowableCobblemonOresBlocks.CLM_Fire_Stone_Cane);
+            content.accept(GrowableCobblemonOresBlocks.CLM_Sun_Stone_Cane);
+            content.accept(GrowableCobblemonOresBlocks.CLM_Thunder_Stone_Cane);
+            content.accept(GrowableCobblemonOresBlocks.CLM_Shiny_Stone_Cane);
+            content.accept(GrowableCobblemonOresBlocks.CLM_Ice_Stone_Cane);
+            content.accept(GrowableCobblemonOresBlocks.CLM_Moon_Stone_Cane);
+            content.accept(GrowableCobblemonOresBlocks.CLM_Leaf_Stone_Cane);
+            content.accept(GrowableCobblemonOresBlocks.CLM_Water_Stone_Cane);
 
         });
     }

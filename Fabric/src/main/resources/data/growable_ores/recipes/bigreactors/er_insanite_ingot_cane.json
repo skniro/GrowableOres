@@ -3,20 +3,20 @@
         {
             "condition": "fabric:all_mods_loaded",
             "values": [
-                "extremereactors"
+                "bigreactors"
             ]
         }
     ],
     "forge:conditions": [
         {
             "type": "forge:mod_loaded",
-            "modid": "extremereactors"
+            "modid": "bigreactors"
         }
     ],
     "neoforge:conditions": [
         {
             "type": "neoforge:mod_loaded",
-            "modid": "extremereactors"
+            "modid": "bigreactors"
         }
     ],
     "type": "minecraft:crafting_shaped",
@@ -30,11 +30,11 @@
             "item": "minecraft:sugar_cane"
         },
         "G": {
-            "item": "extremereactors:anglesite_crystal"
+            "item": "bigreactors:insanite_ingot"
         }
     },
     "result": {
         "count": 1,
-        "item": "growable_ores:er_anglesite_crystal_cane"
+        "item": "growable_ores:er_insanite_ingot_cane"
     }
 }

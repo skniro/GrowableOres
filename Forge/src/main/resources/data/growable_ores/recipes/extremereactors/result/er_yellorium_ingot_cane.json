@@ -3,20 +3,20 @@
         {
             "condition": "fabric:all_mods_loaded",
             "values": [
-                "extremereactors"
+                "bigreactors"
             ]
         }
     ],
     "forge:conditions": [
         {
             "type": "forge:mod_loaded",
-            "modid": "extremereactors"
+            "modid": "bigreactors"
         }
     ],
     "neoforge:conditions": [
         {
             "type": "neoforge:mod_loaded",
-            "modid": "extremereactors"
+            "modid": "bigreactors"
         }
     ],
     "type": "minecraft:crafting_shaped",
@@ -32,6 +32,6 @@
     },
     "result": {
         "count": 1,
-        "item": "extremereactors:yellorium_ingot"
+        "item": "bigreactors:yellorium_ingot"
     }
 }

@@ -60,7 +60,7 @@ public class ModContent {
         if (FabricLoader.getInstance().isModLoaded("draconicevolution") || GrowableOresConfig.All_Item_Mode) {
             GrowableDraconicEvolutionOresBlocks.registerModBlocks();
         }
-        if (FabricLoader.getInstance().isModLoaded("extremereactors") || GrowableOresConfig.All_Item_Mode) {
+        if (FabricLoader.getInstance().isModLoaded("bigreactors") || GrowableOresConfig.All_Item_Mode) {
             GrowableExtremeReactorsOresBlocks.registerModBlocks();
         }
         if (FabricLoader.getInstance().isModLoaded("galosphere") || GrowableOresConfig.All_Item_Mode) {

@@ -3,38 +3,35 @@
         {
             "condition": "fabric:all_mods_loaded",
             "values": [
-                "extremereactors"
+                "bigreactors"
             ]
         }
     ],
     "forge:conditions": [
         {
             "type": "forge:mod_loaded",
-            "modid": "extremereactors"
+            "modid": "bigreactors"
         }
     ],
     "neoforge:conditions": [
         {
             "type": "neoforge:mod_loaded",
-            "modid": "extremereactors"
+            "modid": "bigreactors"
         }
     ],
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "###",
-        "#G#",
+        "###",
         "###"
     ],
     "key": {
         "#": {
-            "item": "minecraft:sugar_cane"
-        },
-        "G": {
-            "item": "extremereactors:inanite_ingot"
+            "item": "growable_ores:er_ridiculite_ingot_cane"
         }
     },
     "result": {
         "count": 1,
-        "item": "growable_ores:er_inanite_ingot_cane"
+        "item": "bigreactors:ridiculite_ingot"
     }
 }

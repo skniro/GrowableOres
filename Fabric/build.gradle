@@ -28,6 +28,8 @@ repositories {
         name = "Jared's maven"
         url = "https://maven.blamejared.com/"
     }
+    maven { url "https://maven.shedaniel.me" }
+    maven { url "<https://maven.architectury.dev/>" }
     // Add repositories to retrieve artifacts from in here.
     // You should only use this when depending on other mods because
     // Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
@@ -44,6 +46,12 @@ dependencies {
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
     // Fabric API. This is technically optional, but you probably want it anyway.
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+
+    //modImplementation files("lib/industrialcraft-2-2.9.40+ex119-1.19.2-fabric.jar")
+
+    //modCompileOnly "me.shedaniel:RoughlyEnoughItems-api-fabric:${project.rei_version}"
+    //modRuntimeOnly "me.shedaniel:RoughlyEnoughItems-fabric:${project.rei_version}"
+
 
     include modApi('teamreborn:energy:2.3.0') {
         exclude(group: "net.fabricmc.fabric-api")

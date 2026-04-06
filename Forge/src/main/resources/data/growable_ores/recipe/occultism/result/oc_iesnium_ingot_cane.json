@@ -1,0 +1,23 @@
+{
+    "sknirolib:load_conditions": [
+        {
+            "type": "sknirolib:item_exists",
+            "values": [
+                "occultism:iesnium_ingot"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": "growable_ores:oc_iesnium_ingot_cane"
+    },
+    "result": {
+        "id": "occultism:iesnium_ingot",
+        "count": 1
+    }
+}

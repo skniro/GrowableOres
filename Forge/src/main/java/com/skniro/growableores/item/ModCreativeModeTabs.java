@@ -523,7 +523,13 @@ public class ModCreativeModeTabs {
                             pOutput.accept(GrowableCobblemonOresBlocks.CLM_Moon_Stone_Cane.get());
                             pOutput.accept(GrowableCobblemonOresBlocks.CLM_Leaf_Stone_Cane.get());
                             pOutput.accept(GrowableCobblemonOresBlocks.CLM_Water_Stone_Cane.get());
+                        }
 
+                        if (ModList.isLoaded("occultism") || GrowableOresConfig.All_Item_Mode) {
+                            //Occultism
+                            pOutput.accept(GrowableOccultismOresBlocks.OC_Otherworld_log_Cane.get());
+                            pOutput.accept(GrowableOccultismOresBlocks.OC_Iesnium_Ingot_Cane.get());
+                            pOutput.accept(GrowableOccultismOresBlocks.OC_Silver_Ingot_Cane.get());
                         }
 
                     })

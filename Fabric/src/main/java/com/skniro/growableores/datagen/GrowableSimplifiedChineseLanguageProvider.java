@@ -481,5 +481,9 @@ public class GrowableSimplifiedChineseLanguageProvider extends FabricLanguagePro
         translationBuilder.add(GrowableCobblemonOresBlocks.CLM_Moon_Stone_Cane, "月之石甘蔗 (Cobblemon)");
         translationBuilder.add(GrowableCobblemonOresBlocks.CLM_Leaf_Stone_Cane, "叶之石甘蔗 (Cobblemon)");
         translationBuilder.add(GrowableCobblemonOresBlocks.CLM_Water_Stone_Cane, "水之石甘蔗 (Cobblemon)");
+
+        translationBuilder.add(GrowableOccultismOresBlocks.OC_Otherworld_log_Cane, "异界原木甘蔗 (Occultism)");
+        translationBuilder.add(GrowableOccultismOresBlocks.OC_Iesnium_Ingot_Cane, "艾瑟金属锭甘蔗 (Occultism)");
+        translationBuilder.add(GrowableOccultismOresBlocks.OC_Silver_Ingot_Cane, "银锭甘蔗 (Occultism)");
     }
 }

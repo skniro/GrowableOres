@@ -1,0 +1,23 @@
+{
+    "sknirolib:load_conditions": [
+        {
+            "type": "sknirolib:item_exists",
+            "values": [
+                "occultism:silver_ingot"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": "growable_ores:oc_silver_ingot_cane"
+    },
+    "result": {
+        "id": "occultism:silver_ingot",
+        "count": 1
+    }
+}

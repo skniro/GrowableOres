@@ -134,6 +134,10 @@ public class ModContent {
             GrowableOresItemGroups.clm_item();
             GrowableCobblemonOresBlocks.registerModBlocks();
         }
+        if (FabricLoader.getInstance().isModLoaded("occultism") || GrowableOresConfig.All_Item_Mode) {
+            GrowableOresItemGroups.oc_item();
+            GrowableOccultismOresBlocks.registerModBlocks();
+        }
     }
 
     public static void CreativeTab() {

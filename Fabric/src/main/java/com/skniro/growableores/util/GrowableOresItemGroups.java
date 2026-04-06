@@ -583,4 +583,14 @@ public class GrowableOresItemGroups {
 
         });
     }
+
+    public static void oc_item() {
+        CreativeModeTabEvents.modifyOutputEvent(Growable_Ores_Group).register(content -> {
+            //Occultism
+            content.accept(GrowableOccultismOresBlocks.OC_Otherworld_log_Cane);
+            content.accept(GrowableOccultismOresBlocks.OC_Iesnium_Ingot_Cane);
+            content.accept(GrowableOccultismOresBlocks.OC_Silver_Ingot_Cane);
+
+        });
+    }
 }

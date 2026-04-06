@@ -479,5 +479,9 @@ public class GrowableEnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(GrowableCobblemonOresBlocks.CLM_Moon_Stone_Cane, "Moon Stone Cane (Cobblemon)");
         translationBuilder.add(GrowableCobblemonOresBlocks.CLM_Leaf_Stone_Cane, "Leaf Stone Cane (Cobblemon)");
         translationBuilder.add(GrowableCobblemonOresBlocks.CLM_Water_Stone_Cane, "Water Stone Cane (Cobblemon)");
+
+        translationBuilder.add(GrowableOccultismOresBlocks.OC_Otherworld_log_Cane, "Otherworld Log Cane (Occultism)");
+        translationBuilder.add(GrowableOccultismOresBlocks.OC_Iesnium_Ingot_Cane, "Iesnium Ingot Cane (Occultism)");
+        translationBuilder.add(GrowableOccultismOresBlocks.OC_Silver_Ingot_Cane, "Silver Ingot Cane (Occultism)");
     }
 }

@@ -529,6 +529,13 @@ public class ModCreativeModeTabs {
 
                         }
 
+                        if (ModList.get().isLoaded("occultism") || GrowableOresConfig.All_Item_Mode) {
+                            //Occultism
+                            pOutput.accept(GrowableOccultismOresBlocks.OC_Otherworld_log_Cane.get());
+                            pOutput.accept(GrowableOccultismOresBlocks.OC_Iesnium_Ingot_Cane.get());
+                            pOutput.accept(GrowableOccultismOresBlocks.OC_Silver_Ingot_Cane.get());
+                        }
+
                     })
                     .build());
 

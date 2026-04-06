@@ -32,7 +32,7 @@ public class GrowableOres {
         // Register the commonSetup method for modloading
         FMLCommonSetupEvent.getBus(modEventBus).addListener(this::commonSetup);
         GrowableVanillaOresBlocks.registerMapleBlocks(modEventBus);
-
+        GrowableCustomOresBlocks.registerMapleBlocks(modEventBus);
         if(ModList.isLoaded("ad_astra") || GrowableOresConfig.All_Item_Mode) {
             GrowableAdAstraOresBlocks.registerAdAstraBlocks(modEventBus);
         }
@@ -116,6 +116,9 @@ public class GrowableOres {
         }
         if (ModList.isLoaded("electrodynamics") || GrowableOresConfig.All_Item_Mode) {
             GrowableElectroDynamicsOresBlocks.registerModBlocks(modEventBus);
+        }
+        if (ModList.isLoaded("occultism") || GrowableOresConfig.All_Item_Mode) {
+            GrowableOccultismOresBlocks.registerMapleBlocks(modEventBus);
         }
         MapleItems.registerModItems(modEventBus);
         ModCreativeModeTabs.register(modEventBus);

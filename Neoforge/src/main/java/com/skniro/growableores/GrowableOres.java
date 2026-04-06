@@ -34,6 +34,7 @@ public class GrowableOres {
         // Register the Deferred Register to the mod event bus so blocks get registered
         // Register the Deferred Register to the mod event bus so blocks get registered
         GrowableVanillaOresBlocks.registerMapleBlocks(modEventBus);
+        GrowableCustomOresBlocks.registerMapleBlocks(modEventBus);
         if(ModList.get().isLoaded("ad_astra") || GrowableOresConfig.All_Item_Mode) {
             GrowableAdAstraOresBlocks.registerAdAstraBlocks(modEventBus);
         }
@@ -70,7 +71,7 @@ public class GrowableOres {
         if (ModList.get().isLoaded("draconicevolution") || GrowableOresConfig.All_Item_Mode) {
             GrowableDraconicEvolutionOresBlocks.registerGrowableBlocks(modEventBus);
         }
-        if (ModList.get().isLoaded("extremereactors") || GrowableOresConfig.All_Item_Mode) {
+        if (ModList.get().isLoaded("bigreactors") || GrowableOresConfig.All_Item_Mode) {
             GrowableExtremeReactorsOresBlocks.registerGrowableBlocks(modEventBus);
         }
         if (ModList.get().isLoaded("galosphere") || GrowableOresConfig.All_Item_Mode) {
@@ -117,6 +118,12 @@ public class GrowableOres {
         }
         if (ModList.get().isLoaded("electrodynamics") || GrowableOresConfig.All_Item_Mode) {
             GrowableElectroDynamicsOresBlocks.registerModBlocks(modEventBus);
+        }
+        if (ModList.get().isLoaded("cobblemon") || GrowableOresConfig.All_Item_Mode) {
+            GrowableCobblemonOresBlocks.registerMapleBlocks(modEventBus);
+        }
+        if (ModList.get().isLoaded("occultism") || GrowableOresConfig.All_Item_Mode) {
+            GrowableOccultismOresBlocks.registerMapleBlocks(modEventBus);
         }
         MapleItems.registerModItems(modEventBus);
         ModCreativeModeTabs.register(modEventBus);

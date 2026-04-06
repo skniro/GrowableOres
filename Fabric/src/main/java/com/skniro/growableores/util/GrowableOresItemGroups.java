@@ -62,6 +62,9 @@ public class GrowableOresItemGroups {
             content.add(GrowableVanillaOresBlocks.Prismarine_Shard_Cane);
             content.add(GrowableVanillaOresBlocks.Sand_Cane);
             content.add(GrowableVanillaOresBlocks.String_Cane);
+            content.add(GrowableVanillaOresBlocks.Honeycomb_Cane);
+            content.add(GrowableVanillaOresBlocks.Echo_Shard_Cane);
+
         });
     }
     public static void ae_item() {
@@ -558,6 +561,33 @@ public class GrowableOresItemGroups {
             content.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Titanium_Carbide_Cane);
             content.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Vanadium_Cane);
             content.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Vanadium_Steel_Cane);
+
+        });
+    }
+
+    public static void clm_item() {
+        ItemGroupEvents.modifyEntriesEvent(Growable_Ores_Group).register(content -> {
+            //Cobblemon
+            content.add(GrowableCobblemonOresBlocks.CLM_Dusk_Stone_Cane);
+            content.add(GrowableCobblemonOresBlocks.CLM_Dawn_Stone_Cane);
+            content.add(GrowableCobblemonOresBlocks.CLM_Fire_Stone_Cane);
+            content.add(GrowableCobblemonOresBlocks.CLM_Sun_Stone_Cane);
+            content.add(GrowableCobblemonOresBlocks.CLM_Thunder_Stone_Cane);
+            content.add(GrowableCobblemonOresBlocks.CLM_Shiny_Stone_Cane);
+            content.add(GrowableCobblemonOresBlocks.CLM_Ice_Stone_Cane);
+            content.add(GrowableCobblemonOresBlocks.CLM_Moon_Stone_Cane);
+            content.add(GrowableCobblemonOresBlocks.CLM_Leaf_Stone_Cane);
+            content.add(GrowableCobblemonOresBlocks.CLM_Water_Stone_Cane);
+
+        });
+    }
+
+    public static void oc_item() {
+        ItemGroupEvents.modifyEntriesEvent(Growable_Ores_Group).register(content -> {
+            //Occultism
+            content.add(GrowableOccultismOresBlocks.OC_Otherworld_log_Cane);
+            content.add(GrowableOccultismOresBlocks.OC_Iesnium_Ingot_Cane);
+            content.add(GrowableOccultismOresBlocks.OC_Silver_Ingot_Cane);
 
         });
     }

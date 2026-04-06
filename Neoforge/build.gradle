@@ -11,6 +11,13 @@ group = mod_group_id
 
 repositories {
     mavenLocal()
+    maven { url "https://maven.shedaniel.me/" }
+    maven {
+        url "https://cursemaven.com"
+        content {
+            includeGroup "curse.maven"
+        }
+    }
 }
 
 base {
@@ -111,7 +118,8 @@ dependencies {
     // You can however also use the vanilla plugin (net.neoforged.gradle.vanilla) to use a version of Minecraft without the neoforge loader.
     // And its provides the option to then use net.minecraft as the group, and one of; client, server or joined as the module name, plus the game version as version.
     // For all intends and purposes: You can treat this dependency as if it is a normal library you would use.
-
+    runtimeOnly "me.shedaniel:RoughlyEnoughItems-neoforge:16.0.799"
+    runtimeOnly "curse.maven:cobblemon-687131:7553231"
     // Example mod dependency with JEI
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
     // compileOnly "mezz.jei:jei-${mc_version}-common-api:${jei_version}"

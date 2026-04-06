@@ -61,7 +61,6 @@ public class ModCreativeModeTabs {
                         pOutput.accept(GrowableVanillaOresBlocks.String_Cane.get());
                         pOutput.accept(GrowableVanillaOresBlocks.Honeycomb_Cane.get());
                         pOutput.accept(GrowableVanillaOresBlocks.Echo_Shard_Cane.get());
-                        pOutput.accept(GrowableVanillaOresBlocks.breeze_rod_Cane.get());
 
                         if(ModList.get().isLoaded("ad_astra") || GrowableOresConfig.All_Item_Mode) {
                             //Ad Astra!

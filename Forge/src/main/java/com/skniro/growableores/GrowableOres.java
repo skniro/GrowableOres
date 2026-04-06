@@ -117,6 +117,9 @@ public class GrowableOres {
         if (ModList.isLoaded("electrodynamics") || GrowableOresConfig.All_Item_Mode) {
             GrowableElectroDynamicsOresBlocks.registerModBlocks(modEventBus);
         }
+        if (ModList.isLoaded("cobblemon") || GrowableOresConfig.All_Item_Mode) {
+            GrowableCobblemonOresBlocks.registerMapleBlocks(modEventBus);
+        }
         if (ModList.isLoaded("occultism") || GrowableOresConfig.All_Item_Mode) {
             GrowableOccultismOresBlocks.registerMapleBlocks(modEventBus);
         }

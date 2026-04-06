@@ -55,6 +55,9 @@ public class GrowableEnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(GrowableVanillaOresBlocks.Prismarine_Shard_Cane, "Prismarine Shard Cane");
         translationBuilder.add(GrowableVanillaOresBlocks.Sand_Cane, "Sand Cane");
         translationBuilder.add(GrowableVanillaOresBlocks.String_Cane, "String Cane");
+        translationBuilder.add(GrowableVanillaOresBlocks.Honeycomb_Cane, "Honeycomb Cane");
+        translationBuilder.add(GrowableVanillaOresBlocks.Echo_Shard_Cane, "Echo Shard Cane");
+        translationBuilder.add(GrowableVanillaOresBlocks.breeze_rod_Cane, "Breeze Rod Cane");
 
 
         //ae2
@@ -466,5 +469,20 @@ public class GrowableEnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Titanium_Carbide_Cane, "Titanium Carbide Ingot Cane (ElectroDynamics)");
         translationBuilder.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Vanadium_Cane, "Vanadium Ingot Cane (ElectroDynamics)");
         translationBuilder.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Vanadium_Steel_Cane, "Vanadium Steel Ingot Cane (ElectroDynamics)");
+
+        translationBuilder.add(GrowableCobblemonOresBlocks.CLM_Dusk_Stone_Cane, "Dusk Stone Cane (Cobblemon)");
+        translationBuilder.add(GrowableCobblemonOresBlocks.CLM_Dawn_Stone_Cane, "Dawn Stone Cane (Cobblemon)");
+        translationBuilder.add(GrowableCobblemonOresBlocks.CLM_Fire_Stone_Cane, "Fire Stone Cane (Cobblemon)");
+        translationBuilder.add(GrowableCobblemonOresBlocks.CLM_Sun_Stone_Cane, "Sun Stone Cane (Cobblemon)");
+        translationBuilder.add(GrowableCobblemonOresBlocks.CLM_Thunder_Stone_Cane, "Thunder Stone Cane (Cobblemon)");
+        translationBuilder.add(GrowableCobblemonOresBlocks.CLM_Shiny_Stone_Cane, "Shiny Stone Cane (Cobblemon)");
+        translationBuilder.add(GrowableCobblemonOresBlocks.CLM_Ice_Stone_Cane, "Ice Stone Cane (Cobblemon)");
+        translationBuilder.add(GrowableCobblemonOresBlocks.CLM_Moon_Stone_Cane, "Moon Stone Cane (Cobblemon)");
+        translationBuilder.add(GrowableCobblemonOresBlocks.CLM_Leaf_Stone_Cane, "Leaf Stone Cane (Cobblemon)");
+        translationBuilder.add(GrowableCobblemonOresBlocks.CLM_Water_Stone_Cane, "Water Stone Cane (Cobblemon)");
+
+        translationBuilder.add(GrowableOccultismOresBlocks.OC_Otherworld_log_Cane, "Otherworld Log Cane (Occultism)");
+        translationBuilder.add(GrowableOccultismOresBlocks.OC_Iesnium_Ingot_Cane, "Iesnium Ingot Cane (Occultism)");
+        translationBuilder.add(GrowableOccultismOresBlocks.OC_Silver_Ingot_Cane, "Silver Ingot Cane (Occultism)");
     }
 }

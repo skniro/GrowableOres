@@ -1,16 +1,9 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.skniro.sknirolib.mixin.resource.conditions",
+  "package": "com.skniro.growableores.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "ReloadableServerResourcesMixin",
-    "DataProviderMixin",
-    "SimpleJsonResourceReloadListenerMixin",
-    "RegistryDataLoaderMixin",
-    "RegistryOpsAccessor",
-    "FileToIdConverterAccessor",
-    "PackMixin"
   ],
   "client": [
   ],

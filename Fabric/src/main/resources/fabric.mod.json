@@ -27,8 +27,7 @@
       "com.skniro.growableores.client.GrowableOresClient"
     ],
     "main": [
-      "com.skniro.growableores.GrowableOres",
-      "com.skniro.sknirolib.impl.resource.conditions.ResourceConditionsImpl"
+      "com.skniro.growableores.GrowableOres"
     ]
   },
   "mixins": [

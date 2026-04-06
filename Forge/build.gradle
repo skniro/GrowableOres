@@ -3,7 +3,7 @@ plugins {
     id 'idea'
     id 'eclipse'
     id 'maven-publish'
-    id 'net.minecraftforge.gradle' version '7.0.0-rc.+'
+    id 'net.minecraftforge.gradle' version '7.0.0-rc.2'
     id 'net.minecraftforge.jarjar' version '0.2.3'
 }
 
@@ -32,7 +32,10 @@ minecraft {
     //
     // Use non-default mappings at your own risk. They may not always work.
     // Simply re-run your setup task after changing the mappings to update your workspace.
+    accessTransformer = true
+
     mappings channel: 'official', version: "${project.minecraft_version}"
+
 
     runs {
         configureEach {
@@ -48,7 +51,7 @@ minecraft {
         }
 
         register('client') {
-            systemProperty 'forge.enabledGameTestNamespaces', mod_id
+            //systemProperty 'forge.enabledGameTestNamespaces', mod_id
         }
 
         register('server') {

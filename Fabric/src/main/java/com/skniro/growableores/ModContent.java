@@ -17,6 +17,7 @@ public class ModContent {
     public static void registerBlock(){
         GrowableOresItemGroups.vanilla_item();
         GrowableVanillaOresBlocks.registerModBlocks();
+        GrowableCustomOresBlocks.registerModBlocks();
         if (FabricLoader.getInstance().isModLoaded("ae2") || GrowableOresConfig.All_Item_Mode) {
             GrowableOresItemGroups.ae_item();
             GrowableAEOresBlocks.registerModBlocks();
@@ -81,7 +82,7 @@ public class ModContent {
             GrowableOresItemGroups.de_item();
             GrowableDraconicEvolutionOresBlocks.registerModBlocks();
         }
-        if (FabricLoader.getInstance().isModLoaded("extremereactors") || GrowableOresConfig.All_Item_Mode) {
+        if (FabricLoader.getInstance().isModLoaded("bigreactors") || GrowableOresConfig.All_Item_Mode) {
             GrowableOresItemGroups.er_item();
             GrowableExtremeReactorsOresBlocks.registerModBlocks();
         }
@@ -128,6 +129,14 @@ public class ModContent {
         if (FabricLoader.getInstance().isModLoaded("electrodynamics") || GrowableOresConfig.All_Item_Mode) {
             GrowableOresItemGroups.ed_item();
             GrowableElectroDynamicsOresBlocks.registerModBlocks();
+        }
+        if (FabricLoader.getInstance().isModLoaded("cobblemon") || GrowableOresConfig.All_Item_Mode) {
+            GrowableOresItemGroups.clm_item();
+            GrowableCobblemonOresBlocks.registerModBlocks();
+        }
+        if (FabricLoader.getInstance().isModLoaded("occultism") || GrowableOresConfig.All_Item_Mode) {
+            GrowableOresItemGroups.oc_item();
+            GrowableOccultismOresBlocks.registerModBlocks();
         }
     }
 

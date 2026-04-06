@@ -61,6 +61,9 @@ public class ModCreativeModeTabs {
                         pOutput.accept(GrowableVanillaOresBlocks.Prismarine_Shard_Cane.get());
                         pOutput.accept(GrowableVanillaOresBlocks.Sand_Cane.get());
                         pOutput.accept(GrowableVanillaOresBlocks.String_Cane.get());
+                        pOutput.accept(GrowableVanillaOresBlocks.Honeycomb_Cane.get());
+                        pOutput.accept(GrowableVanillaOresBlocks.Echo_Shard_Cane.get());
+                        pOutput.accept(GrowableVanillaOresBlocks.breeze_rod_Cane.get());
 
                         if(ModList.get().isLoaded("ad_astra") || GrowableOresConfig.All_Item_Mode) {
                             //Ad Astra!
@@ -173,19 +176,19 @@ public class ModCreativeModeTabs {
                             pOutput.accept(GrowableDraconicEvolutionOresBlocks.DE_Draconium_Ingot_Cane.get());
                         }
 
-                        if (ModList.get().isLoaded("extremereactors") || GrowableOresConfig.All_Item_Mode) {
+                        if (ModList.get().isLoaded("bigreactors") || GrowableOresConfig.All_Item_Mode) {
                             //Extreme Reactors
-                            pOutput.accept(GrowableExtremeReactorsOresBlocks.ER_Anglesite_Crystal_Cane.get());
-                            pOutput.accept(GrowableExtremeReactorsOresBlocks.ER_Benitoite_Crystal_Cane.get());
-                            pOutput.accept(GrowableExtremeReactorsOresBlocks.ER_Blutonium_Ingot_Cane.get());
-                            pOutput.accept(GrowableExtremeReactorsOresBlocks.ER_Cyanite_Ingot_Cane.get());
-                            pOutput.accept(GrowableExtremeReactorsOresBlocks.ER_Graphite_Ingot_Cane.get());
-                            pOutput.accept(GrowableExtremeReactorsOresBlocks.ER_Inanite_Ingot_Cane.get());
-                            pOutput.accept(GrowableExtremeReactorsOresBlocks.ER_Insanite_Ingot_Cane.get());
-                            pOutput.accept(GrowableExtremeReactorsOresBlocks.ER_Ludicrite_Ingot_Cane.get());
-                            pOutput.accept(GrowableExtremeReactorsOresBlocks.ER_Magentite_Ingot_Cane.get());
-                            pOutput.accept(GrowableExtremeReactorsOresBlocks.ER_Ridiculite_Ingot_Cane.get());
-                            pOutput.accept(GrowableExtremeReactorsOresBlocks.ER_Yellorium_Ingot_Cane.get());
+                            pOutput.accept(GrowablebigreactorsOresBlocks.ER_Anglesite_Crystal_Cane.get());
+                            pOutput.accept(GrowablebigreactorsOresBlocks.ER_Benitoite_Crystal_Cane.get());
+                            pOutput.accept(GrowablebigreactorsOresBlocks.ER_Blutonium_Ingot_Cane.get());
+                            pOutput.accept(GrowablebigreactorsOresBlocks.ER_Cyanite_Ingot_Cane.get());
+                            pOutput.accept(GrowablebigreactorsOresBlocks.ER_Graphite_Ingot_Cane.get());
+                            pOutput.accept(GrowablebigreactorsOresBlocks.ER_Inanite_Ingot_Cane.get());
+                            pOutput.accept(GrowablebigreactorsOresBlocks.ER_Insanite_Ingot_Cane.get());
+                            pOutput.accept(GrowablebigreactorsOresBlocks.ER_Ludicrite_Ingot_Cane.get());
+                            pOutput.accept(GrowablebigreactorsOresBlocks.ER_Magentite_Ingot_Cane.get());
+                            pOutput.accept(GrowablebigreactorsOresBlocks.ER_Ridiculite_Ingot_Cane.get());
+                            pOutput.accept(GrowablebigreactorsOresBlocks.ER_Yellorium_Ingot_Cane.get());
                         }
 
                         if (ModList.get().isLoaded("galosphere") || GrowableOresConfig.All_Item_Mode) {
@@ -510,6 +513,29 @@ public class ModCreativeModeTabs {
                             pOutput.accept(GrowableElectroDynamicsOresBlocks.ED_Ingot_Vanadium_Cane.get());
                             pOutput.accept(GrowableElectroDynamicsOresBlocks.ED_Ingot_Vanadium_Steel_Cane.get());
                         }
+
+                        if (ModList.get().isLoaded("cobblemon") || GrowableOresConfig.All_Item_Mode) {
+                            //Cobblemon
+                            pOutput.accept(GrowableCobblemonOresBlocks.CLM_Dusk_Stone_Cane.get());
+                            pOutput.accept(GrowableCobblemonOresBlocks.CLM_Dawn_Stone_Cane.get());
+                            pOutput.accept(GrowableCobblemonOresBlocks.CLM_Fire_Stone_Cane.get());
+                            pOutput.accept(GrowableCobblemonOresBlocks.CLM_Sun_Stone_Cane.get());
+                            pOutput.accept(GrowableCobblemonOresBlocks.CLM_Thunder_Stone_Cane.get());
+                            pOutput.accept(GrowableCobblemonOresBlocks.CLM_Shiny_Stone_Cane.get());
+                            pOutput.accept(GrowableCobblemonOresBlocks.CLM_Ice_Stone_Cane.get());
+                            pOutput.accept(GrowableCobblemonOresBlocks.CLM_Moon_Stone_Cane.get());
+                            pOutput.accept(GrowableCobblemonOresBlocks.CLM_Leaf_Stone_Cane.get());
+                            pOutput.accept(GrowableCobblemonOresBlocks.CLM_Water_Stone_Cane.get());
+
+                        }
+
+                        if (ModList.get().isLoaded("occultism") || GrowableOresConfig.All_Item_Mode) {
+                            //Occultism
+                            pOutput.accept(GrowableOccultismOresBlocks.OC_Otherworld_log_Cane.get());
+                            pOutput.accept(GrowableOccultismOresBlocks.OC_Iesnium_Ingot_Cane.get());
+                            pOutput.accept(GrowableOccultismOresBlocks.OC_Silver_Ingot_Cane.get());
+                        }
+
                     })
                     .build());
 

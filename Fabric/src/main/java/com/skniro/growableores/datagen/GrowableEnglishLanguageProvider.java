@@ -55,6 +55,9 @@ public class GrowableEnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(GrowableVanillaOresBlocks.Prismarine_Shard_Cane, "Prismarine Shard Cane");
         translationBuilder.add(GrowableVanillaOresBlocks.Sand_Cane, "Sand Cane");
         translationBuilder.add(GrowableVanillaOresBlocks.String_Cane, "String Cane");
+        translationBuilder.add(GrowableVanillaOresBlocks.Honeycomb_Cane, "Honeycomb Cane");
+        translationBuilder.add(GrowableVanillaOresBlocks.Echo_Shard_Cane, "Echo Shard Cane");
+        translationBuilder.add(GrowableVanillaOresBlocks.breeze_rod_Cane, "Breeze Rod Cane");
 
 
         //ae2
@@ -188,17 +191,17 @@ public class GrowableEnglishLanguageProvider extends FabricLanguageProvider {
 
 
         //Extreme Reactors
-        translationBuilder.add(GrowableExtremeReactorsOresBlocks.ER_Anglesite_Crystal_Cane, "Anglesite Crystal Reed(Extreme Reactors)");
-        translationBuilder.add(GrowableExtremeReactorsOresBlocks.ER_Benitoite_Crystal_Cane, "Benitoite Crystal Reed(Extreme Reactors)");
-        translationBuilder.add(GrowableExtremeReactorsOresBlocks.ER_Blutonium_Ingot_Cane, "Blutonium Ingot Reed(Extreme Reactors)");
-        translationBuilder.add(GrowableExtremeReactorsOresBlocks.ER_Cyanite_Ingot_Cane, "Cyanite Ingot Reed(Extreme Reactors)");
-        translationBuilder.add(GrowableExtremeReactorsOresBlocks.ER_Graphite_Ingot_Cane, "Graphite Ingot Reed(Extreme Reactors)");
-        translationBuilder.add(GrowableExtremeReactorsOresBlocks.ER_Inanite_Ingot_Cane, "Inanite Ingot Reed(Extreme Reactors)");
-        translationBuilder.add(GrowableExtremeReactorsOresBlocks.ER_Insanite_Ingot_Cane, "Insanite Ingot Reed(Extreme Reactors)");
-        translationBuilder.add(GrowableExtremeReactorsOresBlocks.ER_Ludicrite_Ingot_Cane, "Ludicrite Ingot Reed(Extreme Reactors)");
-        translationBuilder.add(GrowableExtremeReactorsOresBlocks.ER_Magentite_Ingot_Cane, "Magentite Ingot Reed(Extreme Reactors)");
-        translationBuilder.add(GrowableExtremeReactorsOresBlocks.ER_Ridiculite_Ingot_Cane, "Ridiculite Ingot Reed(Extreme Reactors)");
-        translationBuilder.add(GrowableExtremeReactorsOresBlocks.ER_Yellorium_Ingot_Cane, "Yellorium Ingot Reed(Extreme Reactors)");
+        translationBuilder.add(GrowablebigreactorsOresBlocks.ER_Anglesite_Crystal_Cane, "Anglesite Crystal Reed(Extreme Reactors)");
+        translationBuilder.add(GrowablebigreactorsOresBlocks.ER_Benitoite_Crystal_Cane, "Benitoite Crystal Reed(Extreme Reactors)");
+        translationBuilder.add(GrowablebigreactorsOresBlocks.ER_Blutonium_Ingot_Cane, "Blutonium Ingot Reed(Extreme Reactors)");
+        translationBuilder.add(GrowablebigreactorsOresBlocks.ER_Cyanite_Ingot_Cane, "Cyanite Ingot Reed(Extreme Reactors)");
+        translationBuilder.add(GrowablebigreactorsOresBlocks.ER_Graphite_Ingot_Cane, "Graphite Ingot Reed(Extreme Reactors)");
+        translationBuilder.add(GrowablebigreactorsOresBlocks.ER_Inanite_Ingot_Cane, "Inanite Ingot Reed(Extreme Reactors)");
+        translationBuilder.add(GrowablebigreactorsOresBlocks.ER_Insanite_Ingot_Cane, "Insanite Ingot Reed(Extreme Reactors)");
+        translationBuilder.add(GrowablebigreactorsOresBlocks.ER_Ludicrite_Ingot_Cane, "Ludicrite Ingot Reed(Extreme Reactors)");
+        translationBuilder.add(GrowablebigreactorsOresBlocks.ER_Magentite_Ingot_Cane, "Magentite Ingot Reed(Extreme Reactors)");
+        translationBuilder.add(GrowablebigreactorsOresBlocks.ER_Ridiculite_Ingot_Cane, "Ridiculite Ingot Reed(Extreme Reactors)");
+        translationBuilder.add(GrowablebigreactorsOresBlocks.ER_Yellorium_Ingot_Cane, "Yellorium Ingot Reed(Extreme Reactors)");
 
 
 
@@ -466,5 +469,20 @@ public class GrowableEnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Titanium_Carbide_Cane, "Titanium Carbide Ingot Cane (ElectroDynamics)");
         translationBuilder.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Vanadium_Cane, "Vanadium Ingot Cane (ElectroDynamics)");
         translationBuilder.add(GrowableElectroDynamicsOresBlocks.ED_Ingot_Vanadium_Steel_Cane, "Vanadium Steel Ingot Cane (ElectroDynamics)");
+
+        translationBuilder.add(GrowableCobblemonOresBlocks.CLM_Dusk_Stone_Cane, "Dusk Stone Cane (Cobblemon)");
+        translationBuilder.add(GrowableCobblemonOresBlocks.CLM_Dawn_Stone_Cane, "Dawn Stone Cane (Cobblemon)");
+        translationBuilder.add(GrowableCobblemonOresBlocks.CLM_Fire_Stone_Cane, "Fire Stone Cane (Cobblemon)");
+        translationBuilder.add(GrowableCobblemonOresBlocks.CLM_Sun_Stone_Cane, "Sun Stone Cane (Cobblemon)");
+        translationBuilder.add(GrowableCobblemonOresBlocks.CLM_Thunder_Stone_Cane, "Thunder Stone Cane (Cobblemon)");
+        translationBuilder.add(GrowableCobblemonOresBlocks.CLM_Shiny_Stone_Cane, "Shiny Stone Cane (Cobblemon)");
+        translationBuilder.add(GrowableCobblemonOresBlocks.CLM_Ice_Stone_Cane, "Ice Stone Cane (Cobblemon)");
+        translationBuilder.add(GrowableCobblemonOresBlocks.CLM_Moon_Stone_Cane, "Moon Stone Cane (Cobblemon)");
+        translationBuilder.add(GrowableCobblemonOresBlocks.CLM_Leaf_Stone_Cane, "Leaf Stone Cane (Cobblemon)");
+        translationBuilder.add(GrowableCobblemonOresBlocks.CLM_Water_Stone_Cane, "Water Stone Cane (Cobblemon)");
+
+        translationBuilder.add(GrowableOccultismOresBlocks.OC_Otherworld_log_Cane, "Otherworld Log Cane (Occultism)");
+        translationBuilder.add(GrowableOccultismOresBlocks.OC_Iesnium_Ingot_Cane, "Iesnium Ingot Cane (Occultism)");
+        translationBuilder.add(GrowableOccultismOresBlocks.OC_Silver_Ingot_Cane, "Silver Ingot Cane (Occultism)");
     }
 }

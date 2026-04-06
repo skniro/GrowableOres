@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#G#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:sugar_cane",
+        "G": "minecraft:honeycomb"
+    },
+    "result": {
+        "id": "growable_ores:honeycomb_cane",
+        "count": 1
+    }
+}

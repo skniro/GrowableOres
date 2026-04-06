@@ -20,7 +20,7 @@ import net.minecraft.util.Identifier;
 import java.util.function.Function;
 import java.util.logging.Logger;
 
-public class GrowableExtremeReactorsOresBlocks {
+public class GrowablebigreactorsOresBlocks {
     //Extreme Reactors
     public static final Block ER_Anglesite_Crystal_Cane = registerBlock("er_anglesite_crystal_cane", GrowableOreCaneBlock::new ,AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS).pistonBehavior(PistonBehavior.DESTROY),GrowableOresItemGroups.Growable_Ores_Group);
     public static final Block ER_Benitoite_Crystal_Cane = registerBlock("er_benitoite_crystal_cane", GrowableOreCaneBlock::new ,AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS).pistonBehavior(PistonBehavior.DESTROY),GrowableOresItemGroups.Growable_Ores_Group);

@@ -254,17 +254,17 @@ public class GrowableOresItemGroups {
     public static void er_item() {
         ItemGroupEvents.modifyEntriesEvent(Growable_Ores_Group).register(content -> {
             //Extreme Reactors
-            content.add(GrowablebigreactorsOresBlocks.ER_Anglesite_Crystal_Cane);
-            content.add(GrowablebigreactorsOresBlocks.ER_Benitoite_Crystal_Cane);
-            content.add(GrowablebigreactorsOresBlocks.ER_Blutonium_Ingot_Cane);
-            content.add(GrowablebigreactorsOresBlocks.ER_Cyanite_Ingot_Cane);
-            content.add(GrowablebigreactorsOresBlocks.ER_Graphite_Ingot_Cane);
-            content.add(GrowablebigreactorsOresBlocks.ER_Inanite_Ingot_Cane);
-            content.add(GrowablebigreactorsOresBlocks.ER_Insanite_Ingot_Cane);
-            content.add(GrowablebigreactorsOresBlocks.ER_Ludicrite_Ingot_Cane);
-            content.add(GrowablebigreactorsOresBlocks.ER_Magentite_Ingot_Cane);
-            content.add(GrowablebigreactorsOresBlocks.ER_Ridiculite_Ingot_Cane);
-            content.add(GrowablebigreactorsOresBlocks.ER_Yellorium_Ingot_Cane);
+            content.add(GrowableExtremeReactorsOresBlocks.ER_Anglesite_Crystal_Cane);
+            content.add(GrowableExtremeReactorsOresBlocks.ER_Benitoite_Crystal_Cane);
+            content.add(GrowableExtremeReactorsOresBlocks.ER_Blutonium_Ingot_Cane);
+            content.add(GrowableExtremeReactorsOresBlocks.ER_Cyanite_Ingot_Cane);
+            content.add(GrowableExtremeReactorsOresBlocks.ER_Graphite_Ingot_Cane);
+            content.add(GrowableExtremeReactorsOresBlocks.ER_Inanite_Ingot_Cane);
+            content.add(GrowableExtremeReactorsOresBlocks.ER_Insanite_Ingot_Cane);
+            content.add(GrowableExtremeReactorsOresBlocks.ER_Ludicrite_Ingot_Cane);
+            content.add(GrowableExtremeReactorsOresBlocks.ER_Magentite_Ingot_Cane);
+            content.add(GrowableExtremeReactorsOresBlocks.ER_Ridiculite_Ingot_Cane);
+            content.add(GrowableExtremeReactorsOresBlocks.ER_Yellorium_Ingot_Cane);
         });
     }
 

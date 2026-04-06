@@ -84,7 +84,7 @@ public class ModContent {
         }
         if (FabricLoader.getInstance().isModLoaded("bigreactors") || GrowableOresConfig.All_Item_Mode) {
             GrowableOresItemGroups.er_item();
-            GrowablebigreactorsOresBlocks.registerModBlocks();
+            GrowableExtremeReactorsOresBlocks.registerModBlocks();
         }
         if (FabricLoader.getInstance().isModLoaded("galosphere") || GrowableOresConfig.All_Item_Mode) {
             GrowableOresItemGroups.galo_item();

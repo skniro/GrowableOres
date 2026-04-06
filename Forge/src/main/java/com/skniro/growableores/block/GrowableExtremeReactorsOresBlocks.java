@@ -22,7 +22,7 @@ import net.minecraftforge.registries.RegistryObject;
 import java.util.function.Function;
 import java.util.function.Supplier;
 
-public class GrowablebigreactorsOresBlocks {
+public class GrowableExtremeReactorsOresBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, GrowableOres.MOD_ID);
 
     //Extreme Reactors

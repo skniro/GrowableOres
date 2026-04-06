@@ -191,17 +191,17 @@ public class GrowableEnglishLanguageProvider extends FabricLanguageProvider {
 
 
         //Extreme Reactors
-        translationBuilder.add(GrowablebigreactorsOresBlocks.ER_Anglesite_Crystal_Cane, "Anglesite Crystal Reed(Extreme Reactors)");
-        translationBuilder.add(GrowablebigreactorsOresBlocks.ER_Benitoite_Crystal_Cane, "Benitoite Crystal Reed(Extreme Reactors)");
-        translationBuilder.add(GrowablebigreactorsOresBlocks.ER_Blutonium_Ingot_Cane, "Blutonium Ingot Reed(Extreme Reactors)");
-        translationBuilder.add(GrowablebigreactorsOresBlocks.ER_Cyanite_Ingot_Cane, "Cyanite Ingot Reed(Extreme Reactors)");
-        translationBuilder.add(GrowablebigreactorsOresBlocks.ER_Graphite_Ingot_Cane, "Graphite Ingot Reed(Extreme Reactors)");
-        translationBuilder.add(GrowablebigreactorsOresBlocks.ER_Inanite_Ingot_Cane, "Inanite Ingot Reed(Extreme Reactors)");
-        translationBuilder.add(GrowablebigreactorsOresBlocks.ER_Insanite_Ingot_Cane, "Insanite Ingot Reed(Extreme Reactors)");
-        translationBuilder.add(GrowablebigreactorsOresBlocks.ER_Ludicrite_Ingot_Cane, "Ludicrite Ingot Reed(Extreme Reactors)");
-        translationBuilder.add(GrowablebigreactorsOresBlocks.ER_Magentite_Ingot_Cane, "Magentite Ingot Reed(Extreme Reactors)");
-        translationBuilder.add(GrowablebigreactorsOresBlocks.ER_Ridiculite_Ingot_Cane, "Ridiculite Ingot Reed(Extreme Reactors)");
-        translationBuilder.add(GrowablebigreactorsOresBlocks.ER_Yellorium_Ingot_Cane, "Yellorium Ingot Reed(Extreme Reactors)");
+        translationBuilder.add(GrowableExtremeReactorsOresBlocks.ER_Anglesite_Crystal_Cane, "Anglesite Crystal Reed(Extreme Reactors)");
+        translationBuilder.add(GrowableExtremeReactorsOresBlocks.ER_Benitoite_Crystal_Cane, "Benitoite Crystal Reed(Extreme Reactors)");
+        translationBuilder.add(GrowableExtremeReactorsOresBlocks.ER_Blutonium_Ingot_Cane, "Blutonium Ingot Reed(Extreme Reactors)");
+        translationBuilder.add(GrowableExtremeReactorsOresBlocks.ER_Cyanite_Ingot_Cane, "Cyanite Ingot Reed(Extreme Reactors)");
+        translationBuilder.add(GrowableExtremeReactorsOresBlocks.ER_Graphite_Ingot_Cane, "Graphite Ingot Reed(Extreme Reactors)");
+        translationBuilder.add(GrowableExtremeReactorsOresBlocks.ER_Inanite_Ingot_Cane, "Inanite Ingot Reed(Extreme Reactors)");
+        translationBuilder.add(GrowableExtremeReactorsOresBlocks.ER_Insanite_Ingot_Cane, "Insanite Ingot Reed(Extreme Reactors)");
+        translationBuilder.add(GrowableExtremeReactorsOresBlocks.ER_Ludicrite_Ingot_Cane, "Ludicrite Ingot Reed(Extreme Reactors)");
+        translationBuilder.add(GrowableExtremeReactorsOresBlocks.ER_Magentite_Ingot_Cane, "Magentite Ingot Reed(Extreme Reactors)");
+        translationBuilder.add(GrowableExtremeReactorsOresBlocks.ER_Ridiculite_Ingot_Cane, "Ridiculite Ingot Reed(Extreme Reactors)");
+        translationBuilder.add(GrowableExtremeReactorsOresBlocks.ER_Yellorium_Ingot_Cane, "Yellorium Ingot Reed(Extreme Reactors)");
 
 
 

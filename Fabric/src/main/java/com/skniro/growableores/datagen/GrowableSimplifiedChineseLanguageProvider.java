@@ -193,17 +193,17 @@ public class GrowableSimplifiedChineseLanguageProvider extends FabricLanguagePro
 
 
         //Extreme Reactors
-        translationBuilder.add(GrowablebigreactorsOresBlocks.ER_Anglesite_Crystal_Cane, "硫酸铅晶体矿石杆(Extreme Reactors)");
-        translationBuilder.add(GrowablebigreactorsOresBlocks.ER_Benitoite_Crystal_Cane, "蓝锥晶体矿石杆(Extreme Reactors)");
-        translationBuilder.add(GrowablebigreactorsOresBlocks.ER_Blutonium_Ingot_Cane, "蓝钚矿石杆(Extreme Reactors)");
-        translationBuilder.add(GrowablebigreactorsOresBlocks.ER_Cyanite_Ingot_Cane, "蓝晶矿石杆(Extreme Reactors)");
-        translationBuilder.add(GrowablebigreactorsOresBlocks.ER_Graphite_Ingot_Cane, "石墨棒矿石杆(Extreme Reactors)");
-        translationBuilder.add(GrowablebigreactorsOresBlocks.ER_Inanite_Ingot_Cane, "虚无锭矿石杆 (Extreme Reactors)");
-        translationBuilder.add(GrowablebigreactorsOresBlocks.ER_Insanite_Ingot_Cane, "疯狂锭矿石杆 (Extreme Reactors)");
-        translationBuilder.add(GrowablebigreactorsOresBlocks.ER_Ludicrite_Ingot_Cane, "奇异锭矿石杆 (Extreme Reactors)");
-        translationBuilder.add(GrowablebigreactorsOresBlocks.ER_Magentite_Ingot_Cane, "磁晶矿锭矿石杆 (Extreme Reactors)");
-        translationBuilder.add(GrowablebigreactorsOresBlocks.ER_Ridiculite_Ingot_Cane, "荒谬锭矿石杆 (Extreme Reactors)");
-        translationBuilder.add(GrowablebigreactorsOresBlocks.ER_Yellorium_Ingot_Cane, "黄铀矿石杆(Extreme Reactors)");
+        translationBuilder.add(GrowableExtremeReactorsOresBlocks.ER_Anglesite_Crystal_Cane, "硫酸铅晶体矿石杆(Extreme Reactors)");
+        translationBuilder.add(GrowableExtremeReactorsOresBlocks.ER_Benitoite_Crystal_Cane, "蓝锥晶体矿石杆(Extreme Reactors)");
+        translationBuilder.add(GrowableExtremeReactorsOresBlocks.ER_Blutonium_Ingot_Cane, "蓝钚矿石杆(Extreme Reactors)");
+        translationBuilder.add(GrowableExtremeReactorsOresBlocks.ER_Cyanite_Ingot_Cane, "蓝晶矿石杆(Extreme Reactors)");
+        translationBuilder.add(GrowableExtremeReactorsOresBlocks.ER_Graphite_Ingot_Cane, "石墨棒矿石杆(Extreme Reactors)");
+        translationBuilder.add(GrowableExtremeReactorsOresBlocks.ER_Inanite_Ingot_Cane, "虚无锭矿石杆 (Extreme Reactors)");
+        translationBuilder.add(GrowableExtremeReactorsOresBlocks.ER_Insanite_Ingot_Cane, "疯狂锭矿石杆 (Extreme Reactors)");
+        translationBuilder.add(GrowableExtremeReactorsOresBlocks.ER_Ludicrite_Ingot_Cane, "奇异锭矿石杆 (Extreme Reactors)");
+        translationBuilder.add(GrowableExtremeReactorsOresBlocks.ER_Magentite_Ingot_Cane, "磁晶矿锭矿石杆 (Extreme Reactors)");
+        translationBuilder.add(GrowableExtremeReactorsOresBlocks.ER_Ridiculite_Ingot_Cane, "荒谬锭矿石杆 (Extreme Reactors)");
+        translationBuilder.add(GrowableExtremeReactorsOresBlocks.ER_Yellorium_Ingot_Cane, "黄铀矿石杆(Extreme Reactors)");
 
 
 

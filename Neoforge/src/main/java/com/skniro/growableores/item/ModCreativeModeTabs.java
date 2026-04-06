@@ -178,17 +178,17 @@ public class ModCreativeModeTabs {
 
                         if (ModList.get().isLoaded("bigreactors") || GrowableOresConfig.All_Item_Mode) {
                             //Extreme Reactors
-                            pOutput.accept(GrowablebigreactorsOresBlocks.ER_Anglesite_Crystal_Cane.get());
-                            pOutput.accept(GrowablebigreactorsOresBlocks.ER_Benitoite_Crystal_Cane.get());
-                            pOutput.accept(GrowablebigreactorsOresBlocks.ER_Blutonium_Ingot_Cane.get());
-                            pOutput.accept(GrowablebigreactorsOresBlocks.ER_Cyanite_Ingot_Cane.get());
-                            pOutput.accept(GrowablebigreactorsOresBlocks.ER_Graphite_Ingot_Cane.get());
-                            pOutput.accept(GrowablebigreactorsOresBlocks.ER_Inanite_Ingot_Cane.get());
-                            pOutput.accept(GrowablebigreactorsOresBlocks.ER_Insanite_Ingot_Cane.get());
-                            pOutput.accept(GrowablebigreactorsOresBlocks.ER_Ludicrite_Ingot_Cane.get());
-                            pOutput.accept(GrowablebigreactorsOresBlocks.ER_Magentite_Ingot_Cane.get());
-                            pOutput.accept(GrowablebigreactorsOresBlocks.ER_Ridiculite_Ingot_Cane.get());
-                            pOutput.accept(GrowablebigreactorsOresBlocks.ER_Yellorium_Ingot_Cane.get());
+                            pOutput.accept(GrowableExtremeReactorsOresBlocks.ER_Anglesite_Crystal_Cane.get());
+                            pOutput.accept(GrowableExtremeReactorsOresBlocks.ER_Benitoite_Crystal_Cane.get());
+                            pOutput.accept(GrowableExtremeReactorsOresBlocks.ER_Blutonium_Ingot_Cane.get());
+                            pOutput.accept(GrowableExtremeReactorsOresBlocks.ER_Cyanite_Ingot_Cane.get());
+                            pOutput.accept(GrowableExtremeReactorsOresBlocks.ER_Graphite_Ingot_Cane.get());
+                            pOutput.accept(GrowableExtremeReactorsOresBlocks.ER_Inanite_Ingot_Cane.get());
+                            pOutput.accept(GrowableExtremeReactorsOresBlocks.ER_Insanite_Ingot_Cane.get());
+                            pOutput.accept(GrowableExtremeReactorsOresBlocks.ER_Ludicrite_Ingot_Cane.get());
+                            pOutput.accept(GrowableExtremeReactorsOresBlocks.ER_Magentite_Ingot_Cane.get());
+                            pOutput.accept(GrowableExtremeReactorsOresBlocks.ER_Ridiculite_Ingot_Cane.get());
+                            pOutput.accept(GrowableExtremeReactorsOresBlocks.ER_Yellorium_Ingot_Cane.get());
                         }
 
                         if (ModList.get().isLoaded("galosphere") || GrowableOresConfig.All_Item_Mode) {

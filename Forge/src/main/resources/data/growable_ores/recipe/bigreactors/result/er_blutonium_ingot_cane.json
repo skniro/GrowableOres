@@ -1,0 +1,23 @@
+{
+    "sknirolib:load_conditions": [
+        {
+            "type": "sknirolib:item_exists",
+            "values": [
+                "bigreactors:blutonium_ingot"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": "growable_ores:er_blutonium_ingot_cane"
+    },
+    "result": {
+        "id": "bigreactors:blutonium_ingot",
+        "count": 1
+    }
+}

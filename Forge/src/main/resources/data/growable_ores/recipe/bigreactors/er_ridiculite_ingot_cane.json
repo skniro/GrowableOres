@@ -1,0 +1,24 @@
+{
+    "sknirolib:load_conditions": [
+        {
+            "type": "sknirolib:item_exists",
+            "values": [
+                "growable_ores:er_benitoite_crystal_cane"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#G#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:sugar_cane",
+        "G": "bigreactors:ridiculite_ingot"
+    },
+    "result": {
+        "id": "growable_ores:er_benitoite_crystal_cane",
+        "count": 1
+    }
+}

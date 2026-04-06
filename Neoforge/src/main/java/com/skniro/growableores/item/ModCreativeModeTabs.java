@@ -176,7 +176,7 @@ public class ModCreativeModeTabs {
                             pOutput.accept(GrowableDraconicEvolutionOresBlocks.DE_Draconium_Ingot_Cane.get());
                         }
 
-                        if (ModList.get().isLoaded("extremereactors") || GrowableOresConfig.All_Item_Mode) {
+                        if (ModList.get().isLoaded("bigreactors") || GrowableOresConfig.All_Item_Mode) {
                             //Extreme Reactors
                             pOutput.accept(GrowableExtremeReactorsOresBlocks.ER_Anglesite_Crystal_Cane.get());
                             pOutput.accept(GrowableExtremeReactorsOresBlocks.ER_Benitoite_Crystal_Cane.get());

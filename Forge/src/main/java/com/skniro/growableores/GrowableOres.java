@@ -35,6 +35,7 @@ public class GrowableOres {
 
         // Register the Deferred Register to the mod event bus so blocks get registered
         GrowableVanillaOresBlocks.registerMapleBlocks(modEventBus);
+        GrowableCustomOresBlocks.registerMapleBlocks(modEventBus);
         if(ModList.get().isLoaded("ad_astra") || GrowableOresConfig.All_Item_Mode) {
             GrowableAdAstraOresBlocks.registerAdAstraBlocks(modEventBus);
         }
@@ -116,7 +117,12 @@ public class GrowableOres {
         if (ModList.get().isLoaded("electrodynamics") || GrowableOresConfig.All_Item_Mode) {
             GrowableElectroDynamicsOresBlocks.registerModBlocks(modEventBus);
         }
-
+        if (ModList.get().isLoaded("cobblemon") || GrowableOresConfig.All_Item_Mode) {
+            GrowableCobblemonOresBlocks.registerMapleBlocks(modEventBus);
+        }
+        if (ModList.get().isLoaded("occultism") || GrowableOresConfig.All_Item_Mode) {
+            GrowableOccultismOresBlocks.registerMapleBlocks(modEventBus);
+        }
         MapleItems.registerModItems(modEventBus);
         ModCreativeModeTabs.register(modEventBus);
         // Register ourselves for server and other game events we are interested in

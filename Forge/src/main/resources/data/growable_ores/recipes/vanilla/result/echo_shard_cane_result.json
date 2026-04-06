@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "growable_ores:echo_shard_cane"
+        }
+    },
+    "result": {
+        "count": 1,
+        "item": "minecraft:echo_shard"
+    }
+}

@@ -61,7 +61,7 @@ public class ModItemBlockRenderTypes {
 
 
     private static void checkClientLoading() {
-        Preconditions.checkState(ClientModLoader.isLoading(), "Render layers can only be set during client loading! This should ideally be done from `FMLClientSetupEvent`.");
+        Preconditions.checkState(ClientModLoader.areRegistriesLoaded(), "Render layers can only be set during client loading! This should ideally be done from `FMLClientSetupEvent`.");
     }
 
     public static void setRenderLayer(FlowingFluid flowingFluid, ChunkSectionLayer renderLayer4) {

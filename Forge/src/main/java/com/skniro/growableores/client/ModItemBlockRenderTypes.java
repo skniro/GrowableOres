@@ -56,7 +56,7 @@ public class ModItemBlockRenderTypes {
     }
     public static RenderType getRenderType(BlockState state) {
         ChunkSectionLayer renderType = getChunkRenderType(state);
-        return renderType == ChunkSectionLayer.TRANSLUCENT ? Sheets.translucentBlockItemSheet() : Sheets.cutoutBlockSheet();
+        return renderType == ChunkSectionLayer.TRANSLUCENT ? Sheets.translucentBlockItemSheet() : Sheets.cutoutBlockItemSheet();
     }
 
 

@@ -47,7 +47,7 @@ dependencies {
     // Fabric API. This is technically optional, but you probably want it anyway.
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-    //modImplementation files("lib/industrialcraft-2-2.9.40+ex119-1.19.2-fabric.jar")
+    modImplementation files("lib/industrialcraft-2-2.9.40+ex119-1.19.2-fabric.jar")
 
     //modCompileOnly "me.shedaniel:RoughlyEnoughItems-api-fabric:${project.rei_version}"
     //modRuntimeOnly "me.shedaniel:RoughlyEnoughItems-fabric:${project.rei_version}"

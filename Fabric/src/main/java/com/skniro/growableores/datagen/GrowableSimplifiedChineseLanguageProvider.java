@@ -82,6 +82,7 @@ public class GrowableSimplifiedChineseLanguageProvider extends FabricLanguagePro
         translationBuilder.add(GrowableTechRebornOresBlocks.tungsten_Cane,"钨矿石杆(科技复兴)");
         translationBuilder.add(GrowableTechRebornOresBlocks.sodalite_Cane,"方钠石矿石杆(科技复兴)");
         translationBuilder.add(GrowableTechRebornOresBlocks.bauxite_Cane,"铝土矿石杆(科技复兴)");
+        translationBuilder.add(GrowableTechRebornOresBlocks.TR_Nickel_Cane,"镍矿石杆(科技复兴)");
 
         translationBuilder.add(GrowableOresItemGroups.Growable_Ores_Group,"可生长矿石");
 

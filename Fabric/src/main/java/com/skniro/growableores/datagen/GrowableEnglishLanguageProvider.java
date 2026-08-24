@@ -79,6 +79,7 @@ public class GrowableEnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(GrowableTechRebornOresBlocks.tungsten_Cane,"Tungsten Reed");
         translationBuilder.add(GrowableTechRebornOresBlocks.sodalite_Cane,"Sodalite Reed");;
         translationBuilder.add(GrowableTechRebornOresBlocks.bauxite_Cane,"Bauxite Reed");
+        translationBuilder.add(GrowableTechRebornOresBlocks.TR_Nickel_Cane,"Nickel Reed(Tech Reborn)");
 
         translationBuilder.add(GrowableOresItemGroups.Growable_Ores_Group,"Growable Ores");
 

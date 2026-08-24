@@ -466,6 +466,7 @@ public class ModCreativeModeTabs {
                             pOutput.accept(GrowableTechRebornOresBlocks.tungsten_Cane.get());
                             pOutput.accept(GrowableTechRebornOresBlocks.sodalite_Cane.get());
                             pOutput.accept(GrowableTechRebornOresBlocks.bauxite_Cane.get());
+                            pOutput.accept(GrowableTechRebornOresBlocks.TR_Nickel_Cane.get());
                         }
                         if (ModList.isLoaded("maple") || GrowableOresConfig.All_Item_Mode) {
                             pOutput.accept(GrowableMapleOresBlocks.Salt_Cane.get());
@@ -530,6 +531,15 @@ public class ModCreativeModeTabs {
                             pOutput.accept(GrowableOccultismOresBlocks.OC_Otherworld_log_Cane.get());
                             pOutput.accept(GrowableOccultismOresBlocks.OC_Iesnium_Ingot_Cane.get());
                             pOutput.accept(GrowableOccultismOresBlocks.OC_Silver_Ingot_Cane.get());
+                        }
+
+                        if (ModList.isLoaded("aether") || GrowableOresConfig.All_Item_Mode) {
+                            //Aether
+                            pOutput.accept(GrowableAetherOresBlocks.AET_Ambrosium_Shard_Cane.get());
+                            pOutput.accept(GrowableAetherOresBlocks.AET_Enchanted_Gravitite_Cane.get());
+                            pOutput.accept(GrowableAetherOresBlocks.AET_Zanite_Gemstone_Cane.get());
+                            pOutput.accept(GrowableAetherOresBlocks.AET_Skyroot_Stick_Cane.get());
+                            pOutput.accept(GrowableAetherOresBlocks.AET_Golden_Amber_Cane.get());
                         }
 
                     })

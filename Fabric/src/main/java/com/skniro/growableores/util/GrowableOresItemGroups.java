@@ -95,6 +95,7 @@ public class GrowableOresItemGroups {
             content.accept(GrowableTechRebornOresBlocks.tungsten_Cane);
             content.accept(GrowableTechRebornOresBlocks.sodalite_Cane);
             content.accept(GrowableTechRebornOresBlocks.bauxite_Cane);
+            content.accept(GrowableTechRebornOresBlocks.TR_Nickel_Cane);
         });
     }
 
@@ -591,6 +592,17 @@ public class GrowableOresItemGroups {
             content.accept(GrowableOccultismOresBlocks.OC_Iesnium_Ingot_Cane);
             content.accept(GrowableOccultismOresBlocks.OC_Silver_Ingot_Cane);
 
+        });
+    }
+
+    public static void aet_item() {
+        CreativeModeTabEvents.modifyOutputEvent(Growable_Ores_Group).register(content -> {
+            //Aether
+            content.accept(GrowableAetherOresBlocks.AET_Ambrosium_Shard_Cane);
+            content.accept(GrowableAetherOresBlocks.AET_Enchanted_Gravitite_Cane);
+            content.accept(GrowableAetherOresBlocks.AET_Zanite_Gemstone_Cane);
+            content.accept(GrowableAetherOresBlocks.AET_Skyroot_Stick_Cane);
+            content.accept(GrowableAetherOresBlocks.AET_Golden_Amber_Cane);
         });
     }
 }

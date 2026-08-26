@@ -605,4 +605,31 @@ public class GrowableOresItemGroups {
             content.accept(GrowableAetherOresBlocks.AET_Golden_Amber_Cane);
         });
     }
+
+    public static void mm_item() {
+        CreativeModeTabEvents.modifyOutputEvent(Growable_Ores_Group).register(content -> {
+            //Mythic Metals
+            content.accept(GrowableMythicMetalsBlocks.MM_Adamantite_Ingot_Cane);
+            content.accept(GrowableMythicMetalsBlocks.MM_Aquarium_Ingot_Cane);
+            content.accept(GrowableMythicMetalsBlocks.MM_Banglum_Ingot_Cane);
+            content.accept(GrowableMythicMetalsBlocks.MM_Carmot_Ingot_Cane);
+            content.accept(GrowableMythicMetalsBlocks.MM_Kyber_Ingot_Cane);
+            content.accept(GrowableMythicMetalsBlocks.MM_Manganese_Ingot_Cane);
+            content.accept(GrowableMythicMetalsBlocks.MM_Midas_Gold_Ingot_Cane);
+            content.accept(GrowableMythicMetalsBlocks.MM_Morkite_Cane);
+            content.accept(GrowableMythicMetalsBlocks.MM_Mythril_Ingot_Cane);
+            content.accept(GrowableMythicMetalsBlocks.MM_Orichalcum_Ingot_Cane);
+            content.accept(GrowableMythicMetalsBlocks.MM_Osmium_Ingot_Cane);
+            content.accept(GrowableMythicMetalsBlocks.MM_Palladium_Ingot_Cane);
+            content.accept(GrowableMythicMetalsBlocks.MM_Platinum_Ingot_Cane);
+            content.accept(GrowableMythicMetalsBlocks.MM_Prometheum_Ingot_Cane);
+            content.accept(GrowableMythicMetalsBlocks.MM_Quadrillum_Ingot_Cane);
+            content.accept(GrowableMythicMetalsBlocks.MM_Runite_Ingot_Cane);
+            content.accept(GrowableMythicMetalsBlocks.MM_Silver_Ingot_Cane);
+            content.accept(GrowableMythicMetalsBlocks.MM_Starrite_Cane);
+            content.accept(GrowableMythicMetalsBlocks.MM_Stormyx_Ingot_Cane);
+            content.accept(GrowableMythicMetalsBlocks.MM_Tin_Ingot_Cane);
+            content.accept(GrowableMythicMetalsBlocks.MM_Unobtainium_Cane);
+        });
+    }
 }

@@ -67,6 +67,7 @@ public class GrowableOres {
         GrowableCobblemonOresBlocks.registerMapleBlocks(modEventBus);
         GrowableOccultismOresBlocks.registerGrowableBlocks(modEventBus);
         GrowableAetherOresBlocks.registerModBlocks(modEventBus);
+        GrowableMythicMetalsBlocks.registerGrowableBlocks(modEventBus);
 
         MapleItems.registerModItems(modEventBus);
         ModCreativeModeTabs.register(modEventBus);

@@ -49,6 +49,7 @@ public class ModContent {
         GrowableCobblemonOresBlocks.registerModBlocks();
         GrowableOccultismOresBlocks.registerModBlocks();
         GrowableAetherOresBlocks.registerModBlocks();
+        GrowableMythicMetalsBlocks.registerModBlocks();
 
         if (FabricLoader.getInstance().isModLoaded("ae2") || GrowableOresConfig.All_Item_Mode) {
             GrowableOresItemGroups.ae_item();
@@ -142,6 +143,9 @@ public class ModContent {
         }
         if (FabricLoader.getInstance().isModLoaded("aether") || GrowableOresConfig.All_Item_Mode) {
             GrowableOresItemGroups.aet_item();
+        }
+        if (FabricLoader.getInstance().isModLoaded("mythicmetals") || GrowableOresConfig.All_Item_Mode) {
+            GrowableOresItemGroups.mm_item();
         }
     }
 

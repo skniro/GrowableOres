@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "growable_ores:block/pale_oak_log_cane"
-  }
-}

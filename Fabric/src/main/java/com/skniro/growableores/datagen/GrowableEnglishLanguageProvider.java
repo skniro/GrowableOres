@@ -1,10 +1,17 @@
 package com.skniro.growableores.datagen;
 
 import com.skniro.growableores.block.*;
+import com.skniro.growableores.block.init.GrowableOreCaneBlock;
 import com.skniro.growableores.util.GrowableOresItemGroups;
 import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
 import net.minecraft.core.HolderLookup;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.MapColor;
+import net.minecraft.world.level.material.PushReaction;
+
 import java.util.concurrent.CompletableFuture;
 
 public class GrowableEnglishLanguageProvider extends FabricLanguageProvider {
@@ -79,6 +86,7 @@ public class GrowableEnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(GrowableTechRebornOresBlocks.tungsten_Cane,"Tungsten Reed");
         translationBuilder.add(GrowableTechRebornOresBlocks.sodalite_Cane,"Sodalite Reed");;
         translationBuilder.add(GrowableTechRebornOresBlocks.bauxite_Cane,"Bauxite Reed");
+        translationBuilder.add(GrowableTechRebornOresBlocks.TR_Nickel_Cane,"Nickel Reed(Tech Reborn)");
 
         translationBuilder.add(GrowableOresItemGroups.Growable_Ores_Group,"Growable Ores");
 
@@ -483,5 +491,34 @@ public class GrowableEnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(GrowableOccultismOresBlocks.OC_Otherworld_log_Cane, "Otherworld Log Cane (Occultism)");
         translationBuilder.add(GrowableOccultismOresBlocks.OC_Iesnium_Ingot_Cane, "Iesnium Ingot Cane (Occultism)");
         translationBuilder.add(GrowableOccultismOresBlocks.OC_Silver_Ingot_Cane, "Silver Ingot Cane (Occultism)");
+
+        translationBuilder.add(GrowableAetherOresBlocks.AET_Ambrosium_Shard_Cane, "Ambrosium Shard Cane (Aether)");
+        translationBuilder.add(GrowableAetherOresBlocks.AET_Enchanted_Gravitite_Cane, "Enchanted Gravitite Cane (Aether)");
+        translationBuilder.add(GrowableAetherOresBlocks.AET_Zanite_Gemstone_Cane, "Zanite Gemstone Cane (Aether)");
+        translationBuilder.add(GrowableAetherOresBlocks.AET_Skyroot_Stick_Cane, "Skyroot Stick Cane (Aether)");
+        translationBuilder.add(GrowableAetherOresBlocks.AET_Golden_Amber_Cane, "Golden Amber Cane (Aether)");
+
+        translationBuilder.add(GrowableMythicMetalsBlocks.MM_Adamantite_Ingot_Cane, "Adamantite Ingot Cane (Mythic Metals)");
+        translationBuilder.add(GrowableMythicMetalsBlocks.MM_Aquarium_Ingot_Cane, "Aquarium Ingot Cane (Mythic Metals)");
+        translationBuilder.add(GrowableMythicMetalsBlocks.MM_Banglum_Ingot_Cane, "Banglum Ingot Cane (Mythic Metals)");
+        translationBuilder.add(GrowableMythicMetalsBlocks.MM_Carmot_Ingot_Cane, "Carmot Ingot Cane (Mythic Metals)");
+        translationBuilder.add(GrowableMythicMetalsBlocks.MM_Kyber_Ingot_Cane, "Kyber Ingot Cane (Mythic Metals)");
+        translationBuilder.add(GrowableMythicMetalsBlocks.MM_Manganese_Ingot_Cane, "Manganese Ingot Cane (Mythic Metals)");
+        translationBuilder.add(GrowableMythicMetalsBlocks.MM_Midas_Gold_Ingot_Cane, "Midas Gold Ingot Cane (Mythic Metals)");
+        translationBuilder.add(GrowableMythicMetalsBlocks.MM_Morkite_Cane, "Morkite Cane (Mythic Metals)");
+        translationBuilder.add(GrowableMythicMetalsBlocks.MM_Mythril_Ingot_Cane, "Mythril Ingot Cane (Mythic Metals)");
+        translationBuilder.add(GrowableMythicMetalsBlocks.MM_Orichalcum_Ingot_Cane, "Orichalcum Ingot Cane (Mythic Metals)");
+        translationBuilder.add(GrowableMythicMetalsBlocks.MM_Osmium_Ingot_Cane, "Osmium Ingot Cane (Mythic Metals)");
+        translationBuilder.add(GrowableMythicMetalsBlocks.MM_Palladium_Ingot_Cane, "Palladium Ingot Cane (Mythic Metals)");
+        translationBuilder.add(GrowableMythicMetalsBlocks.MM_Platinum_Ingot_Cane, "Platinum Ingot Cane (Mythic Metals)");
+        translationBuilder.add(GrowableMythicMetalsBlocks.MM_Prometheum_Ingot_Cane, "Prometheum Ingot Cane (Mythic Metals)");
+        translationBuilder.add(GrowableMythicMetalsBlocks.MM_Quadrillum_Ingot_Cane, "Quadrillum Ingot Cane (Mythic Metals)");
+        translationBuilder.add(GrowableMythicMetalsBlocks.MM_Runite_Ingot_Cane, "Runite Ingot Cane (Mythic Metals)");
+        translationBuilder.add(GrowableMythicMetalsBlocks.MM_Silver_Ingot_Cane, "Silver Ingot Cane (Mythic Metals)");
+        translationBuilder.add(GrowableMythicMetalsBlocks.MM_Starrite_Cane, "Starrite Cane (Mythic Metals)");
+        translationBuilder.add(GrowableMythicMetalsBlocks.MM_Stormyx_Ingot_Cane, "Stormyx Ingot Cane (Mythic Metals)");
+        translationBuilder.add(GrowableMythicMetalsBlocks.MM_Tin_Ingot_Cane, "Tin Ingot Cane (Mythic Metals)");
+        translationBuilder.add(GrowableMythicMetalsBlocks.MM_Unobtainium_Cane, "Unobtainium Cane (Mythic Metals)");
+
     }
 }

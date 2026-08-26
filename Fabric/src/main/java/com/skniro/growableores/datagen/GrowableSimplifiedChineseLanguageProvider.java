@@ -82,6 +82,7 @@ public class GrowableSimplifiedChineseLanguageProvider extends FabricLanguagePro
         translationBuilder.add(GrowableTechRebornOresBlocks.tungsten_Cane,"钨矿石杆(科技复兴)");
         translationBuilder.add(GrowableTechRebornOresBlocks.sodalite_Cane,"方钠石矿石杆(科技复兴)");
         translationBuilder.add(GrowableTechRebornOresBlocks.bauxite_Cane,"铝土矿石杆(科技复兴)");
+        translationBuilder.add(GrowableTechRebornOresBlocks.TR_Nickel_Cane,"镍矿石杆(科技复兴)");
 
         translationBuilder.add(GrowableOresItemGroups.Growable_Ores_Group,"可生长矿石");
 
@@ -485,5 +486,33 @@ public class GrowableSimplifiedChineseLanguageProvider extends FabricLanguagePro
         translationBuilder.add(GrowableOccultismOresBlocks.OC_Otherworld_log_Cane, "异界原木甘蔗 (Occultism)");
         translationBuilder.add(GrowableOccultismOresBlocks.OC_Iesnium_Ingot_Cane, "艾瑟金属锭甘蔗 (Occultism)");
         translationBuilder.add(GrowableOccultismOresBlocks.OC_Silver_Ingot_Cane, "银锭甘蔗 (Occultism)");
+
+        translationBuilder.add(GrowableAetherOresBlocks.AET_Ambrosium_Shard_Cane, "神能晶片甘蔗 (Aether)");
+        translationBuilder.add(GrowableAetherOresBlocks.AET_Enchanted_Gravitite_Cane, "神炼重力晶矿甘蔗 (Aether)");
+        translationBuilder.add(GrowableAetherOresBlocks.AET_Zanite_Gemstone_Cane, "紫晶石甘蔗 (Aether)");
+        translationBuilder.add(GrowableAetherOresBlocks.AET_Skyroot_Stick_Cane, "天根木棍甘蔗 (Aether)");
+        translationBuilder.add(GrowableAetherOresBlocks.AET_Golden_Amber_Cane, "金琥珀甘蔗 (Aether)");
+
+        translationBuilder.add(GrowableMythicMetalsBlocks.MM_Adamantite_Ingot_Cane, "精金锭甘蔗 (Mythic Metals)");
+        translationBuilder.add(GrowableMythicMetalsBlocks.MM_Aquarium_Ingot_Cane, "激水锭甘蔗 (Mythic Metals)");
+        translationBuilder.add(GrowableMythicMetalsBlocks.MM_Banglum_Ingot_Cane, "聚爆石甘蔗 (Mythic Metals)");
+        translationBuilder.add(GrowableMythicMetalsBlocks.MM_Carmot_Ingot_Cane, "点金石锭甘蔗 (Mythic Metals)");
+        translationBuilder.add(GrowableMythicMetalsBlocks.MM_Kyber_Ingot_Cane, "凯伯锭甘蔗 (Mythic Metals)");
+        translationBuilder.add(GrowableMythicMetalsBlocks.MM_Manganese_Ingot_Cane, "锰锭甘蔗 (Mythic Metals)");
+        translationBuilder.add(GrowableMythicMetalsBlocks.MM_Midas_Gold_Ingot_Cane, "迈达斯金锭甘蔗 (Mythic Metals)");
+        translationBuilder.add(GrowableMythicMetalsBlocks.MM_Morkite_Cane, "墨菱石甘蔗 (Mythic Metals)");
+        translationBuilder.add(GrowableMythicMetalsBlocks.MM_Mythril_Ingot_Cane, "秘银锭甘蔗 (Mythic Metals)");
+        translationBuilder.add(GrowableMythicMetalsBlocks.MM_Orichalcum_Ingot_Cane, "山铜锭甘蔗 (Mythic Metals)");
+        translationBuilder.add(GrowableMythicMetalsBlocks.MM_Osmium_Ingot_Cane, "锇锭甘蔗 (Mythic Metals)");
+        translationBuilder.add(GrowableMythicMetalsBlocks.MM_Palladium_Ingot_Cane, "钯金锭甘蔗 (Mythic Metals)");
+        translationBuilder.add(GrowableMythicMetalsBlocks.MM_Platinum_Ingot_Cane, "铂金锭甘蔗 (Mythic Metals)");
+        translationBuilder.add(GrowableMythicMetalsBlocks.MM_Prometheum_Ingot_Cane, "钷锭甘蔗 (Mythic Metals)");
+        translationBuilder.add(GrowableMythicMetalsBlocks.MM_Quadrillum_Ingot_Cane, "兆金甘蔗 (Mythic Metals)");
+        translationBuilder.add(GrowableMythicMetalsBlocks.MM_Runite_Ingot_Cane, "符石锭甘蔗 (Mythic Metals)");
+        translationBuilder.add(GrowableMythicMetalsBlocks.MM_Silver_Ingot_Cane, "银锭甘蔗 (Mythic Metals)");
+        translationBuilder.add(GrowableMythicMetalsBlocks.MM_Starrite_Cane, "星辰甘蔗 (Mythic Metals)");
+        translationBuilder.add(GrowableMythicMetalsBlocks.MM_Stormyx_Ingot_Cane, "飓霆锭甘蔗 (Mythic Metals)");
+        translationBuilder.add(GrowableMythicMetalsBlocks.MM_Tin_Ingot_Cane, "锡锭甘蔗 (Mythic Metals)");
+        translationBuilder.add(GrowableMythicMetalsBlocks.MM_Unobtainium_Cane, "叵得甘蔗 (Mythic Metals)");
     }
 }

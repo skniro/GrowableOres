@@ -10,7 +10,9 @@ displayName="${mod_name}"
 authors="${mod_authors}"
 description='''${mod_description}'''
 credits = "Rafan,gilnet,All translators"
-
+updateJSONURL="https://raw.githubusercontent.com/skniro/maven3/main/com/skniro/GrowableOres/update/forge.json"
+displayURL="https://www.skniro.org"
+issueTrackerURL="https://github.com/skniro/GrowableOres/issues"
 
 [[dependencies.growable_ores]]
 modId="forge"

@@ -13,6 +13,8 @@ loaderVersion="${loader_version_range}" #mandatory
 # Review your options at https://choosealicense.com/. All rights reserved is the default copyright stance, and is thus the default here.
 license="${mod_license}"
 logoFile="icon.png"
+iconFile="icon.png"
+bannerFile="icon.png"
 
 [[mixins]]
 config="growable_ores.mixins.json"
@@ -35,16 +37,11 @@ displayName="${project.mod_name}" #mandatory
 credits = "Rafan,gilnet,All translators"
 
 # A URL to query for updates for this mod. See the JSON update specification https://docs.neoforged.net/docs/misc/updatechecker/
-#updateJSONURL="https://change.me.example.invalid/updates.json" #optional
+updateJSONURL="https://raw.githubusercontent.com/skniro/maven3/main/com/skniro/GrowableOres/update/neoforge.json" #optional
 
 # A URL for the "homepage" for this mod, displayed in the mod UI
-#displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
-
-# A file name (in the root of the mod JAR) containing a logo for display
-#logoFile="examplemod.png" #optional
-
-# A text field displayed in the mod UI
-#credits="" #optional
+displayURL="https://www.skniro.org"
+issueTrackerURL="https://github.com/skniro/GrowableOres/issues"
 
 # A text field displayed in the mod UI
 authors="${project.mod_authors}" #optional

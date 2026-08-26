@@ -1,5 +1,5 @@
 bundles:
   - 4
 files:
-  - source: /Fabric/src/main/resources/assets/growable_ores/lang/en_us.json
+  - source: /Fabric/src/main/generated/assets/growable_ores/lang/en_us.json
     translation: /Fabric/src/main/resources/assets/growable_ores/lang/%locale%.json

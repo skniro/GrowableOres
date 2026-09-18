@@ -22,9 +22,9 @@ import java.util.logging.Logger;
 
 public class GrowableOccultismOresBlocks {
     //Occultism
-    public static final Block OC_Otherworld_log_Cane = registerBlock("oc_otherworld_log_cane", GrowableOreCaneBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).noCollision().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.DESTROY), GrowableOresItemGroups.Growable_Ores_Group);
-    public static final Block OC_Iesnium_Ingot_Cane = registerBlock("oc_iesnium_ingot_cane", GrowableOreCaneBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).noCollision().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.DESTROY), GrowableOresItemGroups.Growable_Ores_Group);
-    public static final Block OC_Silver_Ingot_Cane = registerBlock("oc_silver_ingot_cane", GrowableOreCaneBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).noCollision().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.DESTROY), GrowableOresItemGroups.Growable_Ores_Group);
+    public static final Block OC_Otherworld_log_Cane = registerBlock("oc_otherworld_log_cane", GrowableOreCaneBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).noCollision().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.POPPED), GrowableOresItemGroups.Growable_Ores_Group);
+    public static final Block OC_Iesnium_Ingot_Cane = registerBlock("oc_iesnium_ingot_cane", GrowableOreCaneBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).noCollision().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.POPPED), GrowableOresItemGroups.Growable_Ores_Group);
+    public static final Block OC_Silver_Ingot_Cane = registerBlock("oc_silver_ingot_cane", GrowableOreCaneBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).noCollision().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.POPPED), GrowableOresItemGroups.Growable_Ores_Group);
 
     private static Block registerBlock(String name, Function<BlockBehaviour.Properties, Block> factory, BlockBehaviour.Properties settings, ResourceKey<CreativeModeTab> tab) {
         Block block = (Block)factory.apply(settings.setId(ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(GrowableOres.MOD_ID, name))));

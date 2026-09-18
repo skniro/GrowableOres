@@ -21,8 +21,8 @@ import net.minecraft.world.level.material.PushReaction;
 
 public class GrowableDraconicEvolutionOresBlocks {
     //Draconic Evolution
-    public static final Block DE_Awakened_Draconium_Ingot_Cane =registerBlock("de_awakened_draconium_ingot_cane", GrowableOreCaneBlock::new ,BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).noCollision().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.DESTROY),GrowableOresItemGroups.Growable_Ores_Group);
-    public static final Block DE_Draconium_Ingot_Cane =registerBlock("de_draconium_ingot_cane", GrowableOreCaneBlock::new ,BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).noCollision().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.DESTROY),GrowableOresItemGroups.Growable_Ores_Group);
+    public static final Block DE_Awakened_Draconium_Ingot_Cane =registerBlock("de_awakened_draconium_ingot_cane", GrowableOreCaneBlock::new ,BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).noCollision().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.POPPED),GrowableOresItemGroups.Growable_Ores_Group);
+    public static final Block DE_Draconium_Ingot_Cane =registerBlock("de_draconium_ingot_cane", GrowableOreCaneBlock::new ,BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).noCollision().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.POPPED),GrowableOresItemGroups.Growable_Ores_Group);
 
 
     private static Block registerBlock(String name, Function<BlockBehaviour.Properties, Block> factory, BlockBehaviour.Properties settings, ResourceKey<CreativeModeTab> tab) {

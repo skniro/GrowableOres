@@ -21,9 +21,9 @@ import net.minecraft.world.level.material.PushReaction;
 
 public class GrowableGalosphereOresBlocks {
     //Galosphere
-    public static final Block Galo_Allurite_Shard_Cane = registerBlock("galo_allurite_shard_cane", GrowableOreCaneBlock::new ,BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).noCollision().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.DESTROY),GrowableOresItemGroups.Growable_Ores_Group);
-    public static final Block Galo_Lumiere_Shard_Cane = registerBlock("galo_lumiere_shard_cane", GrowableOreCaneBlock::new ,BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).noCollision().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.DESTROY),GrowableOresItemGroups.Growable_Ores_Group);
-    public static final Block Galo_Silver_Ingot_Cane = registerBlock("galo_silver_ingot_cane", GrowableOreCaneBlock::new ,BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).noCollision().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.DESTROY),GrowableOresItemGroups.Growable_Ores_Group);
+    public static final Block Galo_Allurite_Shard_Cane = registerBlock("galo_allurite_shard_cane", GrowableOreCaneBlock::new ,BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).noCollision().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.POPPED),GrowableOresItemGroups.Growable_Ores_Group);
+    public static final Block Galo_Lumiere_Shard_Cane = registerBlock("galo_lumiere_shard_cane", GrowableOreCaneBlock::new ,BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).noCollision().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.POPPED),GrowableOresItemGroups.Growable_Ores_Group);
+    public static final Block Galo_Silver_Ingot_Cane = registerBlock("galo_silver_ingot_cane", GrowableOreCaneBlock::new ,BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).noCollision().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.POPPED),GrowableOresItemGroups.Growable_Ores_Group);
 
 
     private static Block registerBlock(String name, Function<BlockBehaviour.Properties, Block> factory, BlockBehaviour.Properties settings, ResourceKey<CreativeModeTab> tab) {

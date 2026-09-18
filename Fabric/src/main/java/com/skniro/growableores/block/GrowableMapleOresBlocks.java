@@ -21,7 +21,7 @@ import net.minecraft.world.level.material.PushReaction;
 
 public class GrowableMapleOresBlocks {
     //Maple
-    public static final Block Salt_Cane =registerBlock("salt_cane",GrowableOreCaneBlock::new ,BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).noCollision().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.DESTROY),GrowableOresItemGroups.Growable_Ores_Group);
+    public static final Block Salt_Cane =registerBlock("salt_cane",GrowableOreCaneBlock::new ,BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).noCollision().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.POPPED),GrowableOresItemGroups.Growable_Ores_Group);
 
 
     private static Block registerBlock(String name, Function<BlockBehaviour.Properties, Block> factory, BlockBehaviour.Properties settings, ResourceKey<CreativeModeTab> tab) {

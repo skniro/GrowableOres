@@ -21,8 +21,8 @@ import net.minecraft.world.level.material.PushReaction;
 
 public class GrowableBetterNetherOresBlocks {
     //BetterNether
-    public static final Block BN_Cincinnasite_Cane =registerBlock("bn_cincinnasite_cane", GrowableOreCaneBlock::new ,BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).noCollision().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.DESTROY),GrowableOresItemGroups.Growable_Ores_Group);
-    public static final Block BN_Nether_Ruby_Cane =registerBlock("bn_nether_ruby_cane", GrowableOreCaneBlock::new ,BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).noCollision().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.DESTROY),GrowableOresItemGroups.Growable_Ores_Group);
+    public static final Block BN_Cincinnasite_Cane =registerBlock("bn_cincinnasite_cane", GrowableOreCaneBlock::new ,BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).noCollision().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.POPPED),GrowableOresItemGroups.Growable_Ores_Group);
+    public static final Block BN_Nether_Ruby_Cane =registerBlock("bn_nether_ruby_cane", GrowableOreCaneBlock::new ,BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).noCollision().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.POPPED),GrowableOresItemGroups.Growable_Ores_Group);
 
 
 

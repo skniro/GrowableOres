@@ -468,6 +468,7 @@ public class ModCreativeModeTabs {
                             pOutput.accept(GrowableTechRebornOresBlocks.tungsten_Cane.get());
                             pOutput.accept(GrowableTechRebornOresBlocks.sodalite_Cane.get());
                             pOutput.accept(GrowableTechRebornOresBlocks.bauxite_Cane.get());
+                            pOutput.accept(GrowableTechRebornOresBlocks.TR_Nickel_Cane.get());
                         }
                         if (ModList.get().isLoaded("maple") || GrowableOresConfig.All_Item_Mode) {
                             pOutput.accept(GrowableMapleOresBlocks.Salt_Cane.get());

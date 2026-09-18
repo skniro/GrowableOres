@@ -26,9 +26,9 @@ public class GrowableOccultismOresBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(GrowableOres.MOD_ID);
 
     //Occultism
-    public static final Supplier<Block> OC_Otherworld_log_Cane = registerBlock("oc_otherworld_log_cane", GrowableOreCaneBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).noCollision().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.DESTROY));
-    public static final Supplier<Block> OC_Iesnium_Ingot_Cane = registerBlock("oc_iesnium_ingot_cane", GrowableOreCaneBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).noCollision().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.DESTROY));
-    public static final Supplier<Block> OC_Silver_Ingot_Cane = registerBlock("oc_silver_ingot_cane", GrowableOreCaneBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).noCollision().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.DESTROY));
+    public static final Supplier<Block> OC_Otherworld_log_Cane = registerBlock("oc_otherworld_log_cane", GrowableOreCaneBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).noCollision().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.POPPED));
+    public static final Supplier<Block> OC_Iesnium_Ingot_Cane = registerBlock("oc_iesnium_ingot_cane", GrowableOreCaneBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).noCollision().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.POPPED));
+    public static final Supplier<Block> OC_Silver_Ingot_Cane = registerBlock("oc_silver_ingot_cane", GrowableOreCaneBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).noCollision().randomTicks().instabreak().sound(SoundType.GRASS).pushReaction(PushReaction.POPPED));
 
     private static <B extends Block> DeferredBlock<B> registerBlockWithoutItem(String name, Function<BlockBehaviour.Properties, ? extends B> block, BlockBehaviour.Properties properties) {
         DeferredBlock<B> register = BLOCKS.registerBlock(name, block, ()-> properties.setId(ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(GrowableOres.MOD_ID, name))));

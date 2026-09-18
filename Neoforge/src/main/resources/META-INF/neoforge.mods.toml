@@ -12,7 +12,6 @@ loaderVersion="${loader_version_range}" #mandatory
 # The license for you mod. This is mandatory metadata and allows for easier comprehension of your redistributive properties.
 # Review your options at https://choosealicense.com/. All rights reserved is the default copyright stance, and is thus the default here.
 license="${mod_license}"
-logoFile="icon.png"
 iconFile="icon.png"
 bannerFile="icon.png"
 
